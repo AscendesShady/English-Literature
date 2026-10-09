@@ -1,0 +1,23 @@
+const {chromium}=require('C:/Users/ascen/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs'),path=require('path'),{pathToFileURL}=require('url');
+const site=pathToFileURL(path.resolve(__dirname,'../index.html')).href;
+(async()=>{
+ const browser=await chromium.launch({headless:true,channel:'chrome'});
+ const page=await browser.newPage({viewport:{width:1280,height:900},reducedMotion:'reduce'});
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.goto(site);
+ if(await page.locator('.story-card').count()!==98)throw Error('Library');
+ await page.locator('[data-era="romantic"]').click();
+ if(await page.evaluate(()=>document.activeElement.dataset.era)!=='romantic')throw Error('Era focus not retained');
+ await page.locator('[data-story="frankenstein"]').click();await page.keyboard.press('Escape');
+ await page.waitForFunction(()=>document.activeElement.dataset.story==='frankenstein');
+ await page.locator('[data-story="frankenstein"]').click();await page.locator('#scene-art').evaluate(el=>{el.dispatchEvent(new TouchEvent('touchstart',{changedTouches:[new Touch({identifier:1,target:el,clientX:220,clientY:150})]}));el.dispatchEvent(new TouchEvent('touchend',{changedTouches:[new Touch({identifier:1,target:el,clientX:100,clientY:152})]}));});
+ if(!(await page.locator('#scene-number').textContent()).includes('02'))throw Error('Swipe navigation');
+ await page.locator('#close-reader').click();
+ if(fs.statSync(path.resolve(__dirname,'../literature by codex.docx')).size<10000)throw Error('Companion document missing');
+ await page.locator('#about-button').click();await page.locator('#reset-progress').click();await page.locator('#reset-progress').click();if(!(await page.locator('#reset-status').textContent()).includes('cleared'))throw Error('Reset');await page.keyboard.press('Escape');
+ await page.evaluate(()=>localStorage.setItem('once-upon-timeline-v1','{invalid'));await page.reload();if(await page.locator('.story-card').count()!==98)throw Error('Corrupt storage resilience');
+ const denied=await browser.newContext();await denied.addInitScript(()=>Object.defineProperty(window,'localStorage',{get(){throw new Error('blocked');}}));const noStorage=await denied.newPage();await noStorage.goto(site);await noStorage.locator('[data-save="macbeth"]').click();if(await noStorage.locator('#saved-count').textContent()!=='1')throw Error('Storage denied fallback');await denied.close();
+ if(errors.length)throw Error(errors.join('; '));
+ const r={checks:['companion document presence','focus restoration','touch swipe','two-click reset','corrupt localStorage','blocked localStorage'],errors};fs.writeFileSync('qa/extras-report.json',JSON.stringify(r,null,2));console.log(JSON.stringify(r,null,2));await browser.close();
+})().catch(e=>{console.error(e);process.exit(1)});
