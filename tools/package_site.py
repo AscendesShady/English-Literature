@@ -5,6 +5,7 @@ import json
 root=Path(__file__).resolve().parents[1]
 files=['index.html','styles.css','app.js','stories.js','illustrations.js','pwa.js','sw.js','manifest.json','literature by codex.docx','README.md','.nojekyll','assets/favicon.svg','assets/app-icon.svg','assets/icons/icon-192.png','assets/icons/icon-512.png','assets/icons/icon-maskable-512.png','assets/icons/apple-touch-icon.png','content/catalog.json','tools/build_content.py','tools/build_document.py','tools/additions_50.py','tools/additions_romantic.py','tools/additions_modern.py','tools/expand_originals.py','tools/quotations.py','tools/additions_20.py','tools/additions_20_poems.py','tools/twelve_scenes.py','tools/package_site.py','tools/build_icons.cjs']
 out=root/'website-github-ready.zip'
+files += ['tools/narrative_rewrite.py','tools/narrative_cards.txt']
 with ZipFile(out,'w',ZIP_DEFLATED) as z:
     for name in files:
         assert (root/name).is_file(),name

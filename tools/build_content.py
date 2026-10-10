@@ -194,6 +194,8 @@ from additions_20 import register as register_twenty
 from twelve_scenes import expand_and_tell
 register_twenty(add)
 expand_and_tell(stories)
+from narrative_rewrite import rewrite
+rewrite(stories)
 assert len(stories)==98
 assert sum(len(s['scenes']) for s in stories)==1176
 (ROOT/'stories.js').write_text('/* Curated learning adaptations. See each story\'s provenance and editorial note. */\nwindow.STORIES = '+json.dumps(sorted(stories,key=lambda s:s['year']),ensure_ascii=False,indent=2)+';\n',encoding='utf-8')

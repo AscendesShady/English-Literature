@@ -30,8 +30,8 @@ doc.styles['Heading 2'].paragraph_format.space_after=Pt(3)
 doc.core_properties.title='Literature by Codex'
 doc.core_properties.author='Codex'
 doc.add_paragraph('Literature by Codex','Title')
-doc.add_paragraph('73 additions with twelve scene storyboards','Subtitle')
-doc.add_paragraph('This companion preserves all 73 works added by Codex: the original Odyssey, Antigone and Frankenstein additions, plus 70 further works from foundational novelists, dramatists and poets. Every entry includes the same twelve lively storyboard scenes, characters, memory cues, recall question and memorable quotation as the website. Read the scenes aloud or turn through them one at a time online to connect each decision with what follows.')
+doc.add_paragraph('73 additions with twelve narrated story cards','Subtitle')
+doc.add_paragraph('This companion preserves all 73 works added by Codex: the original Odyssey, Antigone and Frankenstein additions, plus 70 further works from foundational novelists, dramatists and poets. Every entry includes the same twelve rewritten story cards, characters, memory cues, recall question and memorable quotation as the website. The narration begins by setting the scene, introduces people and motives as they matter, and follows choices into consequences. Read aloud or turn through the cards online to imagine each moment.')
 doc.add_paragraph('Summaries and memory connections are original learning adaptations with plot spoilers. Poetry uses thematic and argumentative landmarks rather than invented plots. Short quotations follow the linked edition; translations and punctuation can vary. Publication, composition and performance dates are distinguished where necessary. Era groups overlap and serve as navigation aids.')
 doc.add_paragraph('Your original three literature documents remain the source of the other 25 works and have not been edited. The website contains 98 works and 1176 scenes in total. Its installed app saves the whole library for offline reading after the first successful online visit.')
 doc.add_paragraph('A reading path','Heading 2')
