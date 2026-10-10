@@ -1,6 +1,6 @@
 'use strict';
 const PREFIX='once-upon-timeline:'+self.registration.scope+':';
-const VERSION=PREFIX+'v4-20261010-narration';
+const VERSION=PREFIX+'v5-20261010-install';
 const SHELL=['./','./index.html','./styles.css','./stories.js','./illustrations.js','./app.js','./pwa.js','./manifest.json','./assets/favicon.svg','./assets/icons/icon-192.png','./assets/icons/icon-512.png','./assets/icons/icon-maskable-512.png','./assets/icons/apple-touch-icon.png','./literature%20by%20codex.docx'];
 const urls=SHELL.map(path=>new URL(path,self.registration.scope).href);
 self.addEventListener('install',event=>event.waitUntil(caches.open(VERSION).then(cache=>cache.addAll(urls))));

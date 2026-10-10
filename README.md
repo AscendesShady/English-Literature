@@ -36,15 +36,17 @@ The heart saves a work to My shelf. Reading positions, saved works and remembere
 ## Install on a phone and read offline
 
 1. Publish with GitHub Pages and open the resulting **HTTPS** address on the phone. A `file://` preview cannot register a service worker or install this app.
-2. On Android Chrome, use **Install the library** when it appears, or Chrome's menu → **Install app / Add to Home screen**. On iPhone, use Safari → Share → Add to Home Screen.
+2. On desktop or Android Chrome, use **Install app** in the top navigation. It opens Chrome's native prompt when available; otherwise it opens installation guidance with the hosted-site link. The lower install button uses the same prompt. Buttons hide in the installed app. On iPhone, use Safari → Share → Add to Home Screen.
 3. Wait for **All 98 stories, illustrations and quotes are ready offline!** before leaving the connection. The manifest opens the installed app in standalone mode. The service worker precaches the HTML, scripts, styles, icons, full story catalogue and companion Word document; illustrations are local SVG code. Linked literary reference websites need a connection. Fonts have offline Georgia/Arial fallbacks.
 
 `manifest.json` uses relative URLs and scope so repository subdirectories work. Icons include 192px, 512px, a separate safely padded maskable icon, and an Apple touch icon. `assets/app-icon.svg` is their source; `tools/build_icons.cjs` rasterises it with Sharp.
 
-When deploying future changes, change the `v4-20261010-narration` release identifier in `sw.js`. The next service worker installs a complete new cache, waits until the reader selects **Update and reopen**, then activates. Cache names include the registration scope, and cleanup leaves other apps' caches intact. Saved reading data lives separately in localStorage and survives updates. Browser site-data deletion removes offline files and saved progress.
+When deploying future changes, change the `v5-20261010-install` release identifier in `sw.js`. The next service worker installs a complete new cache, waits until the reader selects **Update and reopen**, then activates. Cache names include the registration scope, and cleanup leaves other apps' caches intact. Saved reading data lives separately in localStorage and survives updates. Browser site-data deletion removes offline files and saved progress.
 
 ## Verification
 
 `tools/check_site.cjs` performs browser interaction checks for all 98 stories and 1176 scenes, filters, searches, persistence, recall, direct links and mobile layouts. `tools/check_expansion.cjs` checks all quotation panels, four-tab navigation, progress migration and mobile quote layouts. `tools/check_extras.cjs` checks focus, touch and storage edge cases. `tools/check_pwa.cjs` serves a temporary localhost site in a repository-style subdirectory and checks the actual Chrome manifest/installability response, service-worker registration, offline reloads, all 98 quote panels offline, cached Word download, update/reload, cache isolation and saved-data preservation. Its Chrome profile is private to QA. These tests do not claim an installation on a physical phone.
 
 `tools/verify_quotations.py` compares 73 Gutenberg excerpts against linked text editions; the other 25 use poetry, university, author or Gutenberg Australia references. QA images, source comparison reports and document renders are kept in `qa/` and are not required for hosting.
+
+`tools/check_install.cjs` checks the top installer at desktop and mobile widths, keyboard focus, the guidance fallback, shared prompt handling, dismissal and failure recovery, and installed-app visibility. It uses synthetic install events in real Chrome; `check_pwa.cjs` separately checks Chrome's actual manifest installability. Neither test installs an app on the host.

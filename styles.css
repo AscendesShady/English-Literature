@@ -22,3 +22,5 @@ dialog{border:0;padding:0;border-radius:15px;background:var(--paper);color:var(-
 @media(max-width:700px){.scene-art{aspect-ratio:1.55}.scene-dots{max-width:145px;gap:0}.reader-controls{flex-wrap:wrap;gap:8px}.reader-controls .scene-dots{order:3;max-width:none;flex-basis:100%;gap:3px}.reader-controls #next{margin-left:auto}.install-band{padding:24px;flex-wrap:wrap}.install-band>div:first-of-type{flex:1;min-width:190px}.install-actions{margin-left:0;max-width:none}.cast-card svg{height:180px}}
 @media(display-mode:standalone){.topbar{padding-top:max(20px,env(safe-area-inset-top))}footer{padding-bottom:max(28px,env(safe-area-inset-bottom))}}
 @media(prefers-reduced-motion:reduce){.story-person,.actor-eyes,.bird-wings,.foliage,.candle-glow,.actor-gesture{animation:none!important}}
+.topbar .nav-install{padding:9px 14px;white-space:nowrap;min-height:40px}
+@media(max-width:700px){.topbar{flex-wrap:wrap;gap:12px}.topbar nav{width:100%;justify-content:flex-end;gap:15px}.topbar .nav-install{padding:9px 14px}}
