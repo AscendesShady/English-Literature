@@ -32,6 +32,13 @@ def read_narratives():
 
 def rewrite(stories):
     entries = read_narratives()
+    import re
+    from pdf_expansion import read_entries
+    for addition in read_entries():
+        identifier = re.sub(r'[^a-z0-9]+', '-', addition['title'].lower()).strip('-')
+        if identifier in entries:
+            raise ValueError(f'PDF addition duplicates an existing narrative: {identifier}')
+        entries[identifier] = dict(hook=addition['hook'], scenes=[frame[1] for frame in addition['scenes']])
     identifiers = {s['id'] for s in stories}
     if identifiers != set(entries):
         raise ValueError(f'Narrative coverage differs: {identifiers ^ set(entries)}')
@@ -43,4 +50,4 @@ def rewrite(stories):
         # Original document provenance and quotation editions are retained.
         # These are reading references, not claims of a fresh full-text audit.
         story['narrativeReference'] = story['source'] if isinstance(story['source'], str) else story['quotes'][0]['source']
-        story['contentVersion'] = 4
+        story['contentVersion'] = 5 if story.get('pdfReferences') else 4

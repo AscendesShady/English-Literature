@@ -2,12 +2,12 @@
 const ERAS = [
  {id:'all',name:'All eras',dates:'The full journey',color:'#a1885e',bg:'#e9e5d7',ink:'#334d40',accent:'#b18b53',description:'A journey through our literary timeline.'},
  {id:'ancient',name:'Ancient',dates:'c. 800–400 BCE',color:'#b77a52',bg:'#efdfc9',ink:'#704832',accent:'#b87e4d',description:'Epic journeys, sacred duties and the beginnings of drama.'},
- {id:'medieval',name:'Medieval',dates:'c. 1000–1400',color:'#667452',bg:'#e1e4d0',ink:'#3e5342',accent:'#968153',description:'Heroic halls, pilgrims and voices from the manuscript age.'},
+ {id:'medieval',name:'Medieval',dates:'c. 970–1485',color:'#667452',bg:'#e1e4d0',ink:'#3e5342',accent:'#968153',description:'Heroic halls, pilgrims and voices from the manuscript age.'},
  {id:'renaissance',name:'Renaissance',dates:'c. 1516–1638',color:'#976547',bg:'#e9decc',ink:'#655239',accent:'#a65b45',description:'Knights, ambitious minds and the remarkable Elizabethan stage.'},
- {id:'restoration',name:'Restoration & Augustan',dates:'1667–1767',color:'#78626b',bg:'#e5dcd8',ink:'#604654',accent:'#a58154',description:'From epic disobedience to sharp wit, manners and mock heroism.'},
+ {id:'restoration',name:'Restoration & Augustan',dates:'1667–1773',color:'#78626b',bg:'#e5dcd8',ink:'#604654',accent:'#a58154',description:'From epic disobedience to sharp wit, manners and mock heroism.'},
  {id:'romantic',name:'Romantic',dates:'1789–1850',color:'#789177',bg:'#dde5d7',ink:'#3b6050',accent:'#9b854b',description:'Nature, feeling, imagination and the risks of boundless ambition.'},
  {id:'victorian',name:'Victorian & Realist',dates:'1837–1918',color:'#987451',bg:'#ede0ce',ink:'#65523d',accent:'#b27845',description:'Social ambition, private grief and lives caught in unequal systems.'},
- {id:'modern',name:'Modern',dates:'1899–1943',color:'#708b94',bg:'#dce5e4',ink:'#355660',accent:'#698b95',description:'Fragmented voices and difficult questions about empire and connection.'},
+ {id:'modern',name:'Modern',dates:'1894–1943',color:'#708b94',bg:'#dce5e4',ink:'#355660',accent:'#698b95',description:'Fragmented voices and difficult questions about empire and connection.'},
  {id:'postwar',name:'Postwar',dates:'1945–1958',color:'#b39048',bg:'#e8e2cb',ink:'#546447',accent:'#b3893d',description:'Endurance, alienation and the reclaiming of cultural stories.'}
 ];
 const $ = id => document.getElementById(id);
@@ -29,7 +29,7 @@ try{
  }
 }catch{}
 const TABS=['story','cast','recall','quotes'];
-function sourceLabel(url){const host=new URL(url).hostname;return host==='www.gutenberg.org'?'Project Gutenberg':host==='www.gutenberg.net.au'?'Project Gutenberg Australia':host==='www.poetryfoundation.org'?'Poetry Foundation':host==='tseliot.com'?'T. S. Eliot official website':host.endsWith('unc.edu')?'University of North Carolina':host.endsWith('harvard.edu')?'Harvard Chaucer resources':'Quotation reference';}
+function sourceLabel(url){const host=new URL(url).hostname;return host==='www.gutenberg.org'?'Project Gutenberg':host.endsWith('gutenberg.net.au')?'Project Gutenberg Australia':host==='digital.library.upenn.edu'?'University of Pennsylvania':host==='www.poetryfoundation.org'?'Poetry Foundation':host==='tseliot.com'?'T. S. Eliot official website':host.endsWith('unc.edu')?'University of North Carolina':host.endsWith('harvard.edu')?'Harvard Chaucer resources':'Quotation reference';}
 function persist(){try{localStorage.setItem('once-upon-timeline-v1',JSON.stringify(progress));}catch{} $('saved-count').textContent=progress.saved.length;}
 function setPalette(el,e){el.style.setProperty('--era-bg',e.bg);el.style.setProperty('--era-ink',e.ink);el.style.setProperty('--era-accent',e.accent);}
 
@@ -90,6 +90,8 @@ function openStory(id,forcedIndex){
  $('source-info').replaceChildren();
  if(typeof story.source==='string'){const link=document.createElement('a');link.href=story.source;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Read the text at '+sourceLabel(story.source)+' ↗';$('source-info').append('Added by Codex. ',link);}else $('source-info').textContent='Adapted from Literature Part '+story.source+'.docx'+(story.id==='paradise-lost'?' and Literature part 3.docx.':'.');
  if(typeof story.source!=='string'&&story.narrativeReference){const link=document.createElement('a');link.href=story.narrativeReference;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Story reading reference ↗';$('source-info').append(' ',link);}
+ if(story.pdfReferences){for(const name of [...new Set(story.pdfReferences.map(r=>r.document))]){const pages=story.pdfReferences.filter(r=>r.document===name).map(r=>r.pdfPage);$('source-info').append(` Identified in your reference ${name} (PDF pages ${pages.join(', ')}).`);}}
+ if(story.additionalReferences){for(const url of story.additionalReferences){const link=document.createElement('a');link.href=url;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Additional reading reference ↗';$('source-info').append(' ',link);}}
  $('quote-list').innerHTML=story.quotes.map(q=>`<article class="quote-card"><p class="eyebrow">WORDS WORTH KEEPING</p><blockquote>${escapeHTML(q.text)}</blockquote><p class="quote-context">${escapeHTML(q.context)}</p><div class="quote-meaning"><span>THE MEMORY CONNECTION</span><p>${escapeHTML(q.meaning)}</p></div><a href="${escapeHTML(q.source)}" target="_blank" rel="noopener noreferrer">Read the reference · ${escapeHTML(sourceLabel(q.source))} ↗</a></article>`).join('');
  $('editorial-note').textContent=`Setting: ${story.setting}. ${story.note}`;
  updateRemembered();updateBookmark();selectTab('story');renderScene();if(!$('reader').open)$('reader').showModal();$('reader').scrollTop=0;

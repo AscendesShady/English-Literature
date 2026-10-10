@@ -4,7 +4,7 @@
  const installButtons=[topInstall,install];
  let prompt=null,registration=null,readyOffline=false,reloading=false,installing=false,installedHere=false;
  const standalone=()=>matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
- function showStatus(){status.textContent=!navigator.onLine?(readyOffline?'You’re offline. Your whole library is ready to read!':'You’re offline. Open the hosted library online once to save it.') :readyOffline?'All 98 stories, illustrations and quotes are ready offline!':'Saving your library for days without a signal…';}
+ function showStatus(){status.textContent=!navigator.onLine?(readyOffline?'You’re offline. Your whole library is ready to read!':'You’re offline. Open the hosted library online once to save it.') :readyOffline?`All ${window.STORIES.length} stories, illustrations and quotes are ready offline!`:'Saving your library for days without a signal…';}
  document.getElementById('install-help').addEventListener('click',()=>guide.showModal());document.getElementById('close-install-guide').addEventListener('click',()=>guide.close());
  function syncInstallButtons(){const installed=installedHere||standalone();topInstall.hidden=installed;install.hidden=installed||!prompt;for(const button of installButtons)button.disabled=installing;}
  window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();if(installedHere||standalone())return;prompt=event;syncInstallButtons();});

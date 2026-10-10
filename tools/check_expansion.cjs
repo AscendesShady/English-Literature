@@ -7,8 +7,8 @@ const assert=(v,m)=>{if(!v)throw Error(m)};
  const context=await browser.newContext({viewport:{width:1365,height:1000},reducedMotion:'reduce'}),page=await context.newPage(),errors=[];
  page.on('pageerror',e=>errors.push(e.message));await page.goto(site);
  const data=await page.evaluate(()=>STORIES);
- assert(data.length===98,'98 works');assert(data.filter(s=>typeof s.source==='string').length===73,'73 added works');
- assert(data.reduce((n,s)=>n+s.scenes.length,0)===1176,'1176 scenes');
+ assert(data.length===158,'158 works');assert(data.filter(s=>typeof s.source==='string').length===133,'133 added works');
+ assert(data.reduce((n,s)=>n+s.scenes.length,0)===1896,'1896 scenes');
  for(const s of data){
   assert(s.quotes.length===1&&s.quotes[0].context&&s.quotes[0].meaning,'One annotated quotation: '+s.id);
   await page.locator(`[data-story="${s.id}"]`).click();await page.locator('#tab-recall').click();await page.locator('#explore-quotes').click();
@@ -30,6 +30,6 @@ const assert=(v,m)=>{if(!v)throw Error(m)};
   assert(await page.locator('#tab-quotes').evaluate(el=>{const a=el.getBoundingClientRect(),b=el.closest('dialog').getBoundingClientRect();return a.right<=b.right&&a.left>=b.left}),'Four tabs fit '+width);
   await page.screenshot({path:path.join(root,`qa/quotes-${width}.png`)});await page.locator('#close-reader').click();
  }
- assert(!errors.length,errors.join('; '));const report={works:98,added:73,new:20,scenes:1176,quotes:98,checks:['quote panel for every work','exact quote and source rendering','recall-to-quote navigation','four-tab keyboard navigation','legacy reading position migration and reload','saved and remembered preservation','quote layout at 360/390/768'],errors};
+ assert(!errors.length,errors.join('; '));const report={works:158,added:133,new:60,scenes:1896,quotes:158,checks:['quote panel for every work','exact quote and source rendering','recall-to-quote navigation','four-tab keyboard navigation','legacy reading position migration and reload','saved and remembered preservation','quote layout at 360/390/768'],errors};
  fs.writeFileSync(path.join(root,'qa/expansion-report.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

@@ -193,11 +193,15 @@ attach_quotes(stories)
 from additions_20 import register as register_twenty
 from twelve_scenes import expand_and_tell
 register_twenty(add)
+from pdf_expansion import register as register_pdf
+register_pdf(add)
 expand_and_tell(stories)
 from narrative_rewrite import rewrite
 rewrite(stories)
-assert len(stories)==98
-assert sum(len(s['scenes']) for s in stories)==1176
+assert len(stories)==158
+assert len({s['id'] for s in stories})==len(stories)
+assert all(s['era'] in {'ancient','medieval','renaissance','restoration','romantic','victorian','modern','postwar'} for s in stories)
+assert sum(len(s['scenes']) for s in stories)==1896
 (ROOT/'stories.js').write_text('/* Curated learning adaptations. See each story\'s provenance and editorial note. */\nwindow.STORIES = '+json.dumps(sorted(stories,key=lambda s:s['year']),ensure_ascii=False,indent=2)+';\n',encoding='utf-8')
 (ROOT/'content'/'catalog.json').write_text(json.dumps(stories,ensure_ascii=False,indent=2),encoding='utf-8')
 print(f'{len(stories)} stories; {sum(len(s["scenes"]) for s in stories)} scenes')

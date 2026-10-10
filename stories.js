@@ -453,6 +453,663 @@ window.STORIES = [
     "narrativeReference": "https://www.gutenberg.org/cache/epub/14484/pg14484-images.html"
   },
   {
+    "id": "the-wanderer",
+    "title": "The Wanderer",
+    "author": "Anonymous",
+    "year": 970,
+    "date": "c. 970 manuscript; composition uncertain",
+    "era": "medieval",
+    "genre": "Old English elegy",
+    "setting": "A wintry sea and the memory of a lost hall",
+    "hook": "His lord is gone, but the old hall still opens in his dreams.",
+    "characters": [
+      {
+        "name": "The wanderer",
+        "role": "Exiled retainer mourning his lord"
+      },
+      {
+        "name": "The lost lord",
+        "role": "Remembered protector"
+      },
+      {
+        "name": "The narrator",
+        "role": "Frames the exile's reflection"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "On the winter water",
+        "text": "Across a cold sea, a lonely man searches for kindness. The lord who once protected him is dead.",
+        "cast": [
+          "The wanderer"
+        ],
+        "motif": "sea",
+        "cue": "ON THE WINTER WATER",
+        "previousIndex": 0,
+        "key": "the-wanderer:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Words locked inside",
+        "text": "He knows his sorrow intimately, yet keeps it within. In his old warrior world, endurance often means concealing grief.",
+        "cast": [
+          "The wanderer"
+        ],
+        "motif": "chains",
+        "cue": "WORDS LOCKED INSIDE",
+        "previousIndex": 1,
+        "key": "the-wanderer:base:1",
+        "chapter": 2,
+        "mood": "tension"
+      },
+      {
+        "title": "The missing shelter",
+        "text": "Without his lord, the wanderer has lost more than employment. A household, companions and a place to belong have vanished.",
+        "cast": [
+          "The wanderer",
+          "The lost lord"
+        ],
+        "motif": "home",
+        "cue": "THE MISSING SHELTER",
+        "previousIndex": 2,
+        "key": "the-wanderer:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Another hall somewhere",
+        "text": "He wonders whether another generous ruler might welcome him. The hope keeps him moving, although no certain refuge appears.",
+        "cast": [
+          "The wanderer"
+        ],
+        "motif": "road",
+        "cue": "ANOTHER HALL SOMEWHERE",
+        "previousIndex": 3,
+        "key": "the-wanderer:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "A dream of welcome",
+        "text": "Sleep brings back the familiar lord. For a moment, the wanderer imagines embracing the protector he can no longer reach.",
+        "cast": [
+          "The wanderer",
+          "The lost lord"
+        ],
+        "motif": "heart",
+        "cue": "A DREAM OF WELCOME",
+        "previousIndex": 4,
+        "key": "the-wanderer:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Waking to birds",
+        "text": "Then his eyes open. Seabirds move over the water where friends seemed to stand, and remembered warmth becomes fresh pain.",
+        "cast": [
+          "The wanderer"
+        ],
+        "motif": "sea",
+        "cue": "WAKING TO BIRDS",
+        "previousIndex": 5,
+        "key": "the-wanderer:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Companions scatter",
+        "text": "Memory sends his thoughts toward lost companions. They cannot answer him; the more he remembers, the heavier absence becomes.",
+        "cast": [
+          "The wanderer"
+        ],
+        "motif": "ghost",
+        "cue": "COMPANIONS SCATTER",
+        "previousIndex": 6,
+        "key": "the-wanderer:base:6",
+        "chapter": 7,
+        "mood": "tension"
+      },
+      {
+        "title": "Wisdom learned slowly",
+        "text": "The reflection turns toward patience. A wise person learns through hardship, resisting rash speech and the urge to act blindly.",
+        "cast": [
+          "The wanderer"
+        ],
+        "motif": "clock",
+        "cue": "WISDOM LEARNED SLOWLY",
+        "previousIndex": 7,
+        "key": "the-wanderer:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Walls without voices",
+        "text": "Ruined buildings become another image of loss. Their stones remain, but the people who filled them have disappeared.",
+        "cast": [
+          "The wanderer"
+        ],
+        "motif": "stone",
+        "cue": "WALLS WITHOUT VOICES",
+        "previousIndex": 8,
+        "key": "the-wanderer:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Where have they gone?",
+        "text": "The speaker asks after horses, warriors, treasure and feasting. Each question calls up a lively world, then leaves its place empty.",
+        "cast": [
+          "The wanderer",
+          "The lost lord"
+        ],
+        "motif": "hall",
+        "cue": "WHERE HAVE THEY GONE?",
+        "previousIndex": 9,
+        "key": "the-wanderer:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Nothing here stays",
+        "text": "Earthly power and friendship cannot remain untouched by time. The winter landscape now seems to carry that lesson everywhere.",
+        "cast": [
+          "The wanderer"
+        ],
+        "motif": "storm",
+        "cue": "NOTHING HERE STAYS",
+        "previousIndex": 10,
+        "key": "the-wanderer:base:10",
+        "chapter": 11,
+        "mood": "tension"
+      },
+      {
+        "title": "A different shelter",
+        "text": "The poem closes by looking toward heavenly security. Grief remains, but the search for shelter reaches beyond any earthly hall.",
+        "cast": [
+          "The wanderer",
+          "The narrator"
+        ],
+        "motif": "stars",
+        "cue": "A DIFFERENT SHELTER",
+        "previousIndex": 11,
+        "key": "the-wanderer:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "What makes the dream painful?",
+    "answer": "It restores the wanderer's lost companions for a moment, then waking reveals the empty sea again.",
+    "source": "https://www.gutenberg.org/ebooks/31172",
+    "note": "The Exeter Book manuscript supplies the approximate timeline anchor. The poem's voices and composition date are debated; these cards follow its reflections rather than inventing a voyage itinerary.",
+    "quotes": [
+      {
+        "text": "Where are the horses? Where are the heroes?",
+        "context": "The speaker asks where the vanished companions and pleasures of the hall have gone; wording follows the linked translation.",
+        "meaning": "An empty place can make an entire lost world visible.",
+        "source": "https://www.gutenberg.org/ebooks/31172"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 16,
+        "printedPage": 14,
+        "matchedTitle": "The Wanderer"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 54,
+        "printedPage": 52,
+        "matchedTitle": "The Wanderer"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 2,
+        "printedPage": null,
+        "matchedTitle": "The Wanderer"
+      }
+    ],
+    "additionalReferences": [
+      "https://www.exeter-cathedral.org.uk/learning-collections/explore-the-collections/the-exeter-book/"
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/31172"
+  },
+  {
+    "id": "the-seafarer",
+    "title": "The Seafarer",
+    "author": "Anonymous",
+    "year": 970,
+    "date": "c. 970 manuscript; composition uncertain",
+    "era": "medieval",
+    "genre": "Old English elegy",
+    "setting": "The cold sea and a restless inward journey",
+    "hook": "The sea hurts him, yet its call keeps pulling him away from safety.",
+    "characters": [
+      {
+        "name": "The seafarer",
+        "role": "Speaker drawn toward the sea"
+      },
+      {
+        "name": "The people on land",
+        "role": "Contrast with his hardship"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A voice from the waves",
+        "text": "A sailor begins with what life at sea feels like. His story opens in hardship, far from the pleasures of land.",
+        "cast": [
+          "The seafarer"
+        ],
+        "motif": "sea",
+        "cue": "A VOICE FROM THE WAVES",
+        "previousIndex": 0,
+        "key": "the-seafarer:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Cold at his feet",
+        "text": "Frost grips him while waves batter the ship. Hunger and anxiety make this a bodily struggle, not a comfortable adventure.",
+        "cast": [
+          "The seafarer"
+        ],
+        "motif": "ice",
+        "cue": "COLD AT HIS FEET",
+        "previousIndex": 1,
+        "key": "the-seafarer:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Birds replace laughter",
+        "text": "Sea birds become his companions. Their cries occupy the place where he remembers human conversation and the happiness of a hall.",
+        "cast": [
+          "The seafarer"
+        ],
+        "motif": "sea",
+        "cue": "BIRDS REPLACE LAUGHTER",
+        "previousIndex": 2,
+        "key": "the-seafarer:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The comfortable stranger",
+        "text": "Someone living safely on land cannot easily imagine this loneliness. The distance between their lives becomes part of the poem's ache.",
+        "cast": [
+          "The seafarer",
+          "The people on land"
+        ],
+        "motif": "home",
+        "cue": "THE COMFORTABLE STRANGER",
+        "previousIndex": 3,
+        "key": "the-seafarer:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Still the sea calls",
+        "text": "Yet the speaker's heart turns outward again. The danger has not silenced the strange desire to travel beyond what he knows.",
+        "cast": [
+          "The seafarer"
+        ],
+        "motif": "ship",
+        "cue": "STILL THE SEA CALLS",
+        "previousIndex": 4,
+        "key": "the-seafarer:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "No comfort holds him",
+        "text": "Wealth, beauty and familiar pleasures cannot entirely settle that longing. His attention keeps slipping toward the next departure.",
+        "cast": [
+          "The seafarer"
+        ],
+        "motif": "coins",
+        "cue": "NO COMFORT HOLDS HIM",
+        "previousIndex": 5,
+        "key": "the-seafarer:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Spring brings restlessness",
+        "text": "Growing life on land stirs thoughts of movement. Even the season of renewal can make staying still feel impossible.",
+        "cast": [
+          "The seafarer"
+        ],
+        "motif": "garden",
+        "cue": "SPRING BRINGS RESTLESSNESS",
+        "previousIndex": 6,
+        "key": "the-seafarer:base:6",
+        "chapter": 7,
+        "mood": "wonder"
+      },
+      {
+        "title": "A mind over the water",
+        "text": "His thoughts range across the sea ahead of him. The voyage becomes inward as well as outward, carried by restless imagination.",
+        "cast": [
+          "The seafarer"
+        ],
+        "motif": "stars",
+        "cue": "A MIND OVER THE WATER",
+        "previousIndex": 7,
+        "key": "the-seafarer:base:7",
+        "chapter": 8,
+        "mood": "wonder"
+      },
+      {
+        "title": "Earthly greatness fades",
+        "text": "The reflection broadens: rulers, wealth and reputation all pass away. A secure life on land cannot escape the limits of time.",
+        "cast": [
+          "The seafarer"
+        ],
+        "motif": "crown",
+        "cue": "EARTHLY GREATNESS FADES",
+        "previousIndex": 8,
+        "key": "the-seafarer:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "The body cannot keep treasure",
+        "text": "Gold cannot help the dead as it helps the living. The poem asks what remains when worldly possessions lose their use.",
+        "cast": [
+          "The seafarer"
+        ],
+        "motif": "grave",
+        "cue": "THE BODY CANNOT KEEP TREASURE",
+        "previousIndex": 9,
+        "key": "the-seafarer:base:9",
+        "chapter": 10,
+        "mood": "sorrow"
+      },
+      {
+        "title": "Learning to govern oneself",
+        "text": "The closing counsel values humility and self-command. Restlessness meets a demand to choose wisely rather than trust passing pleasures.",
+        "cast": [
+          "The seafarer"
+        ],
+        "motif": "mirror",
+        "cue": "LEARNING TO GOVERN ONESELF",
+        "previousIndex": 10,
+        "key": "the-seafarer:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "Toward lasting harbour",
+        "text": "The final movement turns to God and enduring life. There is no invented triumphant landing, only a changed horizon for the soul.",
+        "cast": [
+          "The seafarer"
+        ],
+        "motif": "gate",
+        "cue": "TOWARD LASTING HARBOUR",
+        "previousIndex": 11,
+        "key": "the-seafarer:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "Why does the speaker return in thought to the sea?",
+    "answer": "Its dangers coexist with a powerful inward longing; the poem develops that restlessness into reflection on mortality and faith.",
+    "source": "https://www.gutenberg.org/ebooks/31172",
+    "note": "The manuscript date is an approximate anchor, not a known composition date. The relationship between maritime longing and the Christian conclusion admits different readings.",
+    "quotes": [
+      {
+        "text": "My soul constantly kindles in keenest impatience",
+        "context": "The sailor describes an inward pull toward travelling; wording follows the linked translation.",
+        "meaning": "The place that frightens us can also call us beyond familiar comfort.",
+        "source": "https://www.gutenberg.org/ebooks/31172"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 54,
+        "printedPage": 52,
+        "matchedTitle": "The Seafarer"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 2,
+        "printedPage": null,
+        "matchedTitle": "The Seafarer"
+      }
+    ],
+    "additionalReferences": [
+      "https://www.exeter-cathedral.org.uk/learning-collections/explore-the-collections/the-exeter-book/"
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/31172"
+  },
+  {
+    "id": "the-wife-s-lament",
+    "title": "The Wife's Lament",
+    "author": "Anonymous",
+    "year": 970,
+    "date": "c. 970 manuscript; composition uncertain",
+    "era": "medieval",
+    "genre": "Old English elegy",
+    "setting": "An isolated dwelling and remembered separation",
+    "hook": "She lives alone beneath the earth, still carrying a promise that distance has broken.",
+    "characters": [
+      {
+        "name": "The speaker",
+        "role": "Traditionally read as a separated wife"
+      },
+      {
+        "name": "The husband",
+        "role": "Absent beloved"
+      },
+      {
+        "name": "The relatives",
+        "role": "Associated with the separation"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A sorrow spoken aloud",
+        "text": "In a lonely place, a speaker begins her own account of suffering. This is her voice, not a stranger explaining her life.",
+        "cast": [
+          "The speaker"
+        ],
+        "motif": "home",
+        "cue": "A SORROW SPOKEN ALOUD",
+        "previousIndex": 0,
+        "key": "the-wife-s-lament:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The beloved leaves",
+        "text": "She remembers the departure of the man she loved. Separation starts the search for a life beyond the home they shared.",
+        "cast": [
+          "The speaker",
+          "The husband"
+        ],
+        "motif": "ship",
+        "cue": "THE BELOVED LEAVES",
+        "previousIndex": 1,
+        "key": "the-wife-s-lament:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Looking for him",
+        "text": "She journeys away, hoping to find him or secure support. Instead, an unfamiliar world gives her more uncertainty than comfort.",
+        "cast": [
+          "The speaker"
+        ],
+        "motif": "road",
+        "cue": "LOOKING FOR HIM",
+        "previousIndex": 2,
+        "key": "the-wife-s-lament:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Others stand between them",
+        "text": "His relatives are associated with their estrangement. The poem offers pieces of the conflict, leaving some motives and relationships unclear.",
+        "cast": [
+          "The speaker",
+          "The relatives"
+        ],
+        "motif": "chains",
+        "cue": "OTHERS STAND BETWEEN THEM",
+        "previousIndex": 3,
+        "key": "the-wife-s-lament:base:3",
+        "chapter": 4,
+        "mood": "tension"
+      },
+      {
+        "title": "A promise remembered",
+        "text": "Once, the couple expected that death alone would divide them. Remembering that promise makes their present separation harder to endure.",
+        "cast": [
+          "The speaker",
+          "The husband"
+        ],
+        "motif": "heart",
+        "cue": "A PROMISE REMEMBERED",
+        "previousIndex": 4,
+        "key": "the-wife-s-lament:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Affection under strain",
+        "text": "Her recollection of the beloved mixes attachment with distress. The poem does not supply a simple account of who did what.",
+        "cast": [
+          "The speaker",
+          "The husband"
+        ],
+        "motif": "mirror",
+        "cue": "AFFECTION UNDER STRAIN",
+        "previousIndex": 5,
+        "key": "the-wife-s-lament:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "The hidden dwelling",
+        "text": "Now she describes living in an earth-dwelling beneath a tree. The place feels enclosed, remote and cut off from ordinary company.",
+        "cast": [
+          "The speaker"
+        ],
+        "motif": "cave",
+        "cue": "THE HIDDEN DWELLING",
+        "previousIndex": 6,
+        "key": "the-wife-s-lament:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Branches above her",
+        "text": "The surrounding trees and dark landscape deepen the sense of confinement. Nature gives her surroundings, but does not restore companionship.",
+        "cast": [
+          "The speaker"
+        ],
+        "motif": "forest",
+        "cue": "BRANCHES ABOVE HER",
+        "previousIndex": 7,
+        "key": "the-wife-s-lament:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Other lovers meet",
+        "text": "She thinks of people who can share affection openly. Their closeness becomes a painful measure of the life denied to her.",
+        "cast": [
+          "The speaker"
+        ],
+        "motif": "heart",
+        "cue": "OTHER LOVERS MEET",
+        "previousIndex": 8,
+        "key": "the-wife-s-lament:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "The long lonely day",
+        "text": "She moves through grief with no clear release. The repeated loneliness matters more than any invented rescue or reunion.",
+        "cast": [
+          "The speaker"
+        ],
+        "motif": "clock",
+        "cue": "THE LONG LONELY DAY",
+        "previousIndex": 9,
+        "key": "the-wife-s-lament:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Another sorrow imagined",
+        "text": "The ending considers a troubled person far away. Scholars debate whether this describes her beloved, general suffering or a wish against him.",
+        "cast": [
+          "The speaker",
+          "The husband"
+        ],
+        "motif": "sea",
+        "cue": "ANOTHER SORROW IMAGINED",
+        "previousIndex": 10,
+        "key": "the-wife-s-lament:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "A voice left waiting",
+        "text": "No certain reconciliation closes the poem. What remains is the force of a person speaking from isolation and refusing to let grief disappear.",
+        "cast": [
+          "The speaker"
+        ],
+        "motif": "letter",
+        "cue": "A VOICE LEFT WAITING",
+        "previousIndex": 11,
+        "key": "the-wife-s-lament:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What should remain uncertain in this poem?",
+    "answer": "The exact circumstances of the separation and the identities or motives behind it; the speaker's isolation is clearer than its full cause.",
+    "source": "https://www.gutenberg.org/ebooks/31172",
+    "note": "The modern title is editorial. The speaker is traditionally understood as a wife, but identities, pronouns, the earth-dwelling and the closing passage have disputed interpretations.",
+    "quotes": [
+      {
+        "text": "Sorrowfully I sing my song of woe,",
+        "context": "The speaker introduces her own sorrow; wording follows the linked translation.",
+        "meaning": "The isolated person takes control of the account by speaking her grief.",
+        "source": "https://www.gutenberg.org/ebooks/31172"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 16,
+        "printedPage": 14,
+        "matchedTitle": "The W ife’s Lament"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 2,
+        "printedPage": null,
+        "matchedTitle": "The W ife’s Lament"
+      }
+    ],
+    "additionalReferences": [
+      "https://www.exeter-cathedral.org.uk/learning-collections/explore-the-collections/the-exeter-book/"
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/31172"
+  },
+  {
     "id": "beowulf",
     "title": "Beowulf",
     "author": "Anonymous",
@@ -681,6 +1338,685 @@ window.STORIES = [
     "narrativeReference": "https://www.gutenberg.org/ebooks/16328"
   },
   {
+    "id": "the-divine-comedy",
+    "title": "The Divine Comedy",
+    "author": "Dante Alighieri",
+    "year": 1321,
+    "date": "1321",
+    "era": "medieval",
+    "genre": "Visionary epic",
+    "setting": "Hell, Purgatory and Paradise",
+    "hook": "Lost in a dark wood, a traveller must cross the afterlife to learn how to see.",
+    "characters": [
+      {
+        "name": "Dante",
+        "role": "Traveller and poetic narrator"
+      },
+      {
+        "name": "Virgil",
+        "role": "Guide through Hell and Purgatory"
+      },
+      {
+        "name": "Beatrice",
+        "role": "Guide toward heavenly understanding"
+      },
+      {
+        "name": "St Bernard",
+        "role": "Final contemplative guide"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The path disappears",
+        "text": "Midway through life, Dante finds himself in a dark wood. He cannot remember clearly how he lost the path, only that he is afraid.",
+        "cast": [
+          "Dante"
+        ],
+        "motif": "forest",
+        "cue": "THE PATH DISAPPEARS",
+        "previousIndex": 0,
+        "key": "the-divine-comedy:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The climb is blocked",
+        "text": "He tries to reach a sunlit hill, but three beasts stop him. An easier escape appears impossible just when he most wants to leave.",
+        "cast": [
+          "Dante"
+        ],
+        "motif": "mountain",
+        "cue": "THE CLIMB IS BLOCKED",
+        "previousIndex": 1,
+        "key": "the-divine-comedy:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "A poet offers guidance",
+        "text": "Virgil appears and proposes another route. To reach safety, Dante must first pass through the worlds that expose sin, repentance and blessedness.",
+        "cast": [
+          "Dante",
+          "Virgil"
+        ],
+        "motif": "book",
+        "cue": "A POET OFFERS GUIDANCE",
+        "previousIndex": 2,
+        "key": "the-divine-comedy:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Through the gate of Hell",
+        "text": "They enter a realm where choices have hardened into punishments. The suffering is arranged to show what destructive desires have made of human lives.",
+        "cast": [
+          "Dante",
+          "Virgil"
+        ],
+        "motif": "gate",
+        "cue": "THROUGH THE GATE OF HELL",
+        "previousIndex": 3,
+        "key": "the-divine-comedy:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Meeting remembered people",
+        "text": "Dante encounters figures from history, politics and personal memory. Their stories draw his sympathy, but sympathy alone does not settle the moral meaning of their choices.",
+        "cast": [
+          "Dante",
+          "Virgil"
+        ],
+        "motif": "grave",
+        "cue": "MEETING REMEMBERED PEOPLE",
+        "previousIndex": 4,
+        "key": "the-divine-comedy:base:4",
+        "chapter": 5,
+        "mood": "sorrow"
+      },
+      {
+        "title": "The frozen centre",
+        "text": "At Hell's deepest point, betrayal ends in frozen immobility. The travellers pass the trapped Satan and begin the climb out of darkness.",
+        "cast": [
+          "Dante",
+          "Virgil"
+        ],
+        "motif": "ice",
+        "cue": "THE FROZEN CENTRE",
+        "previousIndex": 5,
+        "key": "the-divine-comedy:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "A mountain of change",
+        "text": "Purgatory offers a different kind of suffering. Its souls move toward purification, so difficulty now belongs to hope rather than endless refusal.",
+        "cast": [
+          "Dante",
+          "Virgil"
+        ],
+        "motif": "mountain",
+        "cue": "A MOUNTAIN OF CHANGE",
+        "previousIndex": 6,
+        "key": "the-divine-comedy:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Learning to desire rightly",
+        "text": "The climb examines misdirected loves and their correction. Dante learns that moral growth involves reshaping desire, not simply enduring a series of obstacles.",
+        "cast": [
+          "Dante",
+          "Virgil"
+        ],
+        "motif": "heart",
+        "cue": "LEARNING TO DESIRE RIGHTLY",
+        "previousIndex": 7,
+        "key": "the-divine-comedy:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Beatrice returns",
+        "text": "In the earthly paradise, Dante meets Beatrice and faces his own failures. Virgil's guidance ends as the journey turns toward an understanding beyond classical reason.",
+        "cast": [
+          "Dante",
+          "Beatrice",
+          "Virgil"
+        ],
+        "motif": "garden",
+        "cue": "BEATRICE RETURNS",
+        "previousIndex": 8,
+        "key": "the-divine-comedy:base:8",
+        "chapter": 9,
+        "mood": "wonder"
+      },
+      {
+        "title": "Ascending through Heaven",
+        "text": "With Beatrice, Dante rises through the heavens. Conversations about justice, knowledge and love gradually prepare him for a vision his ordinary senses cannot contain.",
+        "cast": [
+          "Dante",
+          "Beatrice"
+        ],
+        "motif": "stars",
+        "cue": "ASCENDING THROUGH HEAVEN",
+        "previousIndex": 9,
+        "key": "the-divine-comedy:base:9",
+        "chapter": 10,
+        "mood": "wonder"
+      },
+      {
+        "title": "Beyond the familiar guide",
+        "text": "Beatrice takes her place among the blessed. Bernard directs Dante's final contemplation and prayer, preparing the traveller to look toward the highest mystery.",
+        "cast": [
+          "Dante",
+          "St Bernard"
+        ],
+        "motif": "temple",
+        "cue": "BEYOND THE FAMILIAR GUIDE",
+        "previousIndex": 10,
+        "key": "the-divine-comedy:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "Love moves the whole",
+        "text": "The final vision exceeds what Dante can fully explain. His desire and will come into harmony with the divine love that moves the universe.",
+        "cast": [
+          "Dante"
+        ],
+        "motif": "sunrise",
+        "cue": "LOVE MOVES THE WHOLE",
+        "previousIndex": 11,
+        "key": "the-divine-comedy:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "Why can Virgil not guide Dante all the way to the final vision?",
+    "answer": "Within the poem's Christian framework, classical reason has limits; Beatrice and then Bernard guide stages beyond Virgil's reach.",
+    "source": "https://www.gutenberg.org/ebooks/1004",
+    "note": "Completed near Dante's death in 1321; the poem's imagined journey occurs in 1300. Written in Italian and included because the handbook names it. Translation wording follows Longfellow.",
+    "quotes": [
+      {
+        "text": "Midway upon the journey of our life",
+        "context": "The opening places Dante in a dark wood; wording follows Longfellow's translation.",
+        "meaning": "The greatest journey begins with admitting that the right path has been lost.",
+        "source": "https://www.gutenberg.org/ebooks/1004"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 22,
+        "printedPage": 20,
+        "matchedTitle": "The Divine Comedy"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/1004"
+  },
+  {
+    "id": "piers-plowman",
+    "title": "Piers Plowman",
+    "author": "William Langland",
+    "year": 1370,
+    "date": "1370",
+    "era": "medieval",
+    "genre": "Allegorical dream vision",
+    "setting": "Malvern Hills and a symbolic English society",
+    "hook": "He sets out to find Truth, but a road is useless until someone learns how to live.",
+    "characters": [
+      {
+        "name": "Will",
+        "role": "Dreamer seeking a good life"
+      },
+      {
+        "name": "Piers",
+        "role": "Ploughman associated with truthful work and Christ"
+      },
+      {
+        "name": "Holy Church",
+        "role": "Spiritual instructor"
+      },
+      {
+        "name": "Lady Meed",
+        "role": "Reward and corruption"
+      },
+      {
+        "name": "Hunger",
+        "role": "Discipline confronting idleness"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "Asleep on the hillside",
+        "text": "On the Malvern Hills, Will lies down and dreams. The world opens before him as a field crowded with people of every rank.",
+        "cast": [
+          "Will"
+        ],
+        "motif": "garden",
+        "cue": "ASLEEP ON THE HILLSIDE",
+        "previousIndex": 0,
+        "key": "piers-plowman:base:0",
+        "chapter": 1,
+        "mood": "wonder"
+      },
+      {
+        "title": "Two directions",
+        "text": "A tower and a dungeon frame the scene. Society seems suspended between higher purpose and destructive appetite, while ordinary people work, bargain and wander.",
+        "cast": [
+          "Will"
+        ],
+        "motif": "castle",
+        "cue": "TWO DIRECTIONS",
+        "previousIndex": 1,
+        "key": "piers-plowman:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Holy Church explains",
+        "text": "Holy Church tells Will about Truth and the need for love. Knowing the right words is only the beginning of learning to live them.",
+        "cast": [
+          "Will",
+          "Holy Church"
+        ],
+        "motif": "book",
+        "cue": "HOLY CHURCH EXPLAINS",
+        "previousIndex": 2,
+        "key": "piers-plowman:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Lady Meed enters",
+        "text": "Reward takes a human shape in Lady Meed. Her proposed marriage and dealings expose how payment can blur into bribery and corrupt judgement.",
+        "cast": [
+          "Will",
+          "Lady Meed"
+        ],
+        "motif": "coins",
+        "cue": "LADY MEED ENTERS",
+        "previousIndex": 3,
+        "key": "piers-plowman:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "A crowd seeks Truth",
+        "text": "People want to reach Truth, but cannot agree on the way. Their confusion turns a moral destination into a problem of daily conduct.",
+        "cast": [
+          "Will"
+        ],
+        "motif": "road",
+        "cue": "A CROWD SEEKS TRUTH",
+        "previousIndex": 4,
+        "key": "piers-plowman:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The ploughman knows",
+        "text": "Piers offers guidance. Before travelling, however, he asks the company to help cultivate his land: honest labour belongs inside the search for salvation.",
+        "cast": [
+          "Piers",
+          "Will"
+        ],
+        "motif": "village",
+        "cue": "THE PLOUGHMAN KNOWS",
+        "previousIndex": 5,
+        "key": "piers-plowman:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Some refuse the work",
+        "text": "The willing begin their tasks, while others make excuses. Piers discovers that a common purpose can collapse when people demand its benefits without sharing its duties.",
+        "cast": [
+          "Piers"
+        ],
+        "motif": "chains",
+        "cue": "SOME REFUSE THE WORK",
+        "previousIndex": 6,
+        "key": "piers-plowman:base:6",
+        "chapter": 7,
+        "mood": "tension"
+      },
+      {
+        "title": "Hunger teaches harshly",
+        "text": "Hunger forces the idle to work. The scene tests both the necessity of labour and the uncomfortable methods by which discipline is imposed.",
+        "cast": [
+          "Piers",
+          "Hunger"
+        ],
+        "motif": "storm",
+        "cue": "HUNGER TEACHES HARSHLY",
+        "previousIndex": 7,
+        "key": "piers-plowman:base:7",
+        "chapter": 8,
+        "mood": "tension"
+      },
+      {
+        "title": "The pardon raises questions",
+        "text": "A pardon from Truth leads to argument about good actions and salvation. Easy guarantees give way to a harder examination of what righteousness requires.",
+        "cast": [
+          "Piers",
+          "Will"
+        ],
+        "motif": "letter",
+        "cue": "THE PARDON RAISES QUESTIONS",
+        "previousIndex": 8,
+        "key": "piers-plowman:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Doing well is not enough",
+        "text": "Will's later dreams pursue Dowel, Dobet and Dobest. Thought, action and love must come together; his questions grow more demanding instead of neatly ending.",
+        "cast": [
+          "Will"
+        ],
+        "motif": "mirror",
+        "cue": "DOING WELL IS NOT ENOUGH",
+        "previousIndex": 9,
+        "key": "piers-plowman:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "A Christlike figure",
+        "text": "Piers becomes closely associated with Christ and the work of redemption. The humble labourer now connects earthly service with the poem's deepest spiritual vision.",
+        "cast": [
+          "Piers",
+          "Will"
+        ],
+        "motif": "stars",
+        "cue": "A CHRISTLIKE FIGURE",
+        "previousIndex": 10,
+        "key": "piers-plowman:base:10",
+        "chapter": 11,
+        "mood": "wonder"
+      },
+      {
+        "title": "The search continues",
+        "text": "The visions confront the corruption of the Church as well as society. Their unresolved energy sends the search onward, refusing an easy certificate of goodness.",
+        "cast": [
+          "Will"
+        ],
+        "motif": "gate",
+        "cue": "THE SEARCH CONTINUES",
+        "previousIndex": 11,
+        "key": "piers-plowman:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What do Dowel, Dobet and Dobest concern?",
+    "answer": "Doing well, doing better and doing best: the poem's developing search for faithful action, understanding and love.",
+    "source": "https://www.gutenberg.org/ebooks/43660",
+    "note": "Approximate A-text-era anchor; the poem survives in A, B and C versions. These cards trace recurring landmarks across its developing visions, not a single unchanged plot; linked volumes preserve Middle English wording.",
+    "quotes": [
+      {
+        "text": "A fair feeld ful of folk",
+        "context": "The opening dream places many kinds of people between the tower and dungeon.",
+        "meaning": "Society itself becomes the landscape of a moral journey.",
+        "source": "https://www.gutenberg.org/ebooks/43660"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 22,
+        "printedPage": 20,
+        "matchedTitle": "Piers Plowman"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 54,
+        "printedPage": 52,
+        "matchedTitle": "Piers Plowman"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 3,
+        "printedPage": null,
+        "matchedTitle": "Piers Plowman"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/43660"
+  },
+  {
+    "id": "troilus-and-criseyde",
+    "title": "Troilus and Criseyde",
+    "author": "Geoffrey Chaucer",
+    "year": 1385,
+    "date": "1385",
+    "era": "medieval",
+    "genre": "Tragic romance",
+    "setting": "Troy during the Trojan War",
+    "hook": "A secret love grows inside a city that cannot keep its lovers safe.",
+    "characters": [
+      {
+        "name": "Troilus",
+        "role": "Trojan prince in love"
+      },
+      {
+        "name": "Criseyde",
+        "role": "Widow living in Troy"
+      },
+      {
+        "name": "Pandarus",
+        "role": "Her uncle and intermediary"
+      },
+      {
+        "name": "Diomede",
+        "role": "Greek warrior courting Criseyde"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "Love inside a siege",
+        "text": "Once upon a time in besieged Troy, Prince Troilus mocks lovers. Then he sees Criseyde, and his own certainty begins to tremble.",
+        "cast": [
+          "Troilus",
+          "Criseyde"
+        ],
+        "motif": "castle",
+        "cue": "LOVE INSIDE A SIEGE",
+        "previousIndex": 0,
+        "key": "troilus-and-criseyde:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The secret illness",
+        "text": "Troilus hides his longing and suffers. His friend Pandarus notices the change and draws the prince's secret into the open.",
+        "cast": [
+          "Troilus",
+          "Pandarus"
+        ],
+        "motif": "heart",
+        "cue": "THE SECRET ILLNESS",
+        "previousIndex": 1,
+        "key": "troilus-and-criseyde:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "An uncle intervenes",
+        "text": "Pandarus is Criseyde's uncle. He begins carrying messages, turning a private desire into a plan that puts pressure on her as well.",
+        "cast": [
+          "Pandarus",
+          "Criseyde"
+        ],
+        "motif": "letter",
+        "cue": "AN UNCLE INTERVENES",
+        "previousIndex": 2,
+        "key": "troilus-and-criseyde:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Learning to hope",
+        "text": "Criseyde considers Troilus cautiously. Affection grows through meetings and messages, but her position in a wartime city is never entirely secure.",
+        "cast": [
+          "Criseyde",
+          "Troilus"
+        ],
+        "motif": "garden",
+        "cue": "LEARNING TO HOPE",
+        "previousIndex": 3,
+        "key": "troilus-and-criseyde:base:3",
+        "chapter": 4,
+        "mood": "wonder"
+      },
+      {
+        "title": "The lovers meet",
+        "text": "Pandarus arranges the circumstances of their intimacy. Troilus's long suffering gives way to happiness, and the lovers imagine remaining together.",
+        "cast": [
+          "Troilus",
+          "Criseyde",
+          "Pandarus"
+        ],
+        "motif": "home",
+        "cue": "THE LOVERS MEET",
+        "previousIndex": 4,
+        "key": "troilus-and-criseyde:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Fortune turns",
+        "text": "Criseyde's father, now with the Greeks, seeks her return. A prisoner exchange threatens to carry her across the line that divides their world.",
+        "cast": [
+          "Criseyde",
+          "Troilus"
+        ],
+        "motif": "chains",
+        "cue": "FORTUNE TURNS",
+        "previousIndex": 5,
+        "key": "troilus-and-criseyde:base:5",
+        "chapter": 6,
+        "mood": "tension"
+      },
+      {
+        "title": "A promise of return",
+        "text": "The lovers grieve over the approaching separation. Criseyde promises to return soon; Troilus clings to the promise as if it were shelter.",
+        "cast": [
+          "Troilus",
+          "Criseyde"
+        ],
+        "motif": "clock",
+        "cue": "A PROMISE OF RETURN",
+        "previousIndex": 6,
+        "key": "troilus-and-criseyde:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Across to the enemy camp",
+        "text": "Criseyde leaves Troy. Diomede accompanies her, and the familiar protections of her old life fall behind her with the city.",
+        "cast": [
+          "Criseyde",
+          "Diomede"
+        ],
+        "motif": "road",
+        "cue": "ACROSS TO THE ENEMY CAMP",
+        "previousIndex": 7,
+        "key": "troilus-and-criseyde:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The appointed days pass",
+        "text": "Troilus waits, looking for signs of her return. Each passing day makes the same promise feel less like hope and more like torment.",
+        "cast": [
+          "Troilus"
+        ],
+        "motif": "clock",
+        "cue": "THE APPOINTED DAYS PASS",
+        "previousIndex": 8,
+        "key": "troilus-and-criseyde:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "An altered attachment",
+        "text": "Among the Greeks, Criseyde becomes attached to Diomede. Distance, vulnerability and a new situation change what the lovers had imagined would endure.",
+        "cast": [
+          "Criseyde",
+          "Diomede"
+        ],
+        "motif": "heart",
+        "cue": "AN ALTERED ATTACHMENT",
+        "previousIndex": 9,
+        "key": "troilus-and-criseyde:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "The token tells him",
+        "text": "Evidence of Criseyde's changed allegiance reaches Troilus. The loss he feared becomes knowledge, leaving love and martial courage unable to restore her.",
+        "cast": [
+          "Troilus",
+          "Diomede"
+        ],
+        "motif": "cloth",
+        "cue": "THE TOKEN TELLS HIM",
+        "previousIndex": 10,
+        "key": "troilus-and-criseyde:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "Beyond the broken romance",
+        "text": "Troilus dies in war. The poem lifts his perspective beyond earthly striving and asks readers to reconsider the desires that ruled the living.",
+        "cast": [
+          "Troilus"
+        ],
+        "motif": "stars",
+        "cue": "BEYOND THE BROKEN ROMANCE",
+        "previousIndex": 11,
+        "key": "troilus-and-criseyde:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "What separates the lovers?",
+    "answer": "A prisoner exchange sends Criseyde to the Greek camp, where her circumstances and attachment change despite her promise to return.",
+    "source": "https://www.gutenberg.org/ebooks/257",
+    "note": "Approximate composition date. This is Chaucer's poem, distinct from Shakespeare's later Troilus and Cressida; it does not reduce Criseyde's difficult position to a simple moral label.",
+    "quotes": [
+      {
+        "text": "The double sorwe of Troilus to tellen",
+        "context": "The opening announces Troilus's movement from sorrow to happiness and back again.",
+        "meaning": "The narrator lets us feel hope while knowing loss is already waiting.",
+        "source": "https://www.gutenberg.org/ebooks/257"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 20,
+        "printedPage": 18,
+        "matchedTitle": "Troilus and Criseyde"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 3,
+        "printedPage": null,
+        "matchedTitle": "Troilus and Criseyde"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/257"
+  },
+  {
     "id": "the-canterbury-tales",
     "title": "The Canterbury Tales",
     "author": "Geoffrey Chaucer",
@@ -905,6 +2241,257 @@ window.STORIES = [
     ],
     "contentVersion": 4,
     "narrativeReference": "https://chaucer.fas.harvard.edu/pages/general-prologue-0"
+  },
+  {
+    "id": "le-morte-darthur",
+    "title": "Le Morte Darthur",
+    "author": "Thomas Malory",
+    "year": 1485,
+    "date": "1485",
+    "era": "medieval",
+    "genre": "Arthurian prose romance",
+    "setting": "Legendary Britain and the Round Table",
+    "hook": "A fellowship built to unite a kingdom begins to break around a forbidden love.",
+    "characters": [
+      {
+        "name": "Arthur",
+        "role": "King of Britain"
+      },
+      {
+        "name": "Guinevere",
+        "role": "His queen"
+      },
+      {
+        "name": "Lancelot",
+        "role": "Knight who loves Guinevere"
+      },
+      {
+        "name": "Galahad",
+        "role": "Knight of the Grail quest"
+      },
+      {
+        "name": "Mordred",
+        "role": "Arthur's rebel son"
+      },
+      {
+        "name": "Bedivere",
+        "role": "Knight returning Excalibur"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The sword and the boy",
+        "text": "In legendary Britain, young Arthur draws a sword others cannot move. The sign of kingship brings wonder, but also rivals who will resist him.",
+        "cast": [
+          "Arthur"
+        ],
+        "motif": "sword",
+        "cue": "THE SWORD AND THE BOY",
+        "previousIndex": 0,
+        "key": "le-morte-darthur:base:0",
+        "chapter": 1,
+        "mood": "tension"
+      },
+      {
+        "title": "Building a fellowship",
+        "text": "Arthur establishes his court and marries Guinevere. The Round Table offers a shared ideal: great warriors should use their strength within a common order.",
+        "cast": [
+          "Arthur",
+          "Guinevere"
+        ],
+        "motif": "hall",
+        "cue": "BUILDING A FELLOWSHIP",
+        "previousIndex": 1,
+        "key": "le-morte-darthur:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The wandering knights",
+        "text": "The knights ride out into trials of courage, loyalty and mercy. Their victories build the court's reputation, though their private rivalries never entirely disappear.",
+        "cast": [
+          "Arthur",
+          "Lancelot"
+        ],
+        "motif": "road",
+        "cue": "THE WANDERING KNIGHTS",
+        "previousIndex": 2,
+        "key": "le-morte-darthur:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The best knight's secret",
+        "text": "Lancelot becomes the court's greatest warrior. His love for Guinevere binds him to its centre while quietly threatening the loyalty that holds it together.",
+        "cast": [
+          "Lancelot",
+          "Guinevere"
+        ],
+        "motif": "heart",
+        "cue": "THE BEST KNIGHT'S SECRET",
+        "previousIndex": 3,
+        "key": "le-morte-darthur:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "A different kind of strength",
+        "text": "Galahad arrives, and the quest for the Holy Grail begins. The knights face a test that skill with weapons alone cannot let them pass.",
+        "cast": [
+          "Galahad",
+          "Lancelot"
+        ],
+        "motif": "stars",
+        "cue": "A DIFFERENT KIND OF STRENGTH",
+        "previousIndex": 4,
+        "key": "le-morte-darthur:base:4",
+        "chapter": 5,
+        "mood": "wonder"
+      },
+      {
+        "title": "Lancelot reaches a limit",
+        "text": "Lancelot encounters spiritual obstacles on the quest. His greatness in battle cannot erase the conflict within his life or grant him every sacred vision.",
+        "cast": [
+          "Lancelot"
+        ],
+        "motif": "mirror",
+        "cue": "LANCELOT REACHES A LIMIT",
+        "previousIndex": 5,
+        "key": "le-morte-darthur:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "The Grail is achieved",
+        "text": "Galahad reaches the Grail's fulfilment with companions who meet its demands. The achievement also carries him beyond the earthly fellowship Arthur had built.",
+        "cast": [
+          "Galahad"
+        ],
+        "motif": "temple",
+        "cue": "THE GRAIL IS ACHIEVED",
+        "previousIndex": 6,
+        "key": "le-morte-darthur:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "The secret comes to light",
+        "text": "Lancelot and Guinevere's relationship is exposed. Private wrongdoing now demands public action, trapping Arthur between affection, law and the expectations of his knights.",
+        "cast": [
+          "Arthur",
+          "Guinevere",
+          "Lancelot"
+        ],
+        "motif": "letter",
+        "cue": "THE SECRET COMES TO LIGHT",
+        "previousIndex": 7,
+        "key": "le-morte-darthur:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Rescue brings more blood",
+        "text": "Lancelot rescues Guinevere from execution, killing knights in the struggle. Those deaths turn the dispute into a cycle of vengeance the king cannot contain.",
+        "cast": [
+          "Lancelot",
+          "Guinevere"
+        ],
+        "motif": "fire",
+        "cue": "RESCUE BRINGS MORE BLOOD",
+        "previousIndex": 8,
+        "key": "le-morte-darthur:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "Mordred takes his chance",
+        "text": "While Arthur campaigns against Lancelot, Mordred seizes power in Britain. Arthur returns to fight a rebellion born within his own household.",
+        "cast": [
+          "Arthur",
+          "Mordred"
+        ],
+        "motif": "crown",
+        "cue": "MORDRED TAKES HIS CHANCE",
+        "previousIndex": 9,
+        "key": "le-morte-darthur:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "The last battle",
+        "text": "At the final battle, Arthur kills Mordred but receives a mortal wound. The Round Table's promise lies shattered among the dead.",
+        "cast": [
+          "Arthur",
+          "Mordred"
+        ],
+        "motif": "grave",
+        "cue": "THE LAST BATTLE",
+        "previousIndex": 10,
+        "key": "le-morte-darthur:base:10",
+        "chapter": 11,
+        "mood": "sorrow"
+      },
+      {
+        "title": "Excalibur leaves the world",
+        "text": "Bedivere finally returns Excalibur to the water. Arthur is carried away, while the surviving lovers turn toward penitence rather than a restored romance.",
+        "cast": [
+          "Arthur",
+          "Bedivere",
+          "Guinevere",
+          "Lancelot"
+        ],
+        "motif": "sea",
+        "cue": "EXCALIBUR LEAVES THE WORLD",
+        "previousIndex": 11,
+        "key": "le-morte-darthur:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What destroys the fellowship of the Round Table?",
+    "answer": "The exposure of Lancelot and Guinevere's relationship divides the knights; vengeance and Mordred's usurpation deepen that rupture into civil war.",
+    "source": "https://www.gutenberg.org/ebooks/1252",
+    "note": "1485 is Caxton's printing date; composition was earlier. This condensation follows the whole romance. Volume I is Gutenberg 1251 and the linked Volume II contains the Grail quest and final destruction.",
+    "quotes": [
+      {
+        "text": "Hic jacet Arthurus, Rex quondam, Rexque futurus.",
+        "context": "The Latin tomb inscription means Here lies Arthur, king once and king to be; Book XXI, chapter VII.",
+        "meaning": "The fallen king survives as an expectation as well as a memory.",
+        "source": "https://www.gutenberg.org/ebooks/1252"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 21,
+        "printedPage": 19,
+        "matchedTitle": "Morte d Arthur"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 54,
+        "printedPage": 52,
+        "matchedTitle": "Morte d Arthur"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 118,
+        "printedPage": 116,
+        "matchedTitle": "Morte d Arthur"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 3,
+        "printedPage": null,
+        "matchedTitle": "Morte d Arthur"
+      }
+    ],
+    "additionalReferences": [
+      "https://www.gutenberg.org/ebooks/1251"
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/1252"
   },
   {
     "id": "utopia",
@@ -1808,6 +3395,1183 @@ window.STORIES = [
     "narrativeReference": "https://www.gutenberg.org/ebooks/779"
   },
   {
+    "id": "the-jew-of-malta",
+    "title": "The Jew of Malta",
+    "author": "Christopher Marlowe",
+    "year": 1592,
+    "date": "1592",
+    "era": "renaissance",
+    "genre": "Tragedy",
+    "setting": "Malta under rival political and religious powers",
+    "hook": "They take his wealth in the name of faith, and he turns revenge into a deadly trade.",
+    "characters": [
+      {
+        "name": "Barabas",
+        "role": "Jewish merchant stripped of his wealth"
+      },
+      {
+        "name": "Abigail",
+        "role": "His daughter"
+      },
+      {
+        "name": "Ithamore",
+        "role": "Servant and accomplice"
+      },
+      {
+        "name": "Ferneze",
+        "role": "Governor of Malta"
+      },
+      {
+        "name": "Calymath",
+        "role": "Ottoman commander"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The merchant counts his wealth",
+        "text": "In Malta, Barabas surveys the treasure of a successful merchant. Money seems to give him independence, until rulers decide that his fortune belongs to them.",
+        "cast": [
+          "Barabas"
+        ],
+        "motif": "coins",
+        "cue": "THE MERCHANT COUNTS HIS WEALTH",
+        "previousIndex": 0,
+        "key": "the-jew-of-malta:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The governor chooses a target",
+        "text": "Facing Ottoman demands for tribute, Ferneze imposes the burden on Malta's Jews. Barabas resists and loses his property, including the house he calls home.",
+        "cast": [
+          "Barabas",
+          "Ferneze"
+        ],
+        "motif": "chains",
+        "cue": "THE GOVERNOR CHOOSES A TARGET",
+        "previousIndex": 1,
+        "key": "the-jew-of-malta:base:1",
+        "chapter": 2,
+        "mood": "tension"
+      },
+      {
+        "title": "Abigail enters the convent",
+        "text": "His confiscated house becomes a convent. Abigail goes inside and recovers hidden treasure for her father, helping him regain the means to strike back.",
+        "cast": [
+          "Abigail",
+          "Barabas"
+        ],
+        "motif": "home",
+        "cue": "ABIGAIL ENTERS THE CONVENT",
+        "previousIndex": 2,
+        "key": "the-jew-of-malta:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Love becomes a weapon",
+        "text": "Barabas manipulates two young men who love Abigail. Forged messages turn their affection into a quarrel neither understands, and both are killed.",
+        "cast": [
+          "Barabas",
+          "Abigail"
+        ],
+        "motif": "letter",
+        "cue": "LOVE BECOMES A WEAPON",
+        "previousIndex": 3,
+        "key": "the-jew-of-malta:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "The daughter sees the cost",
+        "text": "Abigail recognises her father's cruelty and turns sincerely toward the convent. Her attempt to leave his world makes her another target of his revenge.",
+        "cast": [
+          "Abigail",
+          "Barabas"
+        ],
+        "motif": "temple",
+        "cue": "THE DAUGHTER SEES THE COST",
+        "previousIndex": 4,
+        "key": "the-jew-of-malta:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Poison reaches the convent",
+        "text": "Barabas poisons the nuns, killing Abigail too. His campaign against enemies has crossed into destroying the child who once helped and trusted him.",
+        "cast": [
+          "Barabas",
+          "Abigail"
+        ],
+        "motif": "grave",
+        "cue": "POISON REACHES THE CONVENT",
+        "previousIndex": 5,
+        "key": "the-jew-of-malta:base:5",
+        "chapter": 6,
+        "mood": "sorrow"
+      },
+      {
+        "title": "An accomplice gains knowledge",
+        "text": "Ithamore carries out Barabas's schemes but knows their secrets. That knowledge can serve the merchant, or become a price someone else is willing to pay.",
+        "cast": [
+          "Barabas",
+          "Ithamore"
+        ],
+        "motif": "mask",
+        "cue": "AN ACCOMPLICE GAINS KNOWLEDGE",
+        "previousIndex": 6,
+        "key": "the-jew-of-malta:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Blackmail follows the crimes",
+        "text": "Ithamore's associates seek money from Barabas. The merchant answers with more murder, trying to silence the witnesses his own violence has produced.",
+        "cast": [
+          "Barabas",
+          "Ithamore"
+        ],
+        "motif": "coins",
+        "cue": "BLACKMAIL FOLLOWS THE CRIMES",
+        "previousIndex": 7,
+        "key": "the-jew-of-malta:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Death becomes a disguise",
+        "text": "Barabas escapes punishment by feigning death. Once outside Malta's defences, he offers the Ottoman forces a way into the city.",
+        "cast": [
+          "Barabas",
+          "Calymath"
+        ],
+        "motif": "ghost",
+        "cue": "DEATH BECOMES A DISGUISE",
+        "previousIndex": 8,
+        "key": "the-jew-of-malta:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "A new ruler rewards him",
+        "text": "The invaders appoint Barabas governor. Revenge seems to have become political victory, but he soon bargains to betray his new protectors as well.",
+        "cast": [
+          "Barabas",
+          "Calymath",
+          "Ferneze"
+        ],
+        "motif": "crown",
+        "cue": "A NEW RULER REWARDS HIM",
+        "previousIndex": 9,
+        "key": "the-jew-of-malta:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "The final bargain",
+        "text": "Barabas arranges a feast and a concealed trap for Calymath. He expects Ferneze to pay for deliverance, treating another betrayal as a successful transaction.",
+        "cast": [
+          "Barabas",
+          "Ferneze"
+        ],
+        "motif": "contract",
+        "cue": "THE FINAL BARGAIN",
+        "previousIndex": 10,
+        "key": "the-jew-of-malta:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The trap changes its victim",
+        "text": "Ferneze turns the mechanism against its maker. Barabas falls into the cauldron, while the surviving rulers continue negotiating power over Malta.",
+        "cast": [
+          "Barabas",
+          "Ferneze",
+          "Calymath"
+        ],
+        "motif": "fire",
+        "cue": "THE TRAP CHANGES ITS VICTIM",
+        "previousIndex": 11,
+        "key": "the-jew-of-malta:base:11",
+        "chapter": 12,
+        "mood": "tension"
+      }
+    ],
+    "question": "How does Barabas's final trap turn against him?",
+    "answer": "Ferneze triggers the mechanism intended to drop the Ottoman commander into a boiling cauldron, killing Barabas instead.",
+    "source": "https://www.gutenberg.org/ebooks/901",
+    "note": "Approximate early-performance anchor; printed 1633. The play's antisemitic conventions are part of its representation, not a description of Jewish people; its Christian and Muslim authorities are also implicated in ruthless power.",
+    "quotes": [
+      {
+        "text": "Infinite riches in a little room.",
+        "context": "Barabas delights in the concentrated value of jewels at the opening.",
+        "meaning": "The merchant measures safety through wealth until political power changes the rules.",
+        "source": "https://www.gutenberg.org/ebooks/901"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 4,
+        "printedPage": null,
+        "matchedTitle": "The Jew of Malta"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/901"
+  },
+  {
+    "id": "edward-ii",
+    "title": "Edward II",
+    "author": "Christopher Marlowe",
+    "year": 1592,
+    "date": "1592",
+    "era": "renaissance",
+    "genre": "Historical tragedy",
+    "setting": "The English court and the struggle over royal favour",
+    "hook": "A king brings back the man he loves, and a private attachment becomes a national crisis.",
+    "characters": [
+      {
+        "name": "Edward",
+        "role": "King of England"
+      },
+      {
+        "name": "Gaveston",
+        "role": "His favourite"
+      },
+      {
+        "name": "Isabella",
+        "role": "Queen turned political opponent"
+      },
+      {
+        "name": "Mortimer",
+        "role": "Ambitious rebel"
+      },
+      {
+        "name": "Edward III",
+        "role": "The king's son"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A message recalls Gaveston",
+        "text": "Edward's father is dead, and the new king invites Gaveston home. The returning favourite imagines a court where royal affection can overcome every old restriction.",
+        "cast": [
+          "Edward",
+          "Gaveston"
+        ],
+        "motif": "letter",
+        "cue": "A MESSAGE RECALLS GAVESTON",
+        "previousIndex": 0,
+        "key": "edward-ii:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Favour becomes public power",
+        "text": "Edward gives Gaveston rank and access. The nobles see their authority displaced, while the king treats resistance as an attack on his freedom to choose.",
+        "cast": [
+          "Edward",
+          "Gaveston"
+        ],
+        "motif": "crown",
+        "cue": "FAVOUR BECOMES PUBLIC POWER",
+        "previousIndex": 1,
+        "key": "edward-ii:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The queen stands outside",
+        "text": "Isabella feels excluded from her husband's affection and rule. Her distress adds a family conflict to the growing struggle between the king and his barons.",
+        "cast": [
+          "Isabella",
+          "Edward"
+        ],
+        "motif": "home",
+        "cue": "THE QUEEN STANDS OUTSIDE",
+        "previousIndex": 2,
+        "key": "edward-ii:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Exile cannot settle it",
+        "text": "The nobles force Gaveston away. Edward searches for ways to bring him back, so the attempted solution becomes another stage in the same bitter argument.",
+        "cast": [
+          "Edward",
+          "Gaveston",
+          "Mortimer"
+        ],
+        "motif": "road",
+        "cue": "EXILE CANNOT SETTLE IT",
+        "previousIndex": 3,
+        "key": "edward-ii:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "The favourite returns again",
+        "text": "Gaveston comes back under a fragile arrangement. Neither affection nor political compromise has removed the fear and resentment surrounding his position.",
+        "cast": [
+          "Gaveston",
+          "Edward"
+        ],
+        "motif": "gate",
+        "cue": "THE FAVOURITE RETURNS AGAIN",
+        "previousIndex": 4,
+        "key": "edward-ii:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The rebels seize him",
+        "text": "Edward cannot protect Gaveston from his enemies. The favourite is captured and killed, turning opposition into a personal loss the king will fight to avenge.",
+        "cast": [
+          "Gaveston",
+          "Edward",
+          "Mortimer"
+        ],
+        "motif": "grave",
+        "cue": "THE REBELS SEIZE HIM",
+        "previousIndex": 5,
+        "key": "edward-ii:base:5",
+        "chapter": 6,
+        "mood": "sorrow"
+      },
+      {
+        "title": "War follows grief",
+        "text": "Edward confronts the rebels and briefly gains strength. Yet his continued reliance on favourites makes the victory unable to repair the relationships his rule needs.",
+        "cast": [
+          "Edward",
+          "Mortimer"
+        ],
+        "motif": "sword",
+        "cue": "WAR FOLLOWS GRIEF",
+        "previousIndex": 6,
+        "key": "edward-ii:base:6",
+        "chapter": 7,
+        "mood": "tension"
+      },
+      {
+        "title": "Isabella joins Mortimer",
+        "text": "The queen and Mortimer organise resistance from abroad. Their alliance turns the royal marriage into a contest over who will control the kingdom and its heir.",
+        "cast": [
+          "Isabella",
+          "Mortimer"
+        ],
+        "motif": "contract",
+        "cue": "ISABELLA JOINS MORTIMER",
+        "previousIndex": 7,
+        "key": "edward-ii:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The king loses his crown",
+        "text": "Defeated and isolated, Edward is pressured to surrender kingship. The crown that once made his preference law can no longer protect even his person.",
+        "cast": [
+          "Edward"
+        ],
+        "motif": "crown",
+        "cue": "THE KING LOSES HIS CROWN",
+        "previousIndex": 8,
+        "key": "edward-ii:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "A prisoner moved around",
+        "text": "Edward passes between harsh keepers. Separation, confinement and humiliation replace the courtly world he once commanded, while others decide how useful his death would be.",
+        "cast": [
+          "Edward"
+        ],
+        "motif": "chains",
+        "cue": "A PRISONER MOVED AROUND",
+        "previousIndex": 9,
+        "key": "edward-ii:base:9",
+        "chapter": 10,
+        "mood": "tension"
+      },
+      {
+        "title": "The king is murdered",
+        "text": "A killer enters Edward's confinement and carries out the plot. Power removes the fallen ruler, then tries to hide the evidence of what it has done.",
+        "cast": [
+          "Edward"
+        ],
+        "motif": "bed",
+        "cue": "THE KING IS MURDERED",
+        "previousIndex": 10,
+        "key": "edward-ii:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The son demands an answer",
+        "text": "Edward III turns against Mortimer and his mother's political control. His father's murder returns as a charge the new rulers cannot safely bury.",
+        "cast": [
+          "Edward III",
+          "Mortimer",
+          "Isabella"
+        ],
+        "motif": "letter",
+        "cue": "THE SON DEMANDS AN ANSWER",
+        "previousIndex": 11,
+        "key": "edward-ii:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What connects the private and political conflicts?",
+    "answer": "Edward's preference for Gaveston antagonises the nobles and Isabella; the rebellion that follows replaces royal favour with another ruthless struggle for control.",
+    "source": "https://www.gutenberg.org/ebooks/20288",
+    "note": "Approximate composition or performance date; printed 1594. Marlowe's play reshapes history. The king's murder is staged as political brutality, not presented as punishment for his sexuality.",
+    "quotes": [
+      {
+        "text": "My father is deceas'd. Come, Gaveston,",
+        "context": "Gaveston reads Edward's invitation in the opening scene.",
+        "meaning": "The first private message sets the public struggle in motion.",
+        "source": "https://www.gutenberg.org/ebooks/20288"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 29,
+        "printedPage": 27,
+        "matchedTitle": "Edward II"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 3,
+        "printedPage": null,
+        "matchedTitle": "Edward II"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 4,
+        "printedPage": null,
+        "matchedTitle": "Edward II"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 6,
+        "printedPage": null,
+        "matchedTitle": "Edward II"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/20288"
+  },
+  {
+    "id": "the-taming-of-the-shrew",
+    "title": "The Taming of the Shrew",
+    "author": "William Shakespeare",
+    "year": 1592,
+    "date": "1592",
+    "era": "renaissance",
+    "genre": "Comedy about marriage and power",
+    "setting": "Padua, framed by a deception played on Christopher Sly",
+    "hook": "A marriage bargain becomes a struggle over who may define another person's reality.",
+    "characters": [
+      {
+        "name": "Katherina",
+        "role": "Woman resisting imposed roles"
+      },
+      {
+        "name": "Petruchio",
+        "role": "Suitor pursuing wealth and control"
+      },
+      {
+        "name": "Bianca",
+        "role": "Her younger sister"
+      },
+      {
+        "name": "Lucentio",
+        "role": "Suitor using disguise"
+      },
+      {
+        "name": "Christopher Sly",
+        "role": "Victim of the opening practical joke"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A man is given another life",
+        "text": "A lord tricks drunken Christopher Sly into believing he is wealthy. Actors begin a play for him, placing a story about imposed identities inside another deception.",
+        "cast": [
+          "Christopher Sly"
+        ],
+        "motif": "stage",
+        "cue": "A MAN IS GIVEN ANOTHER LIFE",
+        "previousIndex": 0,
+        "key": "the-taming-of-the-shrew:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Two sisters in Padua",
+        "text": "Bianca attracts suitors, but her father insists Katherina must marry first. The older sister's resistance becomes an obstacle other people would like to remove.",
+        "cast": [
+          "Katherina",
+          "Bianca"
+        ],
+        "motif": "home",
+        "cue": "TWO SISTERS IN PADUA",
+        "previousIndex": 1,
+        "key": "the-taming-of-the-shrew:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Tutors hide their intentions",
+        "text": "Lucentio disguises himself as a tutor to reach Bianca. The courtship world rewards performance, making learning and romance difficult to distinguish.",
+        "cast": [
+          "Lucentio",
+          "Bianca"
+        ],
+        "motif": "mask",
+        "cue": "TUTORS HIDE THEIR INTENTIONS",
+        "previousIndex": 2,
+        "key": "the-taming-of-the-shrew:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Petruchio seeks a rich wife",
+        "text": "Petruchio arrives looking for wealth through marriage. Katherina's dowry interests him, and he treats her reputation as a challenge his own confidence can overcome.",
+        "cast": [
+          "Petruchio",
+          "Katherina"
+        ],
+        "motif": "coins",
+        "cue": "PETRUCHIO SEEKS A RICH WIFE",
+        "previousIndex": 3,
+        "key": "the-taming-of-the-shrew:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Words become a contest",
+        "text": "Their first meeting turns into a sharp exchange. Katherina refuses easy agreement, while Petruchio recasts her resistance as if she had already accepted his wishes.",
+        "cast": [
+          "Katherina",
+          "Petruchio"
+        ],
+        "motif": "letter",
+        "cue": "WORDS BECOME A CONTEST",
+        "previousIndex": 4,
+        "key": "the-taming-of-the-shrew:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The wedding unsettles everyone",
+        "text": "Petruchio arrives late in deliberately unsuitable clothes and behaves disruptively. His performance makes the ceremony serve his control rather than the expectations of either bride or family.",
+        "cast": [
+          "Petruchio",
+          "Katherina"
+        ],
+        "motif": "contract",
+        "cue": "THE WEDDING UNSETTLES EVERYONE",
+        "previousIndex": 5,
+        "key": "the-taming-of-the-shrew:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "He removes her from the feast",
+        "text": "Petruchio takes Katherina away immediately. The marriage has begun, but the ordinary celebration gives way to isolation in a household where he decides the terms.",
+        "cast": [
+          "Petruchio",
+          "Katherina"
+        ],
+        "motif": "road",
+        "cue": "HE REMOVES HER FROM THE FEAST",
+        "previousIndex": 6,
+        "key": "the-taming-of-the-shrew:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Care becomes deprivation",
+        "text": "He withholds food and sleep while claiming concern for her comfort. Benevolent language disguises a treatment that wears down her ability to resist.",
+        "cast": [
+          "Katherina",
+          "Petruchio"
+        ],
+        "motif": "chains",
+        "cue": "CARE BECOMES DEPRIVATION",
+        "previousIndex": 7,
+        "key": "the-taming-of-the-shrew:base:7",
+        "chapter": 8,
+        "mood": "tension"
+      },
+      {
+        "title": "Clothing is refused",
+        "text": "Petruchio rejects clothes she wants, again acting as if his decision serves her. The quarrel shows control extending into the smallest expressions of personal choice.",
+        "cast": [
+          "Katherina",
+          "Petruchio"
+        ],
+        "motif": "cloth",
+        "cue": "CLOTHING IS REFUSED",
+        "previousIndex": 8,
+        "key": "the-taming-of-the-shrew:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "The sun becomes the moon",
+        "text": "On the road, Petruchio insists she accept contradictory descriptions. Katherina begins agreeing, but the audience must judge whether compliance reveals belief or a way through his demands.",
+        "cast": [
+          "Katherina",
+          "Petruchio"
+        ],
+        "motif": "sunrise",
+        "cue": "THE SUN BECOMES THE MOON",
+        "previousIndex": 9,
+        "key": "the-taming-of-the-shrew:base:9",
+        "chapter": 10,
+        "mood": "wonder"
+      },
+      {
+        "title": "Bianca's disguise succeeds",
+        "text": "Lucentio and Bianca marry after further confusion over identities. The apparently obedient sister's independent choices complicate the simple contrast drawn between the two women.",
+        "cast": [
+          "Bianca",
+          "Lucentio"
+        ],
+        "motif": "heart",
+        "cue": "BIANCA'S DISGUISE SUCCEEDS",
+        "previousIndex": 10,
+        "key": "the-taming-of-the-shrew:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The final speech asks us to judge",
+        "text": "At a wager over obedient wives, Katherina delivers a speech on submission. Its performance leaves the meaning of her agreement, and the marriage behind it, open to scrutiny.",
+        "cast": [
+          "Katherina",
+          "Petruchio"
+        ],
+        "motif": "mirror",
+        "cue": "THE FINAL SPEECH ASKS US TO JUDGE",
+        "previousIndex": 11,
+        "key": "the-taming-of-the-shrew:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "Why should the ending remain open to interpretation?",
+    "answer": "Katherina's obedience speech can be performed as submission, strategy, irony or a negotiated performance; the text alone does not settle her inward response.",
+    "source": "https://www.gutenberg.org/ebooks/100",
+    "note": "Approximate composition date. The coercion in Petruchio's treatment is described plainly; the cards do not present deprivation as a healthy model for marriage. The Sly frame is left unfinished in the surviving play.",
+    "quotes": [
+      {
+        "text": "My tongue will tell the anger of my heart,",
+        "context": "Katherina protests against being silenced, Act IV.",
+        "meaning": "The conflict concerns the right to speak as well as the power to choose.",
+        "source": "https://www.gutenberg.org/ebooks/100"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 44,
+        "printedPage": 42,
+        "matchedTitle": "The Taming of the Shrew"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 59,
+        "printedPage": 57,
+        "matchedTitle": "The Taming of the Shrew"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 169,
+        "printedPage": 167,
+        "matchedTitle": "The Taming of the Shrew"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 6,
+        "printedPage": null,
+        "matchedTitle": "The Taming of the Shrew"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/100"
+  },
+  {
+    "id": "richard-iii",
+    "title": "Richard III",
+    "author": "William Shakespeare",
+    "year": 1593,
+    "date": "1593",
+    "era": "renaissance",
+    "genre": "Historical tragedy",
+    "setting": "England after the Wars of the Roses",
+    "hook": "He invites the audience into his schemes, then murders his way toward a crown that cannot keep him safe.",
+    "characters": [
+      {
+        "name": "Richard",
+        "role": "Ambitious duke who becomes king"
+      },
+      {
+        "name": "Lady Anne",
+        "role": "Woman he persuades to marry him"
+      },
+      {
+        "name": "Buckingham",
+        "role": "Ally expecting reward"
+      },
+      {
+        "name": "Elizabeth",
+        "role": "Queen protecting her children"
+      },
+      {
+        "name": "Richmond",
+        "role": "Leader opposing Richard"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "Richard shares his plan",
+        "text": "Civil war has ended, but Richard wants more than peace. Speaking directly to the audience, he begins turning family ties into obstacles to his rise.",
+        "cast": [
+          "Richard"
+        ],
+        "motif": "crown",
+        "cue": "RICHARD SHARES HIS PLAN",
+        "previousIndex": 0,
+        "key": "richard-iii:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "A brother enters the trap",
+        "text": "Richard helps arrange suspicion against Clarence. The brother's imprisonment and murder clear part of the path, while Richard performs loyalty in public.",
+        "cast": [
+          "Richard"
+        ],
+        "motif": "chains",
+        "cue": "A BROTHER ENTERS THE TRAP",
+        "previousIndex": 1,
+        "key": "richard-iii:base:1",
+        "chapter": 2,
+        "mood": "tension"
+      },
+      {
+        "title": "An impossible courtship",
+        "text": "Richard approaches Lady Anne while she mourns people killed by his side. His persuasive performance wins an astonishing foothold in the household he has harmed.",
+        "cast": [
+          "Richard",
+          "Lady Anne"
+        ],
+        "motif": "grave",
+        "cue": "AN IMPOSSIBLE COURTSHIP",
+        "previousIndex": 2,
+        "key": "richard-iii:base:2",
+        "chapter": 3,
+        "mood": "sorrow"
+      },
+      {
+        "title": "The old king dies",
+        "text": "Edward IV's death leaves young heirs and an anxious court. Richard moves into the protective role that can put the princes within his reach.",
+        "cast": [
+          "Richard",
+          "Elizabeth"
+        ],
+        "motif": "home",
+        "cue": "THE OLD KING DIES",
+        "previousIndex": 3,
+        "key": "richard-iii:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Opponents disappear",
+        "text": "Queen Elizabeth's allies are arrested and executed. Richard and Buckingham remove competing voices while presenting their actions as necessary care for the kingdom.",
+        "cast": [
+          "Richard",
+          "Buckingham",
+          "Elizabeth"
+        ],
+        "motif": "sword",
+        "cue": "OPPONENTS DISAPPEAR",
+        "previousIndex": 4,
+        "key": "richard-iii:base:4",
+        "chapter": 5,
+        "mood": "tension"
+      },
+      {
+        "title": "The princes enter the Tower",
+        "text": "The young royal brothers are lodged in the Tower. A place presented as protection becomes the setting in which their uncle can close their future.",
+        "cast": [
+          "Richard",
+          "Elizabeth"
+        ],
+        "motif": "castle",
+        "cue": "THE PRINCES ENTER THE TOWER",
+        "previousIndex": 5,
+        "key": "richard-iii:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "The crown is staged",
+        "text": "Buckingham helps manufacture a public request for Richard's kingship. Richard pretends reluctance, making ambition appear to answer the nation's wishes.",
+        "cast": [
+          "Richard",
+          "Buckingham"
+        ],
+        "motif": "stage",
+        "cue": "THE CROWN IS STAGED",
+        "previousIndex": 6,
+        "key": "richard-iii:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Power demands another murder",
+        "text": "Once crowned, Richard wants the princes dead. Buckingham hesitates; the king finds another agent, showing how quickly an ally becomes disposable when he questions the next crime.",
+        "cast": [
+          "Richard",
+          "Buckingham"
+        ],
+        "motif": "dagger",
+        "cue": "POWER DEMANDS ANOTHER MURDER",
+        "previousIndex": 7,
+        "key": "richard-iii:base:7",
+        "chapter": 8,
+        "mood": "tension"
+      },
+      {
+        "title": "The promise is withheld",
+        "text": "Buckingham asks for his reward and is refused. The partnership breaks, and rebellion becomes another threat Richard answers with execution.",
+        "cast": [
+          "Buckingham",
+          "Richard"
+        ],
+        "motif": "contract",
+        "cue": "THE PROMISE IS WITHHELD",
+        "previousIndex": 8,
+        "key": "richard-iii:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Mothers answer the king",
+        "text": "The women left grieving confront Richard with the human cost of his rule. Their words preserve relationships his calculations have treated as removable obstacles.",
+        "cast": [
+          "Elizabeth",
+          "Lady Anne",
+          "Richard"
+        ],
+        "motif": "letter",
+        "cue": "MOTHERS ANSWER THE KING",
+        "previousIndex": 9,
+        "key": "richard-iii:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "The dead return at night",
+        "text": "Before Bosworth, ghosts of Richard's victims appear. They curse him and encourage Richmond, turning remembered crimes into the pressure surrounding the final battle.",
+        "cast": [
+          "Richard",
+          "Richmond"
+        ],
+        "motif": "ghost",
+        "cue": "THE DEAD RETURN AT NIGHT",
+        "previousIndex": 10,
+        "key": "richard-iii:base:10",
+        "chapter": 11,
+        "mood": "tension"
+      },
+      {
+        "title": "The crown cannot rescue him",
+        "text": "Richard fights and dies at Bosworth. Richmond's victory promises a new settlement, while the tyrant's final cry exposes how little his accumulated power can now buy.",
+        "cast": [
+          "Richard",
+          "Richmond"
+        ],
+        "motif": "sword",
+        "cue": "THE CROWN CANNOT RESCUE HIM",
+        "previousIndex": 11,
+        "key": "richard-iii:base:11",
+        "chapter": 12,
+        "mood": "tension"
+      }
+    ],
+    "question": "What changes Richard's relation to Buckingham?",
+    "answer": "Buckingham hesitates over murdering the princes, while Richard refuses the reward he had promised; their alliance breaks.",
+    "source": "https://www.gutenberg.org/ebooks/100",
+    "note": "Approximate composition date; printed 1597. Shakespeare's Richard is a dramatic and politically shaped portrayal, not a settled account of the historical king; disability is not a cause of wrongdoing.",
+    "quotes": [
+      {
+        "text": "A horse! a horse! my kingdom for a horse!",
+        "context": "Richard calls for escape or renewed combat at Bosworth, Act V.",
+        "meaning": "At the end, the immense prize of kingship contracts to the immediate need to survive.",
+        "source": "https://www.gutenberg.org/ebooks/100"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 6,
+        "printedPage": null,
+        "matchedTitle": "Richard III"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/100"
+  },
+  {
+    "id": "the-comedy-of-errors",
+    "title": "The Comedy of Errors",
+    "author": "William Shakespeare",
+    "year": 1594,
+    "date": "1594",
+    "era": "renaissance",
+    "genre": "Comedy",
+    "setting": "Ephesus on a day of mistaken identities",
+    "hook": "Two pairs of twins turn one ordinary day into a town full of impossible accusations.",
+    "characters": [
+      {
+        "name": "Antipholus of Syracuse",
+        "role": "Visitor seeking his family"
+      },
+      {
+        "name": "Antipholus of Ephesus",
+        "role": "His twin living in the town"
+      },
+      {
+        "name": "Dromio of Syracuse",
+        "role": "Visitor's twin servant"
+      },
+      {
+        "name": "Dromio of Ephesus",
+        "role": "Resident twin servant"
+      },
+      {
+        "name": "Adriana",
+        "role": "Wife of the resident Antipholus"
+      },
+      {
+        "name": "Egeon",
+        "role": "Father facing execution"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A father has little time",
+        "text": "In Ephesus, Egeon faces death under a law against Syracusan merchants. His account begins with a shipwreck that divided his family many years before.",
+        "cast": [
+          "Egeon"
+        ],
+        "motif": "clock",
+        "cue": "A FATHER HAS LITTLE TIME",
+        "previousIndex": 0,
+        "key": "the-comedy-of-errors:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The twins were separated",
+        "text": "Egeon had twin sons and twin servants. The wreck carried away one son and one servant with his wife, leaving four matching faces across two different lives.",
+        "cast": [
+          "Egeon"
+        ],
+        "motif": "sea",
+        "cue": "THE TWINS WERE SEPARATED",
+        "previousIndex": 1,
+        "key": "the-comedy-of-errors:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "A son enters Ephesus",
+        "text": "Antipholus of Syracuse arrives with his Dromio to search for family. They do not know that their twins are already living in the very town they enter.",
+        "cast": [
+          "Antipholus of Syracuse",
+          "Dromio of Syracuse"
+        ],
+        "motif": "road",
+        "cue": "A SON ENTERS EPHESUS",
+        "previousIndex": 2,
+        "key": "the-comedy-of-errors:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The wrong servant answers",
+        "text": "Dromio of Ephesus addresses the visitor as his own master. Instructions about money and dinner collide, and the first confusion looks like deliberate disobedience.",
+        "cast": [
+          "Antipholus of Syracuse",
+          "Dromio of Ephesus"
+        ],
+        "motif": "coins",
+        "cue": "THE WRONG SERVANT ANSWERS",
+        "previousIndex": 3,
+        "key": "the-comedy-of-errors:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "A wife welcomes a stranger",
+        "text": "Adriana insists the visiting Antipholus come home with her. He accepts the astonishing invitation, entering the household that actually belongs to his brother.",
+        "cast": [
+          "Adriana",
+          "Antipholus of Syracuse"
+        ],
+        "motif": "home",
+        "cue": "A WIFE WELCOMES A STRANGER",
+        "previousIndex": 4,
+        "key": "the-comedy-of-errors:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The real husband is locked out",
+        "text": "Antipholus of Ephesus reaches his own door and cannot get in. Inside, his twin occupies his place; outside, exclusion looks like betrayal within his marriage.",
+        "cast": [
+          "Antipholus of Ephesus",
+          "Dromio of Ephesus"
+        ],
+        "motif": "gate",
+        "cue": "THE REAL HUSBAND IS LOCKED OUT",
+        "previousIndex": 5,
+        "key": "the-comedy-of-errors:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "A chain changes hands",
+        "text": "A gold chain is delivered to the wrong Antipholus. When payment is demanded from the resident brother, a commercial mistake becomes a reason for arrest.",
+        "cast": [
+          "Antipholus of Syracuse",
+          "Antipholus of Ephesus"
+        ],
+        "motif": "chains",
+        "cue": "A CHAIN CHANGES HANDS",
+        "previousIndex": 6,
+        "key": "the-comedy-of-errors:base:6",
+        "chapter": 7,
+        "mood": "tension"
+      },
+      {
+        "title": "Money goes to the wrong Dromio",
+        "text": "Adriana sends bail money, but the visiting servant receives it. Attempts to solve one error supply the next with another object or message in the wrong hands.",
+        "cast": [
+          "Adriana",
+          "Dromio of Syracuse"
+        ],
+        "motif": "coins",
+        "cue": "MONEY GOES TO THE WRONG DROMIO",
+        "previousIndex": 7,
+        "key": "the-comedy-of-errors:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The visitor fears enchantment",
+        "text": "Strangers recognise Antipholus of Syracuse, and people seem to owe him affection or expect favours. He begins to imagine sorcery behind the town's impossible familiarity.",
+        "cast": [
+          "Antipholus of Syracuse",
+          "Dromio of Syracuse"
+        ],
+        "motif": "ghost",
+        "cue": "THE VISITOR FEARS ENCHANTMENT",
+        "previousIndex": 8,
+        "key": "the-comedy-of-errors:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "The household declares madness",
+        "text": "Adriana believes her husband has become disturbed. The resident pair are restrained, while the visiting twins seek refuge, making the same faces appear both confined and free.",
+        "cast": [
+          "Adriana",
+          "Antipholus of Ephesus",
+          "Dromio of Ephesus"
+        ],
+        "motif": "chains",
+        "cue": "THE HOUSEHOLD DECLARES MADNESS",
+        "previousIndex": 9,
+        "key": "the-comedy-of-errors:base:9",
+        "chapter": 10,
+        "mood": "tension"
+      },
+      {
+        "title": "Both brothers appear",
+        "text": "At last the two Antipholuses stand together, followed by the two Dromios. The apparent lies become comprehensible once the missing twins occupy the same scene.",
+        "cast": [
+          "Antipholus of Syracuse",
+          "Antipholus of Ephesus",
+          "Dromio of Syracuse",
+          "Dromio of Ephesus"
+        ],
+        "motif": "mirror",
+        "cue": "BOTH BROTHERS APPEAR",
+        "previousIndex": 10,
+        "key": "the-comedy-of-errors:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The lost mother returns",
+        "text": "The abbess reveals herself as Egeon's wife. Recognition saves the father and reunites the family, turning the day's bewildering errors into the route home.",
+        "cast": [
+          "Egeon",
+          "Adriana"
+        ],
+        "motif": "heart",
+        "cue": "THE LOST MOTHER RETURNS",
+        "previousIndex": 11,
+        "key": "the-comedy-of-errors:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "Why do the errors multiply so quickly?",
+    "answer": "Both the masters and their servants have identical twins, so each mistaken encounter creates another apparent contradiction.",
+    "source": "https://www.gutenberg.org/ebooks/100",
+    "note": "1594 is the first recorded performance. The two sets of twins are kept distinct in these cards; family recognition does not make the day's threats and accusations imaginary.",
+    "quotes": [
+      {
+        "text": "Am I in earth, in heaven, or in hell?",
+        "context": "Antipholus of Syracuse cannot explain the welcome he receives, Act II.",
+        "meaning": "Being recognised by strangers feels frightening when the missing explanation is another life.",
+        "source": "https://www.gutenberg.org/ebooks/100"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 59,
+        "printedPage": 57,
+        "matchedTitle": "The Comedy of Errors"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 6,
+        "printedPage": null,
+        "matchedTitle": "The Comedy of Errors"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/100"
+  },
+  {
     "id": "romeo-and-juliet",
     "title": "Romeo and Juliet",
     "author": "William Shakespeare",
@@ -2498,6 +5262,255 @@ window.STORIES = [
     "narrativeReference": "https://www.gutenberg.org/ebooks/1515"
   },
   {
+    "id": "much-ado-about-nothing",
+    "title": "Much Ado About Nothing",
+    "author": "William Shakespeare",
+    "year": 1598,
+    "date": "1598",
+    "era": "renaissance",
+    "genre": "Comedy",
+    "setting": "Messina after a military campaign",
+    "hook": "One couple fights with witty words while another is nearly destroyed by a carefully staged lie.",
+    "characters": [
+      {
+        "name": "Beatrice",
+        "role": "Independent speaker trading wit with Benedick"
+      },
+      {
+        "name": "Benedick",
+        "role": "Soldier resisting marriage"
+      },
+      {
+        "name": "Hero",
+        "role": "Woman falsely accused"
+      },
+      {
+        "name": "Claudio",
+        "role": "Her trusting but suspicious suitor"
+      },
+      {
+        "name": "Don John",
+        "role": "Plotter against the wedding"
+      },
+      {
+        "name": "Dogberry",
+        "role": "Watch officer whose men uncover the scheme"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "Soldiers arrive in Messina",
+        "text": "Peace brings visiting soldiers into a welcoming household. Claudio falls for Hero, while Beatrice and Benedick immediately resume their familiar battles of wit.",
+        "cast": [
+          "Claudio",
+          "Hero",
+          "Beatrice",
+          "Benedick"
+        ],
+        "motif": "hall",
+        "cue": "SOLDIERS ARRIVE IN MESSINA",
+        "previousIndex": 0,
+        "key": "much-ado-about-nothing:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Two refusals meet",
+        "text": "Beatrice and Benedick mock love and marriage. Their quick replies entertain the company, but also hide how closely each watches the other.",
+        "cast": [
+          "Beatrice",
+          "Benedick"
+        ],
+        "motif": "letter",
+        "cue": "TWO REFUSALS MEET",
+        "previousIndex": 1,
+        "key": "much-ado-about-nothing:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "A marriage is arranged",
+        "text": "Claudio's courtship moves toward a wedding with Hero. The household expects celebration, unaware that Don John is preparing to make happiness depend on a lie.",
+        "cast": [
+          "Claudio",
+          "Hero",
+          "Don John"
+        ],
+        "motif": "heart",
+        "cue": "A MARRIAGE IS ARRANGED",
+        "previousIndex": 2,
+        "key": "much-ado-about-nothing:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Benedick overhears a story",
+        "text": "Friends stage a conversation claiming Beatrice loves Benedick. Hidden nearby, he believes it and begins interpreting his own feelings in an entirely new way.",
+        "cast": [
+          "Benedick",
+          "Beatrice"
+        ],
+        "motif": "forest",
+        "cue": "BENEDICK OVERHEARS A STORY",
+        "previousIndex": 3,
+        "key": "much-ado-about-nothing:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Beatrice receives the same treatment",
+        "text": "Another staged conversation reaches Beatrice. She hears that Benedick loves her and resolves to answer affection, so two invented reports help reveal a real possibility.",
+        "cast": [
+          "Beatrice",
+          "Benedick"
+        ],
+        "motif": "garden",
+        "cue": "BEATRICE RECEIVES THE SAME TREATMENT",
+        "previousIndex": 4,
+        "key": "much-ado-about-nothing:base:4",
+        "chapter": 5,
+        "mood": "wonder"
+      },
+      {
+        "title": "A window becomes evidence",
+        "text": "Don John's accomplices arrange a night-time scene that Claudio mistakes for Hero's unfaithfulness. He trusts what he thinks he sees without asking the woman accused.",
+        "cast": [
+          "Don John",
+          "Claudio",
+          "Hero"
+        ],
+        "motif": "mask",
+        "cue": "A WINDOW BECOMES EVIDENCE",
+        "previousIndex": 5,
+        "key": "much-ado-about-nothing:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "The wedding becomes an accusation",
+        "text": "At the ceremony, Claudio publicly shames Hero and rejects her. The expected celebration turns into humiliation, with her reputation treated as if the staged image had proved everything.",
+        "cast": [
+          "Claudio",
+          "Hero"
+        ],
+        "motif": "temple",
+        "cue": "THE WEDDING BECOMES AN ACCUSATION",
+        "previousIndex": 6,
+        "key": "much-ado-about-nothing:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Hero is reported dead",
+        "text": "A friar proposes concealing Hero and reporting her death. The plan gives the accusers time to confront the loss their certainty has produced.",
+        "cast": [
+          "Hero",
+          "Claudio"
+        ],
+        "motif": "grave",
+        "cue": "HERO IS REPORTED DEAD",
+        "previousIndex": 7,
+        "key": "much-ado-about-nothing:base:7",
+        "chapter": 8,
+        "mood": "sorrow"
+      },
+      {
+        "title": "Beatrice demands action",
+        "text": "Beatrice asks Benedick to challenge Claudio. Their affection now requires more than clever talk: he must decide whether loyalty to a friend can excuse cruelty to Hero.",
+        "cast": [
+          "Beatrice",
+          "Benedick",
+          "Claudio"
+        ],
+        "motif": "sword",
+        "cue": "BEATRICE DEMANDS ACTION",
+        "previousIndex": 8,
+        "key": "much-ado-about-nothing:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "The watch uncovers the truth",
+        "text": "Dogberry's watchmen have overheard the plotters. Their awkward reporting eventually brings the confession forward, succeeding where polished social judgement had so badly failed.",
+        "cast": [
+          "Dogberry",
+          "Don John"
+        ],
+        "motif": "letter",
+        "cue": "THE WATCH UNCOVERS THE TRUTH",
+        "previousIndex": 9,
+        "key": "much-ado-about-nothing:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Claudio faces his error",
+        "text": "Claudio learns Hero was innocent and accepts a public act of mourning. He agrees to another marriage, only to discover that the woman before him is Hero herself.",
+        "cast": [
+          "Claudio",
+          "Hero"
+        ],
+        "motif": "mirror",
+        "cue": "CLAUDIO FACES HIS ERROR",
+        "previousIndex": 10,
+        "key": "much-ado-about-nothing:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "Love steps out of hiding",
+        "text": "Beatrice and Benedick's written words expose their affection. The comedy closes with marriages and dancing, while Don John's capture leaves the malicious deception awaiting an answer.",
+        "cast": [
+          "Beatrice",
+          "Benedick",
+          "Hero",
+          "Claudio"
+        ],
+        "motif": "stage",
+        "cue": "LOVE STEPS OUT OF HIDING",
+        "previousIndex": 11,
+        "key": "much-ado-about-nothing:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What distinguishes the two kinds of deception?",
+    "answer": "Friends use overheard stories to bring Beatrice and Benedick together; Don John's staged evidence weaponises the same readiness to believe against Hero.",
+    "source": "https://www.gutenberg.org/ebooks/100",
+    "note": "",
+    "quotes": [
+      {
+        "text": "I had rather hear my dog bark at a crow",
+        "context": "Beatrice mocks the language of courtship in Act I.",
+        "meaning": "A joke can defend a person against the vulnerability of affection.",
+        "source": "https://www.gutenberg.org/ebooks/100"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 44,
+        "printedPage": 42,
+        "matchedTitle": "Much Ado About Nothing"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 67,
+        "printedPage": 65,
+        "matchedTitle": "Much Ado About Nothing"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 6,
+        "printedPage": null,
+        "matchedTitle": "Much Ado About Nothing"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/100"
+  },
+  {
     "id": "as-you-like-it",
     "title": "As You Like It",
     "author": "William Shakespeare",
@@ -2724,6 +5737,263 @@ window.STORIES = [
     "spoken": true,
     "contentVersion": 4,
     "narrativeReference": "https://www.gutenberg.org/ebooks/1523"
+  },
+  {
+    "id": "henry-v",
+    "title": "Henry V",
+    "author": "William Shakespeare",
+    "year": 1599,
+    "date": "1599",
+    "era": "renaissance",
+    "genre": "Historical drama",
+    "setting": "England and the campaign in France",
+    "hook": "A young king's inspiring words lead an army toward glory, but whose lives pay for it?",
+    "characters": [
+      {
+        "name": "Henry",
+        "role": "King claiming the French throne"
+      },
+      {
+        "name": "The Chorus",
+        "role": "Invites the audience to imagine the campaign"
+      },
+      {
+        "name": "Katherine",
+        "role": "French princess"
+      },
+      {
+        "name": "Williams",
+        "role": "Soldier questioning royal responsibility"
+      },
+      {
+        "name": "Fluellen",
+        "role": "Welsh captain"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The stage asks for a kingdom",
+        "text": "The Chorus asks the audience to imagine armies and landscapes beyond a small theatre. A new king prepares to turn a disputed claim into war.",
+        "cast": [
+          "The Chorus",
+          "Henry"
+        ],
+        "motif": "stage",
+        "cue": "THE STAGE ASKS FOR A KINGDOM",
+        "previousIndex": 0,
+        "key": "henry-v:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Advisers make the case",
+        "text": "Churchmen support Henry's claim to France. Their legal arguments join political interests, setting the invasion within persuasion before any soldier crosses the sea.",
+        "cast": [
+          "Henry"
+        ],
+        "motif": "book",
+        "cue": "ADVISERS MAKE THE CASE",
+        "previousIndex": 1,
+        "key": "henry-v:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "A gift becomes an insult",
+        "text": "The French Dauphin sends tennis balls, mocking Henry's youthful reputation. Henry answers that the game will become war, giving wounded pride a public voice.",
+        "cast": [
+          "Henry"
+        ],
+        "motif": "coins",
+        "cue": "A GIFT BECOMES AN INSULT",
+        "previousIndex": 2,
+        "key": "henry-v:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The army sets out",
+        "text": "Henry uncovers a conspiracy and punishes its members before sailing. The campaign begins with a reminder that threats can arise within the kingdom as well as abroad.",
+        "cast": [
+          "Henry"
+        ],
+        "motif": "ship",
+        "cue": "THE ARMY SETS OUT",
+        "previousIndex": 3,
+        "key": "henry-v:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Harfleur faces the assault",
+        "text": "Henry urges his troops through the breach. When the town resists, his threats describe terrifying violence against its inhabitants, darkening the language of heroic conquest.",
+        "cast": [
+          "Henry"
+        ],
+        "motif": "castle",
+        "cue": "HARFLEUR FACES THE ASSAULT",
+        "previousIndex": 4,
+        "key": "henry-v:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The march takes its cost",
+        "text": "Disease, exhaustion and discipline shape the soldiers' experience. Henry's earlier companions receive no special protection from the rules he now enforces as king.",
+        "cast": [
+          "Henry",
+          "Fluellen"
+        ],
+        "motif": "road",
+        "cue": "THE MARCH TAKES ITS COST",
+        "previousIndex": 5,
+        "key": "henry-v:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "The king walks among them",
+        "text": "Before Agincourt, Henry moves among his men in disguise. Without their knowing his rank, he hears doubts that royal ceremony would usually keep at a distance.",
+        "cast": [
+          "Henry",
+          "Williams"
+        ],
+        "motif": "mask",
+        "cue": "THE KING WALKS AMONG THEM",
+        "previousIndex": 6,
+        "key": "henry-v:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Who answers for the dead?",
+        "text": "Williams challenges the justice and responsibility of war. Henry resists the charge, then privately weighs the burden carried by a ruler who cannot sleep like other men.",
+        "cast": [
+          "Henry",
+          "Williams"
+        ],
+        "motif": "grave",
+        "cue": "WHO ANSWERS FOR THE DEAD?",
+        "previousIndex": 7,
+        "key": "henry-v:base:7",
+        "chapter": 8,
+        "mood": "sorrow"
+      },
+      {
+        "title": "The few become brothers",
+        "text": "Outnumbered soldiers hear Henry's St Crispin's Day speech. He offers belonging and remembered honour, turning the coming risk into a story they might share for life.",
+        "cast": [
+          "Henry"
+        ],
+        "motif": "heart",
+        "cue": "THE FEW BECOME BROTHERS",
+        "previousIndex": 8,
+        "key": "henry-v:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Victory arrives with cruelty",
+        "text": "The English win at Agincourt. The fighting includes an order to kill prisoners, so the triumph carries violence that a celebratory account can too easily leave behind.",
+        "cast": [
+          "Henry",
+          "Fluellen"
+        ],
+        "motif": "sword",
+        "cue": "VICTORY ARRIVES WITH CRUELTY",
+        "previousIndex": 9,
+        "key": "henry-v:base:9",
+        "chapter": 10,
+        "mood": "tension"
+      },
+      {
+        "title": "Peace becomes a courtship",
+        "text": "Henry woos Katherine as a treaty joins England and France. Their language lesson is charming, but the marriage also belongs to the arrangements of conquest.",
+        "cast": [
+          "Henry",
+          "Katherine"
+        ],
+        "motif": "contract",
+        "cue": "PEACE BECOMES A COURTSHIP",
+        "previousIndex": 10,
+        "key": "henry-v:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The Chorus looks ahead",
+        "text": "The ending recalls that Henry's gains will not remain secure after his death. Applause for the victory meets the longer history that the present celebration cannot control.",
+        "cast": [
+          "The Chorus",
+          "Henry"
+        ],
+        "motif": "clock",
+        "cue": "THE CHORUS LOOKS AHEAD",
+        "previousIndex": 11,
+        "key": "henry-v:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "Why does the conversation with Williams complicate Henry's heroism?",
+    "answer": "It raises the king's responsibility for a war whose suffering and deaths are borne by ordinary soldiers.",
+    "source": "https://www.gutenberg.org/ebooks/100",
+    "note": "1599 is the approximate first-performance date. The play includes threats against civilians and an order to kill prisoners; its patriotic speeches do not remove those ethical tensions.",
+    "quotes": [
+      {
+        "text": "Once more unto the breach, dear friends, once more;",
+        "context": "Henry urges his soldiers onward at Harfleur, Act III.",
+        "meaning": "The king's power includes making danger feel like a shared cause.",
+        "source": "https://www.gutenberg.org/ebooks/100"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 7,
+        "printedPage": 5,
+        "matchedTitle": "Henry V"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 25,
+        "printedPage": 23,
+        "matchedTitle": "Henry V"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 26,
+        "printedPage": 24,
+        "matchedTitle": "Henry V"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 38,
+        "printedPage": 36,
+        "matchedTitle": "Henry V"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 47,
+        "printedPage": 45,
+        "matchedTitle": "Henry V"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 49,
+        "printedPage": 47,
+        "matchedTitle": "Henry V"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 6,
+        "printedPage": null,
+        "matchedTitle": "Henry V"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/100"
   },
   {
     "id": "hamlet",
@@ -3417,6 +6687,269 @@ window.STORIES = [
     "narrativeReference": "https://www.gutenberg.org/ebooks/1531"
   },
   {
+    "id": "measure-for-measure",
+    "title": "Measure for Measure",
+    "author": "William Shakespeare",
+    "year": 1604,
+    "date": "1604",
+    "era": "renaissance",
+    "genre": "Problem comedy",
+    "setting": "Vienna under a temporary ruler's severe moral law",
+    "hook": "The man enforcing virtue offers a woman a secret price for her brother's life.",
+    "characters": [
+      {
+        "name": "Isabella",
+        "role": "Novice pleading for her brother"
+      },
+      {
+        "name": "Angelo",
+        "role": "Deputy ruler abusing his power"
+      },
+      {
+        "name": "Claudio",
+        "role": "Brother sentenced to death"
+      },
+      {
+        "name": "The Duke",
+        "role": "Ruler observing in disguise"
+      },
+      {
+        "name": "Mariana",
+        "role": "Angelo's abandoned betrothed"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "Vienna changes rulers",
+        "text": "The Duke leaves Angelo to govern Vienna. Strict enforcement begins, and Claudio receives a death sentence for getting his intended wife pregnant before marriage.",
+        "cast": [
+          "The Duke",
+          "Angelo",
+          "Claudio"
+        ],
+        "motif": "crown",
+        "cue": "VIENNA CHANGES RULERS",
+        "previousIndex": 0,
+        "key": "measure-for-measure:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "A sister leaves the convent",
+        "text": "Isabella, preparing for religious life, hears of her brother's sentence. She goes to Angelo seeking mercy from the man whose order threatens Claudio's life.",
+        "cast": [
+          "Isabella",
+          "Claudio",
+          "Angelo"
+        ],
+        "motif": "temple",
+        "cue": "A SISTER LEAVES THE CONVENT",
+        "previousIndex": 1,
+        "key": "measure-for-measure:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The plea unsettles Angelo",
+        "text": "Her words move Angelo, but not in the way she hopes. He becomes attracted to her while publicly maintaining the severe standards he has imposed.",
+        "cast": [
+          "Isabella",
+          "Angelo"
+        ],
+        "motif": "heart",
+        "cue": "THE PLEA UNSETTLES ANGELO",
+        "previousIndex": 2,
+        "key": "measure-for-measure:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The hidden condition",
+        "text": "Angelo offers to spare Claudio if Isabella submits to him. The authority meant to enforce morality now uses a death sentence to demand a private violation.",
+        "cast": [
+          "Angelo",
+          "Isabella"
+        ],
+        "motif": "contract",
+        "cue": "THE HIDDEN CONDITION",
+        "previousIndex": 3,
+        "key": "measure-for-measure:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Who would believe her?",
+        "text": "Isabella threatens to expose him. Angelo trusts that his reputation will defeat her accusation, making public respectability another wall around his abuse of power.",
+        "cast": [
+          "Angelo",
+          "Isabella"
+        ],
+        "motif": "mask",
+        "cue": "WHO WOULD BELIEVE HER?",
+        "previousIndex": 4,
+        "key": "measure-for-measure:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Claudio fears death",
+        "text": "Isabella visits her brother. Claudio's terror makes him ask for the sacrifice she refuses, so the injustice begins to strain the love between them.",
+        "cast": [
+          "Claudio",
+          "Isabella"
+        ],
+        "motif": "chains",
+        "cue": "CLAUDIO FEARS DEATH",
+        "previousIndex": 5,
+        "key": "measure-for-measure:base:5",
+        "chapter": 6,
+        "mood": "tension"
+      },
+      {
+        "title": "The absent ruler is nearby",
+        "text": "The Duke, disguised as a friar, has been observing. He proposes a substitution involving Mariana, the woman Angelo previously abandoned.",
+        "cast": [
+          "The Duke",
+          "Isabella",
+          "Mariana"
+        ],
+        "motif": "mirror",
+        "cue": "THE ABSENT RULER IS NEARBY",
+        "previousIndex": 6,
+        "key": "measure-for-measure:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Mariana takes the place",
+        "text": "Mariana meets Angelo under circumstances that conceal her identity. The plan tries to secure Claudio's release while bringing Angelo back to the marriage he evaded.",
+        "cast": [
+          "Mariana",
+          "Angelo"
+        ],
+        "motif": "bed",
+        "cue": "MARIANA TAKES THE PLACE",
+        "previousIndex": 7,
+        "key": "measure-for-measure:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The promise is broken",
+        "text": "Angelo still orders Claudio's execution. The deputy's word proves as unreliable as his virtue, and the scheme now needs another rescue to prevent the killing.",
+        "cast": [
+          "Angelo",
+          "Claudio"
+        ],
+        "motif": "letter",
+        "cue": "THE PROMISE IS BROKEN",
+        "previousIndex": 8,
+        "key": "measure-for-measure:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "A prisoner remains alive",
+        "text": "The Duke arranges a substitute head and hides Claudio's survival. Isabella is allowed to believe the loss, preparing a public confrontation built on knowledge she lacks.",
+        "cast": [
+          "The Duke",
+          "Claudio",
+          "Isabella"
+        ],
+        "motif": "grave",
+        "cue": "A PRISONER REMAINS ALIVE",
+        "previousIndex": 9,
+        "key": "measure-for-measure:base:9",
+        "chapter": 10,
+        "mood": "sorrow"
+      },
+      {
+        "title": "The women speak publicly",
+        "text": "The returning Duke hears Isabella and Mariana's accusations. Angelo's hidden conduct comes to light; Isabella even pleads for his life before learning Claudio has survived.",
+        "cast": [
+          "The Duke",
+          "Isabella",
+          "Mariana",
+          "Angelo"
+        ],
+        "motif": "hall",
+        "cue": "THE WOMEN SPEAK PUBLICLY",
+        "previousIndex": 10,
+        "key": "measure-for-measure:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "Mercy leaves questions",
+        "text": "Claudio returns, and marriages are ordered. The Duke proposes to Isabella, but her silence leaves readers asking how freely these promised resolutions can be accepted.",
+        "cast": [
+          "Claudio",
+          "Isabella",
+          "The Duke"
+        ],
+        "motif": "gate",
+        "cue": "MERCY LEAVES QUESTIONS",
+        "previousIndex": 11,
+        "key": "measure-for-measure:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "How does Angelo violate the law he enforces?",
+    "answer": "While condemning Claudio for sexual misconduct, he demands sex from Isabella as the price of sparing Claudio's life.",
+    "source": "https://www.gutenberg.org/ebooks/100",
+    "note": "Approximate first performance date. Isabella's response to the Duke's final marriage proposal is not spoken, so these cards preserve that unresolved ending.",
+    "quotes": [
+      {
+        "text": "The miserable have no other medicine",
+        "context": "The disguised Duke speaks to Claudio about hope in Act III.",
+        "meaning": "Hope becomes a frail shelter when another person controls the sentence.",
+        "source": "https://www.gutenberg.org/ebooks/100"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 38,
+        "printedPage": 36,
+        "matchedTitle": "Measure for Measure"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 56,
+        "printedPage": 54,
+        "matchedTitle": "Measure for Measure"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 66,
+        "printedPage": 64,
+        "matchedTitle": "Measure for Measure"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 5,
+        "printedPage": null,
+        "matchedTitle": "Measure for Measure"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 6,
+        "printedPage": null,
+        "matchedTitle": "Measure for Measure"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 9,
+        "printedPage": null,
+        "matchedTitle": "Measure for Measure"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/100"
+  },
+  {
     "id": "macbeth",
     "title": "Macbeth",
     "author": "William Shakespeare",
@@ -3890,6 +7423,502 @@ window.STORIES = [
     "narrativeReference": "https://www.gutenberg.org/ebooks/1532"
   },
   {
+    "id": "antony-and-cleopatra",
+    "title": "Antony and Cleopatra",
+    "author": "William Shakespeare",
+    "year": 1607,
+    "date": "1607",
+    "era": "renaissance",
+    "genre": "Tragedy",
+    "setting": "Rome and Cleopatra's Egypt",
+    "hook": "Two lovers try to live beyond political calculation while an empire closes around them.",
+    "characters": [
+      {
+        "name": "Antony",
+        "role": "Roman leader divided between power and love"
+      },
+      {
+        "name": "Cleopatra",
+        "role": "Queen of Egypt"
+      },
+      {
+        "name": "Octavius Caesar",
+        "role": "Antony's rival"
+      },
+      {
+        "name": "Enobarbus",
+        "role": "Antony's follower and critical observer"
+      },
+      {
+        "name": "Octavia",
+        "role": "Caesar's sister and Antony's wife"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "Egypt holds Antony",
+        "text": "In Cleopatra's court, Antony gives time to love and display. Messages from Rome keep interrupting, reminding him that another world still claims his duty.",
+        "cast": [
+          "Antony",
+          "Cleopatra"
+        ],
+        "motif": "hall",
+        "cue": "EGYPT HOLDS ANTONY",
+        "previousIndex": 0,
+        "key": "antony-and-cleopatra:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Rome calls him back",
+        "text": "Political danger and family news bring Antony home. He must repair alliances with the other Roman leaders, especially the calculating Octavius Caesar.",
+        "cast": [
+          "Antony",
+          "Octavius Caesar"
+        ],
+        "motif": "road",
+        "cue": "ROME CALLS HIM BACK",
+        "previousIndex": 1,
+        "key": "antony-and-cleopatra:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "A marriage seals the bargain",
+        "text": "Antony marries Caesar's sister Octavia. The union promises political stability, although the heart that must support it remains turned toward Cleopatra.",
+        "cast": [
+          "Antony",
+          "Octavia",
+          "Octavius Caesar"
+        ],
+        "motif": "contract",
+        "cue": "A MARRIAGE SEALS THE BARGAIN",
+        "previousIndex": 2,
+        "key": "antony-and-cleopatra:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Cleopatra receives the news",
+        "text": "In Egypt, Cleopatra responds painfully to the marriage. Her questions to the messenger turn distance into jealousy and make the political bargain intensely personal.",
+        "cast": [
+          "Cleopatra",
+          "Octavia"
+        ],
+        "motif": "letter",
+        "cue": "CLEOPATRA RECEIVES THE NEWS",
+        "previousIndex": 3,
+        "key": "antony-and-cleopatra:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "The alliance breaks",
+        "text": "Antony returns to Cleopatra, and relations with Caesar deteriorate. Each public insult and private choice narrows the space in which the rulers might still compromise.",
+        "cast": [
+          "Antony",
+          "Cleopatra",
+          "Octavius Caesar"
+        ],
+        "motif": "crown",
+        "cue": "THE ALLIANCE BREAKS",
+        "previousIndex": 4,
+        "key": "antony-and-cleopatra:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "At sea near Actium",
+        "text": "Antony chooses to fight by sea. When Cleopatra's fleet withdraws, he follows her, letting the pull of love overturn his military judgement.",
+        "cast": [
+          "Antony",
+          "Cleopatra"
+        ],
+        "motif": "ship",
+        "cue": "AT SEA NEAR ACTIUM",
+        "previousIndex": 5,
+        "key": "antony-and-cleopatra:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "The defeat spreads inward",
+        "text": "Loss brings shame and accusations. Antony blames Cleopatra, yet their bond persists, while his followers question whether loyalty to him can still have a future.",
+        "cast": [
+          "Antony",
+          "Cleopatra",
+          "Enobarbus"
+        ],
+        "motif": "storm",
+        "cue": "THE DEFEAT SPREADS INWARD",
+        "previousIndex": 6,
+        "key": "antony-and-cleopatra:base:6",
+        "chapter": 7,
+        "mood": "tension"
+      },
+      {
+        "title": "Enobarbus leaves",
+        "text": "Enobarbus deserts Antony, then receives generous treatment from the leader he abandoned. The kindness makes his betrayal harder to bear, and remorse overwhelms him.",
+        "cast": [
+          "Enobarbus",
+          "Antony"
+        ],
+        "motif": "grave",
+        "cue": "ENOBARBUS LEAVES",
+        "previousIndex": 7,
+        "key": "antony-and-cleopatra:base:7",
+        "chapter": 8,
+        "mood": "sorrow"
+      },
+      {
+        "title": "One final hope fails",
+        "text": "Antony gains a brief success before further desertion and defeat. In despair he believes Cleopatra has betrayed him, while she seeks refuge in her monument.",
+        "cast": [
+          "Antony",
+          "Cleopatra"
+        ],
+        "motif": "castle",
+        "cue": "ONE FINAL HOPE FAILS",
+        "previousIndex": 8,
+        "key": "antony-and-cleopatra:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "A false death reaches him",
+        "text": "A message reports that Cleopatra is dead. Antony attempts suicide, then learns she lives; mortally wounded, he is carried to her and dies in her presence.",
+        "cast": [
+          "Antony",
+          "Cleopatra"
+        ],
+        "motif": "dagger",
+        "cue": "A FALSE DEATH REACHES HIM",
+        "previousIndex": 9,
+        "key": "antony-and-cleopatra:base:9",
+        "chapter": 10,
+        "mood": "tension"
+      },
+      {
+        "title": "Caesar plans his triumph",
+        "text": "Cleopatra fears being displayed as Caesar's captive. Political survival would mean becoming an object in the victor's performance, a role she refuses to accept.",
+        "cast": [
+          "Cleopatra",
+          "Octavius Caesar"
+        ],
+        "motif": "chains",
+        "cue": "CAESAR PLANS HIS TRIUMPH",
+        "previousIndex": 10,
+        "key": "antony-and-cleopatra:base:10",
+        "chapter": 11,
+        "mood": "tension"
+      },
+      {
+        "title": "The queen chooses her ending",
+        "text": "Cleopatra dies by suicide, associated with the bite of an asp. Caesar orders the lovers buried together, leaving their union to outlast the power struggle in memory.",
+        "cast": [
+          "Cleopatra",
+          "Antony",
+          "Octavius Caesar"
+        ],
+        "motif": "grave",
+        "cue": "THE QUEEN CHOOSES HER ENDING",
+        "previousIndex": 11,
+        "key": "antony-and-cleopatra:base:11",
+        "chapter": 12,
+        "mood": "sorrow"
+      }
+    ],
+    "question": "Why is the battle of Actium a turning point?",
+    "answer": "Antony follows Cleopatra's retreating fleet, abandoning the struggle and suffering a decisive political and military loss.",
+    "source": "https://www.gutenberg.org/ebooks/100",
+    "note": "Approximate composition date. The play sets Roman political duty against Egyptian pleasure through interested voices; those contrasts are dramatic perspectives, not neutral accounts of entire cultures.",
+    "quotes": [
+      {
+        "text": "My salad days,",
+        "context": "Cleopatra recalls her earlier youth in Act I.",
+        "meaning": "A ruler's memory of inexperience sits beside her command of the present.",
+        "source": "https://www.gutenberg.org/ebooks/100"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 157,
+        "printedPage": 155,
+        "matchedTitle": "Antony and Cleopatra"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 224,
+        "printedPage": 222,
+        "matchedTitle": "Antony and Cleopatra"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 6,
+        "printedPage": null,
+        "matchedTitle": "Antony and Cleopatra"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 7,
+        "printedPage": null,
+        "matchedTitle": "Antony and Cleopatra"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 9,
+        "printedPage": null,
+        "matchedTitle": "Antony and Cleopatra"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/100"
+  },
+  {
+    "id": "the-alchemist",
+    "title": "The Alchemist",
+    "author": "Ben Jonson",
+    "year": 1610,
+    "date": "1610",
+    "era": "renaissance",
+    "genre": "Satirical comedy",
+    "setting": "A London house during an outbreak of plague",
+    "hook": "Three tricksters promise gold, luck and transformation until the owner comes home.",
+    "characters": [
+      {
+        "name": "Face",
+        "role": "Servant using his master's empty house"
+      },
+      {
+        "name": "Subtle",
+        "role": "Fraudulent alchemist"
+      },
+      {
+        "name": "Dol Common",
+        "role": "Partner in the deceptions"
+      },
+      {
+        "name": "Lovewit",
+        "role": "Returning householder"
+      },
+      {
+        "name": "Sir Epicure Mammon",
+        "role": "Client dreaming of wealth"
+      },
+      {
+        "name": "Drugger",
+        "role": "Shopkeeper seeking success"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The owner leaves London",
+        "text": "Plague sends Lovewit away from his house. His servant Face stays behind and discovers how useful an empty respectable address can be.",
+        "cast": [
+          "Face",
+          "Lovewit"
+        ],
+        "motif": "home",
+        "cue": "THE OWNER LEAVES LONDON",
+        "previousIndex": 0,
+        "key": "the-alchemist:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The house becomes a laboratory",
+        "text": "Face joins Subtle and Dol Common. Together they turn rooms into a convincing stage where clients can imagine that impossible transformations are already underway.",
+        "cast": [
+          "Face",
+          "Subtle",
+          "Dol Common"
+        ],
+        "motif": "laboratory",
+        "cue": "THE HOUSE BECOMES A LABORATORY",
+        "previousIndex": 1,
+        "key": "the-alchemist:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Luck for sale",
+        "text": "A clerk wants help winning at gambling. The tricksters sell him a plan, beginning a business in which people's wishes do most of the persuasion.",
+        "cast": [
+          "Face",
+          "Subtle"
+        ],
+        "motif": "coins",
+        "cue": "LUCK FOR SALE",
+        "previousIndex": 2,
+        "key": "the-alchemist:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "A shopkeeper's dream",
+        "text": "Drugger seeks advice to improve his shop. Symbols and mysterious instructions make ordinary commercial hope feel like access to a secret science.",
+        "cast": [
+          "Drugger",
+          "Subtle"
+        ],
+        "motif": "book",
+        "cue": "A SHOPKEEPER'S DREAM",
+        "previousIndex": 3,
+        "key": "the-alchemist:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Mammon imagines everything",
+        "text": "Sir Epicure Mammon expects the philosopher's stone to bring wealth and extravagant pleasure. His enormous appetite lets Subtle's promises grow more outrageous.",
+        "cast": [
+          "Sir Epicure Mammon",
+          "Subtle"
+        ],
+        "motif": "crown",
+        "cue": "MAMMON IMAGINES EVERYTHING",
+        "previousIndex": 4,
+        "key": "the-alchemist:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Testing the performance",
+        "text": "Mammon's companion doubts the operation. The fraud survives by keeping clients apart, controlling what they see and giving suspicion another story to follow.",
+        "cast": [
+          "Face",
+          "Subtle",
+          "Sir Epicure Mammon"
+        ],
+        "motif": "mask",
+        "cue": "TESTING THE PERFORMANCE",
+        "previousIndex": 5,
+        "key": "the-alchemist:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "More clients crowd in",
+        "text": "Religious opportunists and new fortune-seekers arrive. Each believes that the secret enterprise can serve a special purpose, although all are feeding the same deception.",
+        "cast": [
+          "Face",
+          "Subtle",
+          "Dol Common"
+        ],
+        "motif": "hall",
+        "cue": "MORE CLIENTS CROWD IN",
+        "previousIndex": 6,
+        "key": "the-alchemist:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Dol changes her part",
+        "text": "Dol performs different identities as the schemes require. The house fills with overlapping stories, and the partners must remember which illusion belongs to which visitor.",
+        "cast": [
+          "Dol Common",
+          "Face"
+        ],
+        "motif": "stage",
+        "cue": "DOL CHANGES HER PART",
+        "previousIndex": 7,
+        "key": "the-alchemist:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The rivals quarrel",
+        "text": "The tricksters' cooperation begins to strain over money and a wealthy widow. Their own greed threatens the machinery built to exploit everybody else's.",
+        "cast": [
+          "Face",
+          "Subtle"
+        ],
+        "motif": "heart",
+        "cue": "THE RIVALS QUARREL",
+        "previousIndex": 8,
+        "key": "the-alchemist:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "The real owner returns",
+        "text": "Lovewit arrives unexpectedly. The elaborate operation must vanish before its respectable householder understands what has happened beneath his roof.",
+        "cast": [
+          "Lovewit",
+          "Face"
+        ],
+        "motif": "gate",
+        "cue": "THE REAL OWNER RETURNS",
+        "previousIndex": 9,
+        "key": "the-alchemist:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Face chooses his safety",
+        "text": "Face reveals enough to negotiate with his master. Subtle and Dol flee, while Lovewit gains from the situation his servant has created.",
+        "cast": [
+          "Face",
+          "Lovewit",
+          "Dol Common",
+          "Subtle"
+        ],
+        "motif": "letter",
+        "cue": "FACE CHOOSES HIS SAFETY",
+        "previousIndex": 10,
+        "key": "the-alchemist:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "Dreams left at the door",
+        "text": "The disappointed clients find their promised future gone. The closing comedy leaves the audience facing how readily greed can volunteer to be deceived.",
+        "cast": [
+          "Face",
+          "Drugger",
+          "Sir Epicure Mammon"
+        ],
+        "motif": "mirror",
+        "cue": "DREAMS LEFT AT THE DOOR",
+        "previousIndex": 11,
+        "key": "the-alchemist:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "Why do the clients believe the fraud?",
+    "answer": "The tricksters tailor their promises to each client's existing appetite for wealth, status, success or control.",
+    "source": "https://www.gutenberg.org/ebooks/4081",
+    "note": "",
+    "quotes": [
+      {
+        "text": "I will pronounce the happy word, BE RICH;",
+        "context": "Mammon imagines what the philosopher's stone will let him promise his friends in Act II.",
+        "meaning": "A desire can become so strong that belief arrives before evidence.",
+        "source": "https://www.gutenberg.org/ebooks/4081"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 32,
+        "printedPage": 30,
+        "matchedTitle": "The Alchemist"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 4,
+        "printedPage": null,
+        "matchedTitle": "The Alchemist"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/4081"
+  },
+  {
     "id": "the-tempest",
     "title": "The Tempest",
     "author": "William Shakespeare",
@@ -4127,6 +8156,486 @@ window.STORIES = [
     ],
     "contentVersion": 4,
     "narrativeReference": "https://www.gutenberg.org/ebooks/23042"
+  },
+  {
+    "id": "the-winter-s-tale",
+    "title": "The Winter's Tale",
+    "author": "William Shakespeare",
+    "year": 1611,
+    "date": "1611",
+    "era": "renaissance",
+    "genre": "Romance and tragicomedy",
+    "setting": "Sicilia, Bohemia and a sixteen-year separation",
+    "hook": "A king destroys his family over a suspicion, and time must carry what anger cannot repair.",
+    "characters": [
+      {
+        "name": "Leontes",
+        "role": "King consumed by jealousy"
+      },
+      {
+        "name": "Hermione",
+        "role": "His accused queen"
+      },
+      {
+        "name": "Perdita",
+        "role": "Their abandoned daughter"
+      },
+      {
+        "name": "Polixenes",
+        "role": "King of Bohemia"
+      },
+      {
+        "name": "Florizel",
+        "role": "His son"
+      },
+      {
+        "name": "Paulina",
+        "role": "Defender of Hermione"
+      },
+      {
+        "name": "The Shepherd",
+        "role": "Raises Perdita"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A guest stays too long",
+        "text": "In Sicilia, Hermione persuades visiting King Polixenes to remain. Her husband Leontes suddenly reads friendly affection as evidence that she has betrayed him.",
+        "cast": [
+          "Leontes",
+          "Hermione",
+          "Polixenes"
+        ],
+        "motif": "hall",
+        "cue": "A GUEST STAYS TOO LONG",
+        "previousIndex": 0,
+        "key": "the-winter-s-tale:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Suspicion becomes certainty",
+        "text": "Leontes imagines an affair and refuses correction. His private jealousy acquires the power of the crown, putting innocent people within reach of royal punishment.",
+        "cast": [
+          "Leontes",
+          "Hermione"
+        ],
+        "motif": "mirror",
+        "cue": "SUSPICION BECOMES CERTAINTY",
+        "previousIndex": 1,
+        "key": "the-winter-s-tale:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The guest escapes",
+        "text": "A trusted servant warns Polixenes of the king's plan against him. Their flight deepens Leontes's suspicion instead of making him question the story he has invented.",
+        "cast": [
+          "Polixenes",
+          "Leontes"
+        ],
+        "motif": "road",
+        "cue": "THE GUEST ESCAPES",
+        "previousIndex": 2,
+        "key": "the-winter-s-tale:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The queen stands accused",
+        "text": "Hermione is imprisoned and gives birth to a daughter. Paulina defends her, but Leontes treats even the child as proof of the betrayal he already believes.",
+        "cast": [
+          "Hermione",
+          "Paulina",
+          "Leontes"
+        ],
+        "motif": "chains",
+        "cue": "THE QUEEN STANDS ACCUSED",
+        "previousIndex": 3,
+        "key": "the-winter-s-tale:base:3",
+        "chapter": 4,
+        "mood": "tension"
+      },
+      {
+        "title": "The oracle is rejected",
+        "text": "At Hermione's trial, the oracle declares her innocent. Leontes resists until news arrives that their son has died; Hermione collapses, and Paulina announces her death.",
+        "cast": [
+          "Hermione",
+          "Leontes",
+          "Paulina"
+        ],
+        "motif": "grave",
+        "cue": "THE ORACLE IS REJECTED",
+        "previousIndex": 4,
+        "key": "the-winter-s-tale:base:4",
+        "chapter": 5,
+        "mood": "sorrow"
+      },
+      {
+        "title": "A child left in Bohemia",
+        "text": "The baby Perdita is abandoned on a remote shore. A shepherd finds and raises her, while the man sent to leave her is killed by a bear.",
+        "cast": [
+          "Perdita",
+          "The Shepherd"
+        ],
+        "motif": "sea",
+        "cue": "A CHILD LEFT IN BOHEMIA",
+        "previousIndex": 5,
+        "key": "the-winter-s-tale:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Sixteen years pass",
+        "text": "Time carries the story forward. Leontes lives with remorse, and Perdita grows up believing herself the shepherd's daughter, far from the court that cast her out.",
+        "cast": [
+          "Leontes",
+          "Perdita"
+        ],
+        "motif": "clock",
+        "cue": "SIXTEEN YEARS PASS",
+        "previousIndex": 6,
+        "key": "the-winter-s-tale:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Love at the sheep-shearing",
+        "text": "Perdita and Prince Florizel love one another. Their pastoral celebration seems freer than Sicilia's court, until his father sees a marriage beneath the prince's rank.",
+        "cast": [
+          "Perdita",
+          "Florizel",
+          "Polixenes"
+        ],
+        "motif": "garden",
+        "cue": "LOVE AT THE SHEEP-SHEARING",
+        "previousIndex": 7,
+        "key": "the-winter-s-tale:base:7",
+        "chapter": 8,
+        "mood": "wonder"
+      },
+      {
+        "title": "The lovers flee",
+        "text": "Polixenes opposes the match. The young couple leaves for Sicilia, unknowingly travelling toward the lost part of Perdita's own history.",
+        "cast": [
+          "Perdita",
+          "Florizel",
+          "Polixenes"
+        ],
+        "motif": "ship",
+        "cue": "THE LOVERS FLEE",
+        "previousIndex": 8,
+        "key": "the-winter-s-tale:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "The hidden daughter is recognised",
+        "text": "Evidence preserved with the abandoned baby reveals Perdita's identity. The families recover a connection that neither royal anger nor sixteen years had entirely erased.",
+        "cast": [
+          "Perdita",
+          "Leontes",
+          "The Shepherd"
+        ],
+        "motif": "letter",
+        "cue": "THE HIDDEN DAUGHTER IS RECOGNISED",
+        "previousIndex": 9,
+        "key": "the-winter-s-tale:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Paulina shows the statue",
+        "text": "Paulina brings the reunited family before an apparently lifelike image of Hermione. Leontes sees the face of the woman his certainty destroyed, now marked by time.",
+        "cast": [
+          "Paulina",
+          "Hermione",
+          "Leontes"
+        ],
+        "motif": "stone",
+        "cue": "PAULINA SHOWS THE STATUE",
+        "previousIndex": 10,
+        "key": "the-winter-s-tale:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The figure moves",
+        "text": "Hermione comes to life before them. Reunion brings wonder, but the lost son and the years of suffering remain beyond what this extraordinary restoration can return.",
+        "cast": [
+          "Hermione",
+          "Perdita",
+          "Leontes"
+        ],
+        "motif": "heart",
+        "cue": "THE FIGURE MOVES",
+        "previousIndex": 11,
+        "key": "the-winter-s-tale:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What makes the two halves of the play different?",
+    "answer": "The first follows jealousy and apparent death in Sicilia; after sixteen years, pastoral Bohemia permits love, recognition and a qualified restoration.",
+    "source": "https://www.gutenberg.org/ebooks/100",
+    "note": "Approximate performance date. The final scene allows wonder while also suggesting Paulina has preserved Hermione; these cards do not insist on literal resurrection.",
+    "quotes": [
+      {
+        "text": "You do awake your faith.",
+        "context": "Paulina asks the observers to trust during the statue scene, Act V.",
+        "meaning": "The final recovery asks for openness after the certainty that caused the disaster.",
+        "source": "https://www.gutenberg.org/ebooks/100"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 44,
+        "printedPage": 42,
+        "matchedTitle": "The Winter's Tale"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 6,
+        "printedPage": null,
+        "matchedTitle": "The Winter's Tale"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/100"
+  },
+  {
+    "id": "the-white-devil",
+    "title": "The White Devil",
+    "author": "John Webster",
+    "year": 1612,
+    "date": "1612",
+    "era": "renaissance",
+    "genre": "Revenge tragedy",
+    "setting": "Italian courts where desire and reputation become weapons",
+    "hook": "A woman defends herself brilliantly in court, but words cannot stop the revenge already approaching.",
+    "characters": [
+      {
+        "name": "Vittoria",
+        "role": "Woman accused after her husband's murder"
+      },
+      {
+        "name": "Brachiano",
+        "role": "Duke who desires her"
+      },
+      {
+        "name": "Flamineo",
+        "role": "Her ambitious brother"
+      },
+      {
+        "name": "Francisco",
+        "role": "Brother of the murdered duchess"
+      },
+      {
+        "name": "Lodovico",
+        "role": "Agent of revenge"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A court full of appetite",
+        "text": "In an Italian court, Duke Brachiano desires Vittoria, who is already married. Her brother Flamineo sees a chance to climb through their attraction.",
+        "cast": [
+          "Brachiano",
+          "Vittoria",
+          "Flamineo"
+        ],
+        "motif": "hall",
+        "cue": "A COURT FULL OF APPETITE",
+        "previousIndex": 0,
+        "key": "the-white-devil:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The brother clears the way",
+        "text": "Flamineo works as an intermediary and schemer. His ambition turns his sister's relationship into a route toward money, influence and escape from their family's limits.",
+        "cast": [
+          "Flamineo",
+          "Vittoria"
+        ],
+        "motif": "coins",
+        "cue": "THE BROTHER CLEARS THE WAY",
+        "previousIndex": 1,
+        "key": "the-white-devil:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Two marriages obstruct them",
+        "text": "Brachiano's wife and Vittoria's husband stand between the lovers. The plot answers those human obstacles with murder rather than any honest resolution.",
+        "cast": [
+          "Brachiano",
+          "Vittoria",
+          "Flamineo"
+        ],
+        "motif": "contract",
+        "cue": "TWO MARRIAGES OBSTRUCT THEM",
+        "previousIndex": 2,
+        "key": "the-white-devil:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Deaths behind the spectacle",
+        "text": "Brachiano's wife is poisoned, and Vittoria's husband is killed through another scheme. The court's elegant appearances cover violence arranged for private convenience.",
+        "cast": [
+          "Brachiano",
+          "Flamineo"
+        ],
+        "motif": "mask",
+        "cue": "DEATHS BEHIND THE SPECTACLE",
+        "previousIndex": 3,
+        "key": "the-white-devil:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Vittoria faces her judges",
+        "text": "Vittoria is brought to trial. The proceedings attack her character as well as her conduct, forcing her to answer a public account built by powerful men.",
+        "cast": [
+          "Vittoria"
+        ],
+        "motif": "hall",
+        "cue": "VITTORIA FACES HER JUDGES",
+        "previousIndex": 4,
+        "key": "the-white-devil:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "She fights with language",
+        "text": "Her replies expose unfair methods and hostile assumptions. The defence shows her intelligence, even as the play leaves moral responsibility more tangled than a simple acquittal.",
+        "cast": [
+          "Vittoria"
+        ],
+        "motif": "book",
+        "cue": "SHE FIGHTS WITH LANGUAGE",
+        "previousIndex": 5,
+        "key": "the-white-devil:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Punishment follows reputation",
+        "text": "Vittoria is confined in a house for condemned women. Brachiano's desire survives the judgement, and the relationship continues amid a new round of manipulation.",
+        "cast": [
+          "Vittoria",
+          "Brachiano"
+        ],
+        "motif": "chains",
+        "cue": "PUNISHMENT FOLLOWS REPUTATION",
+        "previousIndex": 6,
+        "key": "the-white-devil:base:6",
+        "chapter": 7,
+        "mood": "tension"
+      },
+      {
+        "title": "The bereaved plan revenge",
+        "text": "Francisco seeks vengeance for his sister's death. He and his allies conceal their identities and prepare to enter the world the lovers believe they control.",
+        "cast": [
+          "Francisco",
+          "Lodovico"
+        ],
+        "motif": "mask",
+        "cue": "THE BEREAVED PLAN REVENGE",
+        "previousIndex": 7,
+        "key": "the-white-devil:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The duke falls",
+        "text": "Brachiano is poisoned through a staged contest and killed by disguised avengers. The private crime returns through another public performance, changing who holds the initiative.",
+        "cast": [
+          "Brachiano",
+          "Lodovico"
+        ],
+        "motif": "sword",
+        "cue": "THE DUKE FALLS",
+        "previousIndex": 8,
+        "key": "the-white-devil:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "Flamineo turns within the family",
+        "text": "Flamineo's violence reaches his own brother. Ambition has not secured him a place; instead, it breaks the family ties that might still have sheltered him.",
+        "cast": [
+          "Flamineo"
+        ],
+        "motif": "grave",
+        "cue": "FLAMINEO TURNS WITHIN THE FAMILY",
+        "previousIndex": 9,
+        "key": "the-white-devil:base:9",
+        "chapter": 10,
+        "mood": "sorrow"
+      },
+      {
+        "title": "A false final test",
+        "text": "Flamineo stages a dangerous test involving Vittoria and her companion. Pretended death exposes distrust, leaving the survivors briefly confronting one another without any stable loyalty.",
+        "cast": [
+          "Flamineo",
+          "Vittoria"
+        ],
+        "motif": "dagger",
+        "cue": "A FALSE FINAL TEST",
+        "previousIndex": 10,
+        "key": "the-white-devil:base:10",
+        "chapter": 11,
+        "mood": "tension"
+      },
+      {
+        "title": "The revenge enters the room",
+        "text": "The avengers kill Vittoria and Flamineo. Their defiance cannot stop the ending, and those who arranged vengeance face the exposure of their own violence.",
+        "cast": [
+          "Vittoria",
+          "Flamineo",
+          "Lodovico"
+        ],
+        "motif": "grave",
+        "cue": "THE REVENGE ENTERS THE ROOM",
+        "previousIndex": 11,
+        "key": "the-white-devil:base:11",
+        "chapter": 12,
+        "mood": "sorrow"
+      }
+    ],
+    "question": "Why does Vittoria's trial matter beyond the accusation?",
+    "answer": "It exposes how public reputation, gender and political power determine who is believed; her defence does not make the surrounding crimes disappear.",
+    "source": "https://www.gutenberg.org/ebooks/12915",
+    "note": "The play draws on historical events but reshapes them. Vittoria's rhetorical strength coexists with complicity and accusation; these cards do not declare her wholly innocent or reduce her to a stereotype.",
+    "quotes": [
+      {
+        "text": "My soul, like to a ship in a black storm,",
+        "context": "Vittoria speaks during the final attack, Act V.",
+        "meaning": "The final image makes the loss of control visible even within a defiant death.",
+        "source": "https://www.gutenberg.org/ebooks/12915"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 31,
+        "printedPage": 29,
+        "matchedTitle": "The White Devil"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 4,
+        "printedPage": null,
+        "matchedTitle": "The White Devil"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/12915"
   },
   {
     "id": "the-duchess-of-malfi",
@@ -4988,6 +9497,725 @@ window.STORIES = [
     "narrativeReference": "https://www.gutenberg.org/ebooks/20"
   },
   {
+    "id": "paradise-regained",
+    "title": "Paradise Regained",
+    "author": "John Milton",
+    "year": 1671,
+    "date": "1671",
+    "era": "restoration",
+    "genre": "Biblical epic",
+    "setting": "The wilderness, imagined kingdoms and a temple height",
+    "hook": "The tempter offers every kind of power, but the victory comes through refusing it.",
+    "characters": [
+      {
+        "name": "Jesus",
+        "role": "Son of God facing temptation"
+      },
+      {
+        "name": "Satan",
+        "role": "Tempter offering worldly fulfilment"
+      },
+      {
+        "name": "Mary",
+        "role": "Mother anxious about his absence"
+      },
+      {
+        "name": "The disciples",
+        "role": "Followers awaiting his return"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "After the baptism",
+        "text": "Jesus enters the wilderness after his baptism. Satan recognises a threat to his power and decides to test the figure whose mission he cannot fully understand.",
+        "cast": [
+          "Jesus",
+          "Satan"
+        ],
+        "motif": "road",
+        "cue": "AFTER THE BAPTISM",
+        "previousIndex": 0,
+        "key": "paradise-regained:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Hunger gives the first opening",
+        "text": "Jesus fasts, and Satan approaches with a practical challenge: turn stones into bread. Need becomes the doorway through which the tempter invites misuse of power.",
+        "cast": [
+          "Jesus",
+          "Satan"
+        ],
+        "motif": "stone",
+        "cue": "HUNGER GIVES THE FIRST OPENING",
+        "previousIndex": 1,
+        "key": "paradise-regained:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The offer is refused",
+        "text": "Jesus rejects the proposal. His mission cannot be measured by instantly satisfying appetite or proving identity on an adversary's chosen terms.",
+        "cast": [
+          "Jesus",
+          "Satan"
+        ],
+        "motif": "book",
+        "cue": "THE OFFER IS REFUSED",
+        "previousIndex": 2,
+        "key": "paradise-regained:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Others wait for his return",
+        "text": "Away from the wilderness, Mary and the followers wonder about his absence. Their anxious waiting gives the solitary trial a human world beyond the debate.",
+        "cast": [
+          "Mary",
+          "The disciples"
+        ],
+        "motif": "home",
+        "cue": "OTHERS WAIT FOR HIS RETURN",
+        "previousIndex": 3,
+        "key": "paradise-regained:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "A richer table appears",
+        "text": "Satan offers a splendid feast and the comforts surrounding it. The display tries to make fulfilment visible, but abundance does not alter the reason for refusing.",
+        "cast": [
+          "Jesus",
+          "Satan"
+        ],
+        "motif": "coins",
+        "cue": "A RICHER TABLE APPEARS",
+        "previousIndex": 4,
+        "key": "paradise-regained:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Wealth is offered as a tool",
+        "text": "The tempter argues that riches could support useful action. Jesus questions the dependence and corruption hidden in a resource that appears to promise freedom.",
+        "cast": [
+          "Jesus",
+          "Satan"
+        ],
+        "motif": "contract",
+        "cue": "WEALTH IS OFFERED AS A TOOL",
+        "previousIndex": 5,
+        "key": "paradise-regained:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Fame offers another temptation",
+        "text": "Glory becomes the next proposed reward. The poem tests whether being remembered by crowds is the same as fulfilling a calling grounded in something higher.",
+        "cast": [
+          "Jesus",
+          "Satan"
+        ],
+        "motif": "crown",
+        "cue": "FAME OFFERS ANOTHER TEMPTATION",
+        "previousIndex": 6,
+        "key": "paradise-regained:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Kingdoms unfold before him",
+        "text": "Satan displays political dominions and their possibilities. Empire offers the appearance of immense agency, while its wars and shifting loyalties reveal the costs within it.",
+        "cast": [
+          "Jesus",
+          "Satan"
+        ],
+        "motif": "castle",
+        "cue": "KINGDOMS UNFOLD BEFORE HIM",
+        "previousIndex": 7,
+        "key": "paradise-regained:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Learning becomes a lure",
+        "text": "Athens and its intellectual treasures enter the argument. Jesus recognises the limits of worldly wisdom when it cannot supply the ultimate truth the mission requires.",
+        "cast": [
+          "Jesus",
+          "Satan"
+        ],
+        "motif": "book",
+        "cue": "LEARNING BECOMES A LURE",
+        "previousIndex": 8,
+        "key": "paradise-regained:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "The temple height",
+        "text": "Satan places Jesus at a dangerous pinnacle and urges a spectacular leap. A rescue would be an apparent proof, but the demand itself is another test of obedience.",
+        "cast": [
+          "Jesus",
+          "Satan"
+        ],
+        "motif": "temple",
+        "cue": "THE TEMPLE HEIGHT",
+        "previousIndex": 9,
+        "key": "paradise-regained:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "The tempter falls away",
+        "text": "Jesus refuses to put God to that trial. Satan's plans collapse, while angelic care answers the need the offers had repeatedly tried to exploit.",
+        "cast": [
+          "Jesus",
+          "Satan"
+        ],
+        "motif": "storm",
+        "cue": "THE TEMPTER FALLS AWAY",
+        "previousIndex": 10,
+        "key": "paradise-regained:base:10",
+        "chapter": 11,
+        "mood": "tension"
+      },
+      {
+        "title": "A quiet return",
+        "text": "Jesus returns privately to his mother's house. The poem ends without a public coronation: the inward victory has prepared him for the work still ahead.",
+        "cast": [
+          "Jesus",
+          "Mary"
+        ],
+        "motif": "home",
+        "cue": "A QUIET RETURN",
+        "previousIndex": 11,
+        "key": "paradise-regained:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "How does the poem's victory differ from a military conquest?",
+    "answer": "Jesus defeats temptation through discernment, patience and refusal, rejecting the kinds of worldly power Satan offers.",
+    "source": "https://www.gutenberg.org/ebooks/58",
+    "note": "Published in 1671. Milton expands the Gospel temptation narrative; its title does not mean Adam and Eve physically return to Eden in this poem.",
+    "quotes": [
+      {
+        "text": "By one man's firm obedience fully tried",
+        "context": "The opening contrasts the Fall with the Son's tested obedience.",
+        "meaning": "The decisive action is remaining faithful when an easier kind of greatness is offered.",
+        "source": "https://www.gutenberg.org/ebooks/58"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 72,
+        "printedPage": 70,
+        "matchedTitle": "Paradise Regained"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 73,
+        "printedPage": 71,
+        "matchedTitle": "Paradise Regained"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 87,
+        "printedPage": 85,
+        "matchedTitle": "Paradise Regained"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 89,
+        "printedPage": 87,
+        "matchedTitle": "Paradise Regained"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 4,
+        "printedPage": null,
+        "matchedTitle": "Paradise Regained"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/58"
+  },
+  {
+    "id": "samson-agonistes",
+    "title": "Samson Agonistes",
+    "author": "John Milton",
+    "year": 1671,
+    "date": "1671",
+    "era": "restoration",
+    "genre": "Closet tragedy",
+    "setting": "Gaza after Samson's capture",
+    "hook": "Blind and captive, a fallen champion must decide whether his remaining strength still has a purpose.",
+    "characters": [
+      {
+        "name": "Samson",
+        "role": "Captured Israelite champion"
+      },
+      {
+        "name": "Manoa",
+        "role": "His father"
+      },
+      {
+        "name": "Dalila",
+        "role": "His wife who betrayed his secret"
+      },
+      {
+        "name": "Harapha",
+        "role": "Philistine challenger"
+      },
+      {
+        "name": "The Chorus",
+        "role": "Companions reflecting on his suffering"
+      },
+      {
+        "name": "The messenger",
+        "role": "Brings the final news"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The champion sits in darkness",
+        "text": "Outside a prison in Gaza, Samson rests from forced labour. Once powerful enough to frighten the Philistines, he is now blind, captive and ashamed.",
+        "cast": [
+          "Samson"
+        ],
+        "motif": "chains",
+        "cue": "THE CHAMPION SITS IN DARKNESS",
+        "previousIndex": 0,
+        "key": "samson-agonistes:base:0",
+        "chapter": 1,
+        "mood": "tension"
+      },
+      {
+        "title": "His own choices return",
+        "text": "Samson remembers revealing the secret of his strength to Dalila. Betrayal wounded him, but he also struggles with his own part in the disaster.",
+        "cast": [
+          "Samson",
+          "Dalila"
+        ],
+        "motif": "mirror",
+        "cue": "HIS OWN CHOICES RETURN",
+        "previousIndex": 1,
+        "key": "samson-agonistes:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Friends gather beside him",
+        "text": "The Chorus arrives and listens. Their presence gives Samson company, yet sympathy cannot immediately restore the certainty he once had about his calling.",
+        "cast": [
+          "Samson",
+          "The Chorus"
+        ],
+        "motif": "home",
+        "cue": "FRIENDS GATHER BESIDE HIM",
+        "previousIndex": 2,
+        "key": "samson-agonistes:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "A father offers ransom",
+        "text": "Manoa wants to buy his son's freedom. Samson doubts whether release alone would answer the deeper failure he feels within himself.",
+        "cast": [
+          "Samson",
+          "Manoa"
+        ],
+        "motif": "coins",
+        "cue": "A FATHER OFFERS RANSOM",
+        "previousIndex": 3,
+        "key": "samson-agonistes:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Dalila comes to explain",
+        "text": "Dalila visits, offering explanations for her betrayal and proposing care for him. Samson tests her words against the injuries her earlier actions have left.",
+        "cast": [
+          "Samson",
+          "Dalila"
+        ],
+        "motif": "letter",
+        "cue": "DALILA COMES TO EXPLAIN",
+        "previousIndex": 4,
+        "key": "samson-agonistes:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The offered return is refused",
+        "text": "Samson will not renew their intimacy. The encounter closes a possible route back into domestic life, leaving him still seeking some purpose beyond his confinement.",
+        "cast": [
+          "Samson",
+          "Dalila"
+        ],
+        "motif": "gate",
+        "cue": "THE OFFERED RETURN IS REFUSED",
+        "previousIndex": 5,
+        "key": "samson-agonistes:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "A warrior boasts",
+        "text": "Harapha challenges Samson with claims of superior courage. Samson refuses to let blindness settle their worth, and their argument makes strength a question of faith as well as muscle.",
+        "cast": [
+          "Samson",
+          "Harapha"
+        ],
+        "motif": "sword",
+        "cue": "A WARRIOR BOASTS",
+        "previousIndex": 6,
+        "key": "samson-agonistes:base:6",
+        "chapter": 7,
+        "mood": "tension"
+      },
+      {
+        "title": "The summons arrives",
+        "text": "A Philistine officer calls Samson to perform at a festival. The request would turn the fallen champion into entertainment for those celebrating his defeat.",
+        "cast": [
+          "Samson"
+        ],
+        "motif": "stage",
+        "cue": "THE SUMMONS ARRIVES",
+        "previousIndex": 7,
+        "key": "samson-agonistes:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "His inward position changes",
+        "text": "Samson first refuses, then senses an inward prompting and goes. The drama marks a change in his resolve without giving the audience an easy view into its certainty.",
+        "cast": [
+          "Samson",
+          "The Chorus"
+        ],
+        "motif": "road",
+        "cue": "HIS INWARD POSITION CHANGES",
+        "previousIndex": 8,
+        "key": "samson-agonistes:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Hope waits outside",
+        "text": "Manoa returns optimistic about obtaining freedom. While he speaks, a great noise comes from the city, breaking into the companions' plans with news they cannot yet understand.",
+        "cast": [
+          "Manoa",
+          "The Chorus"
+        ],
+        "motif": "storm",
+        "cue": "HOPE WAITS OUTSIDE",
+        "previousIndex": 9,
+        "key": "samson-agonistes:base:9",
+        "chapter": 10,
+        "mood": "tension"
+      },
+      {
+        "title": "The messenger describes the pillars",
+        "text": "A survivor reports that Samson pulled down the temple supports. Philistine leaders and Samson died beneath the collapse; the rescue his father imagined has become impossible.",
+        "cast": [
+          "The messenger",
+          "Manoa",
+          "Samson"
+        ],
+        "motif": "stone",
+        "cue": "THE MESSENGER DESCRIBES THE PILLARS",
+        "previousIndex": 10,
+        "key": "samson-agonistes:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "Grief seeks a meaning",
+        "text": "Manoa plans burial, and the Chorus reflects on divine purpose. Their consoling words remain beside the violent deaths, which readers must consider as well as the champion's recovered resolve.",
+        "cast": [
+          "Manoa",
+          "The Chorus"
+        ],
+        "motif": "grave",
+        "cue": "GRIEF SEEKS A MEANING",
+        "previousIndex": 11,
+        "key": "samson-agonistes:base:11",
+        "chapter": 12,
+        "mood": "sorrow"
+      }
+    ],
+    "question": "How is the final catastrophe presented?",
+    "answer": "A messenger reports the destruction of the Philistine temple; the play ends with competing grief, interpretation and attempts at consolation rather than staging it directly.",
+    "source": "https://www.gutenberg.org/ebooks/1745",
+    "note": "Published in 1671. A drama intended for reading, modelled on Greek tragedy; its catastrophic religious violence is part of the work, not an instruction or an uncomplicated modern moral example.",
+    "quotes": [
+      {
+        "text": "Eyeless in Gaza at the mill with slaves,",
+        "context": "Samson describes his fallen condition near the opening.",
+        "meaning": "The champion's bodily strength has survived the loss of sight, liberty and confidence.",
+        "source": "https://www.gutenberg.org/ebooks/1745"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 72,
+        "printedPage": 70,
+        "matchedTitle": "Samson Agonistes"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 4,
+        "printedPage": null,
+        "matchedTitle": "Samson Agonistes"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/1745"
+  },
+  {
+    "id": "all-for-love",
+    "title": "All for Love",
+    "author": "John Dryden",
+    "year": 1677,
+    "date": "1677",
+    "era": "restoration",
+    "genre": "Tragedy",
+    "setting": "Alexandria near Antony's final defeat",
+    "hook": "Every attempt to save him asks Antony to abandon the love he cannot leave.",
+    "characters": [
+      {
+        "name": "Antony",
+        "role": "Defeated Roman commander"
+      },
+      {
+        "name": "Cleopatra",
+        "role": "Queen attached to Antony"
+      },
+      {
+        "name": "Ventidius",
+        "role": "Soldier urging him back to duty"
+      },
+      {
+        "name": "Octavia",
+        "role": "Antony's wife"
+      },
+      {
+        "name": "Dolabella",
+        "role": "Friend drawn into a jealousy plot"
+      },
+      {
+        "name": "Alexas",
+        "role": "Cleopatra's adviser"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "Alexandria waits for defeat",
+        "text": "In Alexandria, Antony's political future is collapsing. Around him, allies and advisers still hope to retrieve the commander from the love they blame for his losses.",
+        "cast": [
+          "Antony",
+          "Ventidius"
+        ],
+        "motif": "city",
+        "cue": "ALEXANDRIA WAITS FOR DEFEAT",
+        "previousIndex": 0,
+        "key": "all-for-love:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Ventidius brings an army",
+        "text": "Ventidius offers soldiers and a path back toward honour. Antony responds to his old companion's loyalty, sensing how much remains possible if he can separate himself from Cleopatra.",
+        "cast": [
+          "Antony",
+          "Ventidius"
+        ],
+        "motif": "sword",
+        "cue": "VENTIDIUS BRINGS AN ARMY",
+        "previousIndex": 1,
+        "key": "all-for-love:base:1",
+        "chapter": 2,
+        "mood": "tension"
+      },
+      {
+        "title": "A lover prepares her plea",
+        "text": "Cleopatra learns that Antony may leave her. Alexas helps arrange gifts and appeals, turning the last political crisis into another struggle for his attention.",
+        "cast": [
+          "Cleopatra",
+          "Alexas"
+        ],
+        "motif": "letter",
+        "cue": "A LOVER PREPARES HER PLEA",
+        "previousIndex": 2,
+        "key": "all-for-love:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The meeting breaks his resolve",
+        "text": "Antony sees Cleopatra and cannot maintain the separation he had planned. Affection overcomes the practical argument, while his military position keeps deteriorating beyond the room.",
+        "cast": [
+          "Antony",
+          "Cleopatra"
+        ],
+        "motif": "heart",
+        "cue": "THE MEETING BREAKS HIS RESOLVE",
+        "previousIndex": 3,
+        "key": "all-for-love:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Octavia offers another future",
+        "text": "Antony's wife arrives with their children. Her presence offers family reconciliation and an alliance with Caesar, giving duty an immediate human shape rather than only a political one.",
+        "cast": [
+          "Antony",
+          "Octavia"
+        ],
+        "motif": "home",
+        "cue": "OCTAVIA OFFERS ANOTHER FUTURE",
+        "previousIndex": 4,
+        "key": "all-for-love:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The family claim is heard",
+        "text": "For a moment, Antony turns toward Octavia's proposal. The possible recovery of wife, children and honour creates a future Cleopatra would have no place within.",
+        "cast": [
+          "Antony",
+          "Octavia"
+        ],
+        "motif": "contract",
+        "cue": "THE FAMILY CLAIM IS HEARD",
+        "previousIndex": 5,
+        "key": "all-for-love:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Cleopatra refuses erasure",
+        "text": "Cleopatra confronts Octavia, defending her attachment to Antony. Their rivalry exposes how the commander's choices have made two women's lives compete for the same uncertain promise.",
+        "cast": [
+          "Cleopatra",
+          "Octavia"
+        ],
+        "motif": "mirror",
+        "cue": "CLEOPATRA REFUSES ERASURE",
+        "previousIndex": 6,
+        "key": "all-for-love:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Dolabella becomes a test",
+        "text": "Antony sends Dolabella to Cleopatra. The friend's own attraction and the messages around the encounter allow jealousy to disturb the love Antony has repeatedly chosen.",
+        "cast": [
+          "Dolabella",
+          "Cleopatra",
+          "Antony"
+        ],
+        "motif": "letter",
+        "cue": "DOLABELLA BECOMES A TEST",
+        "previousIndex": 7,
+        "key": "all-for-love:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Suspicion closes the escape",
+        "text": "Antony hears accounts suggesting betrayal and misreads what they mean. Octavia sees that he remains bound to Cleopatra and leaves, withdrawing the family settlement she offered.",
+        "cast": [
+          "Antony",
+          "Octavia",
+          "Dolabella"
+        ],
+        "motif": "gate",
+        "cue": "SUSPICION CLOSES THE ESCAPE",
+        "previousIndex": 8,
+        "key": "all-for-love:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Alexas invents a final message",
+        "text": "With the situation desperate, Alexas reports Cleopatra's death. The lie is intended to move Antony, but it instead persuades him that the life he wanted is already gone.",
+        "cast": [
+          "Alexas",
+          "Antony"
+        ],
+        "motif": "ghost",
+        "cue": "ALEXAS INVENTS A FINAL MESSAGE",
+        "previousIndex": 9,
+        "key": "all-for-love:base:9",
+        "chapter": 10,
+        "mood": "tension"
+      },
+      {
+        "title": "Antony dies beside her",
+        "text": "After attempting suicide, Antony learns Cleopatra lives. Their final meeting comes too late to save him, turning the false report into an irreversible loss.",
+        "cast": [
+          "Antony",
+          "Cleopatra"
+        ],
+        "motif": "dagger",
+        "cue": "ANTONY DIES BESIDE HER",
+        "previousIndex": 10,
+        "key": "all-for-love:base:10",
+        "chapter": 11,
+        "mood": "tension"
+      },
+      {
+        "title": "Love ends within the tomb",
+        "text": "Cleopatra kills herself after Antony's death. The narrowed world of the tragedy closes around the lovers, leaving the rival claims of love, duty and power unresolved by survival.",
+        "cast": [
+          "Cleopatra",
+          "Antony"
+        ],
+        "motif": "grave",
+        "cue": "LOVE ENDS WITHIN THE TOMB",
+        "previousIndex": 11,
+        "key": "all-for-love:base:11",
+        "chapter": 12,
+        "mood": "sorrow"
+      }
+    ],
+    "question": "How does this differ from Shakespeare's Antony and Cleopatra?",
+    "answer": "Dryden concentrates the crisis into Alexandria and the conflict between love and duty, rather than following the broader movement across the Roman world.",
+    "source": "https://www.gutenberg.org/ebooks/2062",
+    "note": "First performed in 1677 and printed in 1678. Dryden reworks the Antony and Cleopatra story with a concentrated setting and structure; chronology is not identical to Shakespeare's play.",
+    "quotes": [
+      {
+        "text": "You will not leave me then?",
+        "context": "Antony asks Ventidius whether his loyalty will endure, Act I.",
+        "meaning": "A fallen ruler discovers the value of a companion willing to remain.",
+        "source": "https://www.gutenberg.org/ebooks/2062"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 73,
+        "printedPage": 71,
+        "matchedTitle": "All for Love"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 10,
+        "printedPage": null,
+        "matchedTitle": "All for Love"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/2062"
+  },
+  {
     "id": "the-pilgrim-s-progress",
     "title": "The Pilgrim’s Progress",
     "author": "John Bunyan",
@@ -5657,6 +10885,231 @@ window.STORIES = [
     ],
     "contentVersion": 4,
     "narrativeReference": "https://www.gutenberg.org/ebooks/1292"
+  },
+  {
+    "id": "an-essay-on-criticism",
+    "title": "An Essay on Criticism",
+    "author": "Alexander Pope",
+    "year": 1711,
+    "date": "1711",
+    "era": "restoration",
+    "genre": "Verse essay",
+    "setting": "An imagined conversation about poets and their critics",
+    "hook": "A little knowledge gives the loudest critic confidence, but understanding asks for a deeper drink.",
+    "characters": [
+      {
+        "name": "The poet",
+        "role": "Speaker advising writers and critics"
+      },
+      {
+        "name": "The critic",
+        "role": "Figure learning judgement"
+      },
+      {
+        "name": "The reader",
+        "role": "Asked to recognise limits and vanity"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A critic prepares to judge",
+        "text": "Imagine a reader ready to declare a poem good or bad. Pope begins by asking whether judging well may be as difficult as writing well.",
+        "cast": [
+          "The poet",
+          "The critic"
+        ],
+        "motif": "book",
+        "cue": "A CRITIC PREPARES TO JUDGE",
+        "previousIndex": 0,
+        "key": "an-essay-on-criticism:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Talent has its boundaries",
+        "text": "The essay asks critics to know their own capacities. Confidence unsupported by understanding can turn a judgement into a display of the critic's limitations.",
+        "cast": [
+          "The critic"
+        ],
+        "motif": "mirror",
+        "cue": "TALENT HAS ITS BOUNDARIES",
+        "previousIndex": 1,
+        "key": "an-essay-on-criticism:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Nature supplies the measure",
+        "text": "Pope presents nature as an underlying order for art. Rules should help readers recognise that order, rather than become empty commands repeated without perception.",
+        "cast": [
+          "The poet",
+          "The reader"
+        ],
+        "motif": "garden",
+        "cue": "NATURE SUPPLIES THE MEASURE",
+        "previousIndex": 2,
+        "key": "an-essay-on-criticism:base:2",
+        "chapter": 3,
+        "mood": "wonder"
+      },
+      {
+        "title": "The ancient writers become guides",
+        "text": "The classics offer models and accumulated understanding. Learning from them requires attention to how their works succeed, not merely borrowing prestigious names for an argument.",
+        "cast": [
+          "The poet",
+          "The critic"
+        ],
+        "motif": "stone",
+        "cue": "THE ANCIENT WRITERS BECOME GUIDES",
+        "previousIndex": 3,
+        "key": "an-essay-on-criticism:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Knowledge becomes a shallow drink",
+        "text": "The famous warning arrives: a little learning can intoxicate. A small taste of knowledge may inflate certainty before deeper study reveals how much remains unknown.",
+        "cast": [
+          "The critic"
+        ],
+        "motif": "coins",
+        "cue": "KNOWLEDGE BECOMES A SHALLOW DRINK",
+        "previousIndex": 4,
+        "key": "an-essay-on-criticism:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Look at the whole poem",
+        "text": "A reader can mistake one striking passage for the value of an entire work. Pope urges judgement that sees proportion, purpose and relations between the parts.",
+        "cast": [
+          "The critic",
+          "The reader"
+        ],
+        "motif": "book",
+        "cue": "LOOK AT THE WHOLE POEM",
+        "previousIndex": 5,
+        "key": "an-essay-on-criticism:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Sound should follow sense",
+        "text": "The essay makes rhythm and language part of meaning. Technical polish is not simply decoration; it can help readers hear the very action or feeling being described.",
+        "cast": [
+          "The poet"
+        ],
+        "motif": "music",
+        "cue": "SOUND SHOULD FOLLOW SENSE",
+        "previousIndex": 6,
+        "key": "an-essay-on-criticism:base:6",
+        "chapter": 7,
+        "mood": "wonder"
+      },
+      {
+        "title": "Pride distorts the eye",
+        "text": "Personal vanity makes critics defend their own preferences. Envy and the wish to appear superior can turn a response to art into a battle over the self.",
+        "cast": [
+          "The critic"
+        ],
+        "motif": "mirror",
+        "cue": "PRIDE DISTORTS THE EYE",
+        "previousIndex": 7,
+        "key": "an-essay-on-criticism:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Fashion offers another trap",
+        "text": "Readers may praise whatever is new, fashionable or familiar. The essay asks them to recognise how group opinion can borrow the appearance of independent judgement.",
+        "cast": [
+          "The critic",
+          "The reader"
+        ],
+        "motif": "mask",
+        "cue": "FASHION OFFERS ANOTHER TRAP",
+        "previousIndex": 8,
+        "key": "an-essay-on-criticism:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Admit the possibility of error",
+        "text": "Human fallibility belongs inside criticism. The willingness to forgive and revise makes judgement more useful than treating every mistake as proof of another person's worthlessness.",
+        "cast": [
+          "The critic",
+          "The reader"
+        ],
+        "motif": "heart",
+        "cue": "ADMIT THE POSSIBILITY OF ERROR",
+        "previousIndex": 9,
+        "key": "an-essay-on-criticism:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Speak with tact and courage",
+        "text": "A good critic must be honest without needless cruelty. Knowledge, manners and moral independence work together, because a true judgement can fail when its delivery only humiliates.",
+        "cast": [
+          "The critic"
+        ],
+        "motif": "letter",
+        "cue": "SPEAK WITH TACT AND COURAGE",
+        "previousIndex": 10,
+        "key": "an-essay-on-criticism:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "Understanding replaces display",
+        "text": "The essay closes by valuing a tradition of careful, principled readers. The goal is to serve art and understanding, rather than let the critic's performance eclipse the work.",
+        "cast": [
+          "The poet",
+          "The critic"
+        ],
+        "motif": "sunrise",
+        "cue": "UNDERSTANDING REPLACES DISPLAY",
+        "previousIndex": 11,
+        "key": "an-essay-on-criticism:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "What does the famous warning about a little learning mean?",
+    "answer": "Superficial knowledge can encourage false certainty; serious judgement requires deeper understanding and awareness of one's own limits.",
+    "source": "https://www.gutenberg.org/ebooks/7409",
+    "note": "Published anonymously in 1711. This is an argument in verse, not a story of named people meeting; the figures pictured are roles within the discussion.",
+    "quotes": [
+      {
+        "text": "A little learning is a dangerous thing;",
+        "context": "Pope warns against shallow confidence in the second part of the essay.",
+        "meaning": "Knowing a little can make a person less cautious precisely when caution is most needed.",
+        "source": "https://www.gutenberg.org/ebooks/7409"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 77,
+        "printedPage": 75,
+        "matchedTitle": "An Essay on Criticism"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 218,
+        "printedPage": 216,
+        "matchedTitle": "An Essay on Criticism"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 10,
+        "printedPage": null,
+        "matchedTitle": "An Essay on Criticism"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/7409"
   },
   {
     "id": "the-rape-of-the-lock",
@@ -6527,6 +11980,483 @@ window.STORIES = [
     "narrativeReference": "https://www.gutenberg.org/ebooks/829"
   },
   {
+    "id": "pamela",
+    "title": "Pamela",
+    "author": "Samuel Richardson",
+    "year": 1740,
+    "date": "1740",
+    "era": "restoration",
+    "genre": "Epistolary novel",
+    "setting": "An English country household",
+    "hook": "A young servant writes home while the man controlling her livelihood tries to control her too.",
+    "characters": [
+      {
+        "name": "Pamela",
+        "role": "Servant defending her autonomy"
+      },
+      {
+        "name": "Mr B",
+        "role": "Employer pursuing and confining her"
+      },
+      {
+        "name": "Mrs Jervis",
+        "role": "Housekeeper offering support"
+      },
+      {
+        "name": "Mrs Jewkes",
+        "role": "Keeper in the isolated house"
+      },
+      {
+        "name": "Pamela's parents",
+        "role": "Recipients of her account"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The household loses its mistress",
+        "text": "Young Pamela's employer dies, leaving her under the authority of Mr B. She writes to her parents, trying to understand what her new position will mean.",
+        "cast": [
+          "Pamela",
+          "Mr B",
+          "Pamela's parents"
+        ],
+        "motif": "letter",
+        "cue": "THE HOUSEHOLD LOSES ITS MISTRESS",
+        "previousIndex": 0,
+        "key": "pamela:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Kindness begins to trouble her",
+        "text": "Mr B gives attention that does not feel safely ordinary. Pamela recognises that his power over her employment may let him turn private desire into a demand.",
+        "cast": [
+          "Pamela",
+          "Mr B"
+        ],
+        "motif": "home",
+        "cue": "KINDNESS BEGINS TO TROUBLE HER",
+        "previousIndex": 1,
+        "key": "pamela:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "She resists his advances",
+        "text": "Pamela refuses unwanted sexual pressure. Her letters make the fear and inequality visible, even when Mr B tries to present her resistance as foolishness or ingratitude.",
+        "cast": [
+          "Pamela",
+          "Mr B"
+        ],
+        "motif": "chains",
+        "cue": "SHE RESISTS HIS ADVANCES",
+        "previousIndex": 2,
+        "key": "pamela:base:2",
+        "chapter": 3,
+        "mood": "tension"
+      },
+      {
+        "title": "An ally listens",
+        "text": "Mrs Jervis supports her within the household. The friendship offers a witness and practical comfort, but cannot place Pamela beyond the reach of the master who controls both women.",
+        "cast": [
+          "Pamela",
+          "Mrs Jervis"
+        ],
+        "motif": "heart",
+        "cue": "AN ALLY LISTENS",
+        "previousIndex": 3,
+        "key": "pamela:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Home seems within reach",
+        "text": "Pamela hopes to return to her parents. Leaving would cost her work, yet the possibility of safety matters more than the comforts remaining under Mr B's authority.",
+        "cast": [
+          "Pamela",
+          "Pamela's parents"
+        ],
+        "motif": "road",
+        "cue": "HOME SEEMS WITHIN REACH",
+        "previousIndex": 4,
+        "key": "pamela:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The journey turns into confinement",
+        "text": "Instead of taking her home, arrangements send Pamela to an isolated estate. Mrs Jewkes supervises her, and the hoped-for exit becomes another form of captivity.",
+        "cast": [
+          "Pamela",
+          "Mrs Jewkes"
+        ],
+        "motif": "gate",
+        "cue": "THE JOURNEY TURNS INTO CONFINEMENT",
+        "previousIndex": 5,
+        "key": "pamela:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Writing preserves the days",
+        "text": "Pamela keeps recording what happens despite obstacles to communication. The written account becomes a way to hold onto judgement when others try to manage every decision around her.",
+        "cast": [
+          "Pamela"
+        ],
+        "motif": "book",
+        "cue": "WRITING PRESERVES THE DAYS",
+        "previousIndex": 6,
+        "key": "pamela:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "An escape attempt fails",
+        "text": "Plans to get away are frustrated. Fear and despair deepen, showing that moral determination does not automatically supply the practical means to leave an unequal situation.",
+        "cast": [
+          "Pamela",
+          "Mrs Jewkes"
+        ],
+        "motif": "storm",
+        "cue": "AN ESCAPE ATTEMPT FAILS",
+        "previousIndex": 7,
+        "key": "pamela:base:7",
+        "chapter": 8,
+        "mood": "tension"
+      },
+      {
+        "title": "Her account reaches Mr B",
+        "text": "Mr B reads Pamela's writing and begins responding differently. The novel makes her own account part of the change, rather than letting his wishes remain the only version that matters.",
+        "cast": [
+          "Pamela",
+          "Mr B"
+        ],
+        "motif": "letter",
+        "cue": "HER ACCOUNT REACHES MR B",
+        "previousIndex": 8,
+        "key": "pamela:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "She is allowed to leave",
+        "text": "He releases her to go home. That permission begins altering the relation of power, although the history of coercion still belongs within any assessment of what follows.",
+        "cast": [
+          "Pamela",
+          "Mr B"
+        ],
+        "motif": "road",
+        "cue": "SHE IS ALLOWED TO LEAVE",
+        "previousIndex": 9,
+        "key": "pamela:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "The proposal changes its terms",
+        "text": "Mr B offers marriage, and Pamela returns. The story turns toward social recognition and a promise of altered conduct, bringing the servant into a rank previously denied her.",
+        "cast": [
+          "Pamela",
+          "Mr B"
+        ],
+        "motif": "contract",
+        "cue": "THE PROPOSAL CHANGES ITS TERMS",
+        "previousIndex": 10,
+        "key": "pamela:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The letters meet the resolution",
+        "text": "Pamela marries Mr B and faces the expectations of her new position. Readers can recognise the novel's happy conclusion while still questioning the unequal path that brought it about.",
+        "cast": [
+          "Pamela",
+          "Mr B",
+          "Pamela's parents"
+        ],
+        "motif": "home",
+        "cue": "THE LETTERS MEET THE RESOLUTION",
+        "previousIndex": 11,
+        "key": "pamela:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "Why do Pamela's letters matter?",
+    "answer": "They preserve her account of events, give her parents access to her danger and let readers assess pressures that Mr B tries to define on his own terms.",
+    "source": "https://www.gutenberg.org/ebooks/6124",
+    "note": "First published in 1740; the linked edition contains the narrative through the marriage. The later marriage is the novel's resolution, but these cards do not treat the earlier harassment and confinement as acceptable courtship.",
+    "quotes": [
+      {
+        "text": "I cannot be patient",
+        "context": "Pamela resists the pressures placed on her in her written account.",
+        "meaning": "A voice on paper can refuse the version of events imposed by power.",
+        "source": "https://www.gutenberg.org/ebooks/6124"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 79,
+        "printedPage": 77,
+        "matchedTitle": "Pamela"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 88,
+        "printedPage": 86,
+        "matchedTitle": "Pamela"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 10,
+        "printedPage": null,
+        "matchedTitle": "Pamela"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/6124"
+  },
+  {
+    "id": "joseph-andrews",
+    "title": "Joseph Andrews",
+    "author": "Henry Fielding",
+    "year": 1742,
+    "date": "1742",
+    "era": "restoration",
+    "genre": "Comic novel",
+    "setting": "An English road between London and the countryside",
+    "hook": "Two travellers meet a world full of respectable words and very little practical kindness.",
+    "characters": [
+      {
+        "name": "Joseph",
+        "role": "Servant devoted to Fanny"
+      },
+      {
+        "name": "Parson Adams",
+        "role": "Generous but impractical clergyman"
+      },
+      {
+        "name": "Fanny",
+        "role": "Joseph's beloved"
+      },
+      {
+        "name": "Lady Booby",
+        "role": "Employer pursuing Joseph"
+      },
+      {
+        "name": "Mrs Slipslop",
+        "role": "Servant with her own pretensions"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A servant refuses his employer",
+        "text": "Joseph Andrews works for Lady Booby, who desires him. His refusal disrupts her expectation that status should let her decide what intimacy a servant owes.",
+        "cast": [
+          "Joseph",
+          "Lady Booby"
+        ],
+        "motif": "home",
+        "cue": "A SERVANT REFUSES HIS EMPLOYER",
+        "previousIndex": 0,
+        "key": "joseph-andrews:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Dismissed onto the road",
+        "text": "Joseph loses his place and starts toward the countryside, where Fanny lives. The journey begins with a clear affection and very little protection.",
+        "cast": [
+          "Joseph",
+          "Fanny"
+        ],
+        "motif": "road",
+        "cue": "DISMISSED ONTO THE ROAD",
+        "previousIndex": 1,
+        "key": "joseph-andrews:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Robbers strip him bare",
+        "text": "Attackers beat and rob Joseph. Passing people hesitate to help, letting fear, propriety and inconvenience compete with the obvious needs of an injured man.",
+        "cast": [
+          "Joseph"
+        ],
+        "motif": "chains",
+        "cue": "ROBBERS STRIP HIM BARE",
+        "previousIndex": 2,
+        "key": "joseph-andrews:base:2",
+        "chapter": 3,
+        "mood": "tension"
+      },
+      {
+        "title": "A poor man's kindness",
+        "text": "Help comes through ordinary people rather than grand claims of virtue. The contrast introduces a recurring question: who actually does good when goodness becomes inconvenient?",
+        "cast": [
+          "Joseph"
+        ],
+        "motif": "heart",
+        "cue": "A POOR MAN'S KINDNESS",
+        "previousIndex": 3,
+        "key": "joseph-andrews:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Parson Adams joins him",
+        "text": "Joseph meets Adams, whose learning and generous intentions exceed his practical judgement. Their companionship gives the road a mixture of earnest morality and comic mistakes.",
+        "cast": [
+          "Joseph",
+          "Parson Adams"
+        ],
+        "motif": "book",
+        "cue": "PARSON ADAMS JOINS HIM",
+        "previousIndex": 4,
+        "key": "joseph-andrews:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The inn tests charity",
+        "text": "Money runs short, and Adams seeks assistance. Respectable talk often turns into refusal, exposing the distance between praising benevolence and paying for a traveller's meal.",
+        "cast": [
+          "Parson Adams",
+          "Joseph"
+        ],
+        "motif": "coins",
+        "cue": "THE INN TESTS CHARITY",
+        "previousIndex": 5,
+        "key": "joseph-andrews:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Fanny is in danger",
+        "text": "Adams intervenes when Fanny faces assault, and Joseph discovers that the woman he loves is nearby. Courage creates the reunion that cautious respectability would have missed.",
+        "cast": [
+          "Parson Adams",
+          "Fanny",
+          "Joseph"
+        ],
+        "motif": "sword",
+        "cue": "FANNY IS IN DANGER",
+        "previousIndex": 6,
+        "key": "joseph-andrews:base:6",
+        "chapter": 7,
+        "mood": "tension"
+      },
+      {
+        "title": "Good intentions are misread",
+        "text": "The travellers become entangled in accusations and confusion. Adams's conviction does not prevent error, but his willingness to act remains more useful than calculated indifference.",
+        "cast": [
+          "Parson Adams",
+          "Joseph",
+          "Fanny"
+        ],
+        "motif": "mirror",
+        "cue": "GOOD INTENTIONS ARE MISREAD",
+        "previousIndex": 7,
+        "key": "joseph-andrews:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The countryside has its own predators",
+        "text": "Hospitality sometimes conceals mockery or exploitation. The road keeps showing how easily rank and entertainment can turn vulnerable guests into objects for someone else's pleasure.",
+        "cast": [
+          "Joseph",
+          "Parson Adams",
+          "Fanny"
+        ],
+        "motif": "mask",
+        "cue": "THE COUNTRYSIDE HAS ITS OWN PREDATORS",
+        "previousIndex": 8,
+        "key": "joseph-andrews:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Lady Booby opposes the marriage",
+        "text": "Back near home, Lady Booby resents Joseph's planned wedding. She uses influence to obstruct the couple, carrying the original imbalance of power into their hoped-for future.",
+        "cast": [
+          "Lady Booby",
+          "Joseph",
+          "Fanny"
+        ],
+        "motif": "contract",
+        "cue": "LADY BOOBY OPPOSES THE MARRIAGE",
+        "previousIndex": 9,
+        "key": "joseph-andrews:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "A family secret threatens love",
+        "text": "A discovery seems to make Joseph and Fanny siblings. Their expected happiness pauses while another account of exchanged children forces everyone to reconsider their identities.",
+        "cast": [
+          "Joseph",
+          "Fanny"
+        ],
+        "motif": "letter",
+        "cue": "A FAMILY SECRET THREATENS LOVE",
+        "previousIndex": 10,
+        "key": "joseph-andrews:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The lovers can marry",
+        "text": "Further revelation identifies Joseph's actual family and clears the obstacle. Their marriage ends the wandering, while Adams's imperfect but active goodness remains its strongest moral companion.",
+        "cast": [
+          "Joseph",
+          "Fanny",
+          "Parson Adams"
+        ],
+        "motif": "garden",
+        "cue": "THE LOVERS CAN MARRY",
+        "previousIndex": 11,
+        "key": "joseph-andrews:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "What repeatedly exposes hypocrisy on the journey?",
+    "answer": "People proclaim morality or charity but refuse actual help, while the often foolish Adams puts compassion into practice.",
+    "source": "https://www.gutenberg.org/ebooks/9611",
+    "note": "Published in 1742. Volumes I and II are Gutenberg 9611 and 9609. The novel starts by reversing elements of Pamela, then develops its own road narrative; the final family discoveries are separate from that initial parody.",
+    "quotes": [
+      {
+        "text": "charity began at home",
+        "context": "The narrator reports a passenger's excuse for refusing clothing to the robbed and injured Joseph, Book I, chapter XII.",
+        "meaning": "A moral phrase can become a convenient way to avoid helping someone nearby.",
+        "source": "https://www.gutenberg.org/ebooks/9611"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 82,
+        "printedPage": 80,
+        "matchedTitle": "Joseph Andrews"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 10,
+        "printedPage": null,
+        "matchedTitle": "Joseph Andrews"
+      }
+    ],
+    "additionalReferences": [
+      "https://www.gutenberg.org/ebooks/9609"
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/9611"
+  },
+  {
     "id": "tom-jones",
     "title": "Tom Jones",
     "author": "Henry Fielding",
@@ -7175,6 +13105,486 @@ window.STORIES = [
     ],
     "contentVersion": 4,
     "narrativeReference": "https://www.gutenberg.org/ebooks/1079"
+  },
+  {
+    "id": "the-vicar-of-wakefield",
+    "title": "The Vicar of Wakefield",
+    "author": "Oliver Goldsmith",
+    "year": 1766,
+    "date": "1766",
+    "era": "restoration",
+    "genre": "Domestic novel",
+    "setting": "A rural English parish",
+    "hook": "A clergyman believes his family's goodness will protect it, until almost everything goes wrong.",
+    "characters": [
+      {
+        "name": "Dr Primrose",
+        "role": "Vicar and family father"
+      },
+      {
+        "name": "Deborah",
+        "role": "His socially ambitious wife"
+      },
+      {
+        "name": "Olivia",
+        "role": "Their daughter deceived by Thornhill"
+      },
+      {
+        "name": "Sophia",
+        "role": "Their other daughter"
+      },
+      {
+        "name": "Thornhill",
+        "role": "Landlord exploiting his position"
+      },
+      {
+        "name": "Burchell",
+        "role": "Visitor whose identity is misunderstood"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The household seems secure",
+        "text": "Dr Primrose describes a happy family and firm principles. Their comfortable order encourages him to believe that prudence and goodness can keep the future manageable.",
+        "cast": [
+          "Dr Primrose",
+          "Deborah"
+        ],
+        "motif": "home",
+        "cue": "THE HOUSEHOLD SEEMS SECURE",
+        "previousIndex": 0,
+        "key": "the-vicar-of-wakefield:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The savings disappear",
+        "text": "A financial loss forces the family to move to a smaller parish. Their expectations shrink, but hopes of respectability and advantageous marriages travel with them.",
+        "cast": [
+          "Dr Primrose",
+          "Deborah"
+        ],
+        "motif": "coins",
+        "cue": "THE SAVINGS DISAPPEAR",
+        "previousIndex": 1,
+        "key": "the-vicar-of-wakefield:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The landlord visits",
+        "text": "Young Thornhill enters their circle with easy charm. His rank impresses the household, making attention feel like a promise before anyone has tested its intentions.",
+        "cast": [
+          "Thornhill",
+          "Deborah",
+          "Olivia"
+        ],
+        "motif": "hall",
+        "cue": "THE LANDLORD VISITS",
+        "previousIndex": 2,
+        "key": "the-vicar-of-wakefield:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Burchell looks less promising",
+        "text": "Another visitor, Burchell, seems poor and plain. His practical kindness competes badly with the glamorous possibilities the family imagines in their landlord.",
+        "cast": [
+          "Burchell",
+          "Sophia"
+        ],
+        "motif": "road",
+        "cue": "BURCHELL LOOKS LESS PROMISING",
+        "previousIndex": 3,
+        "key": "the-vicar-of-wakefield:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Appearances lead them astray",
+        "text": "The family's desire for social advancement makes flattering performances persuasive. Invitations and fashionable plans seem to offer a way back toward the status their lost money took away.",
+        "cast": [
+          "Deborah",
+          "Olivia",
+          "Sophia"
+        ],
+        "motif": "mask",
+        "cue": "APPEARANCES LEAD THEM ASTRAY",
+        "previousIndex": 4,
+        "key": "the-vicar-of-wakefield:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Olivia disappears",
+        "text": "Olivia leaves with Thornhill, believing in their relationship. The vicar's anxious search begins turning the promised romance into evidence of how power can exploit trust.",
+        "cast": [
+          "Olivia",
+          "Thornhill",
+          "Dr Primrose"
+        ],
+        "motif": "heart",
+        "cue": "OLIVIA DISAPPEARS",
+        "previousIndex": 5,
+        "key": "the-vicar-of-wakefield:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "A father brings her home",
+        "text": "Dr Primrose finds Olivia after Thornhill abandons her. His welcome gives compassion priority over disgrace, even as the family's imagined future falls apart.",
+        "cast": [
+          "Dr Primrose",
+          "Olivia"
+        ],
+        "motif": "home",
+        "cue": "A FATHER BRINGS HER HOME",
+        "previousIndex": 6,
+        "key": "the-vicar-of-wakefield:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Fire takes their shelter",
+        "text": "The family's house burns. Material loss becomes immediate danger, and the vicar's endurance must now include the practical work of surviving without the home that held them together.",
+        "cast": [
+          "Dr Primrose",
+          "Deborah"
+        ],
+        "motif": "fire",
+        "cue": "FIRE TAKES THEIR SHELTER",
+        "previousIndex": 7,
+        "key": "the-vicar-of-wakefield:base:7",
+        "chapter": 8,
+        "mood": "tension"
+      },
+      {
+        "title": "Debt brings imprisonment",
+        "text": "Thornhill presses financial demands after the vicar opposes him. Dr Primrose enters prison, where power over property becomes another instrument against the vulnerable household.",
+        "cast": [
+          "Dr Primrose",
+          "Thornhill"
+        ],
+        "motif": "chains",
+        "cue": "DEBT BRINGS IMPRISONMENT",
+        "previousIndex": 8,
+        "key": "the-vicar-of-wakefield:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "More grief enters the prison",
+        "text": "Reports of Olivia's death and Sophia's abduction arrive, while another son faces danger. The vicar attempts to sustain his principles at the point where comfort has almost vanished.",
+        "cast": [
+          "Dr Primrose",
+          "Olivia",
+          "Sophia"
+        ],
+        "motif": "grave",
+        "cue": "MORE GRIEF ENTERS THE PRISON",
+        "previousIndex": 9,
+        "key": "the-vicar-of-wakefield:base:9",
+        "chapter": 10,
+        "mood": "sorrow"
+      },
+      {
+        "title": "Burchell's identity changes everything",
+        "text": "Burchell is revealed as Sir William Thornhill. He rescues Sophia and confronts his nephew, showing how badly the household had mistaken charm for worth and poverty for insignificance.",
+        "cast": [
+          "Burchell",
+          "Sophia",
+          "Thornhill"
+        ],
+        "motif": "mirror",
+        "cue": "BURCHELL'S IDENTITY CHANGES EVERYTHING",
+        "previousIndex": 10,
+        "key": "the-vicar-of-wakefield:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The family is restored",
+        "text": "Olivia lives, her marriage is recognised, and the family's prospects recover. The generous resolution restores security while leaving their costly education in appearances behind it.",
+        "cast": [
+          "Dr Primrose",
+          "Olivia",
+          "Deborah"
+        ],
+        "motif": "garden",
+        "cue": "THE FAMILY IS RESTORED",
+        "previousIndex": 11,
+        "key": "the-vicar-of-wakefield:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "What does Burchell's revelation change?",
+    "answer": "The supposedly lowly visitor proves to be Sir William Thornhill, able to expose his nephew and correct the family's mistaken judgement of appearances.",
+    "source": "https://www.gutenberg.org/ebooks/2667",
+    "note": "",
+    "quotes": [
+      {
+        "text": "I was ever of opinion",
+        "context": "The vicar opens by describing his principles before the disasters that will test them.",
+        "meaning": "Confidence becomes meaningful only when lived through circumstances it cannot control.",
+        "source": "https://www.gutenberg.org/ebooks/2667"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 82,
+        "printedPage": 80,
+        "matchedTitle": "The Vicar of Wakefield"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/2667"
+  },
+  {
+    "id": "she-stoops-to-conquer",
+    "title": "She Stoops to Conquer",
+    "author": "Oliver Goldsmith",
+    "year": 1773,
+    "date": "1773",
+    "era": "restoration",
+    "genre": "Comedy",
+    "setting": "An English country house mistaken for an inn",
+    "hook": "He cannot speak comfortably to a gentlewoman, so she meets him in a role he thinks he understands.",
+    "characters": [
+      {
+        "name": "Kate",
+        "role": "Woman testing her suitor through disguise"
+      },
+      {
+        "name": "Marlow",
+        "role": "Young man shy with women of his own class"
+      },
+      {
+        "name": "Hardcastle",
+        "role": "Kate's father and householder"
+      },
+      {
+        "name": "Tony",
+        "role": "Lively prankster"
+      },
+      {
+        "name": "Constance",
+        "role": "Woman trying to recover her jewels"
+      },
+      {
+        "name": "Hastings",
+        "role": "Constance's lover"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "An old house expects visitors",
+        "text": "Hardcastle prepares to welcome Marlow, a possible husband for Kate. The household thinks it knows how the visit should proceed, until a joke changes the visitors' first impression.",
+        "cast": [
+          "Hardcastle",
+          "Kate",
+          "Marlow"
+        ],
+        "motif": "home",
+        "cue": "AN OLD HOUSE EXPECTS VISITORS",
+        "previousIndex": 0,
+        "key": "she-stoops-to-conquer:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Tony supplies the wrong directions",
+        "text": "At a tavern, Tony tells Marlow and Hastings that Hardcastle's house is an inn. His prank gives them a false identity for everything they are about to meet.",
+        "cast": [
+          "Tony",
+          "Marlow",
+          "Hastings"
+        ],
+        "motif": "road",
+        "cue": "TONY SUPPLIES THE WRONG DIRECTIONS",
+        "previousIndex": 1,
+        "key": "she-stoops-to-conquer:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The guest commands the owner",
+        "text": "Marlow treats Hardcastle like an innkeeper. Requests become orders, and the puzzled father finds ordinary hospitality answered with behaviour he sees as outrageous disrespect.",
+        "cast": [
+          "Marlow",
+          "Hardcastle"
+        ],
+        "motif": "hall",
+        "cue": "THE GUEST COMMANDS THE OWNER",
+        "previousIndex": 2,
+        "key": "she-stoops-to-conquer:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Kate meets the shy suitor",
+        "text": "With Kate presented as a gentlewoman, Marlow is awkward and restrained. His reputation and his manner seem mismatched, leaving her curious about the person hidden behind his fear.",
+        "cast": [
+          "Kate",
+          "Marlow"
+        ],
+        "motif": "heart",
+        "cue": "KATE MEETS THE SHY SUITOR",
+        "previousIndex": 3,
+        "key": "she-stoops-to-conquer:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Another face of Marlow appears",
+        "text": "Kate later encounters him in simpler clothing. Taking her for a servant, he becomes easy and bold, revealing how strongly his confidence depends on the class he assigns her.",
+        "cast": [
+          "Kate",
+          "Marlow"
+        ],
+        "motif": "mask",
+        "cue": "ANOTHER FACE OF MARLOW APPEARS",
+        "previousIndex": 4,
+        "key": "she-stoops-to-conquer:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "She keeps the misunderstanding alive",
+        "text": "Kate lets Marlow think she has a lower position. The disguise gives her room to observe him, while he unknowingly speaks more honestly to his intended bride.",
+        "cast": [
+          "Kate",
+          "Marlow"
+        ],
+        "motif": "mirror",
+        "cue": "SHE KEEPS THE MISUNDERSTANDING ALIVE",
+        "previousIndex": 5,
+        "key": "she-stoops-to-conquer:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Constance wants freedom too",
+        "text": "Constance hopes to marry Hastings and recover her jewels. Mrs Hardcastle's plans stand in the way, making the household's second romance another contest over money and marriage.",
+        "cast": [
+          "Constance",
+          "Hastings",
+          "Tony"
+        ],
+        "motif": "coins",
+        "cue": "CONSTANCE WANTS FREEDOM TOO",
+        "previousIndex": 6,
+        "key": "she-stoops-to-conquer:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Tony helps the lovers",
+        "text": "Tony supports their escape from his mother's arrangements. The same appetite for mischief that created the inn confusion now works toward removing a genuine obstacle to affection.",
+        "cast": [
+          "Tony",
+          "Constance",
+          "Hastings"
+        ],
+        "motif": "letter",
+        "cue": "TONY HELPS THE LOVERS",
+        "previousIndex": 7,
+        "key": "she-stoops-to-conquer:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Plans collide",
+        "text": "Messages, jewels and attempts to leave become tangled. Each person acts on a different understanding of the household, allowing one solution to look like another fresh problem.",
+        "cast": [
+          "Constance",
+          "Hastings",
+          "Marlow"
+        ],
+        "motif": "storm",
+        "cue": "PLANS COLLIDE",
+        "previousIndex": 8,
+        "key": "she-stoops-to-conquer:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "Hardcastle demands an explanation",
+        "text": "The householder's patience ends as the alleged guests continue behaving like customers. Marlow begins discovering that the inn on which his confidence rested never existed.",
+        "cast": [
+          "Hardcastle",
+          "Marlow"
+        ],
+        "motif": "gate",
+        "cue": "HARDCASTLE DEMANDS AN EXPLANATION",
+        "previousIndex": 9,
+        "key": "she-stoops-to-conquer:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Kate reveals her place",
+        "text": "Marlow learns that the woman who drew him into candid affection is Hardcastle's daughter. Her experiment has made his feelings visible without requiring her to surrender her judgement.",
+        "cast": [
+          "Kate",
+          "Marlow"
+        ],
+        "motif": "heart",
+        "cue": "KATE REVEALS HER PLACE",
+        "previousIndex": 10,
+        "key": "she-stoops-to-conquer:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The bargains loosen",
+        "text": "The marriage obstacles are resolved, including Tony's freedom from the proposed match. The comedy ends with possibilities opened by women and young people who challenged the roles arranged for them.",
+        "cast": [
+          "Kate",
+          "Marlow",
+          "Constance",
+          "Hastings",
+          "Tony"
+        ],
+        "motif": "garden",
+        "cue": "THE BARGAINS LOOSEN",
+        "previousIndex": 11,
+        "key": "she-stoops-to-conquer:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "Why does Kate disguise her social position?",
+    "answer": "Marlow becomes confident with women he considers beneath his own rank; the disguise lets her test his character beyond his crippling formal shyness.",
+    "source": "https://www.gutenberg.org/ebooks/383",
+    "note": "",
+    "quotes": [
+      {
+        "text": "I love everything that’s old:",
+        "context": "Hardcastle describes his tastes near the opening.",
+        "meaning": "The comfortable order of his old house is about to meet a completely new account of what it is.",
+        "source": "https://www.gutenberg.org/ebooks/383"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 56,
+        "printedPage": 54,
+        "matchedTitle": "She Stoops to Conquer"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 82,
+        "printedPage": 80,
+        "matchedTitle": "She Stoops to Conquer"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/383"
   },
   {
     "id": "songs-of-innocence-and-of-experience",
@@ -8233,6 +14643,244 @@ window.STORIES = [
     "narrativeReference": "https://www.poetryfoundation.org/poems/45521/i-wandered-lonely-as-a-cloud"
   },
   {
+    "id": "the-solitary-reaper",
+    "title": "The Solitary Reaper",
+    "author": "William Wordsworth",
+    "year": 1807,
+    "date": "1807",
+    "era": "romantic",
+    "genre": "Lyric poem",
+    "setting": "A Highland field in Scotland",
+    "hook": "He cannot translate her song, yet its sound follows him long after the field is gone.",
+    "characters": [
+      {
+        "name": "The traveller",
+        "role": "Listener passing through the Highlands"
+      },
+      {
+        "name": "The reaper",
+        "role": "Young woman cutting grain and singing"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A field interrupts the journey",
+        "text": "A traveller sees a young woman working alone in a Highland field. As she cuts the grain, her singing makes him stop and listen.",
+        "cast": [
+          "The traveller",
+          "The reaper"
+        ],
+        "motif": "garden",
+        "cue": "A FIELD INTERRUPTS THE JOURNEY",
+        "previousIndex": 0,
+        "key": "the-solitary-reaper:base:0",
+        "chapter": 1,
+        "mood": "wonder"
+      },
+      {
+        "title": "Do not disturb her",
+        "text": "He asks others to stop or pass quietly. The first response is attention: an ordinary worker's song deserves space before any explanation is attempted.",
+        "cast": [
+          "The traveller",
+          "The reaper"
+        ],
+        "motif": "road",
+        "cue": "DO NOT DISTURB HER",
+        "previousIndex": 1,
+        "key": "the-solitary-reaper:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The valley fills with sound",
+        "text": "Her voice seems to occupy the surrounding valley. The lonely singer creates an experience larger than the small patch of ground where she labours.",
+        "cast": [
+          "The reaper"
+        ],
+        "motif": "music",
+        "cue": "THE VALLEY FILLS WITH SOUND",
+        "previousIndex": 2,
+        "key": "the-solitary-reaper:base:2",
+        "chapter": 3,
+        "mood": "wonder"
+      },
+      {
+        "title": "A bird in a desert",
+        "text": "The listener imagines a nightingale welcoming weary travellers in distant sands. The comparison measures the song through the comfort music can offer a stranger.",
+        "cast": [
+          "The traveller"
+        ],
+        "motif": "bird",
+        "cue": "A BIRD IN A DESERT",
+        "previousIndex": 3,
+        "key": "the-solitary-reaper:base:3",
+        "chapter": 4,
+        "mood": "wonder"
+      },
+      {
+        "title": "A call across remote islands",
+        "text": "He thinks of a cuckoo breaking the silence of far northern seas. Again, the comparison tries to reach the extraordinary effect of this single human voice.",
+        "cast": [
+          "The traveller"
+        ],
+        "motif": "sea",
+        "cue": "A CALL ACROSS REMOTE ISLANDS",
+        "previousIndex": 4,
+        "key": "the-solitary-reaper:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The words remain unknown",
+        "text": "The traveller cannot tell what she sings. That gap prevents the poem from turning the woman's song into a story he can confidently claim as his own.",
+        "cast": [
+          "The traveller",
+          "The reaper"
+        ],
+        "motif": "book",
+        "cue": "THE WORDS REMAIN UNKNOWN",
+        "previousIndex": 5,
+        "key": "the-solitary-reaper:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Perhaps old sorrow",
+        "text": "He wonders whether the song concerns battles or grief from long ago. The imagined past gives one possible explanation, without proving that the woman's words contain it.",
+        "cast": [
+          "The traveller"
+        ],
+        "motif": "sword",
+        "cue": "PERHAPS OLD SORROW",
+        "previousIndex": 6,
+        "key": "the-solitary-reaper:base:6",
+        "chapter": 7,
+        "mood": "tension"
+      },
+      {
+        "title": "Perhaps an ordinary pain",
+        "text": "Another possibility is some familiar trouble of daily life. Great historical sorrow and modest present difficulty seem equally capable of giving the melody its emotional force.",
+        "cast": [
+          "The traveller",
+          "The reaper"
+        ],
+        "motif": "home",
+        "cue": "PERHAPS AN ORDINARY PAIN",
+        "previousIndex": 7,
+        "key": "the-solitary-reaper:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The singing goes on",
+        "text": "Whatever its subject, the song feels inexhaustible to the listener. The reaper continues working, while his desire to understand yields to the experience of hearing.",
+        "cast": [
+          "The reaper",
+          "The traveller"
+        ],
+        "motif": "clock",
+        "cue": "THE SINGING GOES ON",
+        "previousIndex": 8,
+        "key": "the-solitary-reaper:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "He watches in stillness",
+        "text": "The traveller listens without interrupting. The woman remains absorbed in her task, and the poem grants importance to a moment that offers no dramatic event.",
+        "cast": [
+          "The traveller",
+          "The reaper"
+        ],
+        "motif": "garden",
+        "cue": "HE WATCHES IN STILLNESS",
+        "previousIndex": 9,
+        "key": "the-solitary-reaper:base:9",
+        "chapter": 10,
+        "mood": "wonder"
+      },
+      {
+        "title": "The path carries him away",
+        "text": "He finally climbs the hill and leaves the field. Distance removes the voice from his ears, but does not immediately remove it from his inward life.",
+        "cast": [
+          "The traveller"
+        ],
+        "motif": "mountain",
+        "cue": "THE PATH CARRIES HIM AWAY",
+        "previousIndex": 10,
+        "key": "the-solitary-reaper:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The heart keeps the music",
+        "text": "Long after the sound has faded, its remembered presence remains. The journey continues with something he could not explain, yet will not easily forget.",
+        "cast": [
+          "The traveller"
+        ],
+        "motif": "heart",
+        "cue": "THE HEART KEEPS THE MUSIC",
+        "previousIndex": 11,
+        "key": "the-solitary-reaper:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What remains after the traveller leaves?",
+    "answer": "The remembered music, even though he never learns exactly what the woman was singing about.",
+    "source": "https://www.gutenberg.org/ebooks/8824",
+    "note": "Published in 1807. The poem does not identify the song's language or subject with certainty; the traveller's guesses remain guesses.",
+    "quotes": [
+      {
+        "text": "The music in my heart I bore,",
+        "context": "The traveller carries the song away in the final stanza.",
+        "meaning": "Understanding an experience does not always require possessing its literal meaning.",
+        "source": "https://www.gutenberg.org/ebooks/8824"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 95,
+        "printedPage": 93,
+        "matchedTitle": "The Solitary Reaper"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 96,
+        "printedPage": 94,
+        "matchedTitle": "The Solitary Reaper"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 104,
+        "printedPage": 102,
+        "matchedTitle": "The Solitary Reaper"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 106,
+        "printedPage": 104,
+        "matchedTitle": "The Solitary Reaper"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 112,
+        "printedPage": 110,
+        "matchedTitle": "The Solitary Reaper"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 11,
+        "printedPage": null,
+        "matchedTitle": "The Solitary Reaper"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/8824"
+  },
+  {
     "id": "sense-and-sensibility",
     "title": "Sense and Sensibility",
     "author": "Jane Austen",
@@ -8927,6 +15575,249 @@ window.STORIES = [
     ],
     "contentVersion": 4,
     "narrativeReference": "https://www.gutenberg.org/ebooks/56361"
+  },
+  {
+    "id": "mansfield-park",
+    "title": "Mansfield Park",
+    "author": "Jane Austen",
+    "year": 1814,
+    "date": "1814",
+    "era": "romantic",
+    "genre": "Novel",
+    "setting": "A country estate and its unequal household",
+    "hook": "The quiet cousin sees what everybody else's charm makes easy to overlook.",
+    "characters": [
+      {
+        "name": "Fanny Price",
+        "role": "Poor relation raised at Mansfield"
+      },
+      {
+        "name": "Edmund Bertram",
+        "role": "Cousin she loves"
+      },
+      {
+        "name": "Mary Crawford",
+        "role": "Charming newcomer"
+      },
+      {
+        "name": "Henry Crawford",
+        "role": "Her brother and Fanny's suitor"
+      },
+      {
+        "name": "Maria Bertram",
+        "role": "Cousin drawn into scandal"
+      },
+      {
+        "name": "Sir Thomas",
+        "role": "Patriarch of Mansfield"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A child enters a grand house",
+        "text": "Fanny Price leaves her poor family to live at Mansfield Park. The house gives her security and education, but also teaches her how sharply a dependent cousin can feel her place.",
+        "cast": [
+          "Fanny Price",
+          "Sir Thomas"
+        ],
+        "motif": "home",
+        "cue": "A CHILD ENTERS A GRAND HOUSE",
+        "previousIndex": 0,
+        "key": "mansfield-park:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Edmund notices her loneliness",
+        "text": "Edmund offers kindness and guidance when others overlook her. Fanny's gratitude grows into affection, while her quietness makes her feelings easy for the household to miss.",
+        "cast": [
+          "Fanny Price",
+          "Edmund Bertram"
+        ],
+        "motif": "heart",
+        "cue": "EDMUND NOTICES HER LONELINESS",
+        "previousIndex": 1,
+        "key": "mansfield-park:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The father goes abroad",
+        "text": "Sir Thomas leaves for Antigua, where his interests help sustain the family's wealth. His absence loosens authority at home, revealing the tensions already beneath its orderly appearance.",
+        "cast": [
+          "Sir Thomas",
+          "Fanny Price"
+        ],
+        "motif": "ship",
+        "cue": "THE FATHER GOES ABROAD",
+        "previousIndex": 2,
+        "key": "mansfield-park:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The Crawfords bring new energy",
+        "text": "Mary and Henry Crawford arrive with confidence and charm. Edmund is attracted to Mary, while Henry's attention draws Maria and her sister into a contest whose costs he initially ignores.",
+        "cast": [
+          "Mary Crawford",
+          "Henry Crawford",
+          "Edmund Bertram",
+          "Maria Bertram"
+        ],
+        "motif": "garden",
+        "cue": "THE CRAWFORDS BRING NEW ENERGY",
+        "previousIndex": 3,
+        "key": "mansfield-park:base:3",
+        "chapter": 4,
+        "mood": "wonder"
+      },
+      {
+        "title": "An excursion exposes the boundaries",
+        "text": "During an outing, flirtation crosses the lines created by Maria's engagement. Fanny watches people treat rules as inconvenient obstacles whenever desire makes another route attractive.",
+        "cast": [
+          "Fanny Price",
+          "Maria Bertram",
+          "Henry Crawford"
+        ],
+        "motif": "gate",
+        "cue": "AN EXCURSION EXPOSES THE BOUNDARIES",
+        "previousIndex": 4,
+        "key": "mansfield-park:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The household plans a play",
+        "text": "The young people rehearse a drama with suggestive roles and private opportunities. Fanny refuses to act, sensing that theatrical freedom is serving desires nobody wants to name directly.",
+        "cast": [
+          "Fanny Price",
+          "Edmund Bertram",
+          "Mary Crawford"
+        ],
+        "motif": "stage",
+        "cue": "THE HOUSEHOLD PLANS A PLAY",
+        "previousIndex": 5,
+        "key": "mansfield-park:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Sir Thomas returns",
+        "text": "The father's unexpected arrival ends the theatricals. Public order is restored, but the attachments and disappointments formed in his absence do not disappear with the scenery.",
+        "cast": [
+          "Sir Thomas",
+          "Maria Bertram"
+        ],
+        "motif": "hall",
+        "cue": "SIR THOMAS RETURNS",
+        "previousIndex": 6,
+        "key": "mansfield-park:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Henry chooses a new pursuit",
+        "text": "Henry turns his attention to Fanny, first as a challenge and then more seriously. His proposal wins family approval, placing her solitary judgement against nearly everyone's expectation.",
+        "cast": [
+          "Henry Crawford",
+          "Fanny Price"
+        ],
+        "motif": "contract",
+        "cue": "HENRY CHOOSES A NEW PURSUIT",
+        "previousIndex": 7,
+        "key": "mansfield-park:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Fanny says no",
+        "text": "Fanny refuses because she does not love or trust him. Sir Thomas considers her ungrateful, showing how difficult it is for a dependent woman to make an unwelcome choice.",
+        "cast": [
+          "Fanny Price",
+          "Sir Thomas",
+          "Henry Crawford"
+        ],
+        "motif": "chains",
+        "cue": "FANNY SAYS NO",
+        "previousIndex": 8,
+        "key": "mansfield-park:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "Portsmouth tests another home",
+        "text": "Fanny visits her birth family and experiences its noise, poverty and affection. Distance sharpens her understanding of Mansfield without proving that its social advantages make every demand just.",
+        "cast": [
+          "Fanny Price"
+        ],
+        "motif": "home",
+        "cue": "PORTSMOUTH TESTS ANOTHER HOME",
+        "previousIndex": 9,
+        "key": "mansfield-park:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "The charm breaks into scandal",
+        "text": "Henry runs away with the married Maria. Mary's response worries Edmund more than the loss of the flirtation alone, exposing a difference in their deepest expectations of conduct.",
+        "cast": [
+          "Henry Crawford",
+          "Maria Bertram",
+          "Mary Crawford",
+          "Edmund Bertram"
+        ],
+        "motif": "letter",
+        "cue": "THE CHARM BREAKS INTO SCANDAL",
+        "previousIndex": 10,
+        "key": "mansfield-park:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The quiet judgement is recognised",
+        "text": "Edmund turns toward Fanny, and they eventually marry. Mansfield has learned something through loss, though its late recognition cannot simply return the lives damaged by earlier choices.",
+        "cast": [
+          "Fanny Price",
+          "Edmund Bertram",
+          "Sir Thomas"
+        ],
+        "motif": "garden",
+        "cue": "THE QUIET JUDGEMENT IS RECOGNISED",
+        "previousIndex": 11,
+        "key": "mansfield-park:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "Why does Fanny refuse Henry's proposal?",
+    "answer": "She distrusts his conduct and does not love him; the pressure to accept a socially advantageous offer does not erase her own judgement.",
+    "source": "https://www.gutenberg.org/ebooks/141",
+    "note": "Published in 1814. Sir Thomas's Antigua interests connect the estate's comfort to colonial slavery, though the novel leaves much about those operations unspoken.",
+    "quotes": [
+      {
+        "text": "Let other pens dwell on guilt and misery.",
+        "context": "The narrator turns toward resolution in the final chapter.",
+        "meaning": "The closing happiness follows serious damage that the narrative acknowledges before moving beyond it.",
+        "source": "https://www.gutenberg.org/ebooks/141"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 103,
+        "printedPage": 101,
+        "matchedTitle": "Mansfield Park"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 12,
+        "printedPage": null,
+        "matchedTitle": "Mansfield Park"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/141"
   },
   {
     "id": "emma",
@@ -10453,6 +17344,473 @@ window.STORIES = [
     "narrativeReference": "https://www.poetryfoundation.org/poems/46565/ozymandias"
   },
   {
+    "id": "endymion",
+    "title": "Endymion",
+    "author": "John Keats",
+    "year": 1818,
+    "date": "1818",
+    "era": "romantic",
+    "genre": "Mythic romance in verse",
+    "setting": "Latmos and a journey through earth and sea",
+    "hook": "A shepherd pursues a goddess, then discovers that love will not obey the divisions he has imagined.",
+    "characters": [
+      {
+        "name": "Endymion",
+        "role": "Shepherd prince pursuing a vision"
+      },
+      {
+        "name": "Cynthia",
+        "role": "Moon goddess and beloved"
+      },
+      {
+        "name": "Peona",
+        "role": "His sister and confidante"
+      },
+      {
+        "name": "Glaucus",
+        "role": "Enchanted sea figure"
+      },
+      {
+        "name": "The Indian maiden",
+        "role": "Figure who tests his divided desire"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A festival under the trees",
+        "text": "In Latmos, worshippers gather for Pan, but their young prince Endymion is troubled. A private vision has drawn his thoughts away from the ordinary life around him.",
+        "cast": [
+          "Endymion",
+          "Peona"
+        ],
+        "motif": "forest",
+        "cue": "A FESTIVAL UNDER THE TREES",
+        "previousIndex": 0,
+        "key": "endymion:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "His sister hears the secret",
+        "text": "Peona listens as Endymion describes an encounter with a beautiful moon goddess. The remembered vision feels too powerful to dismiss and too distant to possess.",
+        "cast": [
+          "Endymion",
+          "Peona",
+          "Cynthia"
+        ],
+        "motif": "heart",
+        "cue": "HIS SISTER HEARS THE SECRET",
+        "previousIndex": 1,
+        "key": "endymion:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The vision becomes a quest",
+        "text": "Endymion leaves familiar shelter to seek the beloved he has glimpsed. The promise of beauty turns restlessness into motion, carrying him beyond what his sister can explain or protect.",
+        "cast": [
+          "Endymion",
+          "Cynthia"
+        ],
+        "motif": "road",
+        "cue": "THE VISION BECOMES A QUEST",
+        "previousIndex": 2,
+        "key": "endymion:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Earth opens unfamiliar paths",
+        "text": "He enters strange landscapes and underground spaces. Each passage makes the pursuit less like reaching a fixed address and more like discovering how desire reshapes experience.",
+        "cast": [
+          "Endymion"
+        ],
+        "motif": "cave",
+        "cue": "EARTH OPENS UNFAMILIAR PATHS",
+        "previousIndex": 3,
+        "key": "endymion:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Other lovers appear along the way",
+        "text": "The quest crosses stories of longing and reunion beyond his own. Their presence makes love a force connecting lives, rather than a prize reserved for the pursuing prince.",
+        "cast": [
+          "Endymion"
+        ],
+        "motif": "garden",
+        "cue": "OTHER LOVERS APPEAR ALONG THE WAY",
+        "previousIndex": 4,
+        "key": "endymion:base:4",
+        "chapter": 5,
+        "mood": "wonder"
+      },
+      {
+        "title": "The moon's presence comes near",
+        "text": "Encounters and messages renew Endymion's hope, though possession remains uncertain. The beloved alternates between intimacy and distance, keeping the quest alive through partial fulfilment.",
+        "cast": [
+          "Endymion",
+          "Cynthia"
+        ],
+        "motif": "stars",
+        "cue": "THE MOON'S PRESENCE COMES NEAR",
+        "previousIndex": 5,
+        "key": "endymion:base:5",
+        "chapter": 6,
+        "mood": "wonder"
+      },
+      {
+        "title": "Beneath the sea",
+        "text": "The journey leads into a marine world, where Endymion meets Glaucus. This new figure carries his own history of love, punishment and a long captivity.",
+        "cast": [
+          "Endymion",
+          "Glaucus"
+        ],
+        "motif": "sea",
+        "cue": "BENEATH THE SEA",
+        "previousIndex": 6,
+        "key": "endymion:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Another enchantment is undone",
+        "text": "Endymion helps release Glaucus and other sufferers from their condition. His search begins doing good beyond itself, turning personal longing into an act of restoration.",
+        "cast": [
+          "Endymion",
+          "Glaucus"
+        ],
+        "motif": "chains",
+        "cue": "ANOTHER ENCHANTMENT IS UNDONE",
+        "previousIndex": 7,
+        "key": "endymion:base:7",
+        "chapter": 8,
+        "mood": "tension"
+      },
+      {
+        "title": "An earthly woman moves him",
+        "text": "Endymion encounters an Indian maiden and feels a new attachment. Love for a person who seems mortal unsettles his devotion to the goddess he has spent so long pursuing.",
+        "cast": [
+          "Endymion",
+          "The Indian maiden"
+        ],
+        "motif": "heart",
+        "cue": "AN EARTHLY WOMAN MOVES HIM",
+        "previousIndex": 8,
+        "key": "endymion:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Desire divides his judgement",
+        "text": "He believes the two loves cannot coexist and grieves over what seems like disloyalty. The quest's deepest obstacle now lies within the distinctions he has made himself.",
+        "cast": [
+          "Endymion",
+          "The Indian maiden",
+          "Cynthia"
+        ],
+        "motif": "mirror",
+        "cue": "DESIRE DIVIDES HIS JUDGEMENT",
+        "previousIndex": 9,
+        "key": "endymion:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "He turns toward humility",
+        "text": "Endymion accepts the possibility of giving up his exalted dream. His readiness to relinquish an idealised future prepares the poem's final recognition.",
+        "cast": [
+          "Endymion"
+        ],
+        "motif": "mountain",
+        "cue": "HE TURNS TOWARD HUMILITY",
+        "previousIndex": 10,
+        "key": "endymion:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The two beloveds become one",
+        "text": "The maiden reveals herself as Cynthia. The separation between earthly and divine affection dissolves, allowing the romance to end in a union the traveller could not have planned.",
+        "cast": [
+          "Endymion",
+          "Cynthia",
+          "Peona"
+        ],
+        "motif": "sunrise",
+        "cue": "THE TWO BELOVEDS BECOME ONE",
+        "previousIndex": 11,
+        "key": "endymion:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "How does the apparent conflict between mortal and divine love end?",
+    "answer": "The Indian maiden is revealed as Cynthia, so the loves Endymion believed were opposed meet in the same beloved.",
+    "source": "https://www.gutenberg.org/ebooks/24280",
+    "note": "Published in 1818. These cards condense the four-book quest and its visionary episodes; the poem's movements are not a realistic geographical itinerary.",
+    "quotes": [
+      {
+        "text": "A thing of beauty is a joy for ever:",
+        "context": "The poem opens by describing beauty's enduring power.",
+        "meaning": "The journey begins with the hope that a fleeting encounter can nourish an entire life.",
+        "source": "https://www.gutenberg.org/ebooks/24280"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 99,
+        "printedPage": 97,
+        "matchedTitle": "Endymion"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 12,
+        "printedPage": null,
+        "matchedTitle": "Endymion"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 13,
+        "printedPage": null,
+        "matchedTitle": "Endymion"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/24280"
+  },
+  {
+    "id": "northanger-abbey",
+    "title": "Northanger Abbey",
+    "author": "Jane Austen",
+    "year": 1818,
+    "date": "1818",
+    "era": "romantic",
+    "genre": "Novel and Gothic satire",
+    "setting": "Bath and an English country abbey",
+    "hook": "A young reader expects hidden horrors, then discovers how money can be frightening without a secret dungeon.",
+    "characters": [
+      {
+        "name": "Catherine Morland",
+        "role": "Inexperienced heroine fond of Gothic novels"
+      },
+      {
+        "name": "Henry Tilney",
+        "role": "Man she loves"
+      },
+      {
+        "name": "Isabella Thorpe",
+        "role": "Friend pursuing advantage"
+      },
+      {
+        "name": "John Thorpe",
+        "role": "Boastful misleading suitor"
+      },
+      {
+        "name": "General Tilney",
+        "role": "Henry's father judging Catherine's wealth"
+      },
+      {
+        "name": "Eleanor Tilney",
+        "role": "Henry's sister and Catherine's ally"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "An unlikely heroine leaves home",
+        "text": "Catherine Morland goes to Bath with family friends. She has imagination and good intentions, but little experience of how polished conversation can hide selfish aims.",
+        "cast": [
+          "Catherine Morland"
+        ],
+        "motif": "road",
+        "cue": "AN UNLIKELY HEROINE LEAVES HOME",
+        "previousIndex": 0,
+        "key": "northanger-abbey:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Bath offers a larger world",
+        "text": "Balls, walks and introductions fill her days. Catherine meets Henry Tilney, whose wit gives her pleasure while also gently testing the assumptions she brings into conversation.",
+        "cast": [
+          "Catherine Morland",
+          "Henry Tilney"
+        ],
+        "motif": "hall",
+        "cue": "BATH OFFERS A LARGER WORLD",
+        "previousIndex": 1,
+        "key": "northanger-abbey:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Isabella becomes a close friend",
+        "text": "Shared enthusiasm for novels brings Catherine and Isabella together. The friendship feels immediate, though Isabella's declarations of devotion will prove less reliable than their language suggests.",
+        "cast": [
+          "Catherine Morland",
+          "Isabella Thorpe"
+        ],
+        "motif": "book",
+        "cue": "ISABELLA BECOMES A CLOSE FRIEND",
+        "previousIndex": 2,
+        "key": "northanger-abbey:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "John speaks as if he knows",
+        "text": "John Thorpe boasts, pressures and invents information. Catherine's difficulty resisting him shows how an inexperienced listener can be trapped by another person's confidence.",
+        "cast": [
+          "Catherine Morland",
+          "John Thorpe"
+        ],
+        "motif": "letter",
+        "cue": "JOHN SPEAKS AS IF HE KNOWS",
+        "previousIndex": 3,
+        "key": "northanger-abbey:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Promises become inconvenient",
+        "text": "Plans with the Thorpes conflict with Catherine's commitments to the Tilneys. She starts learning that refusing an insistent acquaintance may be necessary to remain trustworthy to friends.",
+        "cast": [
+          "Catherine Morland",
+          "John Thorpe",
+          "Eleanor Tilney"
+        ],
+        "motif": "gate",
+        "cue": "PROMISES BECOME INCONVENIENT",
+        "previousIndex": 4,
+        "key": "northanger-abbey:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Isabella changes her attention",
+        "text": "Isabella's engagement to Catherine's brother does not stop her flirting with a richer prospect. Affection and social ambition begin separating, forcing Catherine to reconsider her friend.",
+        "cast": [
+          "Isabella Thorpe",
+          "Catherine Morland"
+        ],
+        "motif": "coins",
+        "cue": "ISABELLA CHANGES HER ATTENTION",
+        "previousIndex": 5,
+        "key": "northanger-abbey:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "An invitation to the abbey",
+        "text": "General Tilney welcomes Catherine to Northanger Abbey, influenced by exaggerated reports of her wealth. She mistakes the invitation for unqualified kindness and enters a place already loaded with expectations.",
+        "cast": [
+          "Catherine Morland",
+          "General Tilney"
+        ],
+        "motif": "castle",
+        "cue": "AN INVITATION TO THE ABBEY",
+        "previousIndex": 6,
+        "key": "northanger-abbey:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Novels supply the shadows",
+        "text": "The abbey prompts Catherine to look for hidden manuscripts and mysterious rooms. Gothic habits turn ordinary household details into clues before she has tested what they actually show.",
+        "cast": [
+          "Catherine Morland"
+        ],
+        "motif": "ghost",
+        "cue": "NOVELS SUPPLY THE SHADOWS",
+        "previousIndex": 7,
+        "key": "northanger-abbey:base:7",
+        "chapter": 8,
+        "mood": "tension"
+      },
+      {
+        "title": "A terrible suspicion grows",
+        "text": "Catherine imagines that the General may have harmed his dead wife. The suspicion takes the emotional force of his intimidating manner beyond what the available evidence can support.",
+        "cast": [
+          "Catherine Morland",
+          "General Tilney"
+        ],
+        "motif": "grave",
+        "cue": "A TERRIBLE SUSPICION GROWS",
+        "previousIndex": 8,
+        "key": "northanger-abbey:base:8",
+        "chapter": 9,
+        "mood": "sorrow"
+      },
+      {
+        "title": "Henry returns her to evidence",
+        "text": "Henry learns what she has imagined and challenges it. Catherine feels ashamed, beginning to distinguish an exciting fictional pattern from a justified account of someone else's life.",
+        "cast": [
+          "Henry Tilney",
+          "Catherine Morland"
+        ],
+        "motif": "mirror",
+        "cue": "HENRY RETURNS HER TO EVIDENCE",
+        "previousIndex": 9,
+        "key": "northanger-abbey:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "The real cruelty arrives",
+        "text": "Learning that Catherine is not wealthy, the General abruptly expels her. No Gothic murder is needed: social calculation alone can produce an unjust and frightening experience.",
+        "cast": [
+          "General Tilney",
+          "Catherine Morland"
+        ],
+        "motif": "road",
+        "cue": "THE REAL CRUELTY ARRIVES",
+        "previousIndex": 10,
+        "key": "northanger-abbey:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "Love survives the correction",
+        "text": "Henry follows Catherine and declares his affection. Their eventual marriage joins love with a clearer understanding of character, while the story lets real motives replace her imagined horrors.",
+        "cast": [
+          "Henry Tilney",
+          "Catherine Morland"
+        ],
+        "motif": "heart",
+        "cue": "LOVE SURVIVES THE CORRECTION",
+        "previousIndex": 11,
+        "key": "northanger-abbey:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What corrects Catherine's Gothic misunderstanding?",
+    "answer": "Henry challenges her suspicions about his father; the later expulsion reveals real cruelty rooted in greed rather than the murder plot she imagined.",
+    "source": "https://www.gutenberg.org/ebooks/121",
+    "note": "Published posthumously in 1818, with earlier composition. Gothic fiction is both a source of enjoyment and a target of affectionate parody; the novel does not simply condemn reading novels.",
+    "quotes": [
+      {
+        "text": "No one who had ever seen Catherine Morland",
+        "context": "The narrator begins by resisting the idea that Catherine naturally resembles a grand romantic heroine.",
+        "meaning": "An ordinary person's education can matter more than fulfilling a dramatic stereotype.",
+        "source": "https://www.gutenberg.org/ebooks/121"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 103,
+        "printedPage": 101,
+        "matchedTitle": "Northanger Abbey"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/121"
+  },
+  {
     "id": "ode-to-a-nightingale",
     "title": "Ode to a Nightingale",
     "author": "John Keats",
@@ -10879,6 +18237,238 @@ window.STORIES = [
     ],
     "contentVersion": 4,
     "narrativeReference": "https://www.gutenberg.org/ebooks/21700"
+  },
+  {
+    "id": "la-belle-dame-sans-merci",
+    "title": "La Belle Dame sans Merci",
+    "author": "John Keats",
+    "year": 1819,
+    "date": "1819",
+    "era": "romantic",
+    "genre": "Ballad",
+    "setting": "A barren lakeside and a remembered fairy encounter",
+    "hook": "A knight meets a beautiful stranger, then wakes to find love has left him alone among warnings.",
+    "characters": [
+      {
+        "name": "The knight",
+        "role": "Exhausted speaker of an enchanted encounter"
+      },
+      {
+        "name": "The questioning voice",
+        "role": "Asks why he waits alone"
+      },
+      {
+        "name": "The fairy lady",
+        "role": "Mysterious beloved"
+      },
+      {
+        "name": "The pale figures",
+        "role": "Dream voices warning him"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A knight waits by the lake",
+        "text": "Beside a barren lake, a questioning voice finds a knight alone and exhausted. The cold landscape seems strangely out of season with the life he should possess.",
+        "cast": [
+          "The knight",
+          "The questioning voice"
+        ],
+        "motif": "sea",
+        "cue": "A KNIGHT WAITS BY THE LAKE",
+        "previousIndex": 0,
+        "key": "la-belle-dame-sans-merci:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The body carries a warning",
+        "text": "The knight's pale face and fading appearance invite concern. Before he speaks of love, the poem lets the reader see the cost already written upon him.",
+        "cast": [
+          "The knight"
+        ],
+        "motif": "mirror",
+        "cue": "THE BODY CARRIES A WARNING",
+        "previousIndex": 1,
+        "key": "la-belle-dame-sans-merci:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "He remembers the stranger",
+        "text": "The knight tells of meeting a beautiful lady in the meadows. Her unusual appearance suggests a fairy world, but he cannot give the listener a settled identity for her.",
+        "cast": [
+          "The knight",
+          "The fairy lady"
+        ],
+        "motif": "garden",
+        "cue": "HE REMEMBERS THE STRANGER",
+        "previousIndex": 2,
+        "key": "la-belle-dame-sans-merci:base:2",
+        "chapter": 3,
+        "mood": "wonder"
+      },
+      {
+        "title": "Flowers become gifts",
+        "text": "He makes ornaments from flowers and places them on her. The simple acts create the atmosphere of courtship, drawing him into a relationship he believes is mutual.",
+        "cast": [
+          "The knight",
+          "The fairy lady"
+        ],
+        "motif": "heart",
+        "cue": "FLOWERS BECOME GIFTS",
+        "previousIndex": 3,
+        "key": "la-belle-dame-sans-merci:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "She rides with him",
+        "text": "He puts her on his horse and watches her as they travel. His attention narrows until her presence seems to occupy his entire sense of the world.",
+        "cast": [
+          "The knight",
+          "The fairy lady"
+        ],
+        "motif": "road",
+        "cue": "SHE RIDES WITH HIM",
+        "previousIndex": 4,
+        "key": "la-belle-dame-sans-merci:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Food from another world",
+        "text": "She offers roots, honey and manna-like food. Ordinary nourishment becomes part of the enchantment, making affection and strangeness difficult to separate.",
+        "cast": [
+          "The knight",
+          "The fairy lady"
+        ],
+        "motif": "forest",
+        "cue": "FOOD FROM ANOTHER WORLD",
+        "previousIndex": 5,
+        "key": "la-belle-dame-sans-merci:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Words promise love",
+        "text": "The knight interprets her unfamiliar speech as a declaration of love. The poem keeps that interpretation within his account, rather than giving an independent guarantee of what she meant.",
+        "cast": [
+          "The knight",
+          "The fairy lady"
+        ],
+        "motif": "letter",
+        "cue": "WORDS PROMISE LOVE",
+        "previousIndex": 6,
+        "key": "la-belle-dame-sans-merci:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Inside the grotto",
+        "text": "She takes him to a cave-like dwelling and shows distress. Their intimacy deepens in a place removed from the questioning voice's ordinary landscape.",
+        "cast": [
+          "The knight",
+          "The fairy lady"
+        ],
+        "motif": "cave",
+        "cue": "INSIDE THE GROTTO",
+        "previousIndex": 7,
+        "key": "la-belle-dame-sans-merci:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Sleep opens a warning",
+        "text": "The knight falls asleep and dreams of pale kings, princes and warriors. The figures resemble people whose worldly strength has been drained by an experience like his.",
+        "cast": [
+          "The knight",
+          "The pale figures"
+        ],
+        "motif": "ghost",
+        "cue": "SLEEP OPENS A WARNING",
+        "previousIndex": 8,
+        "key": "la-belle-dame-sans-merci:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "The dream names his danger",
+        "text": "The pale figures cry out that the merciless beautiful lady has captured him. Their warning gives the encounter a darker meaning without explaining all its uncertainties.",
+        "cast": [
+          "The knight",
+          "The pale figures"
+        ],
+        "motif": "chains",
+        "cue": "THE DREAM NAMES HIS DANGER",
+        "previousIndex": 9,
+        "key": "la-belle-dame-sans-merci:base:9",
+        "chapter": 10,
+        "mood": "tension"
+      },
+      {
+        "title": "The lady is gone",
+        "text": "He wakes alone on the cold hillside. The abundance of flowers, food and affection has vanished, leaving only the place in which the poem first found him.",
+        "cast": [
+          "The knight"
+        ],
+        "motif": "stone",
+        "cue": "THE LADY IS GONE",
+        "previousIndex": 10,
+        "key": "la-belle-dame-sans-merci:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The waiting has no answer",
+        "text": "The knight remains by the lake, repeating its silence. The ballad closes around the unresolved attachment, letting beauty, desire and abandonment keep their disturbing hold.",
+        "cast": [
+          "The knight",
+          "The questioning voice"
+        ],
+        "motif": "clock",
+        "cue": "THE WAITING HAS NO ANSWER",
+        "previousIndex": 11,
+        "key": "la-belle-dame-sans-merci:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What does the poem refuse to explain completely?",
+    "answer": "The lady's nature and motives, and whether the knight's account gives the whole truth of the encounter.",
+    "source": "https://www.gutenberg.org/ebooks/23684",
+    "note": "Composed in 1819; first printed in 1820. This is a framed, ambiguous ballad, not a fully explained story about a definitively identified villain.",
+    "quotes": [
+      {
+        "text": "And no birds sing.",
+        "context": "The opening and closing landscape stresses lifeless stillness.",
+        "meaning": "The same silent place frames both the mystery and its unresolved aftermath.",
+        "source": "https://www.gutenberg.org/ebooks/23684"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 135,
+        "printedPage": 133,
+        "matchedTitle": "La Belle Dame sans Merci"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 221,
+        "printedPage": 219,
+        "matchedTitle": "La Belle Dame sans Merci"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 12,
+        "printedPage": null,
+        "matchedTitle": "La Belle Dame sans Merci"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/23684"
   },
   {
     "id": "ode-to-the-west-wind",
@@ -11914,6 +19504,241 @@ window.STORIES = [
     "narrativeReference": "https://www.poetryfoundation.org/poems/44477/ode-on-a-grecian-urn"
   },
   {
+    "id": "lamia",
+    "title": "Lamia",
+    "author": "John Keats",
+    "year": 1820,
+    "date": "1820",
+    "era": "romantic",
+    "genre": "Narrative poem",
+    "setting": "Mythic Corinth and a concealed supernatural romance",
+    "hook": "She wins a human shape and a lover, but one unyielding gaze threatens the world they build.",
+    "characters": [
+      {
+        "name": "Lamia",
+        "role": "Serpent woman transformed into human beauty"
+      },
+      {
+        "name": "Lycius",
+        "role": "Young man who loves her"
+      },
+      {
+        "name": "Hermes",
+        "role": "God assisting her transformation"
+      },
+      {
+        "name": "Apollonius",
+        "role": "Philosopher who exposes her identity"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A god searches the woods",
+        "text": "Hermes wants to find a hidden nymph. A brilliant serpent offers help, asking in return for release into the human form she longs to inhabit.",
+        "cast": [
+          "Hermes",
+          "Lamia"
+        ],
+        "motif": "forest",
+        "cue": "A GOD SEARCHES THE WOODS",
+        "previousIndex": 0,
+        "key": "lamia:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The bargain gives her a body",
+        "text": "Hermes grants the transformation. Lamia leaves the serpent's shape behind, entering the human world with a beauty that still conceals an extraordinary origin.",
+        "cast": [
+          "Lamia",
+          "Hermes"
+        ],
+        "motif": "mask",
+        "cue": "THE BARGAIN GIVES HER A BODY",
+        "previousIndex": 1,
+        "key": "lamia:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Lycius meets her",
+        "text": "Near Corinth, young Lycius encounters Lamia and falls in love. Her appearance draws him away from familiar company into a relationship that feels complete within itself.",
+        "cast": [
+          "Lycius",
+          "Lamia"
+        ],
+        "motif": "heart",
+        "cue": "LYCIUS MEETS HER",
+        "previousIndex": 2,
+        "key": "lamia:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "A hidden palace opens",
+        "text": "The lovers inhabit an enchanted dwelling. Its beauty shelters their intimacy, but its very separation from ordinary life keeps the question of Lamia's identity outside the door.",
+        "cast": [
+          "Lamia",
+          "Lycius"
+        ],
+        "motif": "home",
+        "cue": "A HIDDEN PALACE OPENS",
+        "previousIndex": 3,
+        "key": "lamia:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "The world returns to his thoughts",
+        "text": "Lycius begins wanting public recognition of their union. Lamia fears what a wedding might bring, sensing that the safety of their love depends on who is allowed to look.",
+        "cast": [
+          "Lycius",
+          "Lamia"
+        ],
+        "motif": "gate",
+        "cue": "THE WORLD RETURNS TO HIS THOUGHTS",
+        "previousIndex": 4,
+        "key": "lamia:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "A teacher must be excluded",
+        "text": "She asks that Apollonius not attend. His penetrating judgement threatens the fragile border between the life they are enjoying and the truth it has kept concealed.",
+        "cast": [
+          "Lamia",
+          "Apollonius"
+        ],
+        "motif": "mirror",
+        "cue": "A TEACHER MUST BE EXCLUDED",
+        "previousIndex": 5,
+        "key": "lamia:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "The wedding is prepared",
+        "text": "Lamia reluctantly agrees to the celebration. The enchanted house becomes a place for guests, transforming private shelter into the stage on which its secret may be tested.",
+        "cast": [
+          "Lamia",
+          "Lycius"
+        ],
+        "motif": "hall",
+        "cue": "THE WEDDING IS PREPARED",
+        "previousIndex": 6,
+        "key": "lamia:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "The unwanted guest enters",
+        "text": "Apollonius appears despite the wish to exclude him. His arrival brings the outside world's claim to scrutiny into a room built around the lovers' desire.",
+        "cast": [
+          "Apollonius",
+          "Lamia",
+          "Lycius"
+        ],
+        "motif": "book",
+        "cue": "THE UNWANTED GUEST ENTERS",
+        "previousIndex": 7,
+        "key": "lamia:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The gaze holds her still",
+        "text": "The philosopher fixes his attention on Lamia. She becomes pale and silent, while Lycius cannot understand why the woman he loves is fading beneath another person's judgement.",
+        "cast": [
+          "Apollonius",
+          "Lamia",
+          "Lycius"
+        ],
+        "motif": "chains",
+        "cue": "THE GAZE HOLDS HER STILL",
+        "previousIndex": 8,
+        "key": "lamia:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "The hidden identity is named",
+        "text": "Apollonius calls her a serpent. What the feast celebrated as a human marriage is suddenly redefined, and Lamia disappears from the world her transformation allowed her to enter.",
+        "cast": [
+          "Apollonius",
+          "Lamia"
+        ],
+        "motif": "ghost",
+        "cue": "THE HIDDEN IDENTITY IS NAMED",
+        "previousIndex": 9,
+        "key": "lamia:base:9",
+        "chapter": 10,
+        "mood": "tension"
+      },
+      {
+        "title": "Lycius cannot survive the loss",
+        "text": "The guests find Lycius dead. The exposure has removed more than a deceptive appearance: it has destroyed the emotional world in which he had come to live.",
+        "cast": [
+          "Lycius"
+        ],
+        "motif": "grave",
+        "cue": "LYCIUS CANNOT SURVIVE THE LOSS",
+        "previousIndex": 10,
+        "key": "lamia:base:10",
+        "chapter": 11,
+        "mood": "sorrow"
+      },
+      {
+        "title": "Wonder and knowledge remain at odds",
+        "text": "The poem leaves a difficult argument behind the catastrophe. Readers must weigh concealment against love, and the value of truth against the cost of the manner that reveals it.",
+        "cast": [
+          "Lamia",
+          "Apollonius"
+        ],
+        "motif": "stars",
+        "cue": "WONDER AND KNOWLEDGE REMAIN AT ODDS",
+        "previousIndex": 11,
+        "key": "lamia:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "What destroys the lovers' enchanted world?",
+    "answer": "Apollonius identifies Lamia as a serpent at the wedding feast; her disappearance is followed by Lycius's death.",
+    "source": "https://www.gutenberg.org/ebooks/23684",
+    "note": "Published in 1820. The poem's challenge to cold philosophy is a poetic argument; the cards keep Lamia's deception and the lovers' vulnerability visible alongside it.",
+    "quotes": [
+      {
+        "text": "Do not all charms fly",
+        "context": "The narrator asks what happens when cold analysis strips wonder from experience.",
+        "meaning": "Exposing an illusion can reveal truth while also destroying what sustained a life.",
+        "source": "https://www.gutenberg.org/ebooks/23684"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 3,
+        "printedPage": 2,
+        "matchedTitle": "Lamia"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 99,
+        "printedPage": 97,
+        "matchedTitle": "Lamia"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 13,
+        "printedPage": null,
+        "matchedTitle": "Lamia"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/23684"
+  },
+  {
     "id": "oliver-twist",
     "title": "Oliver Twist",
     "author": "Charles Dickens",
@@ -12138,6 +19963,239 @@ window.STORIES = [
     ],
     "contentVersion": 4,
     "narrativeReference": "https://www.gutenberg.org/ebooks/730"
+  },
+  {
+    "id": "the-pickwick-papers",
+    "title": "The Pickwick Papers",
+    "author": "Charles Dickens",
+    "year": 1837,
+    "date": "1837",
+    "era": "victorian",
+    "genre": "Comic episodic novel",
+    "setting": "Coaching roads, inns and London",
+    "hook": "An innocent observer goes out to study the world and finds that the world is ready to take advantage of him.",
+    "characters": [
+      {
+        "name": "Pickwick",
+        "role": "Well-meaning traveller and club founder"
+      },
+      {
+        "name": "Sam Weller",
+        "role": "Resourceful servant"
+      },
+      {
+        "name": "Jingle",
+        "role": "Adventurer using charm and deception"
+      },
+      {
+        "name": "Mrs Bardell",
+        "role": "Landlady who believes Pickwick proposes"
+      },
+      {
+        "name": "Mr Winkle",
+        "role": "Companion with unreliable confidence"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A club sets out to observe",
+        "text": "Samuel Pickwick gathers companions for travels beyond London. They intend to study people and places, carrying confidence that good intentions will make them reliable interpreters of the world.",
+        "cast": [
+          "Pickwick",
+          "Mr Winkle"
+        ],
+        "motif": "book",
+        "cue": "A CLUB SETS OUT TO OBSERVE",
+        "previousIndex": 0,
+        "key": "the-pickwick-papers:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The road begins teaching",
+        "text": "Coaches, inns and unfamiliar company bring comic accidents. Pickwick's curiosity is generous, but the travellers repeatedly discover that enthusiasm does not substitute for practical experience.",
+        "cast": [
+          "Pickwick",
+          "Mr Winkle"
+        ],
+        "motif": "road",
+        "cue": "THE ROAD BEGINS TEACHING",
+        "previousIndex": 1,
+        "key": "the-pickwick-papers:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Jingle talks his way in",
+        "text": "The adventurer Jingle wins attention with rapid speech and apparent confidence. His charm makes appearances useful, and Pickwick's group becomes vulnerable to the stories he chooses to tell.",
+        "cast": [
+          "Jingle",
+          "Pickwick"
+        ],
+        "motif": "mask",
+        "cue": "JINGLE TALKS HIS WAY IN",
+        "previousIndex": 2,
+        "key": "the-pickwick-papers:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "A romance is almost stolen",
+        "text": "Jingle pursues a financially attractive marriage within a household the travellers visit. The episode shows how social visits and trust can become opportunities for someone who treats affection as a transaction.",
+        "cast": [
+          "Jingle",
+          "Pickwick"
+        ],
+        "motif": "coins",
+        "cue": "A ROMANCE IS ALMOST STOLEN",
+        "previousIndex": 3,
+        "key": "the-pickwick-papers:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Sam Weller joins the journey",
+        "text": "Pickwick hires Sam, a servant with sharp observation and streetwise humour. Their partnership supplies the traveller's kindness with judgement better adapted to the world he is entering.",
+        "cast": [
+          "Pickwick",
+          "Sam Weller"
+        ],
+        "motif": "heart",
+        "cue": "SAM WELLER JOINS THE JOURNEY",
+        "previousIndex": 4,
+        "key": "the-pickwick-papers:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "A conversation goes badly wrong",
+        "text": "Pickwick speaks to Mrs Bardell about employing a servant. She believes he is proposing marriage, turning an everyday domestic arrangement into a misunderstanding with lasting consequences.",
+        "cast": [
+          "Pickwick",
+          "Mrs Bardell"
+        ],
+        "motif": "letter",
+        "cue": "A CONVERSATION GOES BADLY WRONG",
+        "previousIndex": 5,
+        "key": "the-pickwick-papers:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "More adventures interrupt certainty",
+        "text": "Games, visits and local politics keep testing the club's assumptions. The episodic world refuses to behave like a neat set of specimens waiting for the gentlemen to describe them.",
+        "cast": [
+          "Pickwick",
+          "Mr Winkle",
+          "Sam Weller"
+        ],
+        "motif": "stage",
+        "cue": "MORE ADVENTURES INTERRUPT CERTAINTY",
+        "previousIndex": 6,
+        "key": "the-pickwick-papers:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "The misunderstanding reaches court",
+        "text": "Mrs Bardell brings a breach-of-promise action. Lawyers reinterpret Pickwick's words and habits, building a persuasive story that has little to do with what he meant.",
+        "cast": [
+          "Mrs Bardell",
+          "Pickwick"
+        ],
+        "motif": "hall",
+        "cue": "THE MISUNDERSTANDING REACHES COURT",
+        "previousIndex": 7,
+        "key": "the-pickwick-papers:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Principle leads to prison",
+        "text": "Pickwick refuses to pay the judgement and enters the Fleet prison. His moral protest brings him close to suffering he had previously met mainly as a visitor or observer.",
+        "cast": [
+          "Pickwick"
+        ],
+        "motif": "chains",
+        "cue": "PRINCIPLE LEADS TO PRISON",
+        "previousIndex": 8,
+        "key": "the-pickwick-papers:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "Sam stays beside his master",
+        "text": "Sam arranges to join Pickwick in confinement. Loyalty becomes practical company within an institution where debt and dependence shape the lives behind every comic surface.",
+        "cast": [
+          "Sam Weller",
+          "Pickwick"
+        ],
+        "motif": "home",
+        "cue": "SAM STAYS BESIDE HIS MASTER",
+        "previousIndex": 9,
+        "key": "the-pickwick-papers:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Generosity outgrows the dispute",
+        "text": "Pickwick helps Jingle despite earlier deception and responds to Mrs Bardell's own difficulties. His compassion becomes more valuable than simply proving that he had been wronged.",
+        "cast": [
+          "Pickwick",
+          "Jingle",
+          "Mrs Bardell"
+        ],
+        "motif": "coins",
+        "cue": "GENEROSITY OUTGROWS THE DISPUTE",
+        "previousIndex": 10,
+        "key": "the-pickwick-papers:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The traveller finds a home",
+        "text": "Pickwick leaves prison and retires from the club's journeys. The closing household preserves friendships gained along a road that turned observation into a more active knowledge of other people's needs.",
+        "cast": [
+          "Pickwick",
+          "Sam Weller"
+        ],
+        "motif": "garden",
+        "cue": "THE TRAVELLER FINDS A HOME",
+        "previousIndex": 11,
+        "key": "the-pickwick-papers:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "What does Sam Weller add to Pickwick's journey?",
+    "answer": "Practical judgement, loyalty and knowledge of ordinary life that help protect his generous but inexperienced master.",
+    "source": "https://www.gutenberg.org/ebooks/580",
+    "note": "Serialised 1836–1837. The novel is episodic: these cards trace the club, the misunderstandings and the prison arc without claiming every excursion belongs to one tight plot.",
+    "quotes": [
+      {
+        "text": "The first ray of light",
+        "context": "The narrator begins the club's comic record with mock-grand ceremony.",
+        "meaning": "An ordinary set of adventures is introduced as though it were a monumental public achievement.",
+        "source": "https://www.gutenberg.org/ebooks/580"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 121,
+        "printedPage": 119,
+        "matchedTitle": "The Pickwick Papers"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 14,
+        "printedPage": null,
+        "matchedTitle": "The Pickwick Papers"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/580"
   },
   {
     "id": "ulysses",
@@ -13450,6 +21508,462 @@ window.STORIES = [
     "narrativeReference": "https://www.gutenberg.org/ebooks/768"
   },
   {
+    "id": "agnes-grey",
+    "title": "Agnes Grey",
+    "author": "Anne Brontë",
+    "year": 1847,
+    "date": "1847",
+    "era": "victorian",
+    "genre": "Novel of work and moral independence",
+    "setting": "Country households employing a young governess",
+    "hook": "She enters grand houses to teach children, but discovers that money has made the adults unwilling to learn.",
+    "characters": [
+      {
+        "name": "Agnes",
+        "role": "Young governess and narrator"
+      },
+      {
+        "name": "Mrs Grey",
+        "role": "Her supportive mother"
+      },
+      {
+        "name": "Rosalie Murray",
+        "role": "Wealthy pupil testing her power"
+      },
+      {
+        "name": "Mr Weston",
+        "role": "Clergyman whose kindness Agnes values"
+      },
+      {
+        "name": "The Bloomfield children",
+        "role": "Agnes's first pupils"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A daughter wants to help",
+        "text": "Agnes Grey's family faces reduced circumstances, and she decides to become a governess. Work promises usefulness and independence, though her sheltered home has not prepared her for its imbalance of power.",
+        "cast": [
+          "Agnes",
+          "Mrs Grey"
+        ],
+        "motif": "home",
+        "cue": "A DAUGHTER WANTS TO HELP",
+        "previousIndex": 0,
+        "key": "agnes-grey:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The first house dazzles and disappoints",
+        "text": "The Bloomfields employ her to teach their children. Their wealth looks reassuring, but the household does not grant the new governess the respect required to carry out the task.",
+        "cast": [
+          "Agnes",
+          "The Bloomfield children"
+        ],
+        "motif": "hall",
+        "cue": "THE FIRST HOUSE DAZZLES AND DISAPPOINTS",
+        "previousIndex": 1,
+        "key": "agnes-grey:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Authority is given and withdrawn",
+        "text": "The children resist Agnes, and their parents repeatedly undermine her. She is expected to produce good behaviour while being denied the means to insist on it.",
+        "cast": [
+          "Agnes",
+          "The Bloomfield children"
+        ],
+        "motif": "chains",
+        "cue": "AUTHORITY IS GIVEN AND WITHDRAWN",
+        "previousIndex": 2,
+        "key": "agnes-grey:base:2",
+        "chapter": 3,
+        "mood": "tension"
+      },
+      {
+        "title": "Cruelty becomes a lesson",
+        "text": "Agnes encounters behaviour toward animals that the adults tolerate or encourage. Her efforts to stop it expose a conflict between moral teaching and the family's willingness to excuse its children.",
+        "cast": [
+          "Agnes",
+          "The Bloomfield children"
+        ],
+        "motif": "bird",
+        "cue": "CRUELTY BECOMES A LESSON",
+        "previousIndex": 3,
+        "key": "agnes-grey:base:3",
+        "chapter": 4,
+        "mood": "wonder"
+      },
+      {
+        "title": "The blame falls downward",
+        "text": "Her employers treat the children's failures as evidence against her. Agnes leaves with wounded confidence, learning how easily a dependent worker can bear responsibility for choices made above her.",
+        "cast": [
+          "Agnes"
+        ],
+        "motif": "road",
+        "cue": "THE BLAME FALLS DOWNWARD",
+        "previousIndex": 4,
+        "key": "agnes-grey:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "A second position offers another test",
+        "text": "At the Murrays' house, Agnes teaches older pupils. The outward comforts improve, but vanity, social ambition and disregard for the governess create another kind of isolation.",
+        "cast": [
+          "Agnes",
+          "Rosalie Murray"
+        ],
+        "motif": "home",
+        "cue": "A SECOND POSITION OFFERS ANOTHER TEST",
+        "previousIndex": 5,
+        "key": "agnes-grey:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Rosalie enjoys her influence",
+        "text": "Rosalie treats admirers as opportunities to exercise power. Agnes observes how beauty and rank can make other people's feelings feel like possessions to be used for amusement.",
+        "cast": [
+          "Agnes",
+          "Rosalie Murray"
+        ],
+        "motif": "mirror",
+        "cue": "ROSALIE ENJOYS HER INFLUENCE",
+        "previousIndex": 6,
+        "key": "agnes-grey:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Quiet kindness becomes visible",
+        "text": "Agnes notices Mr Weston helping ordinary parishioners. His conduct offers a different measure of worth from the display and calculation surrounding her pupils' social life.",
+        "cast": [
+          "Agnes",
+          "Mr Weston"
+        ],
+        "motif": "heart",
+        "cue": "QUIET KINDNESS BECOMES VISIBLE",
+        "previousIndex": 7,
+        "key": "agnes-grey:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Affection must remain hidden",
+        "text": "Agnes grows attached to Weston but cannot assume his response. Rosalie's interference and Agnes's dependent position make even a modest hope difficult to express openly.",
+        "cast": [
+          "Agnes",
+          "Mr Weston",
+          "Rosalie Murray"
+        ],
+        "motif": "letter",
+        "cue": "AFFECTION MUST REMAIN HIDDEN",
+        "previousIndex": 8,
+        "key": "agnes-grey:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Family need calls her away",
+        "text": "After her father's death, Agnes joins her mother and helps run a school. Their work gives her a more independent place than teaching within another family's shifting rules.",
+        "cast": [
+          "Agnes",
+          "Mrs Grey"
+        ],
+        "motif": "book",
+        "cue": "FAMILY NEED CALLS HER AWAY",
+        "previousIndex": 9,
+        "key": "agnes-grey:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "A wealthy marriage proves hollow",
+        "text": "Rosalie's socially advantageous marriage brings unhappiness. Her experience exposes how choosing status over character can leave someone trapped within the appearance of success.",
+        "cast": [
+          "Rosalie Murray",
+          "Agnes"
+        ],
+        "motif": "contract",
+        "cue": "A WEALTHY MARRIAGE PROVES HOLLOW",
+        "previousIndex": 10,
+        "key": "agnes-grey:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "A walk opens the future",
+        "text": "Agnes meets Weston again, and their affection is acknowledged. The quiet marriage concludes a working life whose small observations have repeatedly separated genuine care from mere social importance.",
+        "cast": [
+          "Agnes",
+          "Mr Weston"
+        ],
+        "motif": "garden",
+        "cue": "A WALK OPENS THE FUTURE",
+        "previousIndex": 11,
+        "key": "agnes-grey:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "What makes Agnes's position especially difficult?",
+    "answer": "She is responsible for children without receiving the authority or parental support needed to guide them, and is treated as socially inferior despite her education.",
+    "source": "https://www.gutenberg.org/ebooks/767",
+    "note": "Published in 1847 under the name Acton Bell. The book is by Anne Brontë; some supplied notes wrongly place Agnes Grey among Emily's works.",
+    "quotes": [
+      {
+        "text": "All true histories contain instruction;",
+        "context": "Agnes begins by considering whether her modest account might teach readers something.",
+        "meaning": "A life without grand public events can still expose how power works inside ordinary rooms.",
+        "source": "https://www.gutenberg.org/ebooks/767"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 14,
+        "printedPage": null,
+        "matchedTitle": "Agnes Gray"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/767"
+  },
+  {
+    "id": "the-tenant-of-wildfell-hall",
+    "title": "The Tenant of Wildfell Hall",
+    "author": "Anne Brontë",
+    "year": 1848,
+    "date": "1848",
+    "era": "victorian",
+    "genre": "Novel of marriage and independence",
+    "setting": "A remote English house and the marriage Helen has escaped",
+    "hook": "The mysterious widow keeps a secret because telling the truth could put her child back in danger.",
+    "characters": [
+      {
+        "name": "Helen",
+        "role": "Artist protecting herself and her son"
+      },
+      {
+        "name": "Gilbert",
+        "role": "Neighbour trying to understand her"
+      },
+      {
+        "name": "Arthur Huntingdon",
+        "role": "Her abusive husband"
+      },
+      {
+        "name": "Little Arthur",
+        "role": "Their son"
+      },
+      {
+        "name": "Frederick Lawrence",
+        "role": "Helen's brother and helper"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A stranger rents the hall",
+        "text": "Helen arrives at Wildfell Hall with her young son. Neighbours speculate about the reserved woman, reading secrecy as suspicious before asking what danger might require it.",
+        "cast": [
+          "Helen",
+          "Little Arthur",
+          "Gilbert"
+        ],
+        "motif": "home",
+        "cue": "A STRANGER RENTS THE HALL",
+        "previousIndex": 0,
+        "key": "the-tenant-of-wildfell-hall:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Gilbert wants to know her",
+        "text": "Gilbert Markham becomes interested in Helen. Her caution frustrates him, while gossip offers an easier account than the trust needed to hear her own history.",
+        "cast": [
+          "Gilbert",
+          "Helen"
+        ],
+        "motif": "heart",
+        "cue": "GILBERT WANTS TO KNOW HER",
+        "previousIndex": 1,
+        "key": "the-tenant-of-wildfell-hall:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Rumour invents a relationship",
+        "text": "Her closeness to Frederick Lawrence provokes jealousy. Gilbert mistakes protective family support for a hidden romance, letting anger turn an incomplete impression into an unjust action.",
+        "cast": [
+          "Gilbert",
+          "Frederick Lawrence",
+          "Helen"
+        ],
+        "motif": "mask",
+        "cue": "RUMOUR INVENTS A RELATIONSHIP",
+        "previousIndex": 2,
+        "key": "the-tenant-of-wildfell-hall:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "A journal opens another life",
+        "text": "Helen lets Gilbert read her account. The novel moves inside the marriage she escaped, placing her own experience where the neighbourhood's confident guesses had stood.",
+        "cast": [
+          "Helen",
+          "Gilbert"
+        ],
+        "motif": "book",
+        "cue": "A JOURNAL OPENS ANOTHER LIFE",
+        "previousIndex": 3,
+        "key": "the-tenant-of-wildfell-hall:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "The charming husband disappoints",
+        "text": "Young Helen marries Arthur Huntingdon hoping love can reform his faults. His drinking, affairs and cruelty steadily expose how little her hope can control another person's choices.",
+        "cast": [
+          "Helen",
+          "Arthur Huntingdon"
+        ],
+        "motif": "contract",
+        "cue": "THE CHARMING HUSBAND DISAPPOINTS",
+        "previousIndex": 4,
+        "key": "the-tenant-of-wildfell-hall:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The home becomes unsafe",
+        "text": "Huntingdon mocks Helen and treats care as interference. The relationship narrows her independence, while affectionate memories make recognising its danger a painful process rather than an instant revelation.",
+        "cast": [
+          "Helen",
+          "Arthur Huntingdon"
+        ],
+        "motif": "chains",
+        "cue": "THE HOME BECOMES UNSAFE",
+        "previousIndex": 5,
+        "key": "the-tenant-of-wildfell-hall:base:5",
+        "chapter": 6,
+        "mood": "tension"
+      },
+      {
+        "title": "Their son becomes the limit",
+        "text": "Huntingdon encourages destructive behaviour in Little Arthur. Helen sees the child's safety and future threatened, giving her a responsibility that cannot wait for her husband's possible reform.",
+        "cast": [
+          "Helen",
+          "Arthur Huntingdon",
+          "Little Arthur"
+        ],
+        "motif": "bed",
+        "cue": "THEIR SON BECOMES THE LIMIT",
+        "previousIndex": 6,
+        "key": "the-tenant-of-wildfell-hall:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Painting offers a way out",
+        "text": "Helen prepares to earn through her art. When her plans are obstructed, she must seek help and another route, because determination alone cannot overcome every practical barrier.",
+        "cast": [
+          "Helen",
+          "Frederick Lawrence"
+        ],
+        "motif": "coins",
+        "cue": "PAINTING OFFERS A WAY OUT",
+        "previousIndex": 7,
+        "key": "the-tenant-of-wildfell-hall:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "They escape to Wildfell Hall",
+        "text": "Helen leaves with her son and lives under a guarded identity. The reserve Gilbert first judged is revealed as a strategy for preserving hard-won safety.",
+        "cast": [
+          "Helen",
+          "Little Arthur"
+        ],
+        "motif": "road",
+        "cue": "THEY ESCAPE TO WILDFELL HALL",
+        "previousIndex": 8,
+        "key": "the-tenant-of-wildfell-hall:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Illness calls her back",
+        "text": "Learning Huntingdon is gravely ill, Helen returns to nurse him. The decision does not erase his behaviour or make the escaped marriage healthy; it reflects the duties she still chooses to recognise.",
+        "cast": [
+          "Helen",
+          "Arthur Huntingdon"
+        ],
+        "motif": "grave",
+        "cue": "ILLNESS CALLS HER BACK",
+        "previousIndex": 9,
+        "key": "the-tenant-of-wildfell-hall:base:9",
+        "chapter": 10,
+        "mood": "sorrow"
+      },
+      {
+        "title": "His death changes her position",
+        "text": "Huntingdon dies, and Helen later gains wealth through an inheritance. Legal and financial circumstances now permit choices that affection could not safely offer during the marriage.",
+        "cast": [
+          "Helen",
+          "Gilbert"
+        ],
+        "motif": "gate",
+        "cue": "HIS DEATH CHANGES HER POSITION",
+        "previousIndex": 10,
+        "key": "the-tenant-of-wildfell-hall:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "She can choose the future",
+        "text": "Gilbert and Helen eventually reunite and marry. Their union follows disclosure, changed circumstances and her freedom to consent, rather than requiring her to endure danger in hope of love.",
+        "cast": [
+          "Helen",
+          "Gilbert",
+          "Little Arthur"
+        ],
+        "motif": "garden",
+        "cue": "SHE CAN CHOOSE THE FUTURE",
+        "previousIndex": 11,
+        "key": "the-tenant-of-wildfell-hall:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "Why does Helen leave her husband?",
+    "answer": "His destructive conduct and influence on their son make remaining dangerous; she seeks safety and supports herself through painting.",
+    "source": "https://www.gutenberg.org/ebooks/969",
+    "note": "Written by Anne Brontë, not Emily. The PDFs' Brontë attribution and spelling errors are corrected; the novel exposes the unequal legal and economic position of married women in its setting.",
+    "quotes": [
+      {
+        "text": "without approving, I cannot love.",
+        "context": "Young Helen tells her aunt what she expects in marriage, chapter XVI.",
+        "meaning": "An early confidence about love will be tested by the life that follows.",
+        "source": "https://www.gutenberg.org/ebooks/969"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 14,
+        "printedPage": null,
+        "matchedTitle": "The Tenant of Wildfell Hall"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/969"
+  },
+  {
     "id": "in-memoriam-a-h-h",
     "title": "In Memoriam A.H.H.",
     "author": "Alfred, Lord Tennyson",
@@ -13875,6 +22389,262 @@ window.STORIES = [
     "narrativeReference": "https://viscomi.sites.oasis.unc.edu/viscomi/coursepack/wordsworth/Wordsworth-Prelude.pdf"
   },
   {
+    "id": "david-copperfield",
+    "title": "David Copperfield",
+    "author": "Charles Dickens",
+    "year": 1850,
+    "date": "1850",
+    "era": "victorian",
+    "genre": "Coming of age novel",
+    "setting": "England from a childhood home to London and beyond",
+    "hook": "A boy sent into hardship grows up trying to become the author of his own life.",
+    "characters": [
+      {
+        "name": "David",
+        "role": "Child narrator becoming a writer"
+      },
+      {
+        "name": "Betsey Trotwood",
+        "role": "Aunt who protects him"
+      },
+      {
+        "name": "Mr Murdstone",
+        "role": "Harsh stepfather"
+      },
+      {
+        "name": "Peggotty",
+        "role": "Faithful childhood carer"
+      },
+      {
+        "name": "Dora",
+        "role": "David's first wife"
+      },
+      {
+        "name": "Agnes",
+        "role": "Steady companion"
+      },
+      {
+        "name": "Uriah Heep",
+        "role": "Manipulative clerk"
+      },
+      {
+        "name": "Mr Micawber",
+        "role": "Optimistic debtor"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A child remembers his beginning",
+        "text": "David begins his own life story with a question about its hero. His earliest home contains affection, but that shelter changes when his mother marries Mr Murdstone.",
+        "cast": [
+          "David",
+          "Mr Murdstone"
+        ],
+        "motif": "home",
+        "cue": "A CHILD REMEMBERS HIS BEGINNING",
+        "previousIndex": 0,
+        "key": "david-copperfield:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Firmness becomes cruelty",
+        "text": "Murdstone and his sister rule through punishment. David's resistance brings harsher treatment, and the language of discipline hides the suffering imposed on a frightened child.",
+        "cast": [
+          "David",
+          "Mr Murdstone"
+        ],
+        "motif": "chains",
+        "cue": "FIRMNESS BECOMES CRUELTY",
+        "previousIndex": 1,
+        "key": "david-copperfield:base:1",
+        "chapter": 2,
+        "mood": "tension"
+      },
+      {
+        "title": "School carries both danger and friendship",
+        "text": "Sent away, David encounters a brutal school and forms important friendships. Admiration for the confident Steerforth becomes one of the attachments he will later need to reassess.",
+        "cast": [
+          "David"
+        ],
+        "motif": "book",
+        "cue": "SCHOOL CARRIES BOTH DANGER AND FRIENDSHIP",
+        "previousIndex": 2,
+        "key": "david-copperfield:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Childhood work replaces home",
+        "text": "His mother dies, and David is put to work in a warehouse. Living with the debt-ridden Micawbers gives him company, but also exposes how little protection a poor child can expect.",
+        "cast": [
+          "David",
+          "Mr Micawber"
+        ],
+        "motif": "city",
+        "cue": "CHILDHOOD WORK REPLACES HOME",
+        "previousIndex": 3,
+        "key": "david-copperfield:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "He walks toward his aunt",
+        "text": "David escapes and travels to Betsey Trotwood. Her decision to protect him creates a new beginning, proving that an adult's practical intervention can alter the course of a vulnerable life.",
+        "cast": [
+          "David",
+          "Betsey Trotwood"
+        ],
+        "motif": "road",
+        "cue": "HE WALKS TOWARD HIS AUNT",
+        "previousIndex": 4,
+        "key": "david-copperfield:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Another education begins",
+        "text": "David studies and lives near Agnes and her father. Agnes's steady care contrasts with Uriah Heep's exaggerated humility, which conceals a growing ambition to control the household.",
+        "cast": [
+          "David",
+          "Agnes",
+          "Uriah Heep"
+        ],
+        "motif": "mirror",
+        "cue": "ANOTHER EDUCATION BEGINS",
+        "previousIndex": 5,
+        "key": "david-copperfield:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Admiration proves dangerous",
+        "text": "Steerforth betrays the family that welcomed David by taking Emily away. The discovery forces David to distinguish the charm he admired from the harm his admired friend can do.",
+        "cast": [
+          "David",
+          "Peggotty"
+        ],
+        "motif": "ship",
+        "cue": "ADMIRATION PROVES DANGEROUS",
+        "previousIndex": 6,
+        "key": "david-copperfield:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Dora becomes his first love",
+        "text": "David falls for Dora and marries her. Their affection is real, yet the daily responsibilities of marriage reveal how differently each understands the life they have promised to share.",
+        "cast": [
+          "David",
+          "Dora"
+        ],
+        "motif": "heart",
+        "cue": "DORA BECOMES HIS FIRST LOVE",
+        "previousIndex": 7,
+        "key": "david-copperfield:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Writing becomes work",
+        "text": "David develops as a writer while facing financial and domestic difficulties. The career grows through effort, making the act of telling stories part of his attempt to gain independence.",
+        "cast": [
+          "David"
+        ],
+        "motif": "book",
+        "cue": "WRITING BECOMES WORK",
+        "previousIndex": 8,
+        "key": "david-copperfield:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Micawber exposes Heep",
+        "text": "Micawber helps reveal Uriah's fraud against Agnes's father. The man known for money troubles becomes a useful witness, while the supposedly humble clerk loses his protected appearance.",
+        "cast": [
+          "Mr Micawber",
+          "Uriah Heep",
+          "Agnes"
+        ],
+        "motif": "letter",
+        "cue": "MICAWBER EXPOSES HEEP",
+        "previousIndex": 9,
+        "key": "david-copperfield:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Loss breaks several futures",
+        "text": "Dora dies, and a storm kills both Ham and Steerforth. Grief forces David beyond the futures he imagined, carrying the cost of choices that no successful career can erase.",
+        "cast": [
+          "David",
+          "Dora"
+        ],
+        "motif": "storm",
+        "cue": "LOSS BREAKS SEVERAL FUTURES",
+        "previousIndex": 10,
+        "key": "david-copperfield:base:10",
+        "chapter": 11,
+        "mood": "tension"
+      },
+      {
+        "title": "He recognises the love nearby",
+        "text": "After time abroad, David understands his love for Agnes and marries her. His life story closes around a steadier affection and the hard-won judgement needed to recognise it.",
+        "cast": [
+          "David",
+          "Agnes"
+        ],
+        "motif": "home",
+        "cue": "HE RECOGNISES THE LOVE NEARBY",
+        "previousIndex": 11,
+        "key": "david-copperfield:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What gives the opening question its force?",
+    "answer": "David must work out whether he is the central agent of his life or a person carried along by other people's power and his own mistakes.",
+    "source": "https://www.gutenberg.org/ebooks/766",
+    "note": "Serialised 1849–1850. This condensation preserves the principal life arc; the novel contains additional interwoven histories beyond the twelve cards.",
+    "quotes": [
+      {
+        "text": "Whether I shall turn out to be the hero",
+        "context": "David opens his account by asking what kind of life he is about to tell.",
+        "meaning": "Growing up involves learning how to understand the story one has lived.",
+        "source": "https://www.gutenberg.org/ebooks/766"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 121,
+        "printedPage": 119,
+        "matchedTitle": "David Copperfield"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 134,
+        "printedPage": 132,
+        "matchedTitle": "David Copperfield"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 136,
+        "printedPage": 134,
+        "matchedTitle": "David Copperfield"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 14,
+        "printedPage": null,
+        "matchedTitle": "David Copperfield"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/766"
+  },
+  {
     "id": "bleak-house",
     "title": "Bleak House",
     "author": "Charles Dickens",
@@ -14111,6 +22881,932 @@ window.STORIES = [
     "narrativeReference": "https://www.gutenberg.org/ebooks/1023"
   },
   {
+    "id": "cranford",
+    "title": "Cranford",
+    "author": "Elizabeth Gaskell",
+    "year": 1853,
+    "date": "1853",
+    "era": "victorian",
+    "genre": "Episodic community novel",
+    "setting": "A small English town largely governed by women",
+    "hook": "Their money is scarce and their rules are elaborate, but a friend's disaster shows what the community is really worth.",
+    "characters": [
+      {
+        "name": "Mary Smith",
+        "role": "Visiting narrator"
+      },
+      {
+        "name": "Miss Matty",
+        "role": "Gentle woman facing financial loss"
+      },
+      {
+        "name": "Miss Deborah",
+        "role": "Her elder sister guarding propriety"
+      },
+      {
+        "name": "Captain Brown",
+        "role": "Neighbour challenging conventions"
+      },
+      {
+        "name": "Peter",
+        "role": "Matty's long-absent brother"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "Mary arrives among the ladies",
+        "text": "In Cranford, women organise visits, customs and reputation with great seriousness. Mary Smith watches a small society make careful rules out of limited money and long familiarity.",
+        "cast": [
+          "Mary Smith",
+          "Miss Matty",
+          "Miss Deborah"
+        ],
+        "motif": "village",
+        "cue": "MARY ARRIVES AMONG THE LADIES",
+        "previousIndex": 0,
+        "key": "cranford:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Poverty keeps its manners",
+        "text": "Residents practise discreet economies while avoiding open talk of need. Their dignity depends partly on everyone agreeing not to expose the financial strain beneath respectable appearances.",
+        "cast": [
+          "Miss Matty",
+          "Miss Deborah"
+        ],
+        "motif": "coins",
+        "cue": "POVERTY KEEPS ITS MANNERS",
+        "previousIndex": 1,
+        "key": "cranford:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Captain Brown breaks the pattern",
+        "text": "The Captain's practical manner unsettles some of Cranford's expectations. His arrival lets the town's cherished customs meet a kindness less interested in preserving their exact form.",
+        "cast": [
+          "Captain Brown",
+          "Miss Deborah"
+        ],
+        "motif": "road",
+        "cue": "CAPTAIN BROWN BREAKS THE PATTERN",
+        "previousIndex": 2,
+        "key": "cranford:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Ordinary courage brings loss",
+        "text": "Captain Brown dies while rescuing a child from a train. The shock makes public manner a poor measure of human worth, leaving his family dependent on the community's care.",
+        "cast": [
+          "Captain Brown",
+          "Mary Smith"
+        ],
+        "motif": "grave",
+        "cue": "ORDINARY COURAGE BRINGS LOSS",
+        "previousIndex": 3,
+        "key": "cranford:base:3",
+        "chapter": 4,
+        "mood": "sorrow"
+      },
+      {
+        "title": "The older sister's rule ends",
+        "text": "After Miss Deborah's death, Matty lives with more freedom and uncertainty. Mary sees how deeply obedience and affection had been woven together in the sisters' household.",
+        "cast": [
+          "Miss Matty",
+          "Miss Deborah",
+          "Mary Smith"
+        ],
+        "motif": "home",
+        "cue": "THE OLDER SISTER'S RULE ENDS",
+        "previousIndex": 4,
+        "key": "cranford:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "A missed romance is remembered",
+        "text": "Matty meets an old suitor whose proposal she once refused under family pressure. Their quiet reunion carries the weight of a possible life neither can now recover.",
+        "cast": [
+          "Miss Matty",
+          "Mary Smith"
+        ],
+        "motif": "heart",
+        "cue": "A MISSED ROMANCE IS REMEMBERED",
+        "previousIndex": 5,
+        "key": "cranford:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Stories keep the town moving",
+        "text": "Social visits and small alarms become occasions for comic narrative. The town's fears and enthusiasms reveal how imagination helps its residents navigate a changing world beyond their doors.",
+        "cast": [
+          "Mary Smith",
+          "Miss Matty"
+        ],
+        "motif": "book",
+        "cue": "STORIES KEEP THE TOWN MOVING",
+        "previousIndex": 6,
+        "key": "cranford:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "The bank fails",
+        "text": "Matty's investments disappear in a bank collapse. The polite economies that once preserved her dignity cannot now cover the practical question of how she will live.",
+        "cast": [
+          "Miss Matty"
+        ],
+        "motif": "storm",
+        "cue": "THE BANK FAILS",
+        "previousIndex": 7,
+        "key": "cranford:base:7",
+        "chapter": 8,
+        "mood": "tension"
+      },
+      {
+        "title": "She helps before protecting herself",
+        "text": "During the crisis, Matty shows concern for someone caught with the bank's failing notes. Her response exposes a generosity larger than the modest financial security she has just lost.",
+        "cast": [
+          "Miss Matty"
+        ],
+        "motif": "coins",
+        "cue": "SHE HELPS BEFORE PROTECTING HERSELF",
+        "previousIndex": 8,
+        "key": "cranford:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Friends act without humiliating her",
+        "text": "The women arrange support discreetly. Their manners become tools for protecting a friend's self-respect, rather than excuses to remain distant from her need.",
+        "cast": [
+          "Miss Matty",
+          "Mary Smith"
+        ],
+        "motif": "letter",
+        "cue": "FRIENDS ACT WITHOUT HUMILIATING HER",
+        "previousIndex": 9,
+        "key": "cranford:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Tea provides a new livelihood",
+        "text": "Matty begins selling tea with help from her circle. The business brings practical independence into a life the town's earlier expectations had not prepared for commercial work.",
+        "cast": [
+          "Miss Matty",
+          "Mary Smith"
+        ],
+        "motif": "home",
+        "cue": "TEA PROVIDES A NEW LIVELIHOOD",
+        "previousIndex": 10,
+        "key": "cranford:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "An absent brother returns",
+        "text": "Mary's efforts bring Peter back, easing Matty's loneliness and insecurity. Cranford's strongest inheritance proves to be the network of affection sustained beneath its comic customs.",
+        "cast": [
+          "Miss Matty",
+          "Peter",
+          "Mary Smith"
+        ],
+        "motif": "heart",
+        "cue": "AN ABSENT BROTHER RETURNS",
+        "previousIndex": 11,
+        "key": "cranford:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "How does Cranford respond to Miss Matty's lost income?",
+    "answer": "Friends quietly support her, help establish a tea business and reconnect her with her absent brother, turning courtesy into practical care.",
+    "source": "https://www.gutenberg.org/ebooks/394",
+    "note": "First appeared in linked episodes before the 1853 volume. Mary narrates a community rather than one continuous romance, and the cards retain that episodic movement.",
+    "quotes": [
+      {
+        "text": "Cranford is in possession of the Amazons;",
+        "context": "Mary introduces the town's largely female social world.",
+        "meaning": "The community's small rituals organise a society outsiders might underestimate.",
+        "source": "https://www.gutenberg.org/ebooks/394"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 14,
+        "printedPage": null,
+        "matchedTitle": "Cranford"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/394"
+  },
+  {
+    "id": "hard-times",
+    "title": "Hard Times",
+    "author": "Charles Dickens",
+    "year": 1854,
+    "date": "1854",
+    "era": "victorian",
+    "genre": "Industrial novel",
+    "setting": "The factory town of Coketown",
+    "hook": "A father teaches children to measure everything, then discovers that feelings do not disappear because they were left out of the lesson.",
+    "characters": [
+      {
+        "name": "Gradgrind",
+        "role": "Educator devoted to facts"
+      },
+      {
+        "name": "Louisa",
+        "role": "His daughter in a loveless marriage"
+      },
+      {
+        "name": "Tom",
+        "role": "His son hiding a crime"
+      },
+      {
+        "name": "Sissy",
+        "role": "Child of a circus performer"
+      },
+      {
+        "name": "Bounderby",
+        "role": "Factory owner manufacturing his own legend"
+      },
+      {
+        "name": "Stephen Blackpool",
+        "role": "Worker caught between hostile powers"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A classroom leaves no room for wonder",
+        "text": "In Coketown, Gradgrind insists children need facts alone. The lesson tries to remove imagination as if feelings and stories were mistakes that disciplined teaching could eliminate.",
+        "cast": [
+          "Gradgrind",
+          "Sissy"
+        ],
+        "motif": "book",
+        "cue": "A CLASSROOM LEAVES NO ROOM FOR WONDER",
+        "previousIndex": 0,
+        "key": "hard-times:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "A circus child enters the household",
+        "text": "Sissy Jupe joins Gradgrind's family after her father disappears. Her warmth and loyalty bring a different kind of knowledge into a house that has no reliable measure for them.",
+        "cast": [
+          "Sissy",
+          "Gradgrind"
+        ],
+        "motif": "home",
+        "cue": "A CIRCUS CHILD ENTERS THE HOUSEHOLD",
+        "previousIndex": 1,
+        "key": "hard-times:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Louisa grows without an answer",
+        "text": "Gradgrind's daughter learns to suppress her desires. By adulthood, she can reason about circumstances but struggles to say what she wants or why the life around her feels empty.",
+        "cast": [
+          "Louisa",
+          "Gradgrind"
+        ],
+        "motif": "mirror",
+        "cue": "LOUISA GROWS WITHOUT AN ANSWER",
+        "previousIndex": 2,
+        "key": "hard-times:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "A marriage is calculated",
+        "text": "Louisa marries the much older Bounderby, partly to help Tom. The arrangement has practical advantages, but no calculation supplies the affection on which a tolerable intimate life might depend.",
+        "cast": [
+          "Louisa",
+          "Bounderby",
+          "Tom"
+        ],
+        "motif": "contract",
+        "cue": "A MARRIAGE IS CALCULATED",
+        "previousIndex": 3,
+        "key": "hard-times:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "The factory owner tells his story",
+        "text": "Bounderby claims he rose from extreme abandonment through self-reliance. His public legend makes hardship sound like a personal test, concealing the assistance and care his own life actually received.",
+        "cast": [
+          "Bounderby"
+        ],
+        "motif": "coins",
+        "cue": "THE FACTORY OWNER TELLS HIS STORY",
+        "previousIndex": 4,
+        "key": "hard-times:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Stephen cannot find a way out",
+        "text": "Worker Stephen Blackpool is trapped in a destructive marriage and difficult employment. Law and money close the paths he seeks, while the town's competing authorities offer little humane help.",
+        "cast": [
+          "Stephen Blackpool",
+          "Bounderby"
+        ],
+        "motif": "chains",
+        "cue": "STEPHEN CANNOT FIND A WAY OUT",
+        "previousIndex": 5,
+        "key": "hard-times:base:5",
+        "chapter": 6,
+        "mood": "tension"
+      },
+      {
+        "title": "The worker becomes isolated",
+        "text": "Stephen refuses to join a labour organisation and is dismissed after confronting Bounderby. Neither side gives him a secure place, leaving an honest man with almost nowhere to stand.",
+        "cast": [
+          "Stephen Blackpool"
+        ],
+        "motif": "road",
+        "cue": "THE WORKER BECOMES ISOLATED",
+        "previousIndex": 6,
+        "key": "hard-times:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "An outsider unsettles Louisa",
+        "text": "James Harthouse pursues Louisa, while Tom exploits her care. The feelings her education left unexplained now arrive under pressures she does not know how to manage safely.",
+        "cast": [
+          "Louisa",
+          "Tom"
+        ],
+        "motif": "heart",
+        "cue": "AN OUTSIDER UNSETTLES LOUISA",
+        "previousIndex": 7,
+        "key": "hard-times:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The daughter returns broken",
+        "text": "Louisa goes to her father and describes the damage within her life. Gradgrind confronts the human cost of principles he had believed would protect his children.",
+        "cast": [
+          "Louisa",
+          "Gradgrind"
+        ],
+        "motif": "storm",
+        "cue": "THE DAUGHTER RETURNS BROKEN",
+        "previousIndex": 8,
+        "key": "hard-times:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "Sissy acts where facts fail",
+        "text": "Sissy helps protect Louisa and removes Harthouse from her future. Her practical sympathy becomes useful precisely where the household's elaborate system has failed to provide care.",
+        "cast": [
+          "Sissy",
+          "Louisa"
+        ],
+        "motif": "heart",
+        "cue": "SISSY ACTS WHERE FACTS FAIL",
+        "previousIndex": 9,
+        "key": "hard-times:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "A robbery seeks a convenient culprit",
+        "text": "Tom's crime casts suspicion on Stephen. The worker's attempt to clear his name ends in a fatal accident, while the hidden offender still depends on others to help him escape.",
+        "cast": [
+          "Tom",
+          "Stephen Blackpool"
+        ],
+        "motif": "grave",
+        "cue": "A ROBBERY SEEKS A CONVENIENT CULPRIT",
+        "previousIndex": 10,
+        "key": "hard-times:base:10",
+        "chapter": 11,
+        "mood": "sorrow"
+      },
+      {
+        "title": "The system meets its losses",
+        "text": "Tom flees, Bounderby's invented past is exposed, and Gradgrind changes his outlook. Louisa's marriage and childhood cannot be remade, though care for others opens a quieter future.",
+        "cast": [
+          "Louisa",
+          "Gradgrind",
+          "Sissy",
+          "Bounderby"
+        ],
+        "motif": "garden",
+        "cue": "THE SYSTEM MEETS ITS LOSSES",
+        "previousIndex": 11,
+        "key": "hard-times:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "What does Louisa's collapse expose?",
+    "answer": "An education that suppresses imagination and feeling has left her unable to understand or sustain the life arranged for her.",
+    "source": "https://www.gutenberg.org/ebooks/786",
+    "note": "",
+    "quotes": [
+      {
+        "text": "Now, what I want is, Facts.",
+        "context": "Gradgrind addresses a classroom at the opening.",
+        "meaning": "A rule for useful knowledge becomes dangerous when it excludes the people who must live by it.",
+        "source": "https://www.gutenberg.org/ebooks/786"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 121,
+        "printedPage": 119,
+        "matchedTitle": "Hard Times"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 14,
+        "printedPage": null,
+        "matchedTitle": "Hard Times"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/786"
+  },
+  {
+    "id": "north-and-south",
+    "title": "North and South",
+    "author": "Elizabeth Gaskell",
+    "year": 1855,
+    "date": "1855",
+    "era": "victorian",
+    "genre": "Industrial social novel",
+    "setting": "A southern village and the manufacturing town of Milton",
+    "hook": "She sees the factory owner's harshness; he sees her prejudice, and a strike forces both to look again.",
+    "characters": [
+      {
+        "name": "Margaret Hale",
+        "role": "Woman moving from village life to Milton"
+      },
+      {
+        "name": "John Thornton",
+        "role": "Mill owner drawn to Margaret"
+      },
+      {
+        "name": "Nicholas Higgins",
+        "role": "Worker and labour organiser"
+      },
+      {
+        "name": "Mr Hale",
+        "role": "Margaret's father"
+      },
+      {
+        "name": "Bessy Higgins",
+        "role": "Worker's daughter harmed by factory conditions"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The southern home is left behind",
+        "text": "Margaret Hale leaves her beloved village after her father resigns his ministry. Industrial Milton feels unfamiliar, replacing open countryside with crowded work, smoke and a different social rhythm.",
+        "cast": [
+          "Margaret Hale",
+          "Mr Hale"
+        ],
+        "motif": "road",
+        "cue": "THE SOUTHERN HOME IS LEFT BEHIND",
+        "previousIndex": 0,
+        "key": "north-and-south:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Thornton studies with her father",
+        "text": "Mill owner John Thornton becomes Mr Hale's pupil. Margaret initially dislikes his commercial outlook, while he recognises a confidence and dignity that immediately draw his attention.",
+        "cast": [
+          "John Thornton",
+          "Margaret Hale",
+          "Mr Hale"
+        ],
+        "motif": "book",
+        "cue": "THORNTON STUDIES WITH HER FATHER",
+        "previousIndex": 1,
+        "key": "north-and-south:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The workers become neighbours",
+        "text": "Margaret befriends Nicholas Higgins and his daughter Bessy. Their household lets her see factory conditions through the lives of those who endure them rather than only the owner's explanations.",
+        "cast": [
+          "Margaret Hale",
+          "Nicholas Higgins",
+          "Bessy Higgins"
+        ],
+        "motif": "home",
+        "cue": "THE WORKERS BECOME NEIGHBOURS",
+        "previousIndex": 2,
+        "key": "north-and-south:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Bessy's illness gives the cost a body",
+        "text": "Bessy suffers from damage associated with mill work. Her declining health makes industrial wealth inseparable from the bodies that help produce it.",
+        "cast": [
+          "Bessy Higgins",
+          "Margaret Hale"
+        ],
+        "motif": "grave",
+        "cue": "BESSY'S ILLNESS GIVES THE COST A BODY",
+        "previousIndex": 3,
+        "key": "north-and-south:base:3",
+        "chapter": 4,
+        "mood": "sorrow"
+      },
+      {
+        "title": "The strike divides the town",
+        "text": "Workers strike over conditions and wages, while owners defend their decisions. Both sides face pressure, but their unequal resources shape how long they can survive without compromise.",
+        "cast": [
+          "Nicholas Higgins",
+          "John Thornton"
+        ],
+        "motif": "chains",
+        "cue": "THE STRIKE DIVIDES THE TOWN",
+        "previousIndex": 4,
+        "key": "north-and-south:base:4",
+        "chapter": 5,
+        "mood": "tension"
+      },
+      {
+        "title": "The crowd reaches Thornton's house",
+        "text": "A confrontation gathers outside the mill owner's home. Margaret goes among the angry workers to protect Thornton, exposing herself to a danger that suddenly crosses the debate's social boundaries.",
+        "cast": [
+          "Margaret Hale",
+          "John Thornton"
+        ],
+        "motif": "storm",
+        "cue": "THE CROWD REACHES THORNTON'S HOUSE",
+        "previousIndex": 5,
+        "key": "north-and-south:base:5",
+        "chapter": 6,
+        "mood": "tension"
+      },
+      {
+        "title": "A proposal is misunderstood",
+        "text": "Thornton believes her intervention reveals love and proposes. Margaret rejects him, while their different readings of the same action add private hurt to their public disagreement.",
+        "cast": [
+          "John Thornton",
+          "Margaret Hale"
+        ],
+        "motif": "heart",
+        "cue": "A PROPOSAL IS MISUNDERSTOOD",
+        "previousIndex": 6,
+        "key": "north-and-south:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Loss enters Margaret's household",
+        "text": "Her mother dies after a secret visit from Margaret's exiled brother. Margaret later conceals that visit, letting Thornton misunderstand a meeting whose truth she cannot safely reveal.",
+        "cast": [
+          "Margaret Hale",
+          "John Thornton"
+        ],
+        "motif": "letter",
+        "cue": "LOSS ENTERS MARGARET'S HOUSEHOLD",
+        "previousIndex": 7,
+        "key": "north-and-south:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Further bereavement removes her shelter",
+        "text": "Mr Hale dies, and Margaret leaves Milton. Distance follows the loss of both parents, carrying her away just as she begins to understand more about the world she first resisted.",
+        "cast": [
+          "Margaret Hale",
+          "Mr Hale"
+        ],
+        "motif": "grave",
+        "cue": "FURTHER BEREAVEMENT REMOVES HER SHELTER",
+        "previousIndex": 8,
+        "key": "north-and-south:base:8",
+        "chapter": 9,
+        "mood": "sorrow"
+      },
+      {
+        "title": "Thornton learns from Higgins",
+        "text": "Thornton employs Higgins and develops a more personal relation with workers. Their conversations do not erase economic conflict, but create possibilities his earlier command alone had not supplied.",
+        "cast": [
+          "John Thornton",
+          "Nicholas Higgins"
+        ],
+        "motif": "hall",
+        "cue": "THORNTON LEARNS FROM HIGGINS",
+        "previousIndex": 9,
+        "key": "north-and-south:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Success turns into financial danger",
+        "text": "Thornton's business fails under difficult conditions. Margaret receives an inheritance, so the balance of practical power between them changes along with their understanding of one another.",
+        "cast": [
+          "John Thornton",
+          "Margaret Hale"
+        ],
+        "motif": "coins",
+        "cue": "SUCCESS TURNS INTO FINANCIAL DANGER",
+        "previousIndex": 10,
+        "key": "north-and-south:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "A partnership becomes possible",
+        "text": "Margaret offers an investment that can help Thornton, and their affection is finally acknowledged. The ending joins romance to cooperation while leaving the larger industrial tensions beyond one marriage.",
+        "cast": [
+          "Margaret Hale",
+          "John Thornton"
+        ],
+        "motif": "contract",
+        "cue": "A PARTNERSHIP BECOMES POSSIBLE",
+        "previousIndex": 11,
+        "key": "north-and-south:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What changes Margaret and Thornton's understanding?",
+    "answer": "Personal encounters, the strike and shared losses make each reconsider an opposing social position as a human life rather than a simple stereotype.",
+    "source": "https://www.gutenberg.org/ebooks/4276",
+    "note": "",
+    "quotes": [
+      {
+        "text": "with far more charity and sympathy",
+        "context": "The narrator considers how conversation may change relations between employer and worker, chapter L.",
+        "meaning": "A shared conversation can make a social opponent visible as another person.",
+        "source": "https://www.gutenberg.org/ebooks/4276"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 129,
+        "printedPage": 127,
+        "matchedTitle": "North and South"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 14,
+        "printedPage": null,
+        "matchedTitle": "North and South"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/4276"
+  },
+  {
+    "id": "the-professor",
+    "title": "The Professor",
+    "author": "Charlotte Brontë",
+    "year": 1857,
+    "date": "1857",
+    "era": "victorian",
+    "genre": "Novel of work and courtship",
+    "setting": "England and a school in Brussels",
+    "hook": "A young man leaves a wealthy brother's control to earn a life through teaching, then learns that a new employer can also demand too much.",
+    "characters": [
+      {
+        "name": "William Crimsworth",
+        "role": "Teacher seeking independence"
+      },
+      {
+        "name": "Frances Henri",
+        "role": "Teacher and learner he comes to love"
+      },
+      {
+        "name": "Zoraïde Reuter",
+        "role": "Schoolmistress managing appearances"
+      },
+      {
+        "name": "Hunsden",
+        "role": "Blunt acquaintance challenging William"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The brother's business is no home",
+        "text": "William Crimsworth works under his prosperous brother in England. The position gives him employment without dignity, making family wealth feel like another form of dependence.",
+        "cast": [
+          "William Crimsworth"
+        ],
+        "motif": "coins",
+        "cue": "THE BROTHER'S BUSINESS IS NO HOME",
+        "previousIndex": 0,
+        "key": "the-professor:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Hunsden challenges his endurance",
+        "text": "Hunsden's blunt conversation pushes William to question the situation. Leaving offers no guaranteed comfort, but staying means accepting the limits another person has set around his life.",
+        "cast": [
+          "William Crimsworth",
+          "Hunsden"
+        ],
+        "motif": "letter",
+        "cue": "HUNSDEN CHALLENGES HIS ENDURANCE",
+        "previousIndex": 1,
+        "key": "the-professor:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Brussels offers a fresh start",
+        "text": "William travels to Belgium and finds work teaching English. The foreign city makes him a beginner again, with independence depending on skill rather than the claims of family.",
+        "cast": [
+          "William Crimsworth"
+        ],
+        "motif": "city",
+        "cue": "BRUSSELS OFFERS A FRESH START",
+        "previousIndex": 2,
+        "key": "the-professor:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "A second school opens its doors",
+        "text": "He begins teaching at Zoraïde Reuter's school for girls. Professional opportunity brings him into a social world where authority, attraction and calculation overlap.",
+        "cast": [
+          "William Crimsworth",
+          "Zoraïde Reuter"
+        ],
+        "motif": "book",
+        "cue": "A SECOND SCHOOL OPENS ITS DOORS",
+        "previousIndex": 3,
+        "key": "the-professor:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "The schoolmistress seems interested",
+        "text": "William imagines a possible affection with Reuter. Her polished manner invites a flattering interpretation, especially from a man newly hopeful that he can define his own future.",
+        "cast": [
+          "William Crimsworth",
+          "Zoraïde Reuter"
+        ],
+        "motif": "heart",
+        "cue": "THE SCHOOLMISTRESS SEEMS INTERESTED",
+        "previousIndex": 4,
+        "key": "the-professor:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "An overheard conversation changes her",
+        "text": "He learns Reuter is engaged to another schoolmaster and hears their judgement of him. The discovery strips the apparent intimacy of the meaning he had assigned it.",
+        "cast": [
+          "William Crimsworth",
+          "Zoraïde Reuter"
+        ],
+        "motif": "mask",
+        "cue": "AN OVERHEARD CONVERSATION CHANGES HER",
+        "previousIndex": 5,
+        "key": "the-professor:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Frances appears in the classroom",
+        "text": "William notices Frances Henri, who teaches at the school while studying English. Her seriousness and effort draw his attention through qualities less dependent on display.",
+        "cast": [
+          "William Crimsworth",
+          "Frances Henri"
+        ],
+        "motif": "book",
+        "cue": "FRANCES APPEARS IN THE CLASSROOM",
+        "previousIndex": 6,
+        "key": "the-professor:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Lessons become companionship",
+        "text": "Their conversations reveal common interests and respect. The relationship develops through work and learning, offering William a connection different from the flattering hopes Reuter had encouraged.",
+        "cast": [
+          "William Crimsworth",
+          "Frances Henri"
+        ],
+        "motif": "garden",
+        "cue": "LESSONS BECOME COMPANIONSHIP",
+        "previousIndex": 7,
+        "key": "the-professor:base:7",
+        "chapter": 8,
+        "mood": "wonder"
+      },
+      {
+        "title": "Frances loses her position",
+        "text": "Reuter removes Frances from the school. The action shows how workplace power can interfere with a private attachment, leaving William uncertain where the woman he values has gone.",
+        "cast": [
+          "Frances Henri",
+          "Zoraïde Reuter",
+          "William Crimsworth"
+        ],
+        "motif": "chains",
+        "cue": "FRANCES LOSES HER POSITION",
+        "previousIndex": 8,
+        "key": "the-professor:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "He finds her again",
+        "text": "William locates Frances and their affection is acknowledged. Their wish to marry grows alongside the practical need to earn a stable living outside Reuter's control.",
+        "cast": [
+          "William Crimsworth",
+          "Frances Henri"
+        ],
+        "motif": "road",
+        "cue": "HE FINDS HER AGAIN",
+        "previousIndex": 9,
+        "key": "the-professor:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Work supports the marriage",
+        "text": "They build their future through teaching and a school of their own. Frances's continuing work matters to the household, letting the ending include professional purpose rather than romance alone.",
+        "cast": [
+          "William Crimsworth",
+          "Frances Henri"
+        ],
+        "motif": "home",
+        "cue": "WORK SUPPORTS THE MARRIAGE",
+        "previousIndex": 10,
+        "key": "the-professor:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "A home with chosen terms",
+        "text": "The family eventually settles in England. William's account presents security gained through effort and partnership, while his own pride and assumptions remain part of the voice telling that achievement.",
+        "cast": [
+          "William Crimsworth",
+          "Frances Henri",
+          "Hunsden"
+        ],
+        "motif": "mirror",
+        "cue": "A HOME WITH CHOSEN TERMS",
+        "previousIndex": 11,
+        "key": "the-professor:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What joins William and Frances beyond romance?",
+    "answer": "Teaching, intellectual effort and a wish for independence through work, rather than dependence on a rich patron or manipulative employer.",
+    "source": "https://www.gutenberg.org/ebooks/1028",
+    "note": "Published posthumously in 1857, though written earlier. This is Charlotte Brontë's novel, distinct from her later Brussels-based Villette; William's judgements remain the narrator's interested perspective.",
+    "quotes": [
+      {
+        "text": "I longed for liberty",
+        "context": "William considers his confinement and the wish for liberty early in his account.",
+        "meaning": "A modest wage can mean more than a comfortable life controlled by someone else.",
+        "source": "https://www.gutenberg.org/ebooks/1028"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 125,
+        "printedPage": 123,
+        "matchedTitle": "The Professor"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 14,
+        "printedPage": null,
+        "matchedTitle": "The Professor"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/1028"
+  },
+  {
     "id": "a-tale-of-two-cities",
     "title": "A Tale of Two Cities",
     "author": "Charles Dickens",
@@ -14332,6 +24028,234 @@ window.STORIES = [
     ],
     "contentVersion": 4,
     "narrativeReference": "https://www.gutenberg.org/ebooks/98"
+  },
+  {
+    "id": "adam-bede",
+    "title": "Adam Bede",
+    "author": "George Eliot",
+    "year": 1859,
+    "date": "1859",
+    "era": "victorian",
+    "genre": "Rural realist novel",
+    "setting": "Hayslope and its surrounding countryside",
+    "hook": "A young woman hopes a gentleman will lift her into another life, while a carpenter builds his future on promises he cannot see through.",
+    "characters": [
+      {
+        "name": "Adam",
+        "role": "Carpenter who loves Hetty"
+      },
+      {
+        "name": "Hetty",
+        "role": "Young woman hoping for advancement"
+      },
+      {
+        "name": "Arthur",
+        "role": "Landowner's heir pursuing Hetty"
+      },
+      {
+        "name": "Dinah",
+        "role": "Methodist preacher offering compassion"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A village with different hopes",
+        "text": "In Hayslope, carpenter Adam Bede loves Hetty Sorrel. She notices wealth and beauty more than his patient work, imagining a future beyond the farm where she lives.",
+        "cast": [
+          "Adam",
+          "Hetty"
+        ],
+        "motif": "village",
+        "cue": "A VILLAGE WITH DIFFERENT HOPES",
+        "previousIndex": 0,
+        "key": "adam-bede:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Dinah speaks to the community",
+        "text": "Dinah Morris preaches with seriousness and compassion. Her attention to ordinary suffering introduces a form of worth that does not depend on appearance or social advancement.",
+        "cast": [
+          "Dinah"
+        ],
+        "motif": "temple",
+        "cue": "DINAH SPEAKS TO THE COMMUNITY",
+        "previousIndex": 1,
+        "key": "adam-bede:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The young heir pays attention",
+        "text": "Arthur Donnithorne becomes attracted to Hetty. His position makes flirtation feel to her like an opening into a life he has much less reason to imagine marrying into.",
+        "cast": [
+          "Arthur",
+          "Hetty"
+        ],
+        "motif": "heart",
+        "cue": "THE YOUNG HEIR PAYS ATTENTION",
+        "previousIndex": 2,
+        "key": "adam-bede:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Secrecy keeps the romance alive",
+        "text": "Their encounters remain hidden. Arthur knows the relationship cannot honour the expectations it encourages, yet repeatedly postpones the decision that would stop giving Hetty hope.",
+        "cast": [
+          "Arthur",
+          "Hetty"
+        ],
+        "motif": "forest",
+        "cue": "SECRECY KEEPS THE ROMANCE ALIVE",
+        "previousIndex": 3,
+        "key": "adam-bede:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Adam discovers the pair",
+        "text": "Adam finds Arthur and Hetty together. The revelation wounds his trust and forces Arthur to acknowledge a responsibility that his own private reassurances had allowed him to evade.",
+        "cast": [
+          "Adam",
+          "Arthur",
+          "Hetty"
+        ],
+        "motif": "sword",
+        "cue": "ADAM DISCOVERS THE PAIR",
+        "previousIndex": 4,
+        "key": "adam-bede:base:4",
+        "chapter": 5,
+        "mood": "tension"
+      },
+      {
+        "title": "A letter ends the promise",
+        "text": "Arthur writes to break the relationship. Hetty loses the imagined future that had sustained her, while the consequences of their intimacy remain hers to confront more immediately.",
+        "cast": [
+          "Arthur",
+          "Hetty"
+        ],
+        "motif": "letter",
+        "cue": "A LETTER ENDS THE PROMISE",
+        "previousIndex": 5,
+        "key": "adam-bede:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Marriage seems to offer shelter",
+        "text": "Hetty agrees to marry Adam, but conceals her pregnancy. The expected wedding cannot remove the growing fear that makes every ordinary preparation feel like another trap.",
+        "cast": [
+          "Hetty",
+          "Adam"
+        ],
+        "motif": "contract",
+        "cue": "MARRIAGE SEEMS TO OFFER SHELTER",
+        "previousIndex": 6,
+        "key": "adam-bede:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "She leaves in desperation",
+        "text": "Hetty travels to seek Arthur and discovers he is unavailable. Without a safe plan or an ally who knows the whole truth, she moves deeper into exhaustion and isolation.",
+        "cast": [
+          "Hetty",
+          "Arthur"
+        ],
+        "motif": "road",
+        "cue": "SHE LEAVES IN DESPERATION",
+        "previousIndex": 7,
+        "key": "adam-bede:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The hidden crisis becomes a charge",
+        "text": "After giving birth and abandoning her baby, Hetty is arrested when the child dies. The village learns of a catastrophe that her outward beauty and wedding plans had concealed.",
+        "cast": [
+          "Hetty"
+        ],
+        "motif": "grave",
+        "cue": "THE HIDDEN CRISIS BECOMES A CHARGE",
+        "previousIndex": 8,
+        "key": "adam-bede:base:8",
+        "chapter": 9,
+        "mood": "sorrow"
+      },
+      {
+        "title": "Adam's future falls apart",
+        "text": "Adam confronts the truth at Hetty's trial. His grief meets the real actions behind his imagined marriage, making anger and love difficult to separate.",
+        "cast": [
+          "Adam",
+          "Hetty"
+        ],
+        "motif": "hall",
+        "cue": "ADAM'S FUTURE FALLS APART",
+        "previousIndex": 9,
+        "key": "adam-bede:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Dinah stays beside Hetty",
+        "text": "Dinah visits the condemned woman and helps her speak. A last-minute reprieve spares execution, but transportation still removes Hetty from the life she once hoped to enter.",
+        "cast": [
+          "Dinah",
+          "Hetty",
+          "Arthur"
+        ],
+        "motif": "chains",
+        "cue": "DINAH STAYS BESIDE HETTY",
+        "previousIndex": 10,
+        "key": "adam-bede:base:10",
+        "chapter": 11,
+        "mood": "tension"
+      },
+      {
+        "title": "A different affection grows",
+        "text": "In time, Adam and Dinah recognise their love and marry. Their happiness follows grief, while Hetty's later death prevents the ending from restoring everyone damaged by the earlier choices.",
+        "cast": [
+          "Adam",
+          "Dinah"
+        ],
+        "motif": "garden",
+        "cue": "A DIFFERENT AFFECTION GROWS",
+        "previousIndex": 11,
+        "key": "adam-bede:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "What does Dinah offer Hetty that judgement alone cannot?",
+    "answer": "Patient companionship that helps Hetty speak about her suffering and actions while facing their consequences.",
+    "source": "https://www.gutenberg.org/ebooks/507",
+    "note": "Published in 1859 and set in 1799. Hetty's infant death and criminal sentence are handled without sensational detail; the narrative combines accountability with attention to isolation, class and limited choices.",
+    "quotes": [
+      {
+        "text": "Our deeds determine us, as much as we determine our deeds;",
+        "context": "The narrator reflects on actions and their continuing effects.",
+        "meaning": "A choice does not end when it is made; it reshapes the life that must follow.",
+        "source": "https://www.gutenberg.org/ebooks/507"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 126,
+        "printedPage": 124,
+        "matchedTitle": "Adam Bede"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 14,
+        "printedPage": null,
+        "matchedTitle": "Adam Bede"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/507"
   },
   {
     "id": "great-expectations",
@@ -15230,6 +25154,238 @@ window.STORIES = [
     "narrativeReference": "https://www.gutenberg.org/ebooks/16950"
   },
   {
+    "id": "romola",
+    "title": "Romola",
+    "author": "George Eliot",
+    "year": 1863,
+    "date": "1863",
+    "era": "victorian",
+    "genre": "Historical novel",
+    "setting": "Florence during the age of Savonarola",
+    "hook": "She marries a brilliant stranger, then learns that charm can abandon a father, a city and a wife.",
+    "characters": [
+      {
+        "name": "Romola",
+        "role": "Scholar's daughter seeking a faithful life"
+      },
+      {
+        "name": "Tito",
+        "role": "Charismatic newcomer concealing betrayal"
+      },
+      {
+        "name": "Baldassarre",
+        "role": "Tito's adoptive father"
+      },
+      {
+        "name": "Tessa",
+        "role": "Woman in Tito's secret second household"
+      },
+      {
+        "name": "Savonarola",
+        "role": "Preacher whose authority Romola tests"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A stranger enters Florence",
+        "text": "Tito Melema arrives in Florence with intelligence, charm and valuable jewels. His easy welcome conceals an obligation to the adoptive father he has left behind in danger.",
+        "cast": [
+          "Tito",
+          "Baldassarre"
+        ],
+        "motif": "city",
+        "cue": "A STRANGER ENTERS FLORENCE",
+        "previousIndex": 0,
+        "key": "romola:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The scholar's daughter trusts him",
+        "text": "Tito enters the household of Romola and her blind scholarly father. Shared learning draws Romola toward him, making his apparent devotion seem a foundation for a serious marriage.",
+        "cast": [
+          "Tito",
+          "Romola"
+        ],
+        "motif": "book",
+        "cue": "THE SCHOLAR'S DAUGHTER TRUSTS HIM",
+        "previousIndex": 1,
+        "key": "romola:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Another household begins quietly",
+        "text": "Tito also forms a connection with Tessa, whose simpler expectations offer him a different life. He allows the relationship to grow without giving her an honest account of his commitments.",
+        "cast": [
+          "Tito",
+          "Tessa"
+        ],
+        "motif": "home",
+        "cue": "ANOTHER HOUSEHOLD BEGINS QUIETLY",
+        "previousIndex": 2,
+        "key": "romola:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Marriage cannot cure concealment",
+        "text": "Romola marries Tito, believing in loyalties he does not consistently share. His readiness to smooth over discomfort becomes dangerous when the marriage requires truth rather than agreeable performance.",
+        "cast": [
+          "Romola",
+          "Tito"
+        ],
+        "motif": "contract",
+        "cue": "MARRIAGE CANNOT CURE CONCEALMENT",
+        "previousIndex": 3,
+        "key": "romola:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Baldassarre returns",
+        "text": "Tito's adoptive father reaches Florence after suffering abandonment. Tito denies him, preferring the security of his new position to the responsibility that the older man's survival brings back.",
+        "cast": [
+          "Tito",
+          "Baldassarre"
+        ],
+        "motif": "mask",
+        "cue": "BALDASSARRE RETURNS",
+        "previousIndex": 4,
+        "key": "romola:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "An inheritance is sold away",
+        "text": "Tito disposes of treasures Romola associates with her father's life and wishes. The betrayal enters their own house, exposing how differently husband and wife understand what may be exchanged for advantage.",
+        "cast": [
+          "Romola",
+          "Tito"
+        ],
+        "motif": "coins",
+        "cue": "AN INHERITANCE IS SOLD AWAY",
+        "previousIndex": 5,
+        "key": "romola:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Romola tries to leave",
+        "text": "Unable to accept the marriage's dishonesty, Romola departs. Savonarola persuades her to return and serve others, giving duty a claim beyond the wounded self.",
+        "cast": [
+          "Romola",
+          "Savonarola"
+        ],
+        "motif": "road",
+        "cue": "ROMOLA TRIES TO LEAVE",
+        "previousIndex": 6,
+        "key": "romola:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "The city needs her care",
+        "text": "Romola works among the needy during Florence's hardship. Her effort creates a useful life, even as political and religious loyalties around her become more coercive and uncertain.",
+        "cast": [
+          "Romola",
+          "Savonarola"
+        ],
+        "motif": "village",
+        "cue": "THE CITY NEEDS HER CARE",
+        "previousIndex": 7,
+        "key": "romola:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The preacher's authority is tested",
+        "text": "Savonarola's conduct during political crisis unsettles Romola's trust. She discovers that devotion to a moral guide cannot require accepting every action the guide calls righteous.",
+        "cast": [
+          "Romola",
+          "Savonarola"
+        ],
+        "motif": "mirror",
+        "cue": "THE PREACHER'S AUTHORITY IS TESTED",
+        "previousIndex": 8,
+        "key": "romola:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Tito's bargains close around him",
+        "text": "Tito manoeuvres among rival powers until turmoil destroys his safety. Trying to escape, he reaches Baldassarre, whose return makes the abandoned obligation physically unavoidable.",
+        "cast": [
+          "Tito",
+          "Baldassarre"
+        ],
+        "motif": "storm",
+        "cue": "TITO'S BARGAINS CLOSE AROUND HIM",
+        "previousIndex": 9,
+        "key": "romola:base:9",
+        "chapter": 10,
+        "mood": "tension"
+      },
+      {
+        "title": "The father's revenge ends the flight",
+        "text": "Baldassarre kills Tito after drawing him from the river. Neither charm nor political calculation can now protect the man whose successive betrayals have narrowed every route out.",
+        "cast": [
+          "Tito",
+          "Baldassarre"
+        ],
+        "motif": "river",
+        "cue": "THE FATHER'S REVENGE ENDS THE FLIGHT",
+        "previousIndex": 10,
+        "key": "romola:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "Romola chooses a wider family",
+        "text": "After a further journey and work among sufferers, Romola returns to care for Tessa and her children. Her future rests on chosen responsibility rather than another promise of effortless happiness.",
+        "cast": [
+          "Romola",
+          "Tessa"
+        ],
+        "motif": "heart",
+        "cue": "ROMOLA CHOOSES A WIDER FAMILY",
+        "previousIndex": 11,
+        "key": "romola:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What drives Tito's decline?",
+    "answer": "Repeated choices of immediate comfort over loyalty lead him to conceal, betray and abandon those whose claims threaten his advantage.",
+    "source": "https://www.gutenberg.org/ebooks/24020",
+    "note": "Serialised 1862–1863 and set in Renaissance Florence. The cards follow Romola's moral education; they distinguish the novel's dramatic treatment of Savonarola from a complete historical biography.",
+    "quotes": [
+      {
+        "text": "We can only have the highest happiness",
+        "context": "The novel reflects on happiness beyond isolated self-interest.",
+        "meaning": "A fulfilling life depends on obligations that charm and convenience cannot replace.",
+        "source": "https://www.gutenberg.org/ebooks/24020"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 126,
+        "printedPage": 124,
+        "matchedTitle": "Romola"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 14,
+        "printedPage": null,
+        "matchedTitle": "Romola"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/24020"
+  },
+  {
     "id": "dover-beach",
     "title": "Dover Beach",
     "author": "Matthew Arnold",
@@ -15893,6 +26049,233 @@ window.STORIES = [
     "narrativeReference": "https://www.gutenberg.org/ebooks/122"
   },
   {
+    "id": "daisy-miller",
+    "title": "Daisy Miller",
+    "author": "Henry James",
+    "year": 1878,
+    "date": "1878",
+    "era": "victorian",
+    "genre": "Novella",
+    "setting": "Swiss resorts and Rome",
+    "hook": "A young woman's freedom is judged by strangers who cannot agree whether she is innocent, reckless or simply different.",
+    "characters": [
+      {
+        "name": "Daisy",
+        "role": "American traveller resisting social constraints"
+      },
+      {
+        "name": "Winterbourne",
+        "role": "Observer drawn to her but uncertain of her motives"
+      },
+      {
+        "name": "Mrs Costello",
+        "role": "Relative guarding social respectability"
+      },
+      {
+        "name": "Giovanelli",
+        "role": "Roman companion judged unsuitable"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "An American family travels abroad",
+        "text": "At a Swiss resort, Winterbourne meets Daisy Miller. Her frank conversation fascinates him because it does not follow the cautious behaviour he expects from a respectable young woman.",
+        "cast": [
+          "Daisy",
+          "Winterbourne"
+        ],
+        "motif": "garden",
+        "cue": "AN AMERICAN FAMILY TRAVELS ABROAD",
+        "previousIndex": 0,
+        "key": "daisy-miller:base:0",
+        "chapter": 1,
+        "mood": "wonder"
+      },
+      {
+        "title": "He tries to name what she is",
+        "text": "Winterbourne wonders whether Daisy is innocent or improper. The wish to classify her begins replacing attention to the actual person standing before him.",
+        "cast": [
+          "Winterbourne",
+          "Daisy"
+        ],
+        "motif": "mirror",
+        "cue": "HE TRIES TO NAME WHAT SHE IS",
+        "previousIndex": 1,
+        "key": "daisy-miller:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "A visit challenges convention",
+        "text": "Daisy wants to visit a castle with him. The plan seems ordinary to her and socially risky to his circle, revealing how differently they understand the meaning of companionship.",
+        "cast": [
+          "Daisy",
+          "Winterbourne"
+        ],
+        "motif": "castle",
+        "cue": "A VISIT CHALLENGES CONVENTION",
+        "previousIndex": 2,
+        "key": "daisy-miller:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The aunt refuses an introduction",
+        "text": "Mrs Costello disapproves of Daisy's family and manners. Her refusal makes social belonging depend on rules Daisy has not agreed to follow and may not fully understand.",
+        "cast": [
+          "Mrs Costello",
+          "Daisy",
+          "Winterbourne"
+        ],
+        "motif": "gate",
+        "cue": "THE AUNT REFUSES AN INTRODUCTION",
+        "previousIndex": 3,
+        "key": "daisy-miller:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Rome brings another encounter",
+        "text": "Winterbourne later finds Daisy in Rome. She spends time with Giovanelli, and her willingness to appear with him makes gossip more determined than any explanation she offers.",
+        "cast": [
+          "Daisy",
+          "Winterbourne",
+          "Giovanelli"
+        ],
+        "motif": "city",
+        "cue": "ROME BRINGS ANOTHER ENCOUNTER",
+        "previousIndex": 4,
+        "key": "daisy-miller:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "A walk becomes public judgement",
+        "text": "Friends try to remove Daisy from a public outing with Giovanelli. She refuses their supervision, turning concern, control and embarrassment into parts of the same social scene.",
+        "cast": [
+          "Daisy",
+          "Giovanelli",
+          "Winterbourne"
+        ],
+        "motif": "road",
+        "cue": "A WALK BECOMES PUBLIC JUDGEMENT",
+        "previousIndex": 5,
+        "key": "daisy-miller:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "The doors begin closing",
+        "text": "The expatriate community withdraws invitations and approval. Daisy's isolation grows as each observer treats the next rumour as confirmation of the judgement already made.",
+        "cast": [
+          "Daisy",
+          "Mrs Costello"
+        ],
+        "motif": "chains",
+        "cue": "THE DOORS BEGIN CLOSING",
+        "previousIndex": 6,
+        "key": "daisy-miller:base:6",
+        "chapter": 7,
+        "mood": "tension"
+      },
+      {
+        "title": "She answers without surrendering",
+        "text": "Daisy continues choosing her company and challenging assumptions. Her responses do not give Winterbourne the clear category he wants, leaving his attraction entangled with suspicion.",
+        "cast": [
+          "Daisy",
+          "Winterbourne"
+        ],
+        "motif": "letter",
+        "cue": "SHE ANSWERS WITHOUT SURRENDERING",
+        "previousIndex": 7,
+        "key": "daisy-miller:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The Colosseum at night",
+        "text": "Winterbourne sees Daisy and Giovanelli at the Colosseum after dark. Concern about fever joins his moral judgement, and he momentarily thinks the scene has settled every ambiguity.",
+        "cast": [
+          "Daisy",
+          "Winterbourne",
+          "Giovanelli"
+        ],
+        "motif": "stone",
+        "cue": "THE COLOSSEUM AT NIGHT",
+        "previousIndex": 8,
+        "key": "daisy-miller:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Illness replaces the argument",
+        "text": "Daisy becomes seriously ill with fever. The debates about her behaviour now stand beside a bodily danger that no correct performance of social concern can reverse.",
+        "cast": [
+          "Daisy",
+          "Winterbourne"
+        ],
+        "motif": "bed",
+        "cue": "ILLNESS REPLACES THE ARGUMENT",
+        "previousIndex": 9,
+        "key": "daisy-miller:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "A message arrives too late",
+        "text": "Daisy sends words about her feelings and her supposed engagement before she dies. The explanation reaches Winterbourne when it can no longer change his conduct toward her.",
+        "cast": [
+          "Daisy",
+          "Winterbourne"
+        ],
+        "motif": "letter",
+        "cue": "A MESSAGE ARRIVES TOO LATE",
+        "previousIndex": 10,
+        "key": "daisy-miller:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The observer must reconsider",
+        "text": "At the grave, Giovanelli speaks of Daisy's innocence. Winterbourne acknowledges his error, yet the closing account leaves open how far that recognition will alter his accustomed life.",
+        "cast": [
+          "Winterbourne",
+          "Giovanelli",
+          "Daisy"
+        ],
+        "motif": "grave",
+        "cue": "THE OBSERVER MUST RECONSIDER",
+        "previousIndex": 11,
+        "key": "daisy-miller:base:11",
+        "chapter": 12,
+        "mood": "sorrow"
+      }
+    ],
+    "question": "What does Winterbourne recognise too late?",
+    "answer": "That his desire to classify Daisy through social expectations helped him misunderstand her; he cannot recover the chance to treat her with fuller trust.",
+    "source": "https://www.gutenberg.org/ebooks/208",
+    "note": "",
+    "quotes": [
+      {
+        "text": "I have lived too long in foreign parts.",
+        "context": "Winterbourne speaks to his aunt after recognising how he misjudged Daisy.",
+        "meaning": "A cultivated way of seeing can become a limitation when it mistakes its rules for complete knowledge.",
+        "source": "https://www.gutenberg.org/ebooks/208"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 16,
+        "printedPage": null,
+        "matchedTitle": "Daisy Miller"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/208"
+  },
+  {
     "id": "a-doll-s-house",
     "title": "A Doll’s House",
     "author": "Henrik Ibsen",
@@ -16121,6 +26504,454 @@ window.STORIES = [
     ],
     "contentVersion": 4,
     "narrativeReference": "https://www.gutenberg.org/ebooks/2542"
+  },
+  {
+    "id": "treasure-island",
+    "title": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "date": "1883",
+    "era": "victorian",
+    "genre": "Adventure novel",
+    "setting": "An English inn, a ship and a hidden island",
+    "hook": "A boy carries a treasure map aboard a ship where the cook is planning a mutiny.",
+    "characters": [
+      {
+        "name": "Jim Hawkins",
+        "role": "Young narrator and traveller"
+      },
+      {
+        "name": "Long John Silver",
+        "role": "Cook and pirate leader"
+      },
+      {
+        "name": "Dr Livesey",
+        "role": "Doctor guiding the loyal party"
+      },
+      {
+        "name": "Captain Smollett",
+        "role": "Commander resisting mutiny"
+      },
+      {
+        "name": "Ben Gunn",
+        "role": "Marooned islander"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A stranger arrives at the inn",
+        "text": "At the Admiral Benbow, Jim Hawkins meets an old sailor carrying a sea chest. Visitors from the man's violent past begin turning the quiet inn into a place of fear.",
+        "cast": [
+          "Jim Hawkins"
+        ],
+        "motif": "home",
+        "cue": "A STRANGER ARRIVES AT THE INN",
+        "previousIndex": 0,
+        "key": "treasure-island:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The chest holds a route",
+        "text": "After the sailor dies, Jim and his mother open the chest. Jim finds papers that include a map, converting danger left on the doorstep into a possible voyage toward hidden wealth.",
+        "cast": [
+          "Jim Hawkins"
+        ],
+        "motif": "letter",
+        "cue": "THE CHEST HOLDS A ROUTE",
+        "previousIndex": 1,
+        "key": "treasure-island:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Respectable men plan an expedition",
+        "text": "Dr Livesey and a wealthy squire organise a ship. Their confidence in the map draws Jim outward, but finding treasure will require trusting people whose loyalties they have not fully tested.",
+        "cast": [
+          "Jim Hawkins",
+          "Dr Livesey"
+        ],
+        "motif": "ship",
+        "cue": "RESPECTABLE MEN PLAN AN EXPEDITION",
+        "previousIndex": 2,
+        "key": "treasure-island:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The cook wins Jim's affection",
+        "text": "Long John Silver seems capable, friendly and practical. Jim likes him, making the later revelation dangerous not only to the expedition but also to the boy's first judgement of character.",
+        "cast": [
+          "Jim Hawkins",
+          "Long John Silver"
+        ],
+        "motif": "heart",
+        "cue": "THE COOK WINS JIM'S AFFECTION",
+        "previousIndex": 3,
+        "key": "treasure-island:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "An apple barrel reveals the plot",
+        "text": "Hidden nearby, Jim overhears Silver discussing mutiny. The friendly cook becomes the centre of a threat already travelling on the same ship as the unsuspecting treasure seekers.",
+        "cast": [
+          "Jim Hawkins",
+          "Long John Silver"
+        ],
+        "motif": "mask",
+        "cue": "AN APPLE BARREL REVEALS THE PLOT",
+        "previousIndex": 4,
+        "key": "treasure-island:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The island divides the company",
+        "text": "The ship reaches the island and open conflict approaches. Jim goes ashore, where Silver's violence destroys any hope that the overheard plan was merely boastful talk.",
+        "cast": [
+          "Jim Hawkins",
+          "Long John Silver"
+        ],
+        "motif": "forest",
+        "cue": "THE ISLAND DIVIDES THE COMPANY",
+        "previousIndex": 5,
+        "key": "treasure-island:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "A castaway changes the possibilities",
+        "text": "Jim meets Ben Gunn, who has lived alone on the island. His knowledge and desire to leave introduce another history beneath the clean lines of the expedition's map.",
+        "cast": [
+          "Jim Hawkins",
+          "Ben Gunn"
+        ],
+        "motif": "cave",
+        "cue": "A CASTAWAY CHANGES THE POSSIBILITIES",
+        "previousIndex": 6,
+        "key": "treasure-island:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "The loyal party takes shelter",
+        "text": "Livesey and Smollett hold a stockade against the pirates. Jim moves between danger and information, while the adults try to preserve their small group's safety against the larger mutinous force.",
+        "cast": [
+          "Dr Livesey",
+          "Captain Smollett",
+          "Jim Hawkins"
+        ],
+        "motif": "castle",
+        "cue": "THE LOYAL PARTY TAKES SHELTER",
+        "previousIndex": 7,
+        "key": "treasure-island:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Jim slips away to the ship",
+        "text": "Using Ben Gunn's small boat, Jim reaches the vessel and helps regain it. The daring action changes the balance, although acting alone also leaves him without the protection of his companions.",
+        "cast": [
+          "Jim Hawkins"
+        ],
+        "motif": "rope",
+        "cue": "JIM SLIPS AWAY TO THE SHIP",
+        "previousIndex": 8,
+        "key": "treasure-island:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "He returns into pirate hands",
+        "text": "Jim finds the stockade occupied by Silver's men and is captured. Silver protects him for reasons that combine calculation with a shifting personal attachment.",
+        "cast": [
+          "Jim Hawkins",
+          "Long John Silver"
+        ],
+        "motif": "chains",
+        "cue": "HE RETURNS INTO PIRATE HANDS",
+        "previousIndex": 9,
+        "key": "treasure-island:base:9",
+        "chapter": 10,
+        "mood": "tension"
+      },
+      {
+        "title": "The marked pit is empty",
+        "text": "The pirates follow the map and find no treasure. Ben Gunn has moved it, and the collapse of their expected reward gives the loyal party its chance to defeat them.",
+        "cast": [
+          "Long John Silver",
+          "Ben Gunn",
+          "Dr Livesey"
+        ],
+        "motif": "coins",
+        "cue": "THE MARKED PIT IS EMPTY",
+        "previousIndex": 10,
+        "key": "treasure-island:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The treasure comes home with its shadow",
+        "text": "The survivors sail away, and Silver later disappears with money. Jim gains wealth but remembers the island with fear, letting the successful adventure keep the danger it cost to complete.",
+        "cast": [
+          "Jim Hawkins",
+          "Long John Silver"
+        ],
+        "motif": "sea",
+        "cue": "THE TREASURE COMES HOME WITH ITS SHADOW",
+        "previousIndex": 11,
+        "key": "treasure-island:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "Why is finding the marked treasure pit not the end of the search?",
+    "answer": "Ben Gunn has already moved the treasure, so the map leads the pirates to an empty place.",
+    "source": "https://www.gutenberg.org/ebooks/120",
+    "note": "Published as a book in 1883 after earlier serialisation. The pirate song is a fictional element created for the novel, not evidence of a historical sea tradition.",
+    "quotes": [
+      {
+        "text": "Fifteen men on the dead man's chest—",
+        "context": "A recurring pirate song makes buried wealth sound inseparable from danger.",
+        "meaning": "The promised adventure announces its cost before the travellers reach the island.",
+        "source": "https://www.gutenberg.org/ebooks/120"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 124,
+        "printedPage": 122,
+        "matchedTitle": "Treasure Island"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 14,
+        "printedPage": null,
+        "matchedTitle": "Treasure Island"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/120"
+  },
+  {
+    "id": "the-necklace",
+    "title": "The Necklace",
+    "author": "Guy de Maupassant",
+    "year": 1884,
+    "date": "1884",
+    "era": "victorian",
+    "genre": "Short story",
+    "setting": "Paris and a decade of debt",
+    "hook": "She borrows the appearance of wealth for one evening, then spends ten years paying for a mistake she never explains.",
+    "characters": [
+      {
+        "name": "Mathilde",
+        "role": "Woman longing for fashionable status"
+      },
+      {
+        "name": "Monsieur Loisel",
+        "role": "Her husband sharing the debt"
+      },
+      {
+        "name": "Madame Forestier",
+        "role": "Friend lending the necklace"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A modest home feels like deprivation",
+        "text": "Mathilde Loisel dreams of luxury and admiration. Her actual household is not destitute, but the imagined life makes its ordinary furniture and meals feel like evidence of exclusion.",
+        "cast": [
+          "Mathilde",
+          "Monsieur Loisel"
+        ],
+        "motif": "home",
+        "cue": "A MODEST HOME FEELS LIKE DEPRIVATION",
+        "previousIndex": 0,
+        "key": "the-necklace:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "An invitation seems to promise everything",
+        "text": "Her husband brings an invitation to a formal evening. He expects delight, but Mathilde sees the event as another place where her clothing may reveal the status she wants to escape.",
+        "cast": [
+          "Mathilde",
+          "Monsieur Loisel"
+        ],
+        "motif": "letter",
+        "cue": "AN INVITATION SEEMS TO PROMISE EVERYTHING",
+        "previousIndex": 1,
+        "key": "the-necklace:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Savings buy the dress",
+        "text": "Monsieur Loisel gives up money set aside for himself so Mathilde can buy suitable clothes. The shared sacrifice solves one problem, only for the missing jewels to become the next.",
+        "cast": [
+          "Monsieur Loisel",
+          "Mathilde"
+        ],
+        "motif": "cloth",
+        "cue": "SAVINGS BUY THE DRESS",
+        "previousIndex": 2,
+        "key": "the-necklace:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "A friend supplies the sparkle",
+        "text": "Madame Forestier lends Mathilde a necklace. The borrowed ornament completes the appearance, letting her enter the evening dressed as the person she has imagined becoming.",
+        "cast": [
+          "Mathilde",
+          "Madame Forestier"
+        ],
+        "motif": "coins",
+        "cue": "A FRIEND SUPPLIES THE SPARKLE",
+        "previousIndex": 3,
+        "key": "the-necklace:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "One evening fulfils the dream",
+        "text": "At the gathering, Mathilde is admired and enjoys success. For a few hours, the social fantasy becomes an experience, making the eventual return to ordinary life harder to welcome.",
+        "cast": [
+          "Mathilde"
+        ],
+        "motif": "hall",
+        "cue": "ONE EVENING FULFILS THE DREAM",
+        "previousIndex": 4,
+        "key": "the-necklace:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The necklace is missing",
+        "text": "Back at home, Mathilde discovers it is gone. The same object that made the evening possible now seems capable of destroying her standing with the friend who trusted her.",
+        "cast": [
+          "Mathilde",
+          "Monsieur Loisel"
+        ],
+        "motif": "mirror",
+        "cue": "THE NECKLACE IS MISSING",
+        "previousIndex": 5,
+        "key": "the-necklace:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "The search brings no answer",
+        "text": "Her husband retraces the journey and looks for the lost piece. Delay fails to recover it, and the couple choose concealment instead of telling Forestier what happened.",
+        "cast": [
+          "Monsieur Loisel",
+          "Mathilde"
+        ],
+        "motif": "road",
+        "cue": "THE SEARCH BRINGS NO ANSWER",
+        "previousIndex": 6,
+        "key": "the-necklace:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "A replacement requires a fortune",
+        "text": "They buy a similar necklace at enormous cost. Borrowed money supplies the purchase, converting the effort to preserve reputation into years of obligations the household cannot easily meet.",
+        "cast": [
+          "Mathilde",
+          "Monsieur Loisel"
+        ],
+        "motif": "contract",
+        "cue": "A REPLACEMENT REQUIRES A FORTUNE",
+        "previousIndex": 7,
+        "key": "the-necklace:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The borrowed object is returned",
+        "text": "Mathilde gives the replacement to Forestier, who does not notice the exchange. The secret appears successfully hidden, but its financial consequences have only begun.",
+        "cast": [
+          "Mathilde",
+          "Madame Forestier"
+        ],
+        "motif": "mask",
+        "cue": "THE BORROWED OBJECT IS RETURNED",
+        "previousIndex": 8,
+        "key": "the-necklace:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Ten years go into repayment",
+        "text": "The Loisels dismiss help, move to poorer rooms and work relentlessly. Mathilde's hands, appearance and habits change as the household pays for the one night she wanted to transcend them.",
+        "cast": [
+          "Mathilde",
+          "Monsieur Loisel"
+        ],
+        "motif": "chains",
+        "cue": "TEN YEARS GO INTO REPAYMENT",
+        "previousIndex": 9,
+        "key": "the-necklace:base:9",
+        "chapter": 10,
+        "mood": "tension"
+      },
+      {
+        "title": "The old friend does not recognise her",
+        "text": "After clearing the debt, Mathilde meets Forestier and explains the ordeal. Telling the truth at last opens a conversation that pride had closed when the loss first occurred.",
+        "cast": [
+          "Mathilde",
+          "Madame Forestier"
+        ],
+        "motif": "letter",
+        "cue": "THE OLD FRIEND DOES NOT RECOGNISE HER",
+        "previousIndex": 10,
+        "key": "the-necklace:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The imitation is disclosed",
+        "text": "Forestier reveals that her necklace was inexpensive imitation jewellery. The decade cannot be returned, and the ending leaves the enormous distance between the assumed value and the cost of silence.",
+        "cast": [
+          "Mathilde",
+          "Madame Forestier"
+        ],
+        "motif": "stone",
+        "cue": "THE IMITATION IS DISCLOSED",
+        "previousIndex": 11,
+        "key": "the-necklace:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What makes the final revelation so devastating?",
+    "answer": "The borrowed necklace was imitation jewellery, while the replacement and ten years of labour were paid for as if it had been valuable.",
+    "source": "https://www.gutenberg.org/ebooks/3090",
+    "note": "Published in 1884. Also listed as The Diamond Necklace in the handbook; these are titles for the same story, not separate additions. Translation wording varies.",
+    "quotes": [
+      {
+        "text": "It was worth at most only five hundred francs!",
+        "context": "Madame Forestier reveals the value of the original necklace at the end; wording follows the linked translation.",
+        "meaning": "Keeping up an appearance has cost far more than the appearance itself was ever worth.",
+        "source": "https://www.gutenberg.org/ebooks/3090"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 206,
+        "printedPage": 204,
+        "matchedTitle": "The Diamond Necklace"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/3090"
   },
   {
     "id": "strange-case-of-dr-jekyll-and-mr-hyde",
@@ -16570,6 +27401,242 @@ window.STORIES = [
     "narrativeReference": "https://www.gutenberg.org/ebooks/143"
   },
   {
+    "id": "kidnapped",
+    "title": "Kidnapped",
+    "author": "Robert Louis Stevenson",
+    "year": 1886,
+    "date": "1886",
+    "era": "victorian",
+    "genre": "Historical adventure novel",
+    "setting": "Scotland after the Jacobite rising",
+    "hook": "He goes to claim his inheritance and is put aboard a ship that will sell him into servitude.",
+    "characters": [
+      {
+        "name": "David Balfour",
+        "role": "Young heir seeking justice"
+      },
+      {
+        "name": "Alan Breck",
+        "role": "Jacobite fugitive and travelling companion"
+      },
+      {
+        "name": "Ebenezer",
+        "role": "Uncle trying to remove David"
+      },
+      {
+        "name": "Captain Hoseason",
+        "role": "Ship captain participating in the kidnapping"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "An orphan seeks his family",
+        "text": "After his father's death, David Balfour travels to the house of Shaws. He expects to find an uncle and perhaps a future, not the man who has reason to keep him poor.",
+        "cast": [
+          "David Balfour",
+          "Ebenezer"
+        ],
+        "motif": "road",
+        "cue": "AN ORPHAN SEEKS HIS FAMILY",
+        "previousIndex": 0,
+        "key": "kidnapped:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The house hides an inheritance",
+        "text": "Ebenezer treats David grudgingly and conceals his claim to the property. The decaying house offers shelter without welcome, making the young visitor suspect that poverty is being performed.",
+        "cast": [
+          "David Balfour",
+          "Ebenezer"
+        ],
+        "motif": "home",
+        "cue": "THE HOUSE HIDES AN INHERITANCE",
+        "previousIndex": 1,
+        "key": "kidnapped:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The staircase becomes a trap",
+        "text": "His uncle sends David up an unsafe tower stair in darkness. David survives, and the failed attempt begins revealing how far Ebenezer may go to protect his possession.",
+        "cast": [
+          "David Balfour",
+          "Ebenezer"
+        ],
+        "motif": "castle",
+        "cue": "THE STAIRCASE BECOMES A TRAP",
+        "previousIndex": 2,
+        "key": "kidnapped:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "A visit to a ship ends in captivity",
+        "text": "Ebenezer takes David to meet Captain Hoseason. David is knocked unconscious and carried away aboard a ship whose planned destination includes selling him into servitude.",
+        "cast": [
+          "David Balfour",
+          "Captain Hoseason",
+          "Ebenezer"
+        ],
+        "motif": "ship",
+        "cue": "A VISIT TO A SHIP ENDS IN CAPTIVITY",
+        "previousIndex": 3,
+        "key": "kidnapped:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "The crew is no refuge",
+        "text": "Aboard the vessel, David encounters cruelty and learns how little his status matters once he is isolated. Distance from home becomes a practical tool for erasing his freedom.",
+        "cast": [
+          "David Balfour",
+          "Captain Hoseason"
+        ],
+        "motif": "chains",
+        "cue": "THE CREW IS NO REFUGE",
+        "previousIndex": 4,
+        "key": "kidnapped:base:4",
+        "chapter": 5,
+        "mood": "tension"
+      },
+      {
+        "title": "Alan Breck comes aboard",
+        "text": "After an accident at sea, Alan joins the ship carrying money. The crew's plan to rob him lets David recognise a danger both strangers now share.",
+        "cast": [
+          "Alan Breck",
+          "David Balfour"
+        ],
+        "motif": "coins",
+        "cue": "ALAN BRECK COMES ABOARD",
+        "previousIndex": 5,
+        "key": "kidnapped:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "The roundhouse is defended",
+        "text": "David warns Alan, and they resist the crew's attack together. Their alliance begins in immediate necessity, creating loyalty before either fully understands the other's political world.",
+        "cast": [
+          "David Balfour",
+          "Alan Breck"
+        ],
+        "motif": "sword",
+        "cue": "THE ROUNDHOUSE IS DEFENDED",
+        "previousIndex": 6,
+        "key": "kidnapped:base:6",
+        "chapter": 7,
+        "mood": "tension"
+      },
+      {
+        "title": "A wreck separates them",
+        "text": "The ship is wrecked near the Scottish coast. David survives alone before finding a way back onto the mainland, carrying Alan's instructions into an unfamiliar and contested landscape.",
+        "cast": [
+          "David Balfour",
+          "Alan Breck"
+        ],
+        "motif": "sea",
+        "cue": "A WRECK SEPARATES THEM",
+        "previousIndex": 7,
+        "key": "kidnapped:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The Appin killing catches him",
+        "text": "A government official is shot nearby, and David is suspected. Alan helps him escape, turning the journey into flight from authorities as well as a search for his stolen future.",
+        "cast": [
+          "David Balfour",
+          "Alan Breck"
+        ],
+        "motif": "forest",
+        "cue": "THE APPIN KILLING CATCHES HIM",
+        "previousIndex": 8,
+        "key": "kidnapped:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "The Highlands test the partnership",
+        "text": "They cross difficult country while hiding from soldiers. Illness, disagreement and Alan's gambling strain the friendship, yet neither can safely complete the escape alone.",
+        "cast": [
+          "David Balfour",
+          "Alan Breck"
+        ],
+        "motif": "mountain",
+        "cue": "THE HIGHLANDS TEST THE PARTNERSHIP",
+        "previousIndex": 9,
+        "key": "kidnapped:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Evidence reaches a lawyer",
+        "text": "David contacts a lawyer who understands the inheritance. With Alan's help, he obtains evidence of Ebenezer's scheme, moving the dispute from desperate travel into a claim that can be enforced.",
+        "cast": [
+          "David Balfour",
+          "Alan Breck",
+          "Ebenezer"
+        ],
+        "motif": "letter",
+        "cue": "EVIDENCE REACHES A LAWYER",
+        "previousIndex": 10,
+        "key": "kidnapped:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The friends take different paths",
+        "text": "David regains his position and parts from Alan, whose fugitive life cannot share that settlement. The recovered inheritance leaves him changed by a friendship that crossed the divisions of his world.",
+        "cast": [
+          "David Balfour",
+          "Alan Breck"
+        ],
+        "motif": "gate",
+        "cue": "THE FRIENDS TAKE DIFFERENT PATHS",
+        "previousIndex": 11,
+        "key": "kidnapped:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What makes David and Alan's friendship demanding?",
+    "answer": "They differ in political allegiance, temperament and money, yet repeatedly depend on one another's courage and loyalty while escaping danger.",
+    "source": "https://www.gutenberg.org/ebooks/421",
+    "note": "Published in 1886 and set in 1751. Stevenson fictionalises events around the Appin murder; the novel is not a documentary resolution of the historical case.",
+    "quotes": [
+      {
+        "text": "I will begin the story of my adventures",
+        "context": "David opens his account by remembering the morning he left his father's house, chapter I.",
+        "meaning": "A claimed inheritance begins as an uncertain departure from home.",
+        "source": "https://www.gutenberg.org/ebooks/421"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 124,
+        "printedPage": 122,
+        "matchedTitle": "Kidnapped"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 241,
+        "printedPage": 239,
+        "matchedTitle": "Kidnapped"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 14,
+        "printedPage": null,
+        "matchedTitle": "Kidnapped"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/421"
+  },
+  {
     "id": "the-picture-of-dorian-gray",
     "title": "The Picture of Dorian Gray",
     "author": "Oscar Wilde",
@@ -17012,6 +28079,513 @@ window.STORIES = [
     ],
     "contentVersion": 4,
     "narrativeReference": "https://www.gutenberg.org/ebooks/110"
+  },
+  {
+    "id": "the-jungle-book",
+    "title": "The Jungle Book",
+    "author": "Rudyard Kipling",
+    "year": 1894,
+    "date": "1894",
+    "era": "modern",
+    "genre": "Story collection",
+    "setting": "Indian forests and other animal worlds",
+    "hook": "A child learns the jungle's law, but neither wolves nor humans can fully decide where he belongs.",
+    "characters": [
+      {
+        "name": "Mowgli",
+        "role": "Child raised among wolves"
+      },
+      {
+        "name": "Baloo",
+        "role": "Bear teaching jungle law"
+      },
+      {
+        "name": "Bagheera",
+        "role": "Panther protecting Mowgli"
+      },
+      {
+        "name": "Shere Khan",
+        "role": "Tiger hunting him"
+      },
+      {
+        "name": "Kaa",
+        "role": "Python helping rescue him"
+      },
+      {
+        "name": "Rikki-tikki-tavi",
+        "role": "Mongoose in a separate tale"
+      },
+      {
+        "name": "Kotick",
+        "role": "White seal in another tale"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A child enters the wolf den",
+        "text": "A human baby reaches a wolf family in the forest. Shere Khan wants the child, but the wolves' decision opens a different childhood within the jungle's social world.",
+        "cast": [
+          "Mowgli",
+          "Shere Khan"
+        ],
+        "motif": "forest",
+        "cue": "A CHILD ENTERS THE WOLF DEN",
+        "previousIndex": 0,
+        "key": "the-jungle-book:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The pack accepts Mowgli",
+        "text": "Baloo speaks for the child, and Bagheera helps secure his place. Mowgli's belonging begins as a community decision, supported by creatures who will teach and protect him.",
+        "cast": [
+          "Mowgli",
+          "Baloo",
+          "Bagheera"
+        ],
+        "motif": "hall",
+        "cue": "THE PACK ACCEPTS MOWGLI",
+        "previousIndex": 1,
+        "key": "the-jungle-book:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The lessons have a purpose",
+        "text": "Baloo teaches the jungle's words and laws. What first seems like repeated instruction becomes protection, because knowing how to address other creatures can determine whether he survives an encounter.",
+        "cast": [
+          "Mowgli",
+          "Baloo"
+        ],
+        "motif": "book",
+        "cue": "THE LESSONS HAVE A PURPOSE",
+        "previousIndex": 2,
+        "key": "the-jungle-book:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The monkey people take him",
+        "text": "The lawless Bandar-log carry Mowgli away. Their excitement offers attention without responsibility, placing the boy within a society that cannot organise its own promises into dependable care.",
+        "cast": [
+          "Mowgli"
+        ],
+        "motif": "chains",
+        "cue": "THE MONKEY PEOPLE TAKE HIM",
+        "previousIndex": 3,
+        "key": "the-jungle-book:base:3",
+        "chapter": 4,
+        "mood": "tension"
+      },
+      {
+        "title": "The abandoned city becomes a trap",
+        "text": "At the ruined Cold Lairs, Mowgli cannot free himself. Baloo, Bagheera and Kaa arrive, turning the rescue into a test of cooperation across different kinds of strength.",
+        "cast": [
+          "Mowgli",
+          "Baloo",
+          "Bagheera",
+          "Kaa"
+        ],
+        "motif": "castle",
+        "cue": "THE ABANDONED CITY BECOMES A TRAP",
+        "previousIndex": 4,
+        "key": "the-jungle-book:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Kaa's power opens an escape",
+        "text": "Kaa helps break the confinement and terrifies the monkeys. Mowgli's release depends on allies whose knowledge and capacities reach beyond the lessons he could practise alone.",
+        "cast": [
+          "Mowgli",
+          "Kaa",
+          "Baloo",
+          "Bagheera"
+        ],
+        "motif": "gate",
+        "cue": "KAA'S POWER OPENS AN ESCAPE",
+        "previousIndex": 5,
+        "key": "the-jungle-book:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "The tiger divides the pack",
+        "text": "Shere Khan works against Mowgli as the wolf leadership weakens. The boy obtains fire, a human power the other animals fear, and uses it to confront the threat to his place.",
+        "cast": [
+          "Mowgli",
+          "Shere Khan",
+          "Bagheera"
+        ],
+        "motif": "fire",
+        "cue": "THE TIGER DIVIDES THE PACK",
+        "previousIndex": 6,
+        "key": "the-jungle-book:base:6",
+        "chapter": 7,
+        "mood": "tension"
+      },
+      {
+        "title": "The human village is uneasy too",
+        "text": "Mowgli enters human society but finds its customs difficult and its judgements hostile. Being human does not automatically give him a home among people who do not understand his life.",
+        "cast": [
+          "Mowgli"
+        ],
+        "motif": "village",
+        "cue": "THE HUMAN VILLAGE IS UNEASY TOO",
+        "previousIndex": 7,
+        "key": "the-jungle-book:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The tiger is defeated",
+        "text": "Using the cattle and his wolf allies, Mowgli traps and kills Shere Khan. Yet his victory does not remove the village's suspicion, leaving belonging harder to secure than a defeated enemy.",
+        "cast": [
+          "Mowgli",
+          "Shere Khan"
+        ],
+        "motif": "sword",
+        "cue": "THE TIGER IS DEFEATED",
+        "previousIndex": 8,
+        "key": "the-jungle-book:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "A white seal seeks safer ground",
+        "text": "In a separate tale, Kotick searches for a refuge from seal hunters. His unusual journey turns refusal to accept the existing danger into a possible future for his community.",
+        "cast": [
+          "Kotick"
+        ],
+        "motif": "sea",
+        "cue": "A WHITE SEAL SEEKS SAFER GROUND",
+        "previousIndex": 9,
+        "key": "the-jungle-book:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "A mongoose guards a family",
+        "text": "Another independent story follows Rikki-tikki-tavi against cobras near a human home. Courage depends on alertness and repeated action, rather than a single promise that danger has passed.",
+        "cast": [
+          "Rikki-tikki-tavi"
+        ],
+        "motif": "home",
+        "cue": "A MONGOOSE GUARDS A FAMILY",
+        "previousIndex": 10,
+        "key": "the-jungle-book:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "Many voices share the book",
+        "text": "Other stories follow different animals and working lives. The collection closes as several worlds joined by songs, survival and obligation, with Mowgli's unsettled belonging only one of its central threads.",
+        "cast": [
+          "Mowgli",
+          "Baloo",
+          "Rikki-tikki-tavi",
+          "Kotick"
+        ],
+        "motif": "music",
+        "cue": "MANY VOICES SHARE THE BOOK",
+        "previousIndex": 11,
+        "key": "the-jungle-book:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "Why must the collection not be treated as one continuous plot?",
+    "answer": "Mowgli's episodes share a world, but tales such as The White Seal and Rikki-Tikki-Tavi have different protagonists and independent storylines.",
+    "source": "https://www.gutenberg.org/ebooks/236",
+    "note": "Published in 1894. These cards distinguish the first collection from The Second Jungle Book and keep independent animal tales separate; colonial assumptions in the work deserve scrutiny alongside its memorable storytelling.",
+    "quotes": [
+      {
+        "text": "The Law of the Jungle, which never orders anything without a reason,",
+        "context": "The narrator explains the rule against hunting human beings in Mowgli's Brothers.",
+        "meaning": "Rules in these stories are tied to how a community survives together.",
+        "source": "https://www.gutenberg.org/ebooks/236"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 175,
+        "printedPage": 173,
+        "matchedTitle": "The Jungle Book"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 206,
+        "printedPage": 204,
+        "matchedTitle": "The Jungle Book"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 15,
+        "printedPage": null,
+        "matchedTitle": "The Jungle Book"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/236"
+  },
+  {
+    "id": "arms-and-the-man",
+    "title": "Arms and the Man",
+    "author": "George Bernard Shaw",
+    "year": 1894,
+    "date": "1894",
+    "era": "modern",
+    "genre": "Anti-romantic comedy",
+    "setting": "Bulgaria during and after the Serbo-Bulgarian War",
+    "hook": "The soldier in her room carries chocolates instead of spare cartridges, unsettling everything she thinks makes a hero.",
+    "characters": [
+      {
+        "name": "Raina",
+        "role": "Young woman raised on romantic ideals"
+      },
+      {
+        "name": "Bluntschli",
+        "role": "Practical Swiss mercenary"
+      },
+      {
+        "name": "Sergius",
+        "role": "Her celebrated fiancé"
+      },
+      {
+        "name": "Louka",
+        "role": "Servant challenging social rank"
+      },
+      {
+        "name": "Nicola",
+        "role": "Servant making practical plans"
+      },
+      {
+        "name": "Catherine",
+        "role": "Raina's mother"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The victory arrives as a romance",
+        "text": "Raina hears that her fiancé Sergius has won a glorious battle. The report fits the heroic image she already loves, letting military news become confirmation of an idealised future husband.",
+        "cast": [
+          "Raina",
+          "Sergius",
+          "Catherine"
+        ],
+        "motif": "sword",
+        "cue": "THE VICTORY ARRIVES AS A ROMANCE",
+        "previousIndex": 0,
+        "key": "arms-and-the-man:base:0",
+        "chapter": 1,
+        "mood": "tension"
+      },
+      {
+        "title": "A fugitive enters the bedroom",
+        "text": "An enemy soldier climbs into Raina's room seeking safety. His exhaustion and fear place a real person beside the handsome military picture she has been celebrating.",
+        "cast": [
+          "Raina",
+          "Bluntschli"
+        ],
+        "motif": "bed",
+        "cue": "A FUGITIVE ENTERS THE BEDROOM",
+        "previousIndex": 1,
+        "key": "arms-and-the-man:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The pockets hold chocolate",
+        "text": "Bluntschli explains that soldiers need food and prefer survival to splendid appearances. His chocolates upset Raina's expectations, making the apparently unheroic visitor strangely difficult to dismiss.",
+        "cast": [
+          "Bluntschli",
+          "Raina"
+        ],
+        "motif": "coins",
+        "cue": "THE POCKETS HOLD CHOCOLATE",
+        "previousIndex": 2,
+        "key": "arms-and-the-man:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Raina decides to protect him",
+        "text": "She and Catherine hide the fugitive from pursuit. Her act of care crosses the war's public divisions, allowing personal judgement to resist the identity assigned to an enemy.",
+        "cast": [
+          "Raina",
+          "Catherine",
+          "Bluntschli"
+        ],
+        "motif": "home",
+        "cue": "RAINA DECIDES TO PROTECT HIM",
+        "previousIndex": 3,
+        "key": "arms-and-the-man:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Peace restores the household",
+        "text": "The men return after the war, and Sergius resumes his place as the celebrated fiancé. Yet his own disillusionment and attraction to Louka complicate the part he performs with Raina.",
+        "cast": [
+          "Sergius",
+          "Raina",
+          "Louka"
+        ],
+        "motif": "hall",
+        "cue": "PEACE RESTORES THE HOUSEHOLD",
+        "previousIndex": 4,
+        "key": "arms-and-the-man:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The servant sees beneath the pose",
+        "text": "Louka challenges Sergius's distinction between noble romance and desire for a servant. Her refusal to remain a convenient secret exposes the social hierarchy underneath his emotional performance.",
+        "cast": [
+          "Louka",
+          "Sergius"
+        ],
+        "motif": "chains",
+        "cue": "THE SERVANT SEES BENEATH THE POSE",
+        "previousIndex": 5,
+        "key": "arms-and-the-man:base:5",
+        "chapter": 6,
+        "mood": "tension"
+      },
+      {
+        "title": "Bluntschli returns the borrowed coat",
+        "text": "The fugitive reappears on friendly terms to return clothing. His practical competence helps the household with military arrangements, making the former enemy useful in the world its heroes claim to command.",
+        "cast": [
+          "Bluntschli",
+          "Catherine",
+          "Raina"
+        ],
+        "motif": "cloth",
+        "cue": "BLUNTSCHLI RETURNS THE BORROWED COAT",
+        "previousIndex": 6,
+        "key": "arms-and-the-man:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Raina tests another performance",
+        "text": "Raina tries to maintain her lofty manner with Bluntschli. He sees through it without treating her as worthless, making honest conversation possible where idealised courtship had required a pose.",
+        "cast": [
+          "Raina",
+          "Bluntschli"
+        ],
+        "motif": "mirror",
+        "cue": "RAINA TESTS ANOTHER PERFORMANCE",
+        "previousIndex": 7,
+        "key": "arms-and-the-man:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "A photograph gives the secret away",
+        "text": "The coat and a hidden inscription help uncover the earlier visit. What seemed like a dangerous household scandal becomes part of the comedy's exposure of how appearances have been managed.",
+        "cast": [
+          "Raina",
+          "Bluntschli",
+          "Catherine"
+        ],
+        "motif": "letter",
+        "cue": "A PHOTOGRAPH GIVES THE SECRET AWAY",
+        "previousIndex": 8,
+        "key": "arms-and-the-man:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Sergius and Louka choose openly",
+        "text": "The aristocratic fiancé acknowledges his attachment to Louka. Their match unsettles the rank that had made her convenient to desire and inconvenient to recognise.",
+        "cast": [
+          "Sergius",
+          "Louka",
+          "Nicola"
+        ],
+        "motif": "heart",
+        "cue": "SERGIUS AND LOUKA CHOOSE OPENLY",
+        "previousIndex": 9,
+        "key": "arms-and-the-man:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "The practical soldier has wealth too",
+        "text": "Bluntschli's inheritance and hotel business change the family's view of his suitability. The reaction makes social acceptance depend partly on facts unrelated to the moral worth Raina has already begun seeing.",
+        "cast": [
+          "Bluntschli",
+          "Raina",
+          "Catherine"
+        ],
+        "motif": "coins",
+        "cue": "THE PRACTICAL SOLDIER HAS WEALTH TOO",
+        "previousIndex": 10,
+        "key": "arms-and-the-man:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The romances find new terms",
+        "text": "Raina chooses Bluntschli, while Sergius turns toward Louka. The ending invites relationships grounded in clearer understanding, after heroic speech and social polish have lost their exclusive power to define value.",
+        "cast": [
+          "Raina",
+          "Bluntschli",
+          "Sergius",
+          "Louka"
+        ],
+        "motif": "garden",
+        "cue": "THE ROMANCES FIND NEW TERMS",
+        "previousIndex": 11,
+        "key": "arms-and-the-man:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "What do Bluntschli's chocolates expose?",
+    "answer": "The practical needs of frightened, exhausted soldiers beneath romantic images of fearless military glory.",
+    "source": "https://www.gutenberg.org/ebooks/3618",
+    "note": "First performed in 1894. The soldier's practical perspective challenges romantic military assumptions; the comedy does not claim courage or loyalty can be reduced entirely to commercial calculation.",
+    "quotes": [
+      {
+        "text": "What use are cartridges in battle?",
+        "context": "Bluntschli challenges Raina's expectations during their first encounter.",
+        "meaning": "A surprising practical answer punctures the heroic picture before the larger argument begins.",
+        "source": "https://www.gutenberg.org/ebooks/3618"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 65,
+        "printedPage": 63,
+        "matchedTitle": "Arms and the Man"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 157,
+        "printedPage": 155,
+        "matchedTitle": "Arms and the Man"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 198,
+        "printedPage": 196,
+        "matchedTitle": "Arms and the Man"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 15,
+        "printedPage": null,
+        "matchedTitle": "Arms and the Man"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/3618"
   },
   {
     "id": "the-importance-of-being-earnest",
@@ -17908,6 +29482,463 @@ window.STORIES = [
     "narrativeReference": "https://www.gutenberg.org/ebooks/345"
   },
   {
+    "id": "the-invisible-man",
+    "title": "The Invisible Man",
+    "author": "H. G. Wells",
+    "year": 1897,
+    "date": "1897",
+    "era": "modern",
+    "genre": "Science fiction novel",
+    "setting": "An English village and the pursuit of an unseen fugitive",
+    "hook": "He removes himself from sight and discovers that becoming untouchable is not the same as becoming free.",
+    "characters": [
+      {
+        "name": "Griffin",
+        "role": "Scientist made invisible"
+      },
+      {
+        "name": "Mrs Hall",
+        "role": "Innkeeper hosting the stranger"
+      },
+      {
+        "name": "Marvel",
+        "role": "Reluctant accomplice"
+      },
+      {
+        "name": "Dr Kemp",
+        "role": "Scientist refusing Griffin's plans"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A wrapped stranger takes a room",
+        "text": "In the village of Iping, a heavily covered man arrives at Mrs Hall's inn. His secrecy and impatience make an ordinary lodging feel as if it contains a mystery no one can safely question.",
+        "cast": [
+          "Griffin",
+          "Mrs Hall"
+        ],
+        "motif": "home",
+        "cue": "A WRAPPED STRANGER TAKES A ROOM",
+        "previousIndex": 0,
+        "key": "the-invisible-man:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Work continues behind the door",
+        "text": "The stranger conducts experiments while resisting company. Bills, curiosity and household needs disturb the privacy he demands, reminding him that isolation does not remove dependence on other people.",
+        "cast": [
+          "Griffin",
+          "Mrs Hall"
+        ],
+        "motif": "laboratory",
+        "cue": "WORK CONTINUES BEHIND THE DOOR",
+        "previousIndex": 1,
+        "key": "the-invisible-man:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Missing things awaken suspicion",
+        "text": "Money disappears, and unexplained events unsettle the inn. The villagers begin connecting the odd guest with disturbances their usual understanding of visible causes cannot explain.",
+        "cast": [
+          "Griffin",
+          "Mrs Hall"
+        ],
+        "motif": "coins",
+        "cue": "MISSING THINGS AWAKEN SUSPICION",
+        "previousIndex": 2,
+        "key": "the-invisible-man:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The disguise comes off",
+        "text": "Confronted, Griffin removes the coverings that supplied a face and body. The man beneath cannot be seen, turning the suspicion surrounding his room into a threat loose in the street.",
+        "cast": [
+          "Griffin",
+          "Mrs Hall"
+        ],
+        "motif": "mask",
+        "cue": "THE DISGUISE COMES OFF",
+        "previousIndex": 3,
+        "key": "the-invisible-man:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Escape is not comfort",
+        "text": "Invisible Griffin flees, but still needs food, clothing and shelter. Cold and hunger expose the limits of a discovery he had imagined would place him beyond ordinary constraints.",
+        "cast": [
+          "Griffin"
+        ],
+        "motif": "road",
+        "cue": "ESCAPE IS NOT COMFORT",
+        "previousIndex": 4,
+        "key": "the-invisible-man:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Marvel is forced to help",
+        "text": "Griffin recruits the frightened Marvel to carry his possessions and retrieve notebooks. The new relationship begins in intimidation, creating an accomplice whose loyalty lasts only while escape seems impossible.",
+        "cast": [
+          "Griffin",
+          "Marvel"
+        ],
+        "motif": "chains",
+        "cue": "MARVEL IS FORCED TO HELP",
+        "previousIndex": 5,
+        "key": "the-invisible-man:base:5",
+        "chapter": 6,
+        "mood": "tension"
+      },
+      {
+        "title": "The accomplice breaks away",
+        "text": "Marvel seeks protection and tries to keep beyond Griffin's reach. The scientist's dependence on a visible helper creates a weakness his own violence has made the helper eager to exploit.",
+        "cast": [
+          "Marvel",
+          "Griffin"
+        ],
+        "motif": "gate",
+        "cue": "THE ACCOMPLICE BREAKS AWAY",
+        "previousIndex": 6,
+        "key": "the-invisible-man:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Kemp hears the scientific story",
+        "text": "Wounded, Griffin seeks refuge with Dr Kemp, an old acquaintance. He explains how he changed his body and how the experiment carried him from secrecy into theft and desperate flight.",
+        "cast": [
+          "Griffin",
+          "Dr Kemp"
+        ],
+        "motif": "book",
+        "cue": "KEMP HEARS THE SCIENTIFIC STORY",
+        "previousIndex": 7,
+        "key": "the-invisible-man:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The future becomes a reign of terror",
+        "text": "Griffin proposes using invisibility to dominate others. Kemp recognises the plan as a public danger, refusing to treat an extraordinary discovery as a reason to excuse ordinary cruelty.",
+        "cast": [
+          "Griffin",
+          "Dr Kemp"
+        ],
+        "motif": "crown",
+        "cue": "THE FUTURE BECOMES A REIGN OF TERROR",
+        "previousIndex": 8,
+        "key": "the-invisible-man:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "The unseen pursuer closes in",
+        "text": "Kemp alerts the authorities, and Griffin turns against him. The pursuit transforms houses and streets into places where people must imagine an attack arriving without any visible warning.",
+        "cast": [
+          "Dr Kemp",
+          "Griffin"
+        ],
+        "motif": "storm",
+        "cue": "THE UNSEEN PURSUER CLOSES IN",
+        "previousIndex": 9,
+        "key": "the-invisible-man:base:9",
+        "chapter": 10,
+        "mood": "tension"
+      },
+      {
+        "title": "A crowd corners the invisible man",
+        "text": "Griffin attacks in public and is overpowered. His death slowly makes the body visible again, returning an apparently limitless force to the vulnerable human form it never truly escaped.",
+        "cast": [
+          "Griffin",
+          "Dr Kemp"
+        ],
+        "motif": "grave",
+        "cue": "A CROWD CORNERS THE INVISIBLE MAN",
+        "previousIndex": 10,
+        "key": "the-invisible-man:base:10",
+        "chapter": 11,
+        "mood": "sorrow"
+      },
+      {
+        "title": "The secret remains on paper",
+        "text": "Marvel keeps Griffin's notebooks and hopes to unlock them. The danger has ended for the moment, but the knowledge survives in another person's imagination of what power might be worth.",
+        "cast": [
+          "Marvel"
+        ],
+        "motif": "book",
+        "cue": "THE SECRET REMAINS ON PAPER",
+        "previousIndex": 11,
+        "key": "the-invisible-man:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "Why does Griffin turn to terror rather than find lasting freedom?",
+    "answer": "Invisibility leaves practical needs intact while removing accountability; his isolation and desire for domination turn scientific power into coercion.",
+    "source": "https://www.gutenberg.org/ebooks/5230",
+    "note": "",
+    "quotes": [
+      {
+        "text": "An invisible man is a man of power.",
+        "context": "Griffin imagines what his discovery will allow him to do.",
+        "meaning": "A technical advantage becomes dangerous when power is treated as permission.",
+        "source": "https://www.gutenberg.org/ebooks/5230"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 159,
+        "printedPage": 157,
+        "matchedTitle": "The Invisible Man"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 198,
+        "printedPage": 196,
+        "matchedTitle": "The Invisible Man"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 15,
+        "printedPage": null,
+        "matchedTitle": "The Invisible Man"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/5230"
+  },
+  {
+    "id": "the-war-of-the-worlds",
+    "title": "The War of the Worlds",
+    "author": "H. G. Wells",
+    "year": 1898,
+    "date": "1898",
+    "era": "modern",
+    "genre": "Science fiction novel",
+    "setting": "Southern England during a Martian invasion",
+    "hook": "The most powerful people on Earth discover what it feels like to be helpless before an invading civilisation.",
+    "characters": [
+      {
+        "name": "The narrator",
+        "role": "Survivor recounting the invasion"
+      },
+      {
+        "name": "The narrator's wife",
+        "role": "Person he hopes to recover"
+      },
+      {
+        "name": "The artilleryman",
+        "role": "Soldier imagining resistance"
+      },
+      {
+        "name": "The curate",
+        "role": "Clergyman overwhelmed by catastrophe"
+      },
+      {
+        "name": "The Martians",
+        "role": "Invaders using overwhelming technology"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "Earth imagines itself secure",
+        "text": "The narrator recalls a time when people assumed no greater intelligence threatened them. Unknown observers on Mars are already preparing to cross the space humanity has treated as a protection.",
+        "cast": [
+          "The narrator",
+          "The Martians"
+        ],
+        "motif": "stars",
+        "cue": "EARTH IMAGINES ITSELF SECURE",
+        "previousIndex": 0,
+        "key": "the-war-of-the-worlds:base:0",
+        "chapter": 1,
+        "mood": "wonder"
+      },
+      {
+        "title": "A cylinder lands near Woking",
+        "text": "A strange object reaches the common, drawing curious crowds. The visitors first look helpless in Earth's gravity, encouraging humans to approach before understanding what the new arrival can do.",
+        "cast": [
+          "The narrator",
+          "The Martians"
+        ],
+        "motif": "stone",
+        "cue": "A CYLINDER LANDS NEAR WOKING",
+        "previousIndex": 1,
+        "key": "the-war-of-the-worlds:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The heat ray answers the crowd",
+        "text": "The Martians attack with a devastating weapon. Curiosity becomes panic, and ordinary assumptions about negotiation or superior human strength disappear within moments.",
+        "cast": [
+          "The narrator",
+          "The Martians"
+        ],
+        "motif": "fire",
+        "cue": "THE HEAT RAY ANSWERS THE CROWD",
+        "previousIndex": 2,
+        "key": "the-war-of-the-worlds:base:2",
+        "chapter": 3,
+        "mood": "tension"
+      },
+      {
+        "title": "Home must be left behind",
+        "text": "The narrator takes his wife toward safety, then becomes separated from her. Survival now means moving through a landscape where familiar roads no longer connect reliably to familiar lives.",
+        "cast": [
+          "The narrator",
+          "The narrator's wife"
+        ],
+        "motif": "road",
+        "cue": "HOME MUST BE LEFT BEHIND",
+        "previousIndex": 3,
+        "key": "the-war-of-the-worlds:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "The machines rise",
+        "text": "Martian fighting machines stride across the countryside. Their height and weaponry make existing military responses seem tragically small, placing the human world beneath another power's control.",
+        "cast": [
+          "The Martians",
+          "The artilleryman"
+        ],
+        "motif": "chains",
+        "cue": "THE MACHINES RISE",
+        "previousIndex": 4,
+        "key": "the-war-of-the-worlds:base:4",
+        "chapter": 5,
+        "mood": "tension"
+      },
+      {
+        "title": "Resistance cannot hold the line",
+        "text": "Soldiers try to fight, but victories are limited and the invaders advance. The artilleryman's experience brings the narrator into contact with the collapse of institutions people expected to defend them.",
+        "cast": [
+          "The artilleryman",
+          "The narrator"
+        ],
+        "motif": "sword",
+        "cue": "RESISTANCE CANNOT HOLD THE LINE",
+        "previousIndex": 5,
+        "key": "the-war-of-the-worlds:base:5",
+        "chapter": 6,
+        "mood": "tension"
+      },
+      {
+        "title": "London empties in fear",
+        "text": "The narrator's brother witnesses mass flight from the city. Crowds, blocked routes and endangered families make catastrophe a collective experience larger than any one survivor's account.",
+        "cast": [
+          "The Martians"
+        ],
+        "motif": "city",
+        "cue": "LONDON EMPTIES IN FEAR",
+        "previousIndex": 6,
+        "key": "the-war-of-the-worlds:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "The curate cannot bear it",
+        "text": "The narrator becomes trapped with a curate whose distress grows uncontrollable. Their shared danger does not guarantee mutual help, revealing how differently people respond when meaning and safety collapse.",
+        "cast": [
+          "The narrator",
+          "The curate"
+        ],
+        "motif": "bed",
+        "cue": "THE CURATE CANNOT BEAR IT",
+        "previousIndex": 7,
+        "key": "the-war-of-the-worlds:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The hidden observer sees exploitation",
+        "text": "From confinement, the narrator watches the invaders' treatment of humans. The civilisation used to ruling others now finds its own bodies reduced to resources by a stronger power.",
+        "cast": [
+          "The narrator",
+          "The Martians"
+        ],
+        "motif": "cave",
+        "cue": "THE HIDDEN OBSERVER SEES EXPLOITATION",
+        "previousIndex": 8,
+        "key": "the-war-of-the-worlds:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "A future underground is proposed",
+        "text": "The artilleryman imagines a secret society surviving beneath the ruins. His vision initially sounds practical, but the narrator recognises the gap between exciting plans and the discipline needed to carry them out.",
+        "cast": [
+          "The narrator",
+          "The artilleryman"
+        ],
+        "motif": "book",
+        "cue": "A FUTURE UNDERGROUND IS PROPOSED",
+        "previousIndex": 9,
+        "key": "the-war-of-the-worlds:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "The invaders die unexpectedly",
+        "text": "The narrator discovers the Martians have succumbed to microorganisms. A biological condition humans live with has defeated the visitors' overwhelming machinery and apparent superiority.",
+        "cast": [
+          "The narrator",
+          "The Martians"
+        ],
+        "motif": "laboratory",
+        "cue": "THE INVADERS DIE UNEXPECTEDLY",
+        "previousIndex": 10,
+        "key": "the-war-of-the-worlds:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The home is found again",
+        "text": "The narrator reunites with his wife, but their recovered life carries lasting fear. Humanity's survival does not restore the easy certainty with which it once looked into the night sky.",
+        "cast": [
+          "The narrator",
+          "The narrator's wife"
+        ],
+        "motif": "home",
+        "cue": "THE HOME IS FOUND AGAIN",
+        "previousIndex": 11,
+        "key": "the-war-of-the-worlds:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What finally defeats the invaders?",
+    "answer": "Earth's microorganisms, against which the Martians have no resistance; human weapons do not produce the decisive victory.",
+    "source": "https://www.gutenberg.org/ebooks/36",
+    "note": "Serialised in 1897 and published as a book in 1898. The novel's comparison with colonial violence belongs to the narrator's framing of the invasion.",
+    "quotes": [
+      {
+        "text": "No one would have believed",
+        "context": "The opening exposes humanity's confidence that its world was safe from outside scrutiny.",
+        "meaning": "Being accustomed to power can make people unable to imagine becoming its victims.",
+        "source": "https://www.gutenberg.org/ebooks/36"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 15,
+        "printedPage": null,
+        "matchedTitle": "The War of the Worlds"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/36"
+  },
+  {
     "id": "heart-of-darkness",
     "title": "Heart of Darkness",
     "author": "Joseph Conrad",
@@ -18126,6 +30157,690 @@ window.STORIES = [
     ],
     "contentVersion": 4,
     "narrativeReference": "https://www.gutenberg.org/ebooks/219"
+  },
+  {
+    "id": "kim",
+    "title": "Kim",
+    "author": "Rudyard Kipling",
+    "year": 1901,
+    "date": "1901",
+    "era": "modern",
+    "genre": "Adventure and coming of age novel",
+    "setting": "Colonial India and Himalayan routes",
+    "hook": "A streetwise boy follows a holy man while another journey quietly recruits him into espionage.",
+    "characters": [
+      {
+        "name": "Kim",
+        "role": "Orphan skilled in languages and disguise"
+      },
+      {
+        "name": "The lama",
+        "role": "Buddhist seeker pursuing liberation"
+      },
+      {
+        "name": "Mahbub Ali",
+        "role": "Horse trader and intelligence agent"
+      },
+      {
+        "name": "Hurree Babu",
+        "role": "Scholar and intelligence operative"
+      },
+      {
+        "name": "Colonel Creighton",
+        "role": "Official supervising Kim's training"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A boy knows Lahore's streets",
+        "text": "Orphaned Kim grows up with a talent for local languages, bargaining and slipping between social worlds. His Irish parentage does not make his lived identity as simple as imperial categories suggest.",
+        "cast": [
+          "Kim"
+        ],
+        "motif": "city",
+        "cue": "A BOY KNOWS LAHORE'S STREETS",
+        "previousIndex": 0,
+        "key": "kim:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "A lama asks for directions",
+        "text": "Kim meets a Tibetan lama searching for a sacred river. Curiosity and affection make the boy his companion, setting an inward quest beside the practical knowledge of the streets.",
+        "cast": [
+          "Kim",
+          "The lama"
+        ],
+        "motif": "road",
+        "cue": "A LAMA ASKS FOR DIRECTIONS",
+        "previousIndex": 1,
+        "key": "kim:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "A message travels with them",
+        "text": "Mahbub Ali gives Kim a message connected with British intelligence. The journey now carries a hidden political task alongside the holy man's open search for liberation.",
+        "cast": [
+          "Kim",
+          "Mahbub Ali",
+          "The lama"
+        ],
+        "motif": "letter",
+        "cue": "A MESSAGE TRAVELS WITH THEM",
+        "previousIndex": 2,
+        "key": "kim:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The road brings many Indias",
+        "text": "Railways and highways expose the pair to travellers of different regions and beliefs. Kim's adaptability keeps them moving, while the lama seeks the meaning beneath each outward encounter.",
+        "cast": [
+          "Kim",
+          "The lama"
+        ],
+        "motif": "village",
+        "cue": "THE ROAD BRINGS MANY INDIAS",
+        "previousIndex": 3,
+        "key": "kim:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "A regimental sign identifies the boy",
+        "text": "Kim finds the regiment associated with his father and is recognised as a British soldier's son. Adults decide that his future should include formal schooling rather than unrestricted travel.",
+        "cast": [
+          "Kim",
+          "Colonel Creighton"
+        ],
+        "motif": "crown",
+        "cue": "A REGIMENTAL SIGN IDENTIFIES THE BOY",
+        "previousIndex": 4,
+        "key": "kim:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The lama pays for education",
+        "text": "The lama helps fund Kim's schooling while their bond continues. Education opens opportunities, but also draws the boy into an institutional identity that differs from the life he knows most intimately.",
+        "cast": [
+          "Kim",
+          "The lama"
+        ],
+        "motif": "book",
+        "cue": "THE LAMA PAYS FOR EDUCATION",
+        "previousIndex": 5,
+        "key": "kim:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Training teaches another kind of sight",
+        "text": "Kim learns observation, memory and disguise for intelligence work. Ordinary talents become instruments of the Great Game, making the ability to understand people useful to a power seeking to manage them.",
+        "cast": [
+          "Kim",
+          "Colonel Creighton"
+        ],
+        "motif": "mask",
+        "cue": "TRAINING TEACHES ANOTHER KIND OF SIGHT",
+        "previousIndex": 6,
+        "key": "kim:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Hurree Babu offers a model",
+        "text": "Kim encounters Hurree Babu, whose unassuming performance conceals resourcefulness. The operative shows how apparent weakness can become a carefully chosen role rather than an accurate measure of ability.",
+        "cast": [
+          "Kim",
+          "Hurree Babu"
+        ],
+        "motif": "mirror",
+        "cue": "HURREE BABU OFFERS A MODEL",
+        "previousIndex": 7,
+        "key": "kim:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The journeys meet again",
+        "text": "Kim rejoins the lama and travels into the hills. Affection pulls him toward spiritual companionship, while his training keeps him alert to political information moving through the same landscape.",
+        "cast": [
+          "Kim",
+          "The lama"
+        ],
+        "motif": "mountain",
+        "cue": "THE JOURNEYS MEET AGAIN",
+        "previousIndex": 8,
+        "key": "kim:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Foreign agents threaten the lama",
+        "text": "An encounter with rival agents turns violent, and the lama is harmed. Kim and Hurree Babu recover intelligence materials, letting care for his companion overlap with the success of espionage.",
+        "cast": [
+          "Kim",
+          "The lama",
+          "Hurree Babu"
+        ],
+        "motif": "sword",
+        "cue": "FOREIGN AGENTS THREATEN THE LAMA",
+        "previousIndex": 9,
+        "key": "kim:base:9",
+        "chapter": 10,
+        "mood": "tension"
+      },
+      {
+        "title": "The lama finds his fulfilment",
+        "text": "The lama reaches the spiritual understanding he has sought. His account returns the journey to liberation and compassion, offering a meaning that cannot be reduced to useful information.",
+        "cast": [
+          "The lama",
+          "Kim"
+        ],
+        "motif": "river",
+        "cue": "THE LAMA FINDS HIS FULFILMENT",
+        "previousIndex": 10,
+        "key": "kim:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "Kim returns to himself",
+        "text": "Exhausted Kim recovers and asks who he is. The novel restores his sense of the living world without giving a simple final choice that erases either his bond with the lama or his imperial role.",
+        "cast": [
+          "Kim",
+          "The lama"
+        ],
+        "motif": "garden",
+        "cue": "KIM RETURNS TO HIMSELF",
+        "previousIndex": 11,
+        "key": "kim:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "What two journeys compete for Kim's allegiance?",
+    "answer": "The lama's spiritual search and British imperial intelligence work, joined by Kim's practical curiosity and uncertain sense of identity.",
+    "source": "https://www.gutenberg.org/ebooks/2226",
+    "note": "Published in 1901. Its energetic representation of India is shaped by a colonial narrator and British espionage interests; the story's appeal does not make those perspectives politically neutral.",
+    "quotes": [
+      {
+        "text": "Who is Kim—Kim—Kim?",
+        "context": "Kim's inward question returns amid the roles he learns to perform.",
+        "meaning": "Many useful disguises do not automatically answer who a person wishes to become.",
+        "source": "https://www.gutenberg.org/ebooks/2226"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 25,
+        "printedPage": 23,
+        "matchedTitle": "Kim"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 175,
+        "printedPage": 173,
+        "matchedTitle": "Kim"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 15,
+        "printedPage": null,
+        "matchedTitle": "Kim"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/2226"
+  },
+  {
+    "id": "sultana-s-dream",
+    "title": "Sultana's Dream",
+    "author": "Rokeya Sakhawat Hossain",
+    "year": 1905,
+    "date": "1905",
+    "era": "modern",
+    "genre": "Utopian short story",
+    "setting": "A dreamed country called Ladyland",
+    "hook": "She expects danger in public, then wakes inside a country where women have redesigned the rules.",
+    "characters": [
+      {
+        "name": "Sultana",
+        "role": "Dreaming visitor"
+      },
+      {
+        "name": "Sister Sara",
+        "role": "Guide explaining Ladyland"
+      },
+      {
+        "name": "The Queen",
+        "role": "Ruler supporting education and peace"
+      },
+      {
+        "name": "The women scientists",
+        "role": "Researchers transforming everyday life"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "A familiar figure arrives",
+        "text": "Sultana rests one evening and sees a woman she takes for a friend. She follows her outside, entering a world that feels familiar just long enough to lower her guard.",
+        "cast": [
+          "Sultana",
+          "Sister Sara"
+        ],
+        "motif": "home",
+        "cue": "A FAMILIAR FIGURE ARRIVES",
+        "previousIndex": 0,
+        "key": "sultana-s-dream:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The public street feels impossible",
+        "text": "Sultana feels nervous walking openly among others. Sister Sara reassures her that Ladyland is safe, beginning the reversal of assumptions the visitor has brought from home.",
+        "cast": [
+          "Sultana",
+          "Sister Sara"
+        ],
+        "motif": "road",
+        "cue": "THE PUBLIC STREET FEELS IMPOSSIBLE",
+        "previousIndex": 1,
+        "key": "sultana-s-dream:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "The missing men raise a question",
+        "text": "Sultana notices that men are absent from the streets. Sara explains that they are confined indoors, making the visitor confront a restriction usually imposed on women from the other side.",
+        "cast": [
+          "Sultana",
+          "Sister Sara"
+        ],
+        "motif": "gate",
+        "cue": "THE MISSING MEN RAISE A QUESTION",
+        "previousIndex": 2,
+        "key": "sultana-s-dream:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The argument changes its subject",
+        "text": "Sara challenges claims that physical strength should determine freedom. Treating the stronger group as the greater public danger turns a familiar justification into a source of comic discomfort.",
+        "cast": [
+          "Sister Sara",
+          "Sultana"
+        ],
+        "motif": "mirror",
+        "cue": "THE ARGUMENT CHANGES ITS SUBJECT",
+        "previousIndex": 3,
+        "key": "sultana-s-dream:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Education receives support",
+        "text": "Ladyland's queen has encouraged women's learning. Universities and research replace assumptions of incapacity with opportunities to develop knowledge, altering what the society believes women can do.",
+        "cast": [
+          "The Queen",
+          "The women scientists",
+          "Sultana"
+        ],
+        "motif": "book",
+        "cue": "EDUCATION RECEIVES SUPPORT",
+        "previousIndex": 4,
+        "key": "sultana-s-dream:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Two discoveries alter daily life",
+        "text": "Scientists learn to control water and collect solar energy. Practical invention makes the country's comfort depend on education and cooperation rather than the ordinary prestige of armies.",
+        "cast": [
+          "The women scientists",
+          "Sister Sara"
+        ],
+        "motif": "laboratory",
+        "cue": "TWO DISCOVERIES ALTER DAILY LIFE",
+        "previousIndex": 5,
+        "key": "sultana-s-dream:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "War once threatened the country",
+        "text": "Sara describes an invasion in which the men failed to secure safety. The emergency opened a chance for women to act using capacities conventional authority had underestimated.",
+        "cast": [
+          "Sister Sara",
+          "The women scientists"
+        ],
+        "motif": "sword",
+        "cue": "WAR ONCE THREATENED THE COUNTRY",
+        "previousIndex": 6,
+        "key": "sultana-s-dream:base:6",
+        "chapter": 7,
+        "mood": "tension"
+      },
+      {
+        "title": "Science answers the invasion",
+        "text": "The women use concentrated sunlight against the attackers. Their success reverses the supposed relation between military strength, intelligence and the right to control public life.",
+        "cast": [
+          "The women scientists"
+        ],
+        "motif": "sunrise",
+        "cue": "SCIENCE ANSWERS THE INVASION",
+        "previousIndex": 7,
+        "key": "sultana-s-dream:base:7",
+        "chapter": 8,
+        "mood": "wonder"
+      },
+      {
+        "title": "The household rules are inverted",
+        "text": "After the victory, men remain secluded while women manage the country. The arrangement makes a familiar injustice newly noticeable by transferring it to those previously empowered by it.",
+        "cast": [
+          "Sultana",
+          "Sister Sara"
+        ],
+        "motif": "chains",
+        "cue": "THE HOUSEHOLD RULES ARE INVERTED",
+        "previousIndex": 8,
+        "key": "sultana-s-dream:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "Clean gardens replace the expected city",
+        "text": "Sultana sees a calm, attractive environment with efficient work and ingenious transport. The setting lets her imagine how a different allocation of power might reshape everyday experience.",
+        "cast": [
+          "Sultana",
+          "Sister Sara"
+        ],
+        "motif": "garden",
+        "cue": "CLEAN GARDENS REPLACE THE EXPECTED CITY",
+        "previousIndex": 9,
+        "key": "sultana-s-dream:base:9",
+        "chapter": 10,
+        "mood": "wonder"
+      },
+      {
+        "title": "The ruler values peace",
+        "text": "Sultana meets the Queen, whose priorities differ from aggressive conquest. Political leadership becomes another part of the experiment: national success can be imagined without making domination its chief measure.",
+        "cast": [
+          "Sultana",
+          "The Queen"
+        ],
+        "motif": "crown",
+        "cue": "THE RULER VALUES PEACE",
+        "previousIndex": 10,
+        "key": "sultana-s-dream:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The dream breaks open",
+        "text": "A movement in the air-car startles Sultana awake. The country disappears, but its reversal leaves a question within ordinary life: which familiar limitations have people mistaken for nature?",
+        "cast": [
+          "Sultana",
+          "Sister Sara"
+        ],
+        "motif": "stars",
+        "cue": "THE DREAM BREAKS OPEN",
+        "previousIndex": 11,
+        "key": "sultana-s-dream:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "What does Ladyland's reversal expose?",
+    "answer": "Rules confining women are social arrangements rather than inevitable facts; changing access to education and power changes what a society can imagine.",
+    "source": "https://digital.library.upenn.edu/women/sultana/dream/dream.html",
+    "note": "Originally written in English and published in 1905. The source handbook calls it a novel; it is a utopian short story. Ladyland is a satirical thought experiment, not a documented historical society.",
+    "quotes": [
+      {
+        "text": "We shut our men indoors.",
+        "context": "Sister Sara explains Ladyland's reversal of customary seclusion.",
+        "meaning": "A familiar restriction becomes visibly absurd when its usual subjects change places.",
+        "source": "https://digital.library.upenn.edu/women/sultana/dream/dream.html"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 150,
+        "printedPage": 148,
+        "matchedTitle": "Sultana's Dream"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://digital.library.upenn.edu/women/sultana/dream/dream.html"
+  },
+  {
+    "id": "the-gift-of-the-magi",
+    "title": "The Gift of the Magi",
+    "author": "O. Henry",
+    "year": 1905,
+    "date": "1905",
+    "era": "modern",
+    "genre": "Short story",
+    "setting": "A modest New York home on Christmas Eve",
+    "hook": "Each gives up a treasured possession to buy the other a gift that can no longer be used.",
+    "characters": [
+      {
+        "name": "Della",
+        "role": "Young wife saving for a gift"
+      },
+      {
+        "name": "Jim",
+        "role": "Husband cherishing an inherited watch"
+      },
+      {
+        "name": "Madame Sofronie",
+        "role": "Hair dealer making Della's purchase possible"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The savings are not enough",
+        "text": "On Christmas Eve, Della counts one dollar and eighty-seven cents. She wants a beautiful gift for Jim, but the coins on the table cannot match the affection behind the wish.",
+        "cast": [
+          "Della",
+          "Jim"
+        ],
+        "motif": "coins",
+        "cue": "THE SAVINGS ARE NOT ENOUGH",
+        "previousIndex": 0,
+        "key": "the-gift-of-the-magi:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Two treasures stand out",
+        "text": "The couple has little money, yet cherishes Jim's inherited watch and Della's long hair. Their value comes from pride and memory rather than the comfort they bring to the household.",
+        "cast": [
+          "Della",
+          "Jim"
+        ],
+        "motif": "home",
+        "cue": "TWO TREASURES STAND OUT",
+        "previousIndex": 1,
+        "key": "the-gift-of-the-magi:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "An idea appears in the mirror",
+        "text": "Della looks at her hair and sees something she can sell. The discovery turns a treasured part of herself into the means of giving what the saved coins cannot buy.",
+        "cast": [
+          "Della"
+        ],
+        "motif": "mirror",
+        "cue": "AN IDEA APPEARS IN THE MIRROR",
+        "previousIndex": 2,
+        "key": "the-gift-of-the-magi:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The hair dealer makes an offer",
+        "text": "At Madame Sofronie's shop, Della asks what her hair is worth. The practical transaction gives her money while leaving the change in her appearance to be faced at home.",
+        "cast": [
+          "Della",
+          "Madame Sofronie"
+        ],
+        "motif": "scissors",
+        "cue": "THE HAIR DEALER MAKES AN OFFER",
+        "previousIndex": 3,
+        "key": "the-gift-of-the-magi:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "She searches for Jim's gift",
+        "text": "Della finds a simple watch chain she believes suits him. The choice honours the possession he treasures and the character she sees behind his worn circumstances.",
+        "cast": [
+          "Della",
+          "Jim"
+        ],
+        "motif": "clock",
+        "cue": "SHE SEARCHES FOR JIM'S GIFT",
+        "previousIndex": 4,
+        "key": "the-gift-of-the-magi:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The gift carries a new worry",
+        "text": "Back home, Della arranges her short hair and waits. Having solved the problem of money, she now fears whether Jim will still find her appearance familiar and beautiful.",
+        "cast": [
+          "Della",
+          "Jim"
+        ],
+        "motif": "heart",
+        "cue": "THE GIFT CARRIES A NEW WORRY",
+        "previousIndex": 5,
+        "key": "the-gift-of-the-magi:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Jim stops at the door",
+        "text": "When Jim returns, he looks at Della with an expression she cannot explain. His stillness lets a small domestic change briefly feel like a danger to the affection she meant to celebrate.",
+        "cast": [
+          "Jim",
+          "Della"
+        ],
+        "motif": "gate",
+        "cue": "JIM STOPS AT THE DOOR",
+        "previousIndex": 6,
+        "key": "the-gift-of-the-magi:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "She explains the sacrifice",
+        "text": "Della says her hair was sold to buy his present and will grow again. Her reassurance makes clear that she has chosen love over keeping the possession that once expressed her pride.",
+        "cast": [
+          "Della",
+          "Jim"
+        ],
+        "motif": "letter",
+        "cue": "SHE EXPLAINS THE SACRIFICE",
+        "previousIndex": 7,
+        "key": "the-gift-of-the-magi:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "His present reveals the first irony",
+        "text": "Jim gives her the beautiful combs she had long desired. They belong to the hair she has just sold, turning his thoughtful choice into something she cannot yet use.",
+        "cast": [
+          "Jim",
+          "Della"
+        ],
+        "motif": "cloth",
+        "cue": "HIS PRESENT REVEALS THE FIRST IRONY",
+        "previousIndex": 8,
+        "key": "the-gift-of-the-magi:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Her present asks for the watch",
+        "text": "Della offers the chain and asks to see it beside Jim's watch. For a moment, the reader can still imagine that one of their carefully chosen gifts will fulfil its practical purpose.",
+        "cast": [
+          "Della",
+          "Jim"
+        ],
+        "motif": "clock",
+        "cue": "HER PRESENT ASKS FOR THE WATCH",
+        "previousIndex": 9,
+        "key": "the-gift-of-the-magi:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "The second sacrifice is disclosed",
+        "text": "Jim explains that he sold the watch to buy her combs. Their independent acts meet in a perfect practical mismatch, each removing what would have made the other's present useful.",
+        "cast": [
+          "Jim",
+          "Della"
+        ],
+        "motif": "coins",
+        "cue": "THE SECOND SACRIFICE IS DISCLOSED",
+        "previousIndex": 10,
+        "key": "the-gift-of-the-magi:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The narrator measures a different wisdom",
+        "text": "The couple puts the gifts aside and shares the evening. The ending calls their giving wise because its deepest value lies in what each was willing to surrender for the other.",
+        "cast": [
+          "Jim",
+          "Della"
+        ],
+        "motif": "heart",
+        "cue": "THE NARRATOR MEASURES A DIFFERENT WISDOM",
+        "previousIndex": 11,
+        "key": "the-gift-of-the-magi:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "Why are the gifts both impractical and meaningful?",
+    "answer": "Each spouse sells the possession the other's gift was meant to complement; the sacrifice reveals their mutual love despite removing the gifts' immediate use.",
+    "source": "https://www.gutenberg.org/ebooks/2776",
+    "note": "First published in 1905 and collected in The Four Million in 1906. The irony depends on two separate sacrifices, not a shared plan to exchange possessions.",
+    "quotes": [
+      {
+        "text": "One dollar and eighty-seven cents.",
+        "context": "The opening counts Della's small savings.",
+        "meaning": "A precise sum makes the distance between affection and purchasing power immediately visible.",
+        "source": "https://www.gutenberg.org/ebooks/2776"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 172,
+        "printedPage": 170,
+        "matchedTitle": "The Gift of the Magi"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 194,
+        "printedPage": 192,
+        "matchedTitle": "The Gift of the Magi"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/2776"
   },
   {
     "id": "sons-and-lovers",
@@ -18357,6 +31072,257 @@ window.STORIES = [
     ],
     "contentVersion": 4,
     "narrativeReference": "https://www.gutenberg.org/ebooks/217"
+  },
+  {
+    "id": "pygmalion",
+    "title": "Pygmalion",
+    "author": "George Bernard Shaw",
+    "year": 1913,
+    "date": "1913",
+    "era": "modern",
+    "genre": "Social comedy",
+    "setting": "London streets and a professor's phonetics laboratory",
+    "hook": "He teaches her to sound like a duchess, then discovers that she wants more than a successful performance.",
+    "characters": [
+      {
+        "name": "Eliza",
+        "role": "Flower seller learning new speech"
+      },
+      {
+        "name": "Higgins",
+        "role": "Phonetics professor treating the project as an experiment"
+      },
+      {
+        "name": "Pickering",
+        "role": "Colonel whose courtesy matters to Eliza"
+      },
+      {
+        "name": "Alfred Doolittle",
+        "role": "Eliza's father navigating class"
+      },
+      {
+        "name": "Mrs Higgins",
+        "role": "Observer challenging her son's conduct"
+      },
+      {
+        "name": "Freddy",
+        "role": "Young man attached to Eliza"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "Rain gathers strangers together",
+        "text": "Outside a London theatre, Eliza sells flowers while Higgins records voices. His ability to identify speech patterns exposes how quickly accent can place a person within a class judgement.",
+        "cast": [
+          "Eliza",
+          "Higgins",
+          "Pickering"
+        ],
+        "motif": "city",
+        "cue": "RAIN GATHERS STRANGERS TOGETHER",
+        "previousIndex": 0,
+        "key": "pygmalion:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "An experiment is proposed",
+        "text": "Higgins boasts that he can train the flower seller to pass as a duchess. Pickering turns the claim into a wager, making Eliza's possible future the subject of two men's confidence.",
+        "cast": [
+          "Eliza",
+          "Higgins",
+          "Pickering"
+        ],
+        "motif": "contract",
+        "cue": "AN EXPERIMENT IS PROPOSED",
+        "previousIndex": 1,
+        "key": "pygmalion:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Eliza asks for lessons",
+        "text": "Eliza arrives seeking speech training so she can work in a shop. Her own practical ambition brings her into the project, even though Higgins immediately begins defining its terms.",
+        "cast": [
+          "Eliza",
+          "Higgins"
+        ],
+        "motif": "gate",
+        "cue": "ELIZA ASKS FOR LESSONS",
+        "previousIndex": 2,
+        "key": "pygmalion:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The household changes her appearance",
+        "text": "Bathing, clothing and instruction remake Eliza's outward presentation. The professor concentrates on results, while the human cost of giving up a familiar identity receives much less attention.",
+        "cast": [
+          "Eliza",
+          "Higgins"
+        ],
+        "motif": "cloth",
+        "cue": "THE HOUSEHOLD CHANGES HER APPEARANCE",
+        "previousIndex": 3,
+        "key": "pygmalion:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Her father negotiates his part",
+        "text": "Alfred Doolittle visits with a shrewd appeal for money. His performance challenges respectable moral claims, though it also shows how easily others bargain over a young woman's position.",
+        "cast": [
+          "Alfred Doolittle",
+          "Higgins",
+          "Eliza"
+        ],
+        "motif": "coins",
+        "cue": "HER FATHER NEGOTIATES HIS PART",
+        "previousIndex": 4,
+        "key": "pygmalion:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Sounds become difficult work",
+        "text": "Eliza trains intensively, learning control over speech that once marked her as poor. The effort belongs to her body and persistence, even when the men describe the coming success as their experiment.",
+        "cast": [
+          "Eliza",
+          "Higgins",
+          "Pickering"
+        ],
+        "motif": "book",
+        "cue": "SOUNDS BECOME DIFFICULT WORK",
+        "previousIndex": 5,
+        "key": "pygmalion:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "A drawing room tests the lesson",
+        "text": "At Mrs Higgins's house, Eliza's pronunciation impresses while her subjects and expressions unsettle the company. Speech can change faster than the experience that gives a conversation its content.",
+        "cast": [
+          "Eliza",
+          "Mrs Higgins",
+          "Freddy"
+        ],
+        "motif": "hall",
+        "cue": "A DRAWING ROOM TESTS THE LESSON",
+        "previousIndex": 6,
+        "key": "pygmalion:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "The public performance succeeds",
+        "text": "Eliza passes the decisive social test. Higgins and Pickering celebrate, believing the wager has answered the main question, while the transformed woman still has to live after their applause.",
+        "cast": [
+          "Eliza",
+          "Higgins",
+          "Pickering"
+        ],
+        "motif": "stage",
+        "cue": "THE PUBLIC PERFORMANCE SUCCEEDS",
+        "previousIndex": 7,
+        "key": "pygmalion:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Nobody asks what comes next",
+        "text": "The men discuss their achievement and ignore Eliza's future. Her anger erupts because the experiment has displaced the person whose work made it possible.",
+        "cast": [
+          "Eliza",
+          "Higgins",
+          "Pickering"
+        ],
+        "motif": "storm",
+        "cue": "NOBODY ASKS WHAT COMES NEXT",
+        "previousIndex": 8,
+        "key": "pygmalion:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "She leaves the laboratory",
+        "text": "Eliza seeks Mrs Higgins's protection and thinks about independent work. Departing turns the new voice from an object of demonstration into a possible tool for directing her own life.",
+        "cast": [
+          "Eliza",
+          "Mrs Higgins"
+        ],
+        "motif": "road",
+        "cue": "SHE LEAVES THE LABORATORY",
+        "previousIndex": 9,
+        "key": "pygmalion:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Courtesy receives the credit",
+        "text": "Eliza tells Pickering that his treatment helped her feel like a lady. The revelation challenges Higgins's belief that technical instruction alone explains the change in her self-respect.",
+        "cast": [
+          "Eliza",
+          "Pickering",
+          "Higgins"
+        ],
+        "motif": "heart",
+        "cue": "COURTESY RECEIVES THE CREDIT",
+        "previousIndex": 10,
+        "key": "pygmalion:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The pupil refuses ownership",
+        "text": "Eliza resists being taken for granted and leaves the final relationship unsettled. The play's achievement is a person able to answer back, not merely an accent that pleases its instructor.",
+        "cast": [
+          "Eliza",
+          "Higgins",
+          "Freddy"
+        ],
+        "motif": "gate",
+        "cue": "THE PUPIL REFUSES OWNERSHIP",
+        "previousIndex": 11,
+        "key": "pygmalion:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What makes Eliza's independence the central question?",
+    "answer": "After acquiring a new social identity, she must decide how to live, work and be treated; winning Higgins's wager does not answer those needs.",
+    "source": "https://www.gutenberg.org/ebooks/3825",
+    "note": "First performed in 1913, English production 1914. Shaw's play does not close with an explicit Eliza–Higgins romantic union; his prose sequel discusses a future with Freddy.",
+    "quotes": [
+      {
+        "text": "The difference between a lady and a flower girl",
+        "context": "Eliza identifies treatment, rather than appearance alone, as a source of social identity.",
+        "meaning": "Respect can teach a person what the lesson's official instructor fails to understand.",
+        "source": "https://www.gutenberg.org/ebooks/3825"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 56,
+        "printedPage": 54,
+        "matchedTitle": "Pygmalion"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 158,
+        "printedPage": 156,
+        "matchedTitle": "Pygmalion"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 15,
+        "printedPage": null,
+        "matchedTitle": "Pygmalion"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/3825"
   },
   {
     "id": "dubliners",
@@ -18783,6 +31749,470 @@ window.STORIES = [
     ],
     "contentVersion": 4,
     "narrativeReference": "https://www.gutenberg.org/ebooks/1459"
+  },
+  {
+    "id": "the-metamorphosis",
+    "title": "The Metamorphosis",
+    "author": "Franz Kafka",
+    "year": 1915,
+    "date": "1915",
+    "era": "modern",
+    "genre": "Novella",
+    "setting": "The Samsa family's apartment",
+    "hook": "He wakes in a monstrous body, but his first worry is how to get to work.",
+    "characters": [
+      {
+        "name": "Gregor",
+        "role": "Travelling salesman transformed overnight"
+      },
+      {
+        "name": "Grete",
+        "role": "His sister and early carer"
+      },
+      {
+        "name": "The father",
+        "role": "Parent reacting with force"
+      },
+      {
+        "name": "The mother",
+        "role": "Parent divided between distress and attachment"
+      },
+      {
+        "name": "The chief clerk",
+        "role": "Employer's representative"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The morning body is unfamiliar",
+        "text": "Gregor Samsa wakes to discover a monstrous new body. Rather than first questioning the impossible change, he worries about missing the train required for his exhausting work.",
+        "cast": [
+          "Gregor"
+        ],
+        "motif": "bed",
+        "cue": "THE MORNING BODY IS UNFAMILIAR",
+        "previousIndex": 0,
+        "key": "the-metamorphosis:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The household calls through the door",
+        "text": "His family wants to know why he has not left. Gregor tries to answer, but the altered voice creates another barrier between the thoughts he retains and the person others can recognise.",
+        "cast": [
+          "Gregor",
+          "Grete",
+          "The mother"
+        ],
+        "motif": "gate",
+        "cue": "THE HOUSEHOLD CALLS THROUGH THE DOOR",
+        "previousIndex": 1,
+        "key": "the-metamorphosis:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Work arrives before help",
+        "text": "The chief clerk comes to investigate Gregor's absence. Employment pressure enters the bedroom crisis, making the transformed man defend his usefulness before anyone can understand his condition.",
+        "cast": [
+          "Gregor",
+          "The chief clerk"
+        ],
+        "motif": "contract",
+        "cue": "WORK ARRIVES BEFORE HELP",
+        "previousIndex": 2,
+        "key": "the-metamorphosis:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The door opens onto terror",
+        "text": "Gregor finally appears, and the visitors recoil. His father drives him back into the room, turning the home he supported into a place where his presence must be contained.",
+        "cast": [
+          "Gregor",
+          "The father",
+          "The chief clerk"
+        ],
+        "motif": "chains",
+        "cue": "THE DOOR OPENS ONTO TERROR",
+        "previousIndex": 3,
+        "key": "the-metamorphosis:base:3",
+        "chapter": 4,
+        "mood": "tension"
+      },
+      {
+        "title": "Grete begins caring for him",
+        "text": "His sister brings food and observes his changed preferences. Her practical effort offers a connection when conversation no longer works, though the family continues hiding him from ordinary life.",
+        "cast": [
+          "Gregor",
+          "Grete"
+        ],
+        "motif": "home",
+        "cue": "GRETE BEGINS CARING FOR HIM",
+        "previousIndex": 4,
+        "key": "the-metamorphosis:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "The room's meaning changes",
+        "text": "Grete and her mother consider removing furniture so Gregor can move. He resists losing the objects that connect him to his earlier human life, making assistance and erasure hard to distinguish.",
+        "cast": [
+          "Gregor",
+          "Grete",
+          "The mother"
+        ],
+        "motif": "mirror",
+        "cue": "THE ROOM'S MEANING CHANGES",
+        "previousIndex": 5,
+        "key": "the-metamorphosis:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "An apple leaves a wound",
+        "text": "His father attacks him with apples, one lodging in his body. The injury persists, adding physical decline to the isolation that has already narrowed his existence.",
+        "cast": [
+          "Gregor",
+          "The father"
+        ],
+        "motif": "apple",
+        "cue": "AN APPLE LEAVES A WOUND",
+        "previousIndex": 6,
+        "key": "the-metamorphosis:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "The family finds other work",
+        "text": "The parents and Grete take employment, revealing capacities Gregor's former role had partly concealed. Their fatigue grows beside a new independence from the son who once provided for them.",
+        "cast": [
+          "Grete",
+          "The father",
+          "The mother"
+        ],
+        "motif": "coins",
+        "cue": "THE FAMILY FINDS OTHER WORK",
+        "previousIndex": 7,
+        "key": "the-metamorphosis:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "Strangers occupy the home",
+        "text": "The family takes lodgers, and Gregor's room becomes a storage space. Financial survival pushes him further out of the household's usable world, while outsiders acquire more welcome than he can expect.",
+        "cast": [
+          "Gregor",
+          "The father"
+        ],
+        "motif": "home",
+        "cue": "STRANGERS OCCUPY THE HOME",
+        "previousIndex": 8,
+        "key": "the-metamorphosis:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "Music draws him out",
+        "text": "Hearing Grete play the violin, Gregor approaches, still responding to beauty and affection. The lodgers' disgust turns his desire for connection into another crisis for the family.",
+        "cast": [
+          "Gregor",
+          "Grete"
+        ],
+        "motif": "music",
+        "cue": "MUSIC DRAWS HIM OUT",
+        "previousIndex": 9,
+        "key": "the-metamorphosis:base:9",
+        "chapter": 10,
+        "mood": "wonder"
+      },
+      {
+        "title": "The sister refuses the burden",
+        "text": "Grete says they must get rid of the creature. Gregor hears the judgement, retreats and dies, unable to make the inward identity he still possesses count as a claim upon their care.",
+        "cast": [
+          "Grete",
+          "Gregor"
+        ],
+        "motif": "grave",
+        "cue": "THE SISTER REFUSES THE BURDEN",
+        "previousIndex": 10,
+        "key": "the-metamorphosis:base:10",
+        "chapter": 11,
+        "mood": "sorrow"
+      },
+      {
+        "title": "The survivors imagine a future",
+        "text": "The family leaves the apartment for an outing and considers Grete's prospects. Their relief closes the story with a disturbing contrast to the son whose disappearance has made the plans easier.",
+        "cast": [
+          "Grete",
+          "The father",
+          "The mother"
+        ],
+        "motif": "sunrise",
+        "cue": "THE SURVIVORS IMAGINE A FUTURE",
+        "previousIndex": 11,
+        "key": "the-metamorphosis:base:11",
+        "chapter": 12,
+        "mood": "wonder"
+      }
+    ],
+    "question": "How does the family's treatment of Gregor change?",
+    "answer": "Early care gradually becomes resentment as work, fear and financial pressure grow; Gregor is increasingly treated as a burden rather than a family member.",
+    "source": "https://www.gutenberg.org/ebooks/5200",
+    "note": "Published in 1915. The original describes monstrous vermin without fixing a precise biological species; the cards avoid turning the transformation into a medically explained event or a definitively identified insect.",
+    "quotes": [
+      {
+        "text": "What’s happened to me?",
+        "context": "Gregor responds to his transformation at the opening; wording follows the linked translation.",
+        "meaning": "An impossible event reveals how deeply ordinary obligations already controlled his thoughts.",
+        "source": "https://www.gutenberg.org/ebooks/5200"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 15,
+        "printedPage": null,
+        "matchedTitle": "The Metamorphosis"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/5200"
+  },
+  {
+    "id": "of-human-bondage",
+    "title": "Of Human Bondage",
+    "author": "W. Somerset Maugham",
+    "year": 1915,
+    "date": "1915",
+    "era": "modern",
+    "genre": "Coming of age novel",
+    "setting": "England, Paris and London",
+    "hook": "He chases beauty, love and a grand purpose until an ordinary life begins to look like freedom.",
+    "characters": [
+      {
+        "name": "Philip Carey",
+        "role": "Orphan seeking a direction in life"
+      },
+      {
+        "name": "Mildred",
+        "role": "Waitress to whom he becomes painfully attached"
+      },
+      {
+        "name": "Hayward",
+        "role": "Friend encouraging romantic ideals"
+      },
+      {
+        "name": "Athelny",
+        "role": "Warm friend offering a family circle"
+      },
+      {
+        "name": "Sally",
+        "role": "Athelny's daughter and Philip's eventual partner"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "An orphan enters a narrow home",
+        "text": "Philip Carey grows up with his uncle after losing his parents. His clubfoot and isolation make school and family life painful, feeding a wish to become someone who can escape judgement.",
+        "cast": [
+          "Philip Carey"
+        ],
+        "motif": "home",
+        "cue": "AN ORPHAN ENTERS A NARROW HOME",
+        "previousIndex": 0,
+        "key": "of-human-bondage:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "Belief becomes a question",
+        "text": "Philip's education and travel lead him to reconsider inherited religion. Losing a familiar certainty opens freedom, but also leaves him searching for another principle that can organise a life.",
+        "cast": [
+          "Philip Carey",
+          "Hayward"
+        ],
+        "motif": "book",
+        "cue": "BELIEF BECOMES A QUESTION",
+        "previousIndex": 1,
+        "key": "of-human-bondage:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Paris promises artistic purpose",
+        "text": "He studies painting in Paris, hoping art will provide both independence and meaning. The city gives experience, friendships and difficulty rather than an automatic answer to his imagined talent.",
+        "cast": [
+          "Philip Carey"
+        ],
+        "motif": "city",
+        "cue": "PARIS PROMISES ARTISTIC PURPOSE",
+        "previousIndex": 2,
+        "key": "of-human-bondage:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The artistic dream is released",
+        "text": "Philip accepts that he lacks the gifts required for the artistic future he wanted. Returning to England is painful, yet abandoning a false expectation gives him a more practical direction.",
+        "cast": [
+          "Philip Carey"
+        ],
+        "motif": "mirror",
+        "cue": "THE ARTISTIC DREAM IS RELEASED",
+        "previousIndex": 3,
+        "key": "of-human-bondage:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Medicine becomes a course to follow",
+        "text": "He begins medical training in London. The work offers a profession, but cannot prevent his private life from becoming dominated by a new and destructive attachment.",
+        "cast": [
+          "Philip Carey"
+        ],
+        "motif": "laboratory",
+        "cue": "MEDICINE BECOMES A COURSE TO FOLLOW",
+        "previousIndex": 4,
+        "key": "of-human-bondage:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Mildred occupies his imagination",
+        "text": "Philip falls for a waitress whose indifference does not weaken his desire. Rejection intensifies the pursuit, making love feel like an obligation to obtain the response she keeps withholding.",
+        "cast": [
+          "Philip Carey",
+          "Mildred"
+        ],
+        "motif": "heart",
+        "cue": "MILDRED OCCUPIES HIS IMAGINATION",
+        "previousIndex": 5,
+        "key": "of-human-bondage:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "Kindness cannot purchase affection",
+        "text": "He gives Mildred help and repeatedly hopes gratitude will become love. The recurring disappointment exposes how care becomes bondage when it is used to pursue an answer another person does not owe.",
+        "cast": [
+          "Philip Carey",
+          "Mildred"
+        ],
+        "motif": "coins",
+        "cue": "KINDNESS CANNOT PURCHASE AFFECTION",
+        "previousIndex": 6,
+        "key": "of-human-bondage:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "The relationship leaves him exposed",
+        "text": "Mildred returns in need and later harms his home and possessions. Philip's attachment begins breaking, though emotional release comes only after damage that practical generosity could not prevent.",
+        "cast": [
+          "Philip Carey",
+          "Mildred"
+        ],
+        "motif": "storm",
+        "cue": "THE RELATIONSHIP LEAVES HIM EXPOSED",
+        "previousIndex": 7,
+        "key": "of-human-bondage:base:7",
+        "chapter": 8,
+        "mood": "tension"
+      },
+      {
+        "title": "Money fails at the same time",
+        "text": "A failed investment leaves Philip destitute, interrupting his studies. Hunger and insecure work turn abstract questions about life's purpose into the immediate need for shelter, income and dependable company.",
+        "cast": [
+          "Philip Carey"
+        ],
+        "motif": "chains",
+        "cue": "MONEY FAILS AT THE SAME TIME",
+        "previousIndex": 8,
+        "key": "of-human-bondage:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "Athelny's household offers warmth",
+        "text": "Athelny and his family welcome Philip. Their affection and ordinary routines provide a form of belonging neither intellectual debate nor his pursuit of Mildred had been able to sustain.",
+        "cast": [
+          "Philip Carey",
+          "Athelny",
+          "Sally"
+        ],
+        "motif": "home",
+        "cue": "ATHELNY'S HOUSEHOLD OFFERS WARMTH",
+        "previousIndex": 9,
+        "key": "of-human-bondage:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Experience changes his measure",
+        "text": "Philip resumes his career and grows close to Sally. He begins to accept that life need not justify itself through a single magnificent design, opening room for pleasures he once considered too modest.",
+        "cast": [
+          "Philip Carey",
+          "Sally"
+        ],
+        "motif": "garden",
+        "cue": "EXPERIENCE CHANGES HIS MEASURE",
+        "previousIndex": 10,
+        "key": "of-human-bondage:base:10",
+        "chapter": 11,
+        "mood": "wonder"
+      },
+      {
+        "title": "He chooses the ordinary future",
+        "text": "Believing Sally may be pregnant, Philip proposes; when the fear proves mistaken, he still chooses her. Work, marriage and affection become a freely accepted pattern rather than proof that his greater dream has failed.",
+        "cast": [
+          "Philip Carey",
+          "Sally"
+        ],
+        "motif": "heart",
+        "cue": "HE CHOOSES THE ORDINARY FUTURE",
+        "previousIndex": 11,
+        "key": "of-human-bondage:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "What does Philip finally relinquish?",
+    "answer": "The demand that life fulfil an exalted, predetermined design; he becomes willing to find value in ordinary work, affection and lived experience.",
+    "source": "https://www.gutenberg.org/ebooks/351",
+    "note": "Published in 1915. The title concerns many kinds of dependence, including desire, ideals and insecurity. Philip's disability affects how others treat him but does not determine his worth or moral character.",
+    "quotes": [
+      {
+        "text": "The simplest pattern, that in which a man was born, worked, married, had children, and died, was likewise the most perfect.",
+        "context": "Near the ending, Philip reconsiders the ordinary life he once expected to escape.",
+        "meaning": "Freedom can begin when a person stops forcing every experience to prove a grand ideal.",
+        "source": "https://www.gutenberg.org/ebooks/351"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 187,
+        "printedPage": 185,
+        "matchedTitle": "Of Human Bondage"
+      },
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 195,
+        "printedPage": 193,
+        "matchedTitle": "Of Human Bondage"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 15,
+        "printedPage": null,
+        "matchedTitle": "Of Human Bondage"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/351"
   },
   {
     "id": "a-portrait-of-the-artist-as-a-young-man",
@@ -20096,6 +33526,459 @@ window.STORIES = [
     "narrativeReference": "https://www.gutenberg.org/ebooks/71865"
   },
   {
+    "id": "the-trial",
+    "title": "The Trial",
+    "author": "Franz Kafka",
+    "year": 1925,
+    "date": "1925",
+    "era": "modern",
+    "genre": "Unfinished novel",
+    "setting": "A city where courtrooms hide in ordinary buildings",
+    "hook": "He is arrested without learning the charge, then spends his life trying to reach a court that never explains itself.",
+    "characters": [
+      {
+        "name": "Josef K",
+        "role": "Bank official drawn into an opaque prosecution"
+      },
+      {
+        "name": "The warders",
+        "role": "Men announcing his arrest"
+      },
+      {
+        "name": "The advocate",
+        "role": "Lawyer promising uncertain assistance"
+      },
+      {
+        "name": "Leni",
+        "role": "Advocate's attendant"
+      },
+      {
+        "name": "Titorelli",
+        "role": "Painter explaining limited possibilities"
+      },
+      {
+        "name": "The priest",
+        "role": "Speaker of the law parable"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The ordinary morning is seized",
+        "text": "On his thirtieth birthday, Josef K finds strangers in his lodging. They announce an arrest without giving a charge, changing his relation to the world before explaining what he has supposedly done.",
+        "cast": [
+          "Josef K",
+          "The warders"
+        ],
+        "motif": "bed",
+        "cue": "THE ORDINARY MORNING IS SEIZED",
+        "previousIndex": 0,
+        "key": "the-trial:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "He can work but cannot escape",
+        "text": "K is permitted to continue his bank job. The strange freedom makes the prosecution harder to locate: confinement has become a condition surrounding his daily life rather than a locked cell.",
+        "cast": [
+          "Josef K"
+        ],
+        "motif": "chains",
+        "cue": "HE CAN WORK BUT CANNOT ESCAPE",
+        "previousIndex": 1,
+        "key": "the-trial:base:1",
+        "chapter": 2,
+        "mood": "tension"
+      },
+      {
+        "title": "The first hearing has no clear map",
+        "text": "An instruction sends K searching through a crowded building for a court. The cramped room and uncertain procedure make institutional power feel both shabby and impossible to approach on ordinary terms.",
+        "cast": [
+          "Josef K"
+        ],
+        "motif": "hall",
+        "cue": "THE FIRST HEARING HAS NO CLEAR MAP",
+        "previousIndex": 2,
+        "key": "the-trial:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "He attacks the proceedings",
+        "text": "K challenges the court's corruption and absurdity. His speech expresses resistance, but the audience's hidden affiliations leave him uncertain whether any independent judgement has actually heard him.",
+        "cast": [
+          "Josef K"
+        ],
+        "motif": "letter",
+        "cue": "HE ATTACKS THE PROCEEDINGS",
+        "previousIndex": 3,
+        "key": "the-trial:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "The offices reach into attics",
+        "text": "Further encounters reveal court rooms and officials within domestic spaces. The law is everywhere in fragments, yet none of those fragments lets K reach a clear account of the whole.",
+        "cast": [
+          "Josef K"
+        ],
+        "motif": "home",
+        "cue": "THE OFFICES REACH INTO ATTICS",
+        "previousIndex": 4,
+        "key": "the-trial:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Punishment follows his complaint",
+        "text": "K finds the warders being flogged after his accusations. The scene makes even protest uncertain, because speaking against the system can feed another violence the speaker cannot control.",
+        "cast": [
+          "Josef K",
+          "The warders"
+        ],
+        "motif": "sword",
+        "cue": "PUNISHMENT FOLLOWS HIS COMPLAINT",
+        "previousIndex": 5,
+        "key": "the-trial:base:5",
+        "chapter": 6,
+        "mood": "tension"
+      },
+      {
+        "title": "The advocate promises access",
+        "text": "An uncle takes K to a lawyer, whose contacts seem more useful than transparent legal argument. Leni's attraction and the advocate's explanations complicate help with dependency and personal influence.",
+        "cast": [
+          "Josef K",
+          "The advocate",
+          "Leni"
+        ],
+        "motif": "contract",
+        "cue": "THE ADVOCATE PROMISES ACCESS",
+        "previousIndex": 6,
+        "key": "the-trial:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "Work becomes harder to sustain",
+        "text": "The case absorbs K's attention, harming the professional security he first expected to continue unchanged. A procedure without defined limits begins taking the time and confidence of an entire life.",
+        "cast": [
+          "Josef K"
+        ],
+        "motif": "clock",
+        "cue": "WORK BECOMES HARDER TO SUSTAIN",
+        "previousIndex": 7,
+        "key": "the-trial:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The painter names restricted options",
+        "text": "Titorelli explains forms of temporary or apparent relief rather than certain acquittal. The routes offered keep the accused within the process, turning every exit into a possible return.",
+        "cast": [
+          "Josef K",
+          "Titorelli"
+        ],
+        "motif": "mask",
+        "cue": "THE PAINTER NAMES RESTRICTED OPTIONS",
+        "previousIndex": 8,
+        "key": "the-trial:base:8",
+        "chapter": 9,
+        "mood": "curious"
+      },
+      {
+        "title": "A parable waits in the cathedral",
+        "text": "The priest tells K of a man who waits before a door to the law. The story converts his own search into another question about access, obedience and the authority that decides when a person may enter.",
+        "cast": [
+          "Josef K",
+          "The priest"
+        ],
+        "motif": "gate",
+        "cue": "A PARABLE WAITS IN THE CATHEDRAL",
+        "previousIndex": 9,
+        "key": "the-trial:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "Interpretation brings no release",
+        "text": "K and the priest debate the parable, but explanations multiply instead of settling it. Understanding the story does not automatically place the listener outside the system it describes.",
+        "cast": [
+          "Josef K",
+          "The priest"
+        ],
+        "motif": "book",
+        "cue": "INTERPRETATION BRINGS NO RELEASE",
+        "previousIndex": 10,
+        "key": "the-trial:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The case ends without an answer",
+        "text": "Before his next birthday, two men take K away and kill him. The ending supplies an execution without the disclosed judgement that would make the whole process intelligible.",
+        "cast": [
+          "Josef K"
+        ],
+        "motif": "grave",
+        "cue": "THE CASE ENDS WITHOUT AN ANSWER",
+        "previousIndex": 11,
+        "key": "the-trial:base:11",
+        "chapter": 12,
+        "mood": "sorrow"
+      }
+    ],
+    "question": "What makes the court more than an ordinary legal obstacle?",
+    "answer": "Its authority reaches into everyday life while its charges, procedures and final access remain withheld, making every attempted solution another form of dependence.",
+    "source": "https://www.gutenberg.org/ebooks/7849",
+    "note": "Written in 1914–1915 and published posthumously in 1925. An unfinished manuscript with a final chapter; editions can differ in arrangement. K's legal guilt is never established by a disclosed charge or trial outcome.",
+    "quotes": [
+      {
+        "text": "Someone must have been telling lies about Josef K.,",
+        "context": "The opening announces an arrest that the narrator presents as unexplained and unjustified; wording follows the linked translation.",
+        "meaning": "The story begins with an account of innocence that the institution never agrees to discuss.",
+        "source": "https://www.gutenberg.org/ebooks/7849"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 214,
+        "printedPage": 212,
+        "matchedTitle": "The Trial"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 15,
+        "printedPage": null,
+        "matchedTitle": "The Trial"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://www.gutenberg.org/ebooks/7849"
+  },
+  {
+    "id": "the-rocking-horse-winner",
+    "title": "The Rocking-Horse Winner",
+    "author": "D. H. Lawrence",
+    "year": 1926,
+    "date": "1926",
+    "era": "modern",
+    "genre": "Short story",
+    "setting": "An English house that seems to whisper about money",
+    "hook": "A boy tries to become lucky enough to win his mother's love, riding until the price becomes his life.",
+    "characters": [
+      {
+        "name": "Paul",
+        "role": "Child pursuing luck through frantic riding"
+      },
+      {
+        "name": "Hester",
+        "role": "Mother anxious about money and status"
+      },
+      {
+        "name": "Bassett",
+        "role": "Gardener involved in betting"
+      },
+      {
+        "name": "Uncle Oscar",
+        "role": "Relative encouraging the scheme"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The house looks comfortable",
+        "text": "Paul lives in a household that appears prosperous but feels dissatisfied. Behind its respectable objects, a repeated pressure seems to whisper that there must be more money.",
+        "cast": [
+          "Paul",
+          "Hester"
+        ],
+        "motif": "home",
+        "cue": "THE HOUSE LOOKS COMFORTABLE",
+        "previousIndex": 0,
+        "key": "the-rocking-horse-winner:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The mother's affection feels distant",
+        "text": "Hester worries about status and income. Paul senses a coldness beneath the appearance of family care, making material insecurity difficult to separate from his hunger to be loved.",
+        "cast": [
+          "Paul",
+          "Hester"
+        ],
+        "motif": "heart",
+        "cue": "THE MOTHER'S AFFECTION FEELS DISTANT",
+        "previousIndex": 1,
+        "key": "the-rocking-horse-winner:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "Luck receives an explanation",
+        "text": "Hester tells Paul that luck brings money and that his father is unlucky. The child takes the explanation seriously, beginning to imagine luck as something he might discover and possess.",
+        "cast": [
+          "Paul",
+          "Hester"
+        ],
+        "motif": "coins",
+        "cue": "LUCK RECEIVES AN EXPLANATION",
+        "previousIndex": 2,
+        "key": "the-rocking-horse-winner:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "The rocking horse becomes a route",
+        "text": "Paul rides his toy horse with fierce concentration. The ordinary object becomes his private means of reaching the strange certainty he associates with winning races.",
+        "cast": [
+          "Paul"
+        ],
+        "motif": "road",
+        "cue": "THE ROCKING HORSE BECOMES A ROUTE",
+        "previousIndex": 3,
+        "key": "the-rocking-horse-winner:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "Bassett takes the names seriously",
+        "text": "Paul shares racing predictions with Bassett. When some prove successful, betting supplies real money, encouraging the adults to treat the child's compulsion as an extraordinary opportunity.",
+        "cast": [
+          "Paul",
+          "Bassett"
+        ],
+        "motif": "book",
+        "cue": "BASSETT TAKES THE NAMES SERIOUSLY",
+        "previousIndex": 4,
+        "key": "the-rocking-horse-winner:base:4",
+        "chapter": 5,
+        "mood": "curious"
+      },
+      {
+        "title": "Uncle Oscar enters the arrangement",
+        "text": "Oscar learns of the winnings and joins the scheme. His amusement and interest make the process more organised, lending adult approval to something Paul experiences as urgent need.",
+        "cast": [
+          "Paul",
+          "Uncle Oscar",
+          "Bassett"
+        ],
+        "motif": "contract",
+        "cue": "UNCLE OSCAR ENTERS THE ARRANGEMENT",
+        "previousIndex": 5,
+        "key": "the-rocking-horse-winner:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "A secret gift reaches Hester",
+        "text": "Paul arranges money for his mother without revealing its source. He hopes the gift will quiet the house and create the warmth that more ordinary requests have failed to bring.",
+        "cast": [
+          "Paul",
+          "Hester"
+        ],
+        "motif": "letter",
+        "cue": "A SECRET GIFT REACHES HESTER",
+        "previousIndex": 6,
+        "key": "the-rocking-horse-winner:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "The whisper grows louder",
+        "text": "Hester receives the money, but expenditure and expectation increase. The house's demand becomes stronger, showing Paul that success has moved the supposed finish line rather than reached it.",
+        "cast": [
+          "Paul",
+          "Hester"
+        ],
+        "motif": "storm",
+        "cue": "THE WHISPER GROWS LOUDER",
+        "previousIndex": 7,
+        "key": "the-rocking-horse-winner:base:7",
+        "chapter": 8,
+        "mood": "tension"
+      },
+      {
+        "title": "The next race takes over",
+        "text": "Paul seeks another certain winner and rides with greater desperation. His body carries the effort of answering a need that no adult has helped him place within a safe limit.",
+        "cast": [
+          "Paul"
+        ],
+        "motif": "chains",
+        "cue": "THE NEXT RACE TAKES OVER",
+        "previousIndex": 8,
+        "key": "the-rocking-horse-winner:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "Hester senses something wrong",
+        "text": "Concern finally interrupts the mother's social life. She returns to discover her son in a state of dangerous intensity, when recognition comes too late to turn his fixation into ordinary play.",
+        "cast": [
+          "Hester",
+          "Paul"
+        ],
+        "motif": "gate",
+        "cue": "HESTER SENSES SOMETHING WRONG",
+        "previousIndex": 9,
+        "key": "the-rocking-horse-winner:base:9",
+        "chapter": 10,
+        "mood": "curious"
+      },
+      {
+        "title": "A winning name and a collapse",
+        "text": "Paul reaches the name Malabar for the Derby, then becomes desperately ill. The prediction produces immense winnings while the boy who supplied it lies unable to enjoy any promised security.",
+        "cast": [
+          "Paul",
+          "Bassett"
+        ],
+        "motif": "bed",
+        "cue": "A WINNING NAME AND A COLLAPSE",
+        "previousIndex": 10,
+        "key": "the-rocking-horse-winner:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The money arrives beside death",
+        "text": "Paul dies after learning the horse has won. Oscar's closing words place the fortune beside the loss of the child, exposing the bargain nobody should have allowed him to make.",
+        "cast": [
+          "Paul",
+          "Hester",
+          "Uncle Oscar"
+        ],
+        "motif": "grave",
+        "cue": "THE MONEY ARRIVES BESIDE DEATH",
+        "previousIndex": 11,
+        "key": "the-rocking-horse-winner:base:11",
+        "chapter": 12,
+        "mood": "sorrow"
+      }
+    ],
+    "question": "Why do the winnings fail to silence the house?",
+    "answer": "Receiving money enlarges the household's expectations instead of resolving the mother's dissatisfaction, so Paul's attempt to satisfy the demand has no stable end.",
+    "source": "https://gutenberg.net.au/ebooks04/0400301h.html",
+    "note": "First published in 1926. The title corrects the handbook's Rocking House Winner. The story's supernatural element is left unexplained; the child is not described as responsible for repairing his parents' finances.",
+    "quotes": [
+      {
+        "text": "There must be more money!",
+        "context": "The house's repeated whisper expresses the pressure Paul hears around him.",
+        "meaning": "A demand without a limit can consume the person trying hardest to fulfil it.",
+        "source": "https://gutenberg.net.au/ebooks04/0400301h.html"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 151,
+        "printedPage": 149,
+        "matchedTitle": "The Rocking House Winner"
+      }
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://gutenberg.net.au/ebooks04/0400301h.html"
+  },
+  {
     "id": "to-the-lighthouse",
     "title": "To the Lighthouse",
     "author": "Virginia Woolf",
@@ -20953,6 +34836,243 @@ window.STORIES = [
     "spoken": true,
     "contentVersion": 4,
     "narrativeReference": "https://www.gutenberg.net.au/ebooks01/0100011h.html"
+  },
+  {
+    "id": "nineteen-eighty-four",
+    "title": "Nineteen Eighty-Four",
+    "author": "George Orwell",
+    "year": 1949,
+    "date": "1949",
+    "era": "postwar",
+    "genre": "Dystopian novel",
+    "setting": "Oceania and the Party-controlled city of London",
+    "hook": "He keeps a private thought in a world determined to control even the past.",
+    "characters": [
+      {
+        "name": "Winston",
+        "role": "Records worker doubting the Party"
+      },
+      {
+        "name": "Julia",
+        "role": "Woman sharing his secret rebellion"
+      },
+      {
+        "name": "O'Brien",
+        "role": "Official manipulating Winston's hope"
+      },
+      {
+        "name": "Big Brother",
+        "role": "Public image of Party authority"
+      },
+      {
+        "name": "Mr Charrington",
+        "role": "Shopkeeper hiding his role"
+      }
+    ],
+    "scenes": [
+      {
+        "title": "The room cannot promise privacy",
+        "text": "Winston lives in a city watched by telescreens and surrounded by Party slogans. He begins a diary, making a small private record into a dangerous claim that his own thoughts belong to him.",
+        "cast": [
+          "Winston",
+          "Big Brother"
+        ],
+        "motif": "home",
+        "cue": "THE ROOM CANNOT PROMISE PRIVACY",
+        "previousIndex": 0,
+        "key": "nineteen-eighty-four:base:0",
+        "chapter": 1,
+        "mood": "curious"
+      },
+      {
+        "title": "The past is his daily work",
+        "text": "At the Ministry of Truth, Winston alters old records to fit current claims. He knows that the evidence people would need to question authority is being changed by workers like himself.",
+        "cast": [
+          "Winston"
+        ],
+        "motif": "book",
+        "cue": "THE PAST IS HIS DAILY WORK",
+        "previousIndex": 1,
+        "key": "nineteen-eighty-four:base:1",
+        "chapter": 2,
+        "mood": "curious"
+      },
+      {
+        "title": "A forbidden feeling grows",
+        "text": "Winston privately resists the Party and tries to remember a world outside its account. His uncertain memories make the hunger for truth intense, but do not give him a secure way to prove it.",
+        "cast": [
+          "Winston"
+        ],
+        "motif": "mirror",
+        "cue": "A FORBIDDEN FEELING GROWS",
+        "previousIndex": 2,
+        "key": "nineteen-eighty-four:base:2",
+        "chapter": 3,
+        "mood": "curious"
+      },
+      {
+        "title": "Julia sends a message",
+        "text": "A note from Julia declares love. What Winston first perceived as possible surveillance becomes an invitation to meet, opening a secret space where affection can contradict the public order.",
+        "cast": [
+          "Winston",
+          "Julia"
+        ],
+        "motif": "letter",
+        "cue": "JULIA SENDS A MESSAGE",
+        "previousIndex": 3,
+        "key": "nineteen-eighty-four:base:3",
+        "chapter": 4,
+        "mood": "curious"
+      },
+      {
+        "title": "The countryside offers a moment",
+        "text": "The lovers meet away from the city and begin their relationship. Their rebellion is intimate and temporary, giving them experience of life the Party has not yet openly claimed.",
+        "cast": [
+          "Winston",
+          "Julia"
+        ],
+        "motif": "garden",
+        "cue": "THE COUNTRYSIDE OFFERS A MOMENT",
+        "previousIndex": 4,
+        "key": "nineteen-eighty-four:base:4",
+        "chapter": 5,
+        "mood": "wonder"
+      },
+      {
+        "title": "The rented room feels like shelter",
+        "text": "They use a room above Charrington's shop, surrounded by objects from the past. Its apparent privacy lets them imagine a shared life, while the safety depends on a judgement they cannot verify.",
+        "cast": [
+          "Winston",
+          "Julia",
+          "Mr Charrington"
+        ],
+        "motif": "home",
+        "cue": "THE RENTED ROOM FEELS LIKE SHELTER",
+        "previousIndex": 5,
+        "key": "nineteen-eighty-four:base:5",
+        "chapter": 6,
+        "mood": "curious"
+      },
+      {
+        "title": "O'Brien invites a larger hope",
+        "text": "Winston believes O'Brien belongs to a resistance movement. Trusting that possibility lets the private rebellion imagine political companionship, making the hoped-for ally the most dangerous person to misread.",
+        "cast": [
+          "Winston",
+          "O'Brien"
+        ],
+        "motif": "contract",
+        "cue": "O'BRIEN INVITES A LARGER HOPE",
+        "previousIndex": 6,
+        "key": "nineteen-eighty-four:base:6",
+        "chapter": 7,
+        "mood": "curious"
+      },
+      {
+        "title": "A book offers an explanation",
+        "text": "Winston reads an account of the system's workings. Intellectual understanding seems to make the oppression comprehensible, but knowledge alone cannot protect the person holding it.",
+        "cast": [
+          "Winston",
+          "Julia"
+        ],
+        "motif": "book",
+        "cue": "A BOOK OFFERS AN EXPLANATION",
+        "previousIndex": 7,
+        "key": "nineteen-eighty-four:base:7",
+        "chapter": 8,
+        "mood": "curious"
+      },
+      {
+        "title": "The hidden screen reveals the trap",
+        "text": "Police seize Winston and Julia, and Charrington's role is exposed. The room's privacy was managed by the same power the lovers believed they had escaped.",
+        "cast": [
+          "Winston",
+          "Julia",
+          "Mr Charrington"
+        ],
+        "motif": "chains",
+        "cue": "THE HIDDEN SCREEN REVEALS THE TRAP",
+        "previousIndex": 8,
+        "key": "nineteen-eighty-four:base:8",
+        "chapter": 9,
+        "mood": "tension"
+      },
+      {
+        "title": "O'Brien controls the interrogation",
+        "text": "In the Ministry of Love, O'Brien uses torture and argument to break Winston's independent judgement. The demand is not merely obedience: Winston must surrender the right to say what he believes is true.",
+        "cast": [
+          "Winston",
+          "O'Brien"
+        ],
+        "motif": "storm",
+        "cue": "O'BRIEN CONTROLS THE INTERROGATION",
+        "previousIndex": 9,
+        "key": "nineteen-eighty-four:base:9",
+        "chapter": 10,
+        "mood": "tension"
+      },
+      {
+        "title": "Room 101 reaches the final bond",
+        "text": "Confronted with his deepest terror, Winston betrays Julia. Fear destroys the loyalty he had imagined the Party could never possess, making the body's vulnerability the route into his most private attachment.",
+        "cast": [
+          "Winston",
+          "Julia",
+          "O'Brien"
+        ],
+        "motif": "cave",
+        "cue": "ROOM 101 REACHES THE FINAL BOND",
+        "previousIndex": 10,
+        "key": "nineteen-eighty-four:base:10",
+        "chapter": 11,
+        "mood": "curious"
+      },
+      {
+        "title": "The defeated man waits",
+        "text": "Released Winston meets Julia without recovering their bond. The novel closes with his love for Big Brother, leaving the victory of power visible inside the thought that once resisted it.",
+        "cast": [
+          "Winston",
+          "Julia",
+          "Big Brother"
+        ],
+        "motif": "clock",
+        "cue": "THE DEFEATED MAN WAITS",
+        "previousIndex": 11,
+        "key": "nineteen-eighty-four:base:11",
+        "chapter": 12,
+        "mood": "resolve"
+      }
+    ],
+    "question": "Why does the Party rewrite records?",
+    "answer": "Controlling the available past helps it define present truth and prevent people from testing official claims against independent evidence.",
+    "source": "https://gutenberg.net.au/ebooks01/0100021h.html",
+    "note": "Published in 1949. The world and terminology are fictional. The final defeat is preserved rather than replaced with a successful revolution absent from the novel.",
+    "quotes": [
+      {
+        "text": "BIG BROTHER IS WATCHING YOU",
+        "context": "A recurring slogan places Party surveillance inside daily life.",
+        "meaning": "The threat works by making privacy feel impossible before any specific observer appears.",
+        "source": "https://gutenberg.net.au/ebooks01/0100021h.html"
+      }
+    ],
+    "spoken": true,
+    "pdfReferences": [
+      {
+        "document": "English_Literature_Sharif_Sir.pdf",
+        "pdfPage": 157,
+        "printedPage": 155,
+        "matchedTitle": "Nineteen Eighty-Four"
+      },
+      {
+        "document": "Literature_important_Parts.pdf",
+        "pdfPage": 16,
+        "printedPage": null,
+        "matchedTitle": "Nineteen Eighty-Four"
+      }
+    ],
+    "additionalReferences": [
+      "https://www.orwellfoundation.com/the-orwell-foundation/orwell/articles/ben-pimlott-introduction-to-nineteen-eighty-four/"
+    ],
+    "contentVersion": 5,
+    "narrativeReference": "https://gutenberg.net.au/ebooks01/0100021h.html"
   },
   {
     "id": "the-old-man-and-the-sea",

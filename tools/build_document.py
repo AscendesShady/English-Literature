@@ -6,7 +6,8 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 
 ROOT=Path(__file__).resolve().parents[1]
-stories=sorted([s for s in json.loads((ROOT/'content/catalog.json').read_text(encoding='utf-8')) if isinstance(s['source'],str)],key=lambda s:s['year'])
+catalog=json.loads((ROOT/'content/catalog.json').read_text(encoding='utf-8'))
+stories=sorted([s for s in catalog if isinstance(s['source'],str)],key=lambda s:s['year'])
 doc=Document()
 section=doc.sections[0]
 section.page_width=Inches(8.27);section.page_height=Inches(11.69)
@@ -30,10 +31,10 @@ doc.styles['Heading 2'].paragraph_format.space_after=Pt(3)
 doc.core_properties.title='Literature by Codex'
 doc.core_properties.author='Codex'
 doc.add_paragraph('Literature by Codex','Title')
-doc.add_paragraph('73 additions with twelve narrated story cards','Subtitle')
-doc.add_paragraph('This companion preserves all 73 works added by Codex: the original Odyssey, Antigone and Frankenstein additions, plus 70 further works from foundational novelists, dramatists and poets. Every entry includes the same twelve rewritten story cards, characters, memory cues, recall question and memorable quotation as the website. The narration begins by setting the scene, introduces people and motives as they matter, and follows choices into consequences. Read aloud or turn through the cards online to imagine each moment.')
+doc.add_paragraph(f'{len(stories)} additions with twelve narrated story cards','Subtitle')
+doc.add_paragraph(f'This companion contains all {len(stories)} works added to the library, including 60 newly selected works identified in the two supplied literature PDFs. Every entry includes the same twelve narrated story cards, characters, memory cues, recall question and memorable quotation as the website. The narration begins by setting the scene, introduces people and motives as they matter, and follows choices into consequences. Read aloud or turn through the cards online to imagine each moment.')
 doc.add_paragraph('Summaries and memory connections are original learning adaptations with plot spoilers. Poetry uses thematic and argumentative landmarks rather than invented plots. Short quotations follow the linked edition; translations and punctuation can vary. Publication, composition and performance dates are distinguished where necessary. Era groups overlap and serve as navigation aids.')
-doc.add_paragraph('Your original three literature documents remain the source of the other 25 works and have not been edited. The website contains 98 works and 1176 scenes in total. Its installed app saves the whole library for offline reading after the first successful online visit.')
+doc.add_paragraph(f'Your original three literature documents remain the source of the other 25 works and have not been edited. The website contains {len(catalog)} works and {sum(len(s["scenes"]) for s in catalog)} scenes in total. The PDFs identify additional reading choices; the narrated cards are original adaptations informed by linked editions, rather than copies of the handbooks. The installed app saves the library for offline reading after the first successful online visit.')
 doc.add_paragraph('A reading path','Heading 2')
 for author in ['William Shakespeare','William Wordsworth','Percy Bysshe Shelley','Jane Austen','Charles Dickens','George Eliot','T. S. Eliot','Virginia Woolf']:
     entries=[s['title'] for s in stories if author in s['author']]
@@ -42,7 +43,7 @@ for author in ['William Shakespeare','William Wordsworth','Percy Bysshe Shelley'
 def source_label(url):
     from urllib.parse import urlparse
     host=urlparse(url).hostname
-    return {'www.gutenberg.org':'Project Gutenberg','www.gutenberg.net.au':'Project Gutenberg Australia','www.poetryfoundation.org':'Poetry Foundation','tseliot.com':'T. S. Eliot official website','viscomi.sites.oasis.unc.edu':'University of North Carolina'}.get(host,'Quotation reference')
+    return {'www.gutenberg.org':'Project Gutenberg','www.gutenberg.net.au':'Project Gutenberg Australia','gutenberg.net.au':'Project Gutenberg Australia','digital.library.upenn.edu':'University of Pennsylvania','www.poetryfoundation.org':'Poetry Foundation','tseliot.com':'T. S. Eliot official website','viscomi.sites.oasis.unc.edu':'University of North Carolina'}.get(host,'Quotation reference')
 
 def link(paragraph,label,url):
     rel=paragraph.part.relate_to(url,'http://schemas.openxmlformats.org/officeDocument/2006/relationships/hyperlink',is_external=True)
@@ -81,7 +82,13 @@ for i,s in enumerate(stories):
         doc.add_paragraph('Memory connection: '+q['meaning'])
         p=doc.add_paragraph('Quotation reference: ');link(p,source_label(q['source']),q['source'])
     if s['note']:doc.add_paragraph('Context: '+s['note'])
+    if s.get('pdfReferences'):
+        for filename in dict.fromkeys(r['document'] for r in s['pdfReferences']):
+            pages=[str(r['pdfPage']) for r in s['pdfReferences'] if r['document']==filename]
+            doc.add_paragraph('Supplied reference: '+filename+'; PDF pages '+', '.join(pages)+'.')
     p=doc.add_paragraph('Read the text: ');link(p,source_label(s['source']),s['source'])
+    for url in s.get('additionalReferences',[]):
+        p=doc.add_paragraph('Additional reading: ');link(p,source_label(url),url)
 
 footer=section.footer.paragraphs[0]
 footer.alignment=2

@@ -7,7 +7,7 @@ const assert=(value,message)=>{if(!value)throw Error(message);};
  const context=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce'});
  const page=await context.newPage(),errors=[];page.on('pageerror',e=>errors.push(e.message));
  await page.goto(pathToFileURL(path.join(root,'index.html')).href);await page.waitForSelector('.story-card');await page.screenshot({path:path.join(qa,'desktop.png')});
- assert(await page.locator('.story-card').count()===98,'All 98 cards');
+ assert(await page.locator('.story-card').count()===158,'All 158 cards');
  const stories=await page.evaluate(()=>STORIES.map(s=>({id:s.id,count:s.scenes.length,title:s.title,era:s.era})));
  let scenes=0;
  for(const story of stories){
@@ -31,7 +31,7 @@ const assert=(value,message)=>{if(!value)throw Error(message);};
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'No overflow at '+width);await page.screenshot({path:path.join(qa,`mobile-${width}.png`),fullPage:true});
    await page.locator('[data-story="macbeth"]').click();assert(await page.locator('#next').isVisible(),'Mobile reader controls');assert(await page.locator('#reader').evaluate(el=>el.scrollWidth<=el.clientWidth),'No reader overflow');await page.screenshot({path:path.join(qa,`reader-${width}.png`)});await page.locator('#close-reader').click();
  }
- const offline=await browser.newContext({viewport:{width:1280,height:900},offline:true});const offlinePage=await offline.newPage();await offlinePage.goto(pathToFileURL(path.join(root,'index.html')).href);assert(await offlinePage.locator('.story-card').count()===98,'Offline functionality');await offline.close();
+ const offline=await browser.newContext({viewport:{width:1280,height:900},offline:true});const offlinePage=await offline.newPage();await offlinePage.goto(pathToFileURL(path.join(root,'index.html')).href);assert(await offlinePage.locator('.story-card').count()===158,'Offline functionality');await offline.close();
  assert(errors.length===0,'No JavaScript exceptions: '+errors.join('; '));
  const report={stories:stories.length,scenes,eras:8,checks:['every scene and cast','recall and completion','era filters','character search','empty search','saved shelf persistence','reading position persistence','keyboard tabs and page navigation','direct scene links','360/390/768 responsive overflow','offline local file'],errors};fs.writeFileSync(path.join(qa,'site-report.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});
