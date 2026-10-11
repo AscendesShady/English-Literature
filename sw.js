@@ -1,8 +1,8 @@
 'use strict';
 importScripts('./painted-assets.js');
 const PREFIX='once-upon-timeline:'+self.registration.scope+':';
-const VERSION=PREFIX+'v7-painted-3cb818d45ac4';
-const SHELL=['./','./index.html','./styles.css','./stories.js','./painted-assets.js','./illustrations.js','./app.js','./pwa.js','./manifest.json','./assets/favicon.svg','./assets/icons/icon-192.png','./assets/icons/icon-512.png','./assets/icons/icon-maskable-512.png','./assets/icons/apple-touch-icon.png','./literature%20by%20codex.docx',...Object.values(self.PAINTED_ART.works).map(art=>'./'+art.file)];
+const VERSION=PREFIX+'v7-painted-40ead279f039';
+const SHELL=['./','./index.html','./styles.css','./stories.js','./painted-assets.js','./illustrations.js','./app.js','./pwa.js','./manifest.json','./assets/favicon.svg','./assets/icons/icon-192.png','./assets/icons/icon-512.png','./assets/icons/icon-maskable-512.png','./assets/icons/apple-touch-icon.png',...Object.values(self.PAINTED_ART.works).map(art=>'./'+art.file)];
 const urls=SHELL.map(path=>new URL(path,self.registration.scope).href);
 self.addEventListener('install',event=>event.waitUntil(caches.open(VERSION).then(cache=>cache.addAll(urls))));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{

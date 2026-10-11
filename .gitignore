@@ -1,3 +1,12 @@
 qa/
 __pycache__/
 *.pyc
+tools/
+content/
+*.py
+*.pdf
+*.doc
+*.docx
+*.jpg
+*.jpeg
+*.zip
