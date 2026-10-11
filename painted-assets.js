@@ -325,6 +325,13 @@ self.PAINTED_ART = {
         "anchors": [
           "lively dark eye, clear brown complexion"
         ]
+      },
+      "Fanny Price": {
+        "description": "Ten and small for her age on first arriving at Mansfield, shy rather than a glamorous adult. Grows into a young woman before the Crawfords and proposal episodes.",
+        "anchors": [
+          "Fanny Price was at this time just ten years old",
+          "She was small of her age"
+        ]
       }
     },
     "the-rape-of-the-lock": {
@@ -350,6 +357,12 @@ self.PAINTED_ART = {
         "description": "Light-brown hair; the contrast with the expected black hair is part of Henchard’s uncertainty over her identity.",
         "anchors": [
           "brown—rather light than dark"
+        ]
+      },
+      "Michael Henchard": {
+        "description": "Fine figure, swarthy complexion and stern aspect in the opening, a young married man then an older prosperous mayor years later. The complexion word supplies no modern ethnic label.",
+        "anchors": [
+          "fine figure, swarthy, and stern in aspect"
         ]
       }
     },
@@ -562,18 +575,17 @@ self.PAINTED_ART = {
     },
     "heart-of-darkness": {
       "Marlow": {
-        "description": "Sunken cheeks, yellowish complexion, straight back and a thin ascetic appearance at the Thames framing scene; preserve a thoughtful storyteller rather than a robust action-hero build.",
+        "description": "Sunken cheeks, a sallow/yellow complexion and an ascetic aspect at the Thames framing scene. Preserve a lean, observant sailor rather than a muscular adventure hero; hair and beard designs are artistic choices.",
         "anchors": [
-          "sunken cheeks",
+          "sunken cheeks, a yellow complexion",
           "an ascetic aspect"
         ]
       },
       "Kurtz": {
-        "description": "Conspicuously bald, exceptionally tall-looking and severely wasted, with visible thin limbs during his final illness. His reported apparent seven-foot length is an impression, not an exact measured height.",
+        "description": "Impressively bald and severely wasted during illness, not a solid healthy figure with crown hair. Keep his body clothed and depict illness without graphic injury. The seven-feet-long impression is not an exact measured height.",
         "anchors": [
           "impressively bald",
-          "seven feet long",
-          "cage of his ribs"
+          "he had withered"
         ]
       }
     },
@@ -632,9 +644,9 @@ self.PAINTED_ART = {
     },
     "a-passage-to-india": {
       "Cyril Fielding": {
-        "description": "Already over forty when he comes to India; portray a mature civilian schoolmaster, distinct from younger officials and Dr Aziz. Hair and eye colours are artistic choices.",
+        "description": "Over forty when he arrived in India, so the educator is a mature man distinct from younger Ronny. Exact hair colour, complexion and numeric height are artistic interpretation.",
         "anchors": [
-          "over forty when he entered"
+          "He was over forty"
         ]
       },
       "Ronny Heaslop": {
@@ -763,9 +775,95 @@ self.PAINTED_ART = {
           "three- or four-and-twenty"
         ]
       }
+    },
+    "seize-the-day": {
+      "Tommy Wilhelm": {
+        "description": "In his middle forties, large and blond, with big shoulders and a heavy strong back. His expressive face can seem boyish, but he is not a slight dark-haired man in his twenties. Opening original-publication excerpt supplies these traits.",
+        "anchors": [
+          "in his middle forties, large and blond, with big shoulders"
+        ]
+      }
+    },
+    "a-christmas-carol": {
+      "Ebenezer Scrooge": {
+        "description": "Old features, pointed nose, shrivelled cheeks, red eyes and thin cold-blued lips in the opening winter scene. Old and spare, with an expressive face rather than a corpulent merchant; warmer complexion after the change. Exact height and hair style are artistic choices.",
+        "anchors": [
+          "his old features, nipped his pointed nose",
+          "his eyes red, his thin lips blue"
+        ]
+      },
+      "Tiny Tim": {
+        "description": "Small child with a little crutch and limbs supported by an iron frame. Disability is depicted respectfully, without invented amputation or visible injuries.",
+        "anchors": [
+          "he bore a little crutch",
+          "his limbs supported by an iron frame"
+        ]
+      }
+    },
+    "hard-times": {
+      "Sissy": {
+        "description": "Dark-eyed and dark-haired as a child, later grows into a young woman. Retain recognizable features as she ages; do not infer an ethnic identity from hair/eye colour.",
+        "anchors": [
+          "the girl was so dark-eyed and dark-haired"
+        ]
+      },
+      "Bounderby": {
+        "description": "Large inflated-looking man, conspicuously different from the younger Tom and Harthouse. His boasting is a character action, not a race or class caricature.",
+        "anchors": [
+          "inflated like a balloon"
+        ]
+      }
+    },
+    "persuasion": {
+      "Anne Elliot": {
+        "description": "Twenty-seven during the main story, nineteen in the remembered rejected engagement. Slender form, delicate features and mild dark eyes; exact hair colour is an artistic choice.",
+        "anchors": [
+          "Anne, at seven-and-twenty",
+          "Anne’s slender form",
+          "delicate features and mild dark eyes"
+        ]
+      }
+    },
+    "strange-case-of-dr-jekyll-and-mr-hyde": {
+      "Dr. Jekyll": {
+        "description": "Large, well-made, smooth-faced man of fifty. Preserve mature clean-shaven doctor identity, distinct from smaller Hyde; hair colour and exact height are artistic choices.",
+        "anchors": [
+          "a large, well-made, smooth-faced man of fifty"
+        ]
+      },
+      "Mr. Hyde": {
+        "description": "Pale and notably small; the observers feel an unnamed deformity without identifying a specific malformation. Human anatomy: no horns, fangs, monstrous animal body, invented diagnostic deformity or racial caricature.",
+        "anchors": [
+          "Mr. Hyde was pale and dwarfish",
+          "without any nameable malformation"
+        ]
+      }
     }
   },
   "works": {
+    "the-odyssey": {
+      "file": "assets/painted/the-odyssey.webp",
+      "width": 1438,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-odyssey:base:0",
+        "the-odyssey:extra:0",
+        "the-odyssey:base:1",
+        "the-odyssey:base:2",
+        "the-odyssey:extra:1",
+        "the-odyssey:base:3",
+        "the-odyssey:extra:2",
+        "the-odyssey:base:4",
+        "the-odyssey:extra:3",
+        "the-odyssey:base:5",
+        "the-odyssey:extra:4",
+        "the-odyssey:base:6"
+      ],
+      "source": "https://www.gutenberg.org/files/1728/1728-h/1728-h.htm",
+      "bytes": 280572
+    },
     "antigone": {
       "file": "assets/painted/antigone.webp",
       "width": 1437,
@@ -1226,6 +1324,52 @@ self.PAINTED_ART = {
       "source": "https://www.gutenberg.org/ebooks/2542",
       "bytes": 191696
     },
+    "tess-of-the-d-urbervilles": {
+      "file": "assets/painted/tess-of-the-d-urbervilles.webp",
+      "width": 1438,
+      "height": 1093,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "tess-of-the-d-urbervilles:base:0",
+        "tess-of-the-d-urbervilles:extra:0",
+        "tess-of-the-d-urbervilles:base:1",
+        "tess-of-the-d-urbervilles:extra:1",
+        "tess-of-the-d-urbervilles:base:2",
+        "tess-of-the-d-urbervilles:extra:2",
+        "tess-of-the-d-urbervilles:base:3",
+        "tess-of-the-d-urbervilles:base:4",
+        "tess-of-the-d-urbervilles:base:5",
+        "tess-of-the-d-urbervilles:extra:3",
+        "tess-of-the-d-urbervilles:extra:4",
+        "tess-of-the-d-urbervilles:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/110",
+      "bytes": 205066
+    },
+    "heart-of-darkness": {
+      "file": "assets/painted/heart-of-darkness.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "heart-of-darkness:base:0",
+        "heart-of-darkness:extra:0",
+        "heart-of-darkness:base:1",
+        "heart-of-darkness:extra:1",
+        "heart-of-darkness:base:2",
+        "heart-of-darkness:extra:2",
+        "heart-of-darkness:base:3",
+        "heart-of-darkness:extra:3",
+        "heart-of-darkness:base:4",
+        "heart-of-darkness:base:5",
+        "heart-of-darkness:extra:4",
+        "heart-of-darkness:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/219",
+      "bytes": 230844
+    },
     "the-waste-land": {
       "file": "assets/painted/the-waste-land.webp",
       "width": 1437,
@@ -1271,6 +1415,29 @@ self.PAINTED_ART = {
       ],
       "source": "https://omeka.ibu.edu.ba/items/show/2107/",
       "bytes": 299874
+    },
+    "seize-the-day": {
+      "file": "assets/painted/seize-the-day.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "seize-the-day:base:0",
+        "seize-the-day:extra:0",
+        "seize-the-day:base:1",
+        "seize-the-day:extra:1",
+        "seize-the-day:base:2",
+        "seize-the-day:base:3",
+        "seize-the-day:extra:2",
+        "seize-the-day:base:4",
+        "seize-the-day:base:5",
+        "seize-the-day:extra:3",
+        "seize-the-day:base:6",
+        "seize-the-day:extra:4"
+      ],
+      "source": "https://ejournal.upi.edu/index.php/BS_JPBSP/article/download/1243/876",
+      "bytes": 201404
     },
     "utopia": {
       "file": "assets/painted/utopia.webp",
@@ -1570,6 +1737,29 @@ self.PAINTED_ART = {
       ],
       "source": "https://www.gutenberg.org/ebooks/1079",
       "bytes": 279932
+    },
+    "songs-of-innocence-and-of-experience": {
+      "file": "assets/painted/songs-of-innocence-and-of-experience.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "songs-of-innocence-and-of-experience:base:0",
+        "songs-of-innocence-and-of-experience:extra:0",
+        "songs-of-innocence-and-of-experience:base:1",
+        "songs-of-innocence-and-of-experience:extra:1",
+        "songs-of-innocence-and-of-experience:base:2",
+        "songs-of-innocence-and-of-experience:extra:2",
+        "songs-of-innocence-and-of-experience:base:3",
+        "songs-of-innocence-and-of-experience:extra:3",
+        "songs-of-innocence-and-of-experience:base:4",
+        "songs-of-innocence-and-of-experience:base:5",
+        "songs-of-innocence-and-of-experience:extra:4",
+        "songs-of-innocence-and-of-experience:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/1934",
+      "bytes": 293502
     },
     "tintern-abbey": {
       "file": "assets/painted/tintern-abbey.webp",
@@ -2008,6 +2198,29 @@ self.PAINTED_ART = {
       "source": "https://www.gutenberg.org/ebooks/1023",
       "bytes": 179140
     },
+    "middlemarch": {
+      "file": "assets/painted/middlemarch.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "middlemarch:base:0",
+        "middlemarch:extra:0",
+        "middlemarch:base:1",
+        "middlemarch:extra:1",
+        "middlemarch:base:2",
+        "middlemarch:extra:2",
+        "middlemarch:base:3",
+        "middlemarch:extra:3",
+        "middlemarch:base:4",
+        "middlemarch:base:5",
+        "middlemarch:extra:4",
+        "middlemarch:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/145",
+      "bytes": 182900
+    },
     "silas-marner": {
       "file": "assets/painted/silas-marner.webp",
       "width": 1437,
@@ -2077,6 +2290,167 @@ self.PAINTED_ART = {
       "source": "https://www.gutenberg.org/ebooks/153",
       "bytes": 212566
     },
+    "lycidas": {
+      "file": "assets/painted/lycidas.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "lycidas:base:0",
+        "lycidas:base:1",
+        "lycidas:base:2",
+        "lycidas:base:3",
+        "lycidas:base:4",
+        "lycidas:base:5",
+        "lycidas:base:6",
+        "lycidas:base:7",
+        "lycidas:base:8",
+        "lycidas:base:9",
+        "lycidas:base:10",
+        "lycidas:base:11"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/44733/lycidas",
+      "bytes": 291658
+    },
+    "elegy-written-in-a-country-churchyard": {
+      "file": "assets/painted/elegy-written-in-a-country-churchyard.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "elegy-written-in-a-country-churchyard:base:0",
+        "elegy-written-in-a-country-churchyard:base:1",
+        "elegy-written-in-a-country-churchyard:base:2",
+        "elegy-written-in-a-country-churchyard:base:3",
+        "elegy-written-in-a-country-churchyard:base:4",
+        "elegy-written-in-a-country-churchyard:base:5",
+        "elegy-written-in-a-country-churchyard:base:6",
+        "elegy-written-in-a-country-churchyard:base:7",
+        "elegy-written-in-a-country-churchyard:base:8",
+        "elegy-written-in-a-country-churchyard:base:9",
+        "elegy-written-in-a-country-churchyard:base:10",
+        "elegy-written-in-a-country-churchyard:base:11"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/44299/elegy-written-in-a-country-churchyard",
+      "bytes": 279192
+    },
+    "i-wandered-lonely-as-a-cloud": {
+      "file": "assets/painted/i-wandered-lonely-as-a-cloud.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "i-wandered-lonely-as-a-cloud:base:0",
+        "i-wandered-lonely-as-a-cloud:base:1",
+        "i-wandered-lonely-as-a-cloud:base:2",
+        "i-wandered-lonely-as-a-cloud:base:3",
+        "i-wandered-lonely-as-a-cloud:base:4",
+        "i-wandered-lonely-as-a-cloud:base:5",
+        "i-wandered-lonely-as-a-cloud:base:6",
+        "i-wandered-lonely-as-a-cloud:base:7",
+        "i-wandered-lonely-as-a-cloud:base:8",
+        "i-wandered-lonely-as-a-cloud:base:9",
+        "i-wandered-lonely-as-a-cloud:base:10",
+        "i-wandered-lonely-as-a-cloud:base:11"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/45521/i-wandered-lonely-as-a-cloud",
+      "bytes": 341316
+    },
+    "to-a-skylark": {
+      "file": "assets/painted/to-a-skylark.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "to-a-skylark:base:0",
+        "to-a-skylark:base:1",
+        "to-a-skylark:base:2",
+        "to-a-skylark:base:3",
+        "to-a-skylark:base:4",
+        "to-a-skylark:base:5",
+        "to-a-skylark:base:6",
+        "to-a-skylark:base:7",
+        "to-a-skylark:base:8",
+        "to-a-skylark:base:9",
+        "to-a-skylark:base:10",
+        "to-a-skylark:base:11"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/45146/to-a-skylark",
+      "bytes": 235122
+    },
+    "ode-on-a-grecian-urn": {
+      "file": "assets/painted/ode-on-a-grecian-urn.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "ode-on-a-grecian-urn:base:0",
+        "ode-on-a-grecian-urn:base:1",
+        "ode-on-a-grecian-urn:base:2",
+        "ode-on-a-grecian-urn:base:3",
+        "ode-on-a-grecian-urn:base:4",
+        "ode-on-a-grecian-urn:base:5",
+        "ode-on-a-grecian-urn:base:6",
+        "ode-on-a-grecian-urn:base:7",
+        "ode-on-a-grecian-urn:base:8",
+        "ode-on-a-grecian-urn:base:9",
+        "ode-on-a-grecian-urn:base:10",
+        "ode-on-a-grecian-urn:base:11"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/44477/ode-on-a-grecian-urn",
+      "bytes": 301938
+    },
+    "she-walks-in-beauty": {
+      "file": "assets/painted/she-walks-in-beauty.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "she-walks-in-beauty:base:0",
+        "she-walks-in-beauty:base:1",
+        "she-walks-in-beauty:base:2",
+        "she-walks-in-beauty:base:3",
+        "she-walks-in-beauty:base:4",
+        "she-walks-in-beauty:base:5",
+        "she-walks-in-beauty:base:6",
+        "she-walks-in-beauty:base:7",
+        "she-walks-in-beauty:base:8",
+        "she-walks-in-beauty:base:9",
+        "she-walks-in-beauty:base:10",
+        "she-walks-in-beauty:base:11"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/43844/she-walks-in-beauty",
+      "bytes": 214622
+    },
+    "the-solitary-reaper": {
+      "file": "assets/painted/the-solitary-reaper.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-solitary-reaper:base:0",
+        "the-solitary-reaper:base:1",
+        "the-solitary-reaper:base:2",
+        "the-solitary-reaper:base:3",
+        "the-solitary-reaper:base:4",
+        "the-solitary-reaper:base:5",
+        "the-solitary-reaper:base:6",
+        "the-solitary-reaper:base:7",
+        "the-solitary-reaper:base:8",
+        "the-solitary-reaper:base:9",
+        "the-solitary-reaper:base:10",
+        "the-solitary-reaper:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/8824",
+      "bytes": 285382
+    },
     "david-copperfield": {
       "file": "assets/painted/david-copperfield.webp",
       "width": 1437,
@@ -2099,6 +2473,29 @@ self.PAINTED_ART = {
       ],
       "source": "https://www.gutenberg.org/ebooks/766",
       "bytes": 192846
+    },
+    "cranford": {
+      "file": "assets/painted/cranford.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "cranford:base:0",
+        "cranford:base:1",
+        "cranford:base:2",
+        "cranford:base:3",
+        "cranford:base:4",
+        "cranford:base:5",
+        "cranford:base:6",
+        "cranford:base:7",
+        "cranford:base:8",
+        "cranford:base:9",
+        "cranford:base:10",
+        "cranford:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/394",
+      "bytes": 222888
     },
     "north-and-south": {
       "file": "assets/painted/north-and-south.webp",
