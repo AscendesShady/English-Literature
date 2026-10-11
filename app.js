@@ -28,7 +28,7 @@ try{
   }
  }
 }catch{}
-const TABS=['story','cast','recall','quotes'];
+const TABS=['story','cast','author','recall','quotes'];
 function sourceLabel(url){const host=new URL(url).hostname;return host==='www.gutenberg.org'?'Project Gutenberg':host.endsWith('gutenberg.net.au')?'Project Gutenberg Australia':host==='digital.library.upenn.edu'?'University of Pennsylvania':host==='www.poetryfoundation.org'?'Poetry Foundation':host==='tseliot.com'?'T. S. Eliot official website':host.endsWith('unc.edu')?'University of North Carolina':host.endsWith('harvard.edu')?'Harvard Chaucer resources':'Quotation reference';}
 function persist(){try{localStorage.setItem('once-upon-timeline-v1',JSON.stringify(progress));}catch{} $('saved-count').textContent=progress.saved.length;}
 function setPalette(el,e){el.style.setProperty('--era-bg',e.bg);el.style.setProperty('--era-ink',e.ink);el.style.setProperty('--era-accent',e.accent);}
@@ -81,12 +81,26 @@ function renderLibrary(){
 function toggleSaved(id){const i=progress.saved.indexOf(id);if(i<0)progress.saved.push(id);else progress.saved.splice(i,1);persist();renderLibrary();if(current)updateBookmark();}
 function updateBookmark(){const saved=progress.saved.includes(current.id);$('bookmark').textContent=saved?'♥':'♡';$('bookmark').setAttribute('aria-pressed',String(saved));$('bookmark').setAttribute('aria-label',`${saved?'Unsave':'Save'} ${current.title}`);}
 function selectTab(tab,focus=false){activeTab=tab;for(const t of TABS){$('panel-'+t).hidden=t!==tab;$('tab-'+t).setAttribute('aria-selected',String(t===tab));$('tab-'+t).tabIndex=t===tab?0:-1;}if(focus)$('tab-'+tab).focus();}
+function renderAuthors(story){
+ const library=globalThis.AUTHOR_LIBRARY;
+ const names=library.groups[story.author];
+ $('author-intro').textContent=names.length>1?'Two writers, one shared collection. Meet the authors behind this work.':story.author==='Anonymous'?'This work has survived, although its author’s name has not.':'Meet the writer behind the story.';
+ $('author-grid').innerHTML=names.map(name=>{
+  const p=name==='Anonymous'?library.anonymous:library.profiles[name];
+  const initials=p.name.split(/\s+/).filter(word=>/[A-Za-z]/.test(word)).map(word=>word[0]).slice(0,2).join('');
+  const portrait=p.portrait?`<figure class="author-portrait"><img src="${escapeHTML(p.portrait)}" width="${p.portraitWidth}" height="${p.portraitHeight}" alt="${escapeHTML(p.portraitAlt)}" decoding="async"><figcaption>${escapeHTML(p.portraitNote)}</figcaption></figure>`:`<div class="author-portrait author-missing"><span aria-hidden="true">${name==='Anonymous'?'?':escapeHTML(initials)}</span><p>${name==='Anonymous'?'No known author portrait':'No verified portrait available'}</p></div>`;
+  const credit=p.portrait?`<details class="author-credits"><summary>Image credit & reuse</summary><p>${escapeHTML(p.portraitCredit)}</p><p>${p.portraitLicenseUrl?`<a href="${escapeHTML(p.portraitLicenseUrl)}" target="_blank" rel="noopener noreferrer">${escapeHTML(p.portraitLicense)}</a>`:escapeHTML(p.portraitLicense)} · <a href="${escapeHTML(p.portraitSource)}" target="_blank" rel="noopener noreferrer">Portrait source ↗</a></p></details>`:'';
+  const works=(p.works||[]).filter(work=>work.id!==story.id);
+  return `<article class="author-card">${portrait}<div class="author-copy"><p class="eyebrow">${escapeHTML(p.years)}</p><h3>${escapeHTML(p.canonicalName||p.name)}</h3><p class="author-biography">${escapeHTML(p.biography)}</p>${p.biographySource?`<a class="author-source" href="${escapeHTML(p.biographySource)}" target="_blank" rel="noopener noreferrer">Biography reference ↗</a>`:''}${credit}${works.length?`<details class="author-works"><summary>More by this author in your library (${works.length})</summary><div>${works.map(work=>`<button class="secondary" data-author-story="${escapeHTML(work.id)}">${escapeHTML(work.title)} →</button>`).join('')}</div></details>`:''}</div></article>`;
+ }).join('');
+}
 function openStory(id,forcedIndex){
  const story=STORIES.find(s=>s.id===id);if(!story)return;current=story;returnFocus=document.activeElement;
  const stored=progress.positions[id];sceneIndex=Number.isInteger(forcedIndex)?forcedIndex:Number.isInteger(stored)?Math.max(0,Math.min(stored,story.scenes.length-1)):0;
  sceneIndex=Math.max(0,Math.min(sceneIndex,story.scenes.length-1));setPalette($('reader'),{...eraFor(story),...storyPalette(story)});
  $('reader-era').textContent=eraFor(story).name;$('reader-meta').textContent=`${story.author} · ${story.date}`;$('reader-title').textContent=story.title;$('reader-hook').textContent=story.hook;
  $('cast-grid').innerHTML=story.characters.map((c,i)=>illustratedCastCard(story,c,i)).join('');
+ renderAuthors(story);
  $('memory-chain').innerHTML=story.scenes.map(f=>`<li>${escapeHTML(f.cue)}</li>`).join('');$('recall-question').textContent=story.question;$('recall-answer').textContent=story.answer;$('recall-answer').hidden=true;$('reveal-answer').textContent='Reveal answer ↗';$('reveal-answer').setAttribute('aria-expanded','false');
  $('source-info').replaceChildren();
  $('art-note').textContent=globalThis.PAINTED_ART?.works[story.id]?'Original painted interpretations of the scenes, checked against the story and reviewed character descriptions.':'These cards currently use symbolic drawings. Their painted replacements are being prepared; the appearance notes follow the reading sources.';
@@ -118,6 +132,7 @@ $('close-reader').addEventListener('click',closeReader);$('bookmark').addEventLi
 $('scene-dots').addEventListener('click',ev=>{const b=ev.target.closest('[data-scene]');if(b){sceneIndex=Number(b.dataset.scene);renderScene();$('scene-dots').querySelector(`[data-scene="${sceneIndex}"]`)?.focus();}});
 $('scene-characters').addEventListener('click',()=>selectTab('cast',true));
 $('cast-grid').addEventListener('click',ev=>{const button=ev.target.closest('[data-cast-scene]');if(!button)return;sceneIndex=Number(button.dataset.castScene);renderScene();selectTab('story',true);});
+$('author-grid').addEventListener('click',ev=>{const button=ev.target.closest('[data-author-story]');if(!button)return;openStory(button.dataset.authorStory);$('tab-story').focus();});
 for(const tab of TABS)$('tab-'+tab).addEventListener('click',()=>selectTab(tab));
 $('explore-quotes').addEventListener('click',()=>selectTab('quotes',true));
 document.querySelector('.reader-tabs').addEventListener('keydown',ev=>{let i=TABS.indexOf(activeTab);if(ev.key==='ArrowRight')i=(i+1)%TABS.length;else if(ev.key==='ArrowLeft')i=(i+TABS.length-1)%TABS.length;else if(ev.key==='Home')i=0;else if(ev.key==='End')i=TABS.length-1;else return;ev.preventDefault();ev.stopPropagation();selectTab(TABS[i],true);});

@@ -1,8 +1,8 @@
 'use strict';
-importScripts('./painted-assets.js');
+importScripts('./painted-assets.js','./authors.js');
 const PREFIX='once-upon-timeline:'+self.registration.scope+':';
-const VERSION=PREFIX+'v7-painted-40ead279f039';
-const SHELL=['./','./index.html','./styles.css','./stories.js','./painted-assets.js','./illustrations.js','./app.js','./pwa.js','./manifest.json','./assets/favicon.svg','./assets/icons/icon-192.png','./assets/icons/icon-512.png','./assets/icons/icon-maskable-512.png','./assets/icons/apple-touch-icon.png',...Object.values(self.PAINTED_ART.works).map(art=>'./'+art.file)];
+const VERSION=PREFIX+'v7-painted-a46dc10518f5';
+const SHELL=['./','./index.html','./styles.css','./stories.js','./authors.js','./painted-assets.js','./illustrations.js','./app.js','./pwa.js','./manifest.json','./assets/favicon.svg','./assets/icons/icon-192.png','./assets/icons/icon-512.png','./assets/icons/icon-maskable-512.png','./assets/icons/apple-touch-icon.png',...Object.values(self.PAINTED_ART.works).map(art=>'./'+art.file),...Object.values(self.AUTHOR_LIBRARY.profiles).filter(author=>author.portrait).map(author=>'./'+author.portrait)];
 const urls=SHELL.map(path=>new URL(path,self.registration.scope).href);
 self.addEventListener('install',event=>event.waitUntil(caches.open(VERSION).then(cache=>cache.addAll(urls))));
 self.addEventListener('activate',event=>event.waitUntil((async()=>{
