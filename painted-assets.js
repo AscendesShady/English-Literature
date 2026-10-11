@@ -691,6 +691,78 @@ self.PAINTED_ART = {
           "Fourscore and upward"
         ]
       }
+    },
+    "goblin-market": {
+      "Laura": {
+        "description": "Golden-haired; her golden curl pays for fruit. Later craving causes visible decline. Exact age, height and eye colour are unspecified.",
+        "anchors": [
+          "golden curl"
+        ]
+      },
+      "Lizzie": {
+        "description": "Golden-haired like her sister, as the poem places golden heads together. Distinguish her face, tied-back hair and blue clothes from Laura without changing the supplied hair colour.",
+        "anchors": [
+          "Golden head by golden head"
+        ]
+      },
+      "The goblins": {
+        "description": "Animal-like merchant figures include a cat-faced one, a tail-bearing one, rat-like movement, snail-like crawling and a furry wombat-like prowler. Vary their animal traits rather than make every seller a human elf.",
+        "anchors": [
+          "cat's face",
+          "wombat"
+        ]
+      }
+    },
+    "david-copperfield": {
+      "Uriah Heep": {
+        "description": "Introduced as a red-haired youth of fifteen who looks much older, with close-cropped red hair, barely visible eyebrows, no eyelashes, red-brown eyes, high shoulders and a bony frame, a long thin hand, black clothes buttoned to the throat and a white neckcloth. He later ages into adulthood; never a grey-haired old man.",
+        "anchors": [
+          "a youth of fifteen",
+          "hair was cropped as close",
+          "hardly any eyebrows",
+          "no eyelashes",
+          "eyes of a red-brown",
+          "high-shouldered and bony"
+        ]
+      }
+    },
+    "middlemarch": {
+      "Dorothea Brooke": {
+        "description": "Dark-brown hair simply parted and coiled or braided, with restrained dress; preserve her dignified bearing. Exact height and eye colour are not supplied by these anchors.",
+        "anchors": [
+          "dark-brown hair parted over her brow",
+          "coiled massively behind"
+        ]
+      },
+      "Casaubon": {
+        "description": "Iron-gray hair, deep eye-sockets, a spare form and pale complexion. An older scholar rather than a white-haired elderly grandfather; exact height is unspecified.",
+        "anchors": [
+          "iron-gray hair",
+          "deep eye-sockets",
+          "spare form",
+          "pale complexion"
+        ]
+      }
+    },
+    "bleak-house": {
+      "Esther Summerson": {
+        "description": "Her face is markedly changed after her severe illness, as she recognises when she looks in a mirror. For later scenes, use subtle healed facial marks while keeping her recognisable; the exact scar pattern is an artistic interpretation, not specified by this passage.",
+        "anchors": [
+          "I was very much changed",
+          "my face was so strange to me"
+        ]
+      }
+    },
+    "tess-of-the-d-urbervilles": {
+      "Alec d'Urberville": {
+        "description": "Tall young man, introduced as no more than twenty-three or twenty-four, with an almost swarthy complexion, full red lips and a well-groomed black moustache with curled points. This passage supplies no modern racial label or head-hair colour.",
+        "anchors": [
+          "tall young man",
+          "almost swarthy complexion",
+          "black moustache with curled points",
+          "three- or four-and-twenty"
+        ]
+      }
     }
   },
   "works": {
@@ -715,7 +787,7 @@ self.PAINTED_ART = {
         "antigone:base:6"
       ],
       "source": "https://www.gutenberg.org/cache/epub/14484/pg14484-images.html",
-      "bytes": 380810
+      "bytes": 277772
     },
     "beowulf": {
       "file": "assets/painted/beowulf.webp",
@@ -738,7 +810,7 @@ self.PAINTED_ART = {
         "beowulf:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/16328",
-      "bytes": 367144
+      "bytes": 266040
     },
     "the-canterbury-tales": {
       "file": "assets/painted/the-canterbury-tales.webp",
@@ -761,7 +833,7 @@ self.PAINTED_ART = {
         "the-canterbury-tales:base:6"
       ],
       "source": "https://chaucer.fas.harvard.edu/pages/general-prologue-0",
-      "bytes": 351942
+      "bytes": 261030
     },
     "the-spanish-tragedy": {
       "file": "assets/painted/the-spanish-tragedy.webp",
@@ -784,7 +856,7 @@ self.PAINTED_ART = {
         "the-spanish-tragedy:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/6043",
-      "bytes": 329394
+      "bytes": 239252
     },
     "the-faerie-queene": {
       "file": "assets/painted/the-faerie-queene.webp",
@@ -807,7 +879,7 @@ self.PAINTED_ART = {
         "the-faerie-queene:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/6930",
-      "bytes": 382368
+      "bytes": 281798
     },
     "doctor-faustus": {
       "file": "assets/painted/doctor-faustus.webp",
@@ -830,7 +902,7 @@ self.PAINTED_ART = {
         "doctor-faustus:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/779",
-      "bytes": 313496
+      "bytes": 228796
     },
     "othello": {
       "file": "assets/painted/othello.webp",
@@ -853,7 +925,7 @@ self.PAINTED_ART = {
         "othello:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/1531",
-      "bytes": 296458
+      "bytes": 214832
     },
     "macbeth": {
       "file": "assets/painted/macbeth.webp",
@@ -876,7 +948,7 @@ self.PAINTED_ART = {
         "macbeth:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/1533",
-      "bytes": 298212
+      "bytes": 214316
     },
     "the-tempest": {
       "file": "assets/painted/the-tempest.webp",
@@ -899,7 +971,7 @@ self.PAINTED_ART = {
         "the-tempest:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/23042",
-      "bytes": 493322
+      "bytes": 358940
     },
     "paradise-lost": {
       "file": "assets/painted/paradise-lost.webp",
@@ -922,7 +994,7 @@ self.PAINTED_ART = {
         "paradise-lost:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/20",
-      "bytes": 474458
+      "bytes": 343030
     },
     "to-his-coy-mistress": {
       "file": "assets/painted/to-his-coy-mistress.webp",
@@ -945,7 +1017,7 @@ self.PAINTED_ART = {
         "to-his-coy-mistress:extra:5"
       ],
       "source": "https://www.poetryfoundation.org/poems/44688/to-his-coy-mistress",
-      "bytes": 323478
+      "bytes": 234586
     },
     "the-way-of-the-world": {
       "file": "assets/painted/the-way-of-the-world.webp",
@@ -968,7 +1040,7 @@ self.PAINTED_ART = {
         "the-way-of-the-world:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/1292",
-      "bytes": 326780
+      "bytes": 237450
     },
     "the-rape-of-the-lock": {
       "file": "assets/painted/the-rape-of-the-lock.webp",
@@ -991,7 +1063,7 @@ self.PAINTED_ART = {
         "the-rape-of-the-lock:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/9800",
-      "bytes": 398196
+      "bytes": 290378
     },
     "lyrical-ballads": {
       "file": "assets/painted/lyrical-ballads.webp",
@@ -1014,7 +1086,7 @@ self.PAINTED_ART = {
         "lyrical-ballads:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/8905",
-      "bytes": 342438
+      "bytes": 252888
     },
     "the-excursion": {
       "file": "assets/painted/the-excursion.webp",
@@ -1037,7 +1109,7 @@ self.PAINTED_ART = {
         "the-excursion:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/56361",
-      "bytes": 430014
+      "bytes": 310510
     },
     "frankenstein": {
       "file": "assets/painted/frankenstein.webp",
@@ -1060,7 +1132,7 @@ self.PAINTED_ART = {
         "frankenstein:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/41445",
-      "bytes": 382900
+      "bytes": 275656
     },
     "vanity-fair": {
       "file": "assets/painted/vanity-fair.webp",
@@ -1083,7 +1155,7 @@ self.PAINTED_ART = {
         "vanity-fair:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/599",
-      "bytes": 373002
+      "bytes": 276626
     },
     "in-memoriam-a-h-h": {
       "file": "assets/painted/in-memoriam-a-h-h.webp",
@@ -1106,7 +1178,99 @@ self.PAINTED_ART = {
         "in-memoriam-a-h-h:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/70950",
-      "bytes": 354428
+      "bytes": 251972
+    },
+    "the-return-of-the-native": {
+      "file": "assets/painted/the-return-of-the-native.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-return-of-the-native:base:0",
+        "the-return-of-the-native:extra:0",
+        "the-return-of-the-native:base:1",
+        "the-return-of-the-native:extra:1",
+        "the-return-of-the-native:base:2",
+        "the-return-of-the-native:base:3",
+        "the-return-of-the-native:extra:2",
+        "the-return-of-the-native:base:4",
+        "the-return-of-the-native:base:5",
+        "the-return-of-the-native:extra:3",
+        "the-return-of-the-native:extra:4",
+        "the-return-of-the-native:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/122",
+      "bytes": 195904
+    },
+    "a-doll-s-house": {
+      "file": "assets/painted/a-doll-s-house.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "a-doll-s-house:base:0",
+        "a-doll-s-house:extra:0",
+        "a-doll-s-house:base:1",
+        "a-doll-s-house:extra:1",
+        "a-doll-s-house:base:2",
+        "a-doll-s-house:extra:2",
+        "a-doll-s-house:base:3",
+        "a-doll-s-house:extra:3",
+        "a-doll-s-house:base:4",
+        "a-doll-s-house:base:5",
+        "a-doll-s-house:extra:4",
+        "a-doll-s-house:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/2542",
+      "bytes": 191696
+    },
+    "the-waste-land": {
+      "file": "assets/painted/the-waste-land.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-waste-land:base:0",
+        "the-waste-land:extra:0",
+        "the-waste-land:base:1",
+        "the-waste-land:extra:1",
+        "the-waste-land:base:2",
+        "the-waste-land:extra:2",
+        "the-waste-land:base:3",
+        "the-waste-land:base:4",
+        "the-waste-land:base:5",
+        "the-waste-land:extra:3",
+        "the-waste-land:extra:4",
+        "the-waste-land:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/1321",
+      "bytes": 277144
+    },
+    "the-old-man-and-the-sea": {
+      "file": "assets/painted/the-old-man-and-the-sea.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-old-man-and-the-sea:base:0",
+        "the-old-man-and-the-sea:extra:0",
+        "the-old-man-and-the-sea:base:1",
+        "the-old-man-and-the-sea:extra:1",
+        "the-old-man-and-the-sea:base:2",
+        "the-old-man-and-the-sea:extra:2",
+        "the-old-man-and-the-sea:base:3",
+        "the-old-man-and-the-sea:extra:3",
+        "the-old-man-and-the-sea:base:4",
+        "the-old-man-and-the-sea:base:5",
+        "the-old-man-and-the-sea:base:6",
+        "the-old-man-and-the-sea:extra:4"
+      ],
+      "source": "https://omeka.ibu.edu.ba/items/show/2107/",
+      "bytes": 299874
     },
     "utopia": {
       "file": "assets/painted/utopia.webp",
@@ -1129,7 +1293,30 @@ self.PAINTED_ART = {
         "utopia:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/2130",
-      "bytes": 435408
+      "bytes": 316978
+    },
+    "romeo-and-juliet": {
+      "file": "assets/painted/romeo-and-juliet.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "romeo-and-juliet:base:0",
+        "romeo-and-juliet:extra:0",
+        "romeo-and-juliet:base:1",
+        "romeo-and-juliet:extra:1",
+        "romeo-and-juliet:base:2",
+        "romeo-and-juliet:extra:2",
+        "romeo-and-juliet:extra:3",
+        "romeo-and-juliet:base:3",
+        "romeo-and-juliet:base:4",
+        "romeo-and-juliet:base:5",
+        "romeo-and-juliet:extra:4",
+        "romeo-and-juliet:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/1513",
+      "bytes": 278408
     },
     "a-midsummer-night-s-dream": {
       "file": "assets/painted/a-midsummer-night-s-dream.webp",
@@ -1152,7 +1339,7 @@ self.PAINTED_ART = {
         "a-midsummer-night-s-dream:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/1514",
-      "bytes": 362220
+      "bytes": 263218
     },
     "hamlet": {
       "file": "assets/painted/hamlet.webp",
@@ -1175,7 +1362,30 @@ self.PAINTED_ART = {
         "hamlet:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/1524",
-      "bytes": 296710
+      "bytes": 217298
+    },
+    "king-lear": {
+      "file": "assets/painted/king-lear.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "king-lear:base:0",
+        "king-lear:extra:0",
+        "king-lear:base:1",
+        "king-lear:extra:1",
+        "king-lear:base:2",
+        "king-lear:extra:2",
+        "king-lear:base:3",
+        "king-lear:extra:3",
+        "king-lear:base:4",
+        "king-lear:base:5",
+        "king-lear:extra:4",
+        "king-lear:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/1532",
+      "bytes": 210312
     },
     "death-be-not-proud": {
       "file": "assets/painted/death-be-not-proud.webp",
@@ -1198,7 +1408,30 @@ self.PAINTED_ART = {
         "death-be-not-proud:base:6"
       ],
       "source": "https://www.poetryfoundation.org/poems/44107/holy-sonnets-death-be-not-proud",
-      "bytes": 371432
+      "bytes": 263750
+    },
+    "the-duchess-of-malfi": {
+      "file": "assets/painted/the-duchess-of-malfi.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-duchess-of-malfi:base:0",
+        "the-duchess-of-malfi:extra:0",
+        "the-duchess-of-malfi:base:1",
+        "the-duchess-of-malfi:extra:1",
+        "the-duchess-of-malfi:base:2",
+        "the-duchess-of-malfi:extra:2",
+        "the-duchess-of-malfi:base:3",
+        "the-duchess-of-malfi:extra:3",
+        "the-duchess-of-malfi:base:4",
+        "the-duchess-of-malfi:base:5",
+        "the-duchess-of-malfi:extra:4",
+        "the-duchess-of-malfi:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/2232",
+      "bytes": 193232
     },
     "the-pilgrim-s-progress": {
       "file": "assets/painted/the-pilgrim-s-progress.webp",
@@ -1221,7 +1454,7 @@ self.PAINTED_ART = {
         "the-pilgrim-s-progress:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/131",
-      "bytes": 434966
+      "bytes": 319258
     },
     "robinson-crusoe": {
       "file": "assets/painted/robinson-crusoe.webp",
@@ -1244,7 +1477,7 @@ self.PAINTED_ART = {
         "robinson-crusoe:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/521",
-      "bytes": 387690
+      "bytes": 284422
     },
     "moll-flanders": {
       "file": "assets/painted/moll-flanders.webp",
@@ -1267,7 +1500,7 @@ self.PAINTED_ART = {
         "moll-flanders:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/370",
-      "bytes": 352448
+      "bytes": 256296
     },
     "gulliver-s-travels": {
       "file": "assets/painted/gulliver-s-travels.webp",
@@ -1290,7 +1523,7 @@ self.PAINTED_ART = {
         "gulliver-s-travels:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/829",
-      "bytes": 437578
+      "bytes": 314608
     },
     "tom-jones": {
       "file": "assets/painted/tom-jones.webp",
@@ -1313,7 +1546,7 @@ self.PAINTED_ART = {
         "tom-jones:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/6593",
-      "bytes": 309824
+      "bytes": 223340
     },
     "tristram-shandy": {
       "file": "assets/painted/tristram-shandy.webp",
@@ -1336,7 +1569,7 @@ self.PAINTED_ART = {
         "tristram-shandy:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/1079",
-      "bytes": 389686
+      "bytes": 279932
     },
     "tintern-abbey": {
       "file": "assets/painted/tintern-abbey.webp",
@@ -1359,7 +1592,7 @@ self.PAINTED_ART = {
         "tintern-abbey:base:6"
       ],
       "source": "https://www.poetryfoundation.org/poems/45527/lines-composed-a-few-miles-above-tintern-abbey-on-revisiting-the-banks-of-the-wye-during-a-tour-july-13-1798",
-      "bytes": 441432
+      "bytes": 324258
     },
     "the-prelude": {
       "file": "assets/painted/the-prelude.webp",
@@ -1382,7 +1615,7 @@ self.PAINTED_ART = {
         "the-prelude:base:6"
       ],
       "source": "https://viscomi.sites.oasis.unc.edu/viscomi/coursepack/wordsworth/Wordsworth-Prelude.pdf",
-      "bytes": 375526
+      "bytes": 269192
     },
     "the-rime-of-the-ancient-mariner": {
       "file": "assets/painted/the-rime-of-the-ancient-mariner.webp",
@@ -1405,7 +1638,7 @@ self.PAINTED_ART = {
         "the-rime-of-the-ancient-mariner:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/151",
-      "bytes": 344882
+      "bytes": 248196
     },
     "kubla-khan": {
       "file": "assets/painted/kubla-khan.webp",
@@ -1428,7 +1661,7 @@ self.PAINTED_ART = {
         "kubla-khan:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/11101",
-      "bytes": 433174
+      "bytes": 309884
     },
     "ozymandias": {
       "file": "assets/painted/ozymandias.webp",
@@ -1451,7 +1684,7 @@ self.PAINTED_ART = {
         "ozymandias:base:6"
       ],
       "source": "https://www.poetryfoundation.org/poems/46565/ozymandias",
-      "bytes": 397160
+      "bytes": 282610
     },
     "ode-to-the-west-wind": {
       "file": "assets/painted/ode-to-the-west-wind.webp",
@@ -1474,7 +1707,30 @@ self.PAINTED_ART = {
         "ode-to-the-west-wind:base:6"
       ],
       "source": "https://www.poetryfoundation.org/poems/45134/ode-to-the-west-wind",
-      "bytes": 465976
+      "bytes": 345876
+    },
+    "prometheus-unbound": {
+      "file": "assets/painted/prometheus-unbound.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "prometheus-unbound:base:0",
+        "prometheus-unbound:extra:0",
+        "prometheus-unbound:base:1",
+        "prometheus-unbound:extra:1",
+        "prometheus-unbound:base:2",
+        "prometheus-unbound:extra:2",
+        "prometheus-unbound:base:3",
+        "prometheus-unbound:extra:3",
+        "prometheus-unbound:base:4",
+        "prometheus-unbound:base:5",
+        "prometheus-unbound:extra:4",
+        "prometheus-unbound:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/4797",
+      "bytes": 299260
     },
     "ode-to-a-nightingale": {
       "file": "assets/painted/ode-to-a-nightingale.webp",
@@ -1497,7 +1753,7 @@ self.PAINTED_ART = {
         "ode-to-a-nightingale:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/23684",
-      "bytes": 421382
+      "bytes": 300364
     },
     "to-autumn": {
       "file": "assets/painted/to-autumn.webp",
@@ -1520,7 +1776,53 @@ self.PAINTED_ART = {
         "to-autumn:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/23684",
-      "bytes": 498288
+      "bytes": 367908
+    },
+    "don-juan": {
+      "file": "assets/painted/don-juan.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "don-juan:base:0",
+        "don-juan:extra:0",
+        "don-juan:base:1",
+        "don-juan:extra:1",
+        "don-juan:base:2",
+        "don-juan:extra:2",
+        "don-juan:base:3",
+        "don-juan:extra:3",
+        "don-juan:base:4",
+        "don-juan:base:5",
+        "don-juan:extra:4",
+        "don-juan:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/21700",
+      "bytes": 331478
+    },
+    "goblin-market": {
+      "file": "assets/painted/goblin-market.webp",
+      "width": 1436,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "goblin-market:base:0",
+        "goblin-market:extra:0",
+        "goblin-market:base:1",
+        "goblin-market:extra:1",
+        "goblin-market:base:2",
+        "goblin-market:extra:2",
+        "goblin-market:base:3",
+        "goblin-market:extra:3",
+        "goblin-market:base:4",
+        "goblin-market:base:5",
+        "goblin-market:extra:4",
+        "goblin-market:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/16950",
+      "bytes": 326850
     },
     "pride-and-prejudice": {
       "file": "assets/painted/pride-and-prejudice.webp",
@@ -1543,7 +1845,7 @@ self.PAINTED_ART = {
         "pride-and-prejudice:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/1342",
-      "bytes": 369698
+      "bytes": 264198
     },
     "sense-and-sensibility": {
       "file": "assets/painted/sense-and-sensibility.webp",
@@ -1566,7 +1868,7 @@ self.PAINTED_ART = {
         "sense-and-sensibility:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/161",
-      "bytes": 286286
+      "bytes": 209404
     },
     "emma": {
       "file": "assets/painted/emma.webp",
@@ -1589,7 +1891,7 @@ self.PAINTED_ART = {
         "emma:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/158",
-      "bytes": 288444
+      "bytes": 213020
     },
     "jane-eyre": {
       "file": "assets/painted/jane-eyre.webp",
@@ -1612,7 +1914,7 @@ self.PAINTED_ART = {
         "jane-eyre:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/1260",
-      "bytes": 298518
+      "bytes": 211522
     },
     "wuthering-heights": {
       "file": "assets/painted/wuthering-heights.webp",
@@ -1635,7 +1937,7 @@ self.PAINTED_ART = {
         "wuthering-heights:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/768",
-      "bytes": 257324
+      "bytes": 184732
     },
     "great-expectations": {
       "file": "assets/painted/great-expectations.webp",
@@ -1658,7 +1960,7 @@ self.PAINTED_ART = {
         "great-expectations:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/1400",
-      "bytes": 289200
+      "bytes": 207546
     },
     "a-tale-of-two-cities": {
       "file": "assets/painted/a-tale-of-two-cities.webp",
@@ -1681,7 +1983,145 @@ self.PAINTED_ART = {
         "a-tale-of-two-cities:base:6"
       ],
       "source": "https://www.gutenberg.org/ebooks/98",
-      "bytes": 308048
+      "bytes": 223558
+    },
+    "bleak-house": {
+      "file": "assets/painted/bleak-house.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "bleak-house:base:0",
+        "bleak-house:extra:0",
+        "bleak-house:base:1",
+        "bleak-house:extra:1",
+        "bleak-house:base:2",
+        "bleak-house:extra:2",
+        "bleak-house:base:3",
+        "bleak-house:extra:3",
+        "bleak-house:base:4",
+        "bleak-house:base:5",
+        "bleak-house:extra:4",
+        "bleak-house:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/1023",
+      "bytes": 179140
+    },
+    "silas-marner": {
+      "file": "assets/painted/silas-marner.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "silas-marner:base:0",
+        "silas-marner:extra:0",
+        "silas-marner:base:1",
+        "silas-marner:extra:1",
+        "silas-marner:base:2",
+        "silas-marner:extra:2",
+        "silas-marner:base:3",
+        "silas-marner:extra:3",
+        "silas-marner:base:4",
+        "silas-marner:base:5",
+        "silas-marner:extra:4",
+        "silas-marner:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/550",
+      "bytes": 243670
+    },
+    "the-picture-of-dorian-gray": {
+      "file": "assets/painted/the-picture-of-dorian-gray.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-picture-of-dorian-gray:base:0",
+        "the-picture-of-dorian-gray:extra:0",
+        "the-picture-of-dorian-gray:base:1",
+        "the-picture-of-dorian-gray:extra:1",
+        "the-picture-of-dorian-gray:base:2",
+        "the-picture-of-dorian-gray:extra:2",
+        "the-picture-of-dorian-gray:base:3",
+        "the-picture-of-dorian-gray:extra:3",
+        "the-picture-of-dorian-gray:base:4",
+        "the-picture-of-dorian-gray:base:5",
+        "the-picture-of-dorian-gray:extra:4",
+        "the-picture-of-dorian-gray:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/174",
+      "bytes": 211934
+    },
+    "jude-the-obscure": {
+      "file": "assets/painted/jude-the-obscure.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "jude-the-obscure:base:0",
+        "jude-the-obscure:base:1",
+        "jude-the-obscure:base:2",
+        "jude-the-obscure:base:3",
+        "jude-the-obscure:base:4",
+        "jude-the-obscure:base:5",
+        "jude-the-obscure:base:6",
+        "jude-the-obscure:base:7",
+        "jude-the-obscure:base:8",
+        "jude-the-obscure:base:9",
+        "jude-the-obscure:base:10",
+        "jude-the-obscure:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/153",
+      "bytes": 212566
+    },
+    "david-copperfield": {
+      "file": "assets/painted/david-copperfield.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "david-copperfield:base:0",
+        "david-copperfield:base:1",
+        "david-copperfield:base:2",
+        "david-copperfield:base:3",
+        "david-copperfield:base:4",
+        "david-copperfield:base:5",
+        "david-copperfield:base:6",
+        "david-copperfield:base:7",
+        "david-copperfield:base:8",
+        "david-copperfield:base:9",
+        "david-copperfield:base:10",
+        "david-copperfield:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/766",
+      "bytes": 192846
+    },
+    "north-and-south": {
+      "file": "assets/painted/north-and-south.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "north-and-south:base:0",
+        "north-and-south:base:1",
+        "north-and-south:base:2",
+        "north-and-south:base:3",
+        "north-and-south:base:4",
+        "north-and-south:base:5",
+        "north-and-south:base:6",
+        "north-and-south:base:7",
+        "north-and-south:base:8",
+        "north-and-south:base:9",
+        "north-and-south:base:10",
+        "north-and-south:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/4276",
+      "bytes": 195410
     },
     "sultana-s-dream": {
       "file": "assets/painted/sultana-s-dream.webp",
@@ -1704,7 +2144,7 @@ self.PAINTED_ART = {
         "sultana-s-dream:base:11"
       ],
       "source": "https://digital.library.upenn.edu/women/sultana/dream/dream.html",
-      "bytes": 560948
+      "bytes": 422672
     }
   }
 };
