@@ -1,0 +1,33 @@
+Local neural story narrator
+
+Kokoro.js 1.2.1 by Hexgrad and contributors
+Apache License 2.0: KOKORO-LICENSE.txt
+Source: https://github.com/hexgrad/kokoro/tree/main/kokoro.js
+Local modifications: expose model environment settings; serve voice styles locally;
+scope voice caches to this website. Speech inference stays in the browser.
+
+Kokoro-82M v1.0 ONNX model and voice styles
+Apache License 2.0
+https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX
+Pinned revision: 1939ad2a8e416c0acfeecc08a694d14ef25f2231
+The model downloads only when listening is requested. It is not included in Git.
+
+Transformers.js 3.5.1 by Hugging Face and contributors
+Apache License 2.0: TRANSFORMERS-LICENSE.txt
+Source: https://github.com/huggingface/transformers.js/tree/3.5.1
+ONNX Runtime Web and phonemizer components are included in the browser runtime.
+Additional component licence and source details accompany this notice.
+
+ONNX Runtime Web 1.21.0, Microsoft and contributors
+MIT License: ONNX-RUNTIME-LICENSE.txt
+Source: https://github.com/microsoft/onnxruntime/tree/v1.21.0
+
+Phonemizer.js 1.2.1, Xenova and contributors
+Apache License 2.0: PHONEMIZER-LICENSE.txt
+Source: https://github.com/xenova/phonemizer.js
+This component embeds eSpeak NG, distributed under GNU GPL version 3 or later.
+GNU GPL text: ESPEAK-NG-LICENSE.txt
+Corresponding upstream source and build instructions:
+https://github.com/xenova/phonemizer.js/tree/6835144b7ee9043129222549c1ed2f6a27216278
+https://github.com/espeak-ng/espeak-ng
+The embedded phonemizer code has not been modified.

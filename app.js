@@ -80,7 +80,7 @@ function renderLibrary(){
 }
 function toggleSaved(id){const i=progress.saved.indexOf(id);if(i<0)progress.saved.push(id);else progress.saved.splice(i,1);persist();renderLibrary();if(current)updateBookmark();}
 function updateBookmark(){const saved=progress.saved.includes(current.id);$('bookmark').textContent=saved?'♥':'♡';$('bookmark').setAttribute('aria-pressed',String(saved));$('bookmark').setAttribute('aria-label',`${saved?'Unsave':'Save'} ${current.title}`);}
-function selectTab(tab,focus=false){activeTab=tab;for(const t of TABS){$('panel-'+t).hidden=t!==tab;$('tab-'+t).setAttribute('aria-selected',String(t===tab));$('tab-'+t).tabIndex=t===tab?0:-1;}if(focus)$('tab-'+tab).focus();}
+function selectTab(tab,focus=false){activeTab=tab;for(const t of TABS){$('panel-'+t).hidden=t!==tab;$('tab-'+t).setAttribute('aria-selected',String(t===tab));$('tab-'+t).tabIndex=t===tab?0:-1;}if(focus)$('tab-'+tab).focus();globalThis.StoryNarrator?.tabChanged(tab);}
 function renderAuthors(story){
  const library=globalThis.AUTHOR_LIBRARY;
  const names=library.groups[story.author];
@@ -95,6 +95,7 @@ function renderAuthors(story){
  }).join('');
 }
 function openStory(id,forcedIndex){
+ globalThis.StoryNarrator?.stop('A new story is ready to listen to.');
  const story=STORIES.find(s=>s.id===id);if(!story)return;current=story;returnFocus=document.activeElement;
  const stored=progress.positions[id];sceneIndex=Number.isInteger(forcedIndex)?forcedIndex:Number.isInteger(stored)?Math.max(0,Math.min(stored,story.scenes.length-1)):0;
  sceneIndex=Math.max(0,Math.min(sceneIndex,story.scenes.length-1));setPalette($('reader'),{...eraFor(story),...storyPalette(story)});
@@ -110,7 +111,7 @@ function openStory(id,forcedIndex){
  if(story.additionalReferences){for(const url of story.additionalReferences){const link=document.createElement('a');link.href=url;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Additional reading reference ↗';$('source-info').append(' ',link);}}
  $('quote-list').innerHTML=story.quotes.map(q=>`<article class="quote-card"><p class="eyebrow">WORDS WORTH KEEPING</p><blockquote>${escapeHTML(q.text)}</blockquote><p class="quote-context">${escapeHTML(q.context)}</p><div class="quote-meaning"><span>THE MEMORY CONNECTION</span><p>${escapeHTML(q.meaning)}</p></div><a href="${escapeHTML(q.source)}" target="_blank" rel="noopener noreferrer">Read the reference · ${escapeHTML(sourceLabel(q.source))} ↗</a></article>`).join('');
  $('editorial-note').textContent=`Setting: ${story.setting}. ${story.note}`;
- updateRemembered();updateBookmark();selectTab('story');renderScene();if(!$('reader').open)$('reader').showModal();$('reader').scrollTop=0;
+ updateRemembered();updateBookmark();selectTab('story');renderScene();if(!$('reader').open)$('reader').showModal();$('reader').scrollTop=0;globalThis.StoryNarrator?.changed();
 }
 function updateRemembered(){$('mark-read').textContent=progress.remembered.includes(current.id)?'✓ Remembered · undo':'Mark as remembered ✓';}
 function renderScene(){
@@ -119,9 +120,12 @@ function renderScene(){
  $('scene-characters').innerHTML=f.cast.map(c=>`<button class="character-chip" data-character="${escapeHTML(c)}">${escapeHTML(c)}</button>`).join('');
  $('scene-dots').innerHTML=current.scenes.map((_,i)=>`<button data-scene="${i}" aria-label="Scene ${i+1}: ${escapeHTML(current.scenes[i].title)}" ${i===sceneIndex?'aria-current="true"':''}></button>`).join('');$('previous').disabled=sceneIndex===0;$('next').textContent=sceneIndex===current.scenes.length-1?'Try recall ↗':'Next scene →';
  const hash=`#story/${current.id}/${sceneIndex+1}`;try{history.replaceState(null,'',hash);}catch{}
+ globalThis.StoryNarrator?.changed();
 }
 function step(n){if(n>0&&sceneIndex===current.scenes.length-1){selectTab('recall');return;}const i=sceneIndex+n;if(i<0||i>=current.scenes.length)return;sceneIndex=i;renderScene();}
-function closeReader(){ $('reader').close(); }
+function closeReader(){globalThis.StoryNarrator?.stop();$('reader').close();}
+globalThis.readerNarration={getFrame:()=>current&&$('reader').open?{storyId:current.id,key:current.scenes[sceneIndex].key,index:sceneIndex,total:current.scenes.length,text:current.scenes[sceneIndex].text}:null,nextFrame:()=>current&&sceneIndex+1<current.scenes.length?{storyId:current.id,key:current.scenes[sceneIndex+1].key,index:sceneIndex+1,total:current.scenes.length,text:current.scenes[sceneIndex+1].text}:null,advance:()=>step(1),showStory:()=>selectTab('story')};
+$('reader').addEventListener('close',()=>globalThis.StoryNarrator?.stop());
 $('reader').addEventListener('close',()=>{const returnId=current?.id;current=null;renderLibrary();try{history.replaceState(null,'','#library');}catch{}const card=document.querySelector(`[data-story="${returnId}"]`);if(returnFocus?.isConnected)returnFocus.focus();else if(card)card.focus();else $('library-title').focus();});
 $('eras').addEventListener('click',ev=>{const b=ev.target.closest('[data-era]');if(!b)return;era=b.dataset.era;renderEras();renderLibrary();document.querySelector(`[data-era="${era}"]`).focus();});
 $('search').addEventListener('input',renderLibrary);
@@ -140,7 +144,7 @@ $('reveal-answer').addEventListener('click',()=>{const reveal=$('recall-answer')
 $('mark-read').addEventListener('click',()=>{const i=progress.remembered.indexOf(current.id);if(i<0)progress.remembered.push(current.id);else progress.remembered.splice(i,1);persist();updateRemembered();renderLibrary();});
 for(const id of ['about-button','footer-about'])$(id).addEventListener('click',()=>$('about').showModal());$('close-about').addEventListener('click',()=>$('about').close());
 $('reset-progress').addEventListener('click',()=>{if($('reset-progress').dataset.confirm!=='yes'){$('reset-progress').dataset.confirm='yes';$('reset-progress').textContent='Click again to erase saved progress';return;}progress={version:3,saved:[],remembered:[],positions:{},sceneKeys:{}};persist();renderLibrary();$('reset-progress').dataset.confirm='no';$('reset-progress').textContent='Reset my saved progress';$('reset-status').textContent='Saved shelf and progress cleared.';});
-document.addEventListener('keydown',ev=>{if(ev.target.matches('input,textarea'))return;if($('reader').open&&activeTab==='story'&&!ev.target.closest('.reader-tabs')){if(ev.key==='ArrowRight'){ev.preventDefault();step(1);}if(ev.key==='ArrowLeft'){ev.preventDefault();step(-1);}}else if(ev.key==='/'&&!$('about').open){ev.preventDefault();$('search').focus();}});
+document.addEventListener('keydown',ev=>{if(ev.target.matches('input,textarea,select'))return;if($('reader').open&&activeTab==='story'&&!ev.target.closest('.reader-tabs')){if(ev.key==='ArrowRight'){ev.preventDefault();step(1);}if(ev.key==='ArrowLeft'){ev.preventDefault();step(-1);}}else if(ev.key==='/'&&!$('about').open){ev.preventDefault();$('search').focus();}});
 let touch=null;$('scene-art').addEventListener('touchstart',ev=>{touch={x:ev.changedTouches[0].clientX,y:ev.changedTouches[0].clientY};},{passive:true});$('scene-art').addEventListener('touchend',ev=>{if(!touch)return;const dx=ev.changedTouches[0].clientX-touch.x,dy=ev.changedTouches[0].clientY-touch.y;if(Math.abs(dx)>55&&Math.abs(dx)>Math.abs(dy)*1.5)step(dx<0?1:-1);touch=null;},{passive:true});
 function fromHash(){const parts=location.hash.split('/');if(parts[0]==='#story'&&parts[1])openStory(parts[1],Math.max(0,(Number(parts[2])||1)-1));}window.addEventListener('hashchange',fromHash);
 $('hero-art').innerHTML=heroIllustration();persist();renderEras();renderLibrary();fromHash();
