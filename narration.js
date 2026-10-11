@@ -33,6 +33,7 @@
    worker=new Worker('./narration-worker.js',{type:'module'});
    worker.addEventListener('message',event=>{
     const data=event.data;
+    if(data.type==='progress')globalThis.dispatchEvent(new CustomEvent('narration-model-progress',{detail:data}));
     if(data.type==='progress'&&state==='loading')update(data.file?.endsWith('.onnx')?`Downloading the neural voice… ${Math.round(data.progress||0)}%. This happens once.`:'Preparing the neural voice…');
     if(data.type==='ready'){ready=true;return;}
     const job=pending.get(data.id);if(!job)return;pending.delete(data.id);
@@ -44,14 +45,25 @@
   return loading;
  }
  const key=(frame,v,pace)=>`${frame.storyId}:${frame.key}:${v}:${pace}`;
+ async function requestAudio(frame,v,pace,relevant=()=>true,strict=false){
+  const stored=await globalThis.NarrationStore.get(frame,v,pace).catch(()=>null);
+  if(stored)return stored;
+  const task=chain.catch(()=>{}).then(async()=>{
+   if(!relevant())return null;
+   const saved=await globalThis.NarrationStore.get(frame,v,pace).catch(()=>null);if(saved)return saved;
+   await engine();const audio=await call('generate',{text:frame.text,voice:v,speed:pace});
+   try{audio.storedBytes=await globalThis.NarrationStore.put(frame,v,pace,audio);}catch(error){if(strict)throw error;}
+   return audio;
+  });
+  chain=task;return task;
+ }
  function pcm(frame,v){
   const pace=Number(speed.value),id=key(frame,v,pace);if(audioCache.has(id))return audioCache.get(id);
-  const task=chain.catch(()=>{}).then(async()=>{
+  const task=requestAudio(frame,v,pace,()=>{
    const current=bridge.getFrame();
-   if(!current||voice.value!==v||Number(speed.value)!==pace||frame.storyId!==current.storyId||![current.index,current.index+1].includes(frame.index))return null;
-   await engine();return call('generate',{text:frame.text,voice:v,speed:pace});
+   return !!current&&voice.value===v&&Number(speed.value)===pace&&frame.storyId===current.storyId&&[current.index,current.index+1].includes(frame.index);
   });
-  chain=task;audioCache.set(id,task);while(audioCache.size>3)audioCache.delete(audioCache.keys().next().value);
+  audioCache.set(id,task);while(audioCache.size>3)audioCache.delete(audioCache.keys().next().value);
   task.then(result=>{if(!result)audioCache.delete(id)},()=>audioCache.delete(id));return task;
  }
  function finish(t){
@@ -84,7 +96,7 @@
  auto.addEventListener('change',()=>{save();if(!auto.checked&&state==='gap'){hush();state='ended';update('Auto turn is off. Swipe to choose your next card.');}});
  document.addEventListener('visibilitychange',()=>{if(document.hidden&&['playing','loading','gap'].includes(state))pause('Paused while the library is in the background.');});
  window.addEventListener('pagehide',()=>stop());
- globalThis.StoryNarrator={stop,changed(){const keepGoing=['playing','loading','gap'].includes(state);token++;hush();offset=0;buffer=null;if(keepGoing)listen();else{state='idle';update('Listen from this card, or swipe to choose a starting point.');}},tabChanged(tab){if(tab!=='story'&&['playing','loading','gap'].includes(state))pause('Paused while you explore this section.');}};
+ globalThis.StoryNarrator={stop,prepare:(frame,v,pace,relevant)=>requestAudio(frame,v,pace,relevant,true),settings:()=>({voice:voice.value,pace:Number(speed.value)}),useSettings(v,p){if(voice.value!==v||Number(speed.value)!==p){voice.value=v;speed.value=String(p);save();audioCache.clear();stop('Voice and pace match your download. Listen uses the prepared cards.');}},changed(){const keepGoing=['playing','loading','gap'].includes(state);token++;hush();offset=0;buffer=null;if(keepGoing)listen();else{state='idle';update('Listen from this card, or swipe to choose a starting point.');}},tabChanged(tab){if(tab!=='story'&&['playing','loading','gap'].includes(state))pause('Paused while you explore this section.');}};
  $('narration-hosted').href='https://ascendesshady.github.io/English-Literature/'+location.hash;
  if(!globalThis.Worker||!(globalThis.AudioContext||globalThis.webkitAudioContext)){play.disabled=true;replay.disabled=true;status.textContent='Neural narration is unavailable in this browser. Open the library in Chrome.';}else update('A gentle voice, one card at a time.');
 })();
