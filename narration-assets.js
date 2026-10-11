@@ -1,7 +1,7 @@
 /* Optional local neural runtime. */
 self.NARRATION_ASSETS={
   "revision": "1939ad2a8e416c0acfeecc08a694d14ef25f2231",
-  "version": "ecd511a50d80",
+  "version": "3b63412e829d",
   "files": [
     "assets/narration/ESPEAK-NG-LICENSE.txt",
     "assets/narration/KOKORO-LICENSE.txt",
@@ -24,7 +24,7 @@ self.NARRATION_ASSETS={
     "assets/narration/THIRD-PARTY-NOTICES.txt": "8d4344daf2bd38503d7e4f270b163efa4bf7ff3d9829fd9926b9033d4e2e1c56",
     "assets/narration/TRANSFORMERS-LICENSE.txt": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
     "assets/narration/kokoro.web.js": "2f684b2df62dd59fab4e9de61ba20f8aaad2f35ff2a3b35e035792778e8c81aa",
-    "assets/narration/ort-wasm-simd-threaded.jsep.mjs": "08fb86ec433c78bfb032c5d84a68b8e8e5a8d81268fa39e24314179a5767a5b9",
+    "assets/narration/ort-wasm-simd-threaded.jsep.mjs": "fbbe63c39912e9d36cea59ca502f966638d5c7fbc607697c0f20f660829fded9",
     "assets/narration/ort-wasm-simd-threaded.jsep.wasm": "c46655e8a94afc45338d4cb2b840475f88e5012d524509916e505079c00bfa39",
     "assets/narration/voices/af_heart.bin": "d583ccff3cdca2f7fae535cb998ac07e9fcb90f09737b9a41fa2734ec44a8f0b",
     "assets/narration/voices/bm_fable.bin": "f889083196807b4adb15e9204252165f503b8d33d3982e681c52443c49d798f1",
