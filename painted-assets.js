@@ -1,0 +1,1059 @@
+/* Original paintings; stable scene-key mappings. */
+self.PAINTED_ART = {
+  "schemaVersion": 1,
+  "style": "Original painted book illustrations",
+  "policy": "Traits are scoped to a work and person. Reviewed physical details are paraphrases of the linked primary edition. Remaining appearance, skin shades and costumes are artistic choices, not measurements or ethnic identities claimed by the author. Dramatic insults and metaphor do not establish biological facts.",
+  "characters": {
+    "frankenstein": {
+      "The creature": {
+        "description": "About eight feet tall, proportionately large; yellow skin, flowing lustrous black hair, watery eyes and black lips. No green skin, flat skull, neck bolts or forehead stitching.",
+        "anchors": [
+          "about eight feet",
+          "His yellow skin",
+          "lustrous black",
+          "straight black lips"
+        ]
+      }
+    },
+    "pride-and-prejudice": {
+      "Elizabeth Bennet": {
+        "description": "Expressive dark eyes and a light, pleasing figure. Hair colour and exact height are artistic choices.",
+        "anchors": [
+          "beautiful expression of her dark eyes",
+          "light and pleasing"
+        ]
+      },
+      "Mr. Darcy": {
+        "description": "Tall, handsome and dignified. No numeric height is supplied in this description.",
+        "anchors": [
+          "fine, tall person",
+          "handsome features"
+        ]
+      }
+    },
+    "jane-eyre": {
+      "Rochester": {
+        "description": "Broad dark eyebrows, black hair across a square forehead, strong features and an olive complexion; mature, rugged rather than a conventionally handsome young romantic lead. Later injury changes his sight and hand.",
+        "anchors": [
+          "broad and jetty eyebrows",
+          "black hair",
+          "olive face"
+        ]
+      },
+      "Jane Eyre": {
+        "description": "Small, plain young woman, not a statuesque glamour model; child in the school episodes and adult in the governess episodes. Dress is restrained and practical. Eye and hair colours here are artistic choices.",
+        "anchors": [
+          "quiet little figure"
+        ]
+      }
+    },
+    "the-picture-of-dorian-gray": {
+      "Dorian Gray": {
+        "description": "Handsome young man with crisp golden hair, blue eyes and scarlet lips. He stays youthful while the painted portrait deteriorates.",
+        "anchors": [
+          "crisp gold hair",
+          "frank blue eyes",
+          "scarlet lips"
+        ]
+      }
+    },
+    "dracula": {
+      "Count Dracula": {
+        "description": "At the castle introduction, a tall old man dressed all in black with a long white moustache, a strongly aquiline nose and heavy eyebrows. His appearance becomes younger later; do not hold the old moustache fixed through every scene.",
+        "anchors": [
+          "tall old man",
+          "long white moustache",
+          "aquiline"
+        ]
+      }
+    },
+    "treasure-island": {
+      "Long John Silver": {
+        "description": "Very tall and strong, broad pale smiling face. Left leg amputated near the hip; a crutch under his left shoulder. Do not replace this with a wooden peg leg.",
+        "anchors": [
+          "His left leg was cut off close by the hip",
+          "very tall and strong",
+          "plain and pale"
+        ]
+      }
+    },
+    "the-invisible-man": {
+      "Griffin": {
+        "description": "When concealed, white facial bandages, blue glasses, gloves and dark-brown velvet jacket. Before invisibility, about six feet tall and broad, nearly albino with a pink-and-white face and red eyes. When undressed after transformation, body genuinely invisible, not a translucent visible ghost.",
+        "anchors": [
+          "blue glasses",
+          "white bandage",
+          "six feet high",
+          "pink and white face and red eyes"
+        ]
+      }
+    },
+    "arms-and-the-man": {
+      "Bluntschli": {
+        "description": "A Swiss professional soldier aged thirty-four, with blue eyes and practical, energetic bearing. Clothes are dishevelled on his flight into Raina's room.",
+        "anchors": [
+          "I’m thirty-four",
+          "blue eyes"
+        ]
+      },
+      "Raina": {
+        "description": "Bulgarian woman aged twenty-three, rather than the seventeen-year-old Bluntschli assumes.",
+        "anchors": [
+          "woman of twenty-three"
+        ]
+      }
+    },
+    "pygmalion": {
+      "Eliza": {
+        "description": "Around eighteen to twenty, initially in a dusty black straw sailor hat with unwashed mousy hair and worn clothing; later clean, elegantly dressed, visibly the same person. Class changes her dress and manner, not her skin colour.",
+        "anchors": [
+          "perhaps eighteen, perhaps twenty",
+          "sailor hat of black straw",
+          "mousy"
+        ]
+      },
+      "Higgins": {
+        "description": "Robust, energetic man of about forty, in a professional black frock coat, white collar and black silk tie.",
+        "anchors": [
+          "man of forty or thereabouts",
+          "black frock-coat"
+        ]
+      }
+    },
+    "the-pickwick-papers": {
+      "Pickwick": {
+        "description": "Bald head and circular spectacles; keep these recognisable throughout his travels.",
+        "anchors": [
+          "bald head, and circular spectacles"
+        ]
+      }
+    },
+    "of-human-bondage": {
+      "Philip Carey": {
+        "description": "Begins as a nine-year-old orphan and grows into an adult. Has a club foot; portray disability naturally, without adding a missing leg or using deformity as a marker of villainy.",
+        "anchors": [
+          "nine years old",
+          "club-foot"
+        ]
+      }
+    },
+    "kim": {
+      "Kim": {
+        "description": "Child of Irish parents growing up in India, with deeply sun-darkened skin. Do not confuse ancestry with a fixed pale complexion or change his skin when he enters a British school.",
+        "anchors": [
+          "burned black",
+          "Kim was white"
+        ]
+      },
+      "The lama": {
+        "description": "An elderly Tibetan Buddhist lama and pilgrim. Tibetan, not a Hindu priest; keep Buddhist robes and pilgrimage materials coherent.",
+        "anchors": [
+          "Bhotiya [Tibetan]",
+          "a lama"
+        ]
+      }
+    },
+    "north-and-south": {
+      "Margaret Hale": {
+        "description": "Tall and finely made, with dark hair. Starts as a young woman of eighteen, often wearing restrained Victorian clothing.",
+        "anchors": [
+          "tall stately girl of eighteen",
+          "tall, finely made figure",
+          "dark hair"
+        ]
+      }
+    },
+    "the-mill-on-the-floss": {
+      "Maggie Tulliver": {
+        "description": "Long black hair, dark eyes and a brown complexion. Her English family contrasts her appearance with their fairer relatives; do not invent a different ethnicity from that contrast. Ages from a child into a young woman.",
+        "anchors": [
+          "long black hair",
+          "dark eyes",
+          "Maggie’s complexion",
+          "brown skin"
+        ]
+      }
+    },
+    "adam-bede": {
+      "Adam": {
+        "description": "Muscular, large-boned carpenter nearly six feet tall, straight jet-black hair and dark eyes; practical working clothes with sleeves rolled up.",
+        "anchors": [
+          "nearly six feet high",
+          "jet-black hair",
+          "dark eyes"
+        ]
+      }
+    },
+    "the-odyssey": {
+      "Athena": {
+        "description": "Grey-eyed goddess; disguises herself as a human adviser in some episodes. Divine identity does not require wings.",
+        "anchors": [
+          "grey-eyed Athene"
+        ]
+      },
+      "Odysseus": {
+        "description": "Athena gives him deep curling locks in scenes of restored splendour. Other scenes require a battered traveller or an aged beggar disguise, rather than permanent kingly armour.",
+        "anchors": [
+          "deep curling locks",
+          "hyacinth flower"
+        ]
+      }
+    },
+    "the-metamorphosis": {
+      "Gregor": {
+        "description": "After the opening transformation, a large brown, segmented vermin with armour-like back and many thin legs. Exact zoological species is unspecified; do not assert that Kafka defines him as a cockroach.",
+        "anchors": [
+          "armour-like back",
+          "brown belly",
+          "many legs, pitifully thin"
+        ]
+      }
+    },
+    "a-midsummer-night-s-dream": {
+      "Hermia": {
+        "description": "Noticeably shorter than Helena; their height contrast matters to their quarrel. Exact measurements are not given.",
+        "anchors": [
+          "dwarfish and so low"
+        ]
+      },
+      "Helena": {
+        "description": "Taller than Hermia, who calls her a maypole during their quarrel.",
+        "anchors": [
+          "painted maypole"
+        ]
+      }
+    },
+    "sultana-s-dream": {
+      "The Queen": {
+        "description": "About forty-three in the present dream: inherited the throne at thirteen thirty years earlier. A mature ruler supporting scientific education; complexion, hair, sari colour and royal costume are artistic interpretations.",
+        "anchors": [
+          "Thirty years ago",
+          "Queen was thirteen years old"
+        ]
+      }
+    },
+    "othello": {
+      "Othello": {
+        "description": "A Black Moor and experienced general serving Venice, older than his young wife. Specific modern ancestry and numerical height are not stated by the play. Dignified human depiction, not the animal caricatures used by his enemies.",
+        "anchors": [
+          "Haply, for I am black",
+          "a noble Moor"
+        ]
+      }
+    },
+    "wuthering-heights": {
+      "Heathcliff": {
+        "description": "Dark complexion; his childhood origins are uncertain. Lockwood compares his appearance using a racialised period label, which does not prove an ethnic identity. Child in the early recollection, powerful gentleman later.",
+        "anchors": [
+          "dark-skinned gipsy in aspect"
+        ]
+      },
+      "Cathy Linton": {
+        "description": "The younger Cathy has dark Earnshaw eyes, fair skin, small features and yellow curling hair; distinguish her from her mother Catherine Earnshaw.",
+        "anchors": [
+          "Earnshaws’ handsome dark eyes",
+          "yellow curling hair"
+        ]
+      }
+    },
+    "great-expectations": {
+      "Magwitch": {
+        "description": "In the opening marsh encounter, coarse grey clothing, an iron on his leg, broken shoes and a rag around his head. Later appearance and clothes change.",
+        "anchors": [
+          "fearful man, all in coarse grey",
+          "great iron on his leg"
+        ]
+      },
+      "Miss Havisham": {
+        "description": "White hair and an aged, faded bridal outfit with veil and bridal flowers. The dress has yellowed; it is not a pristine new wedding gown.",
+        "anchors": [
+          "her hair was white",
+          "bridal flowers"
+        ]
+      }
+    },
+    "oliver-twist": {
+      "Fagin": {
+        "description": "An older man with matted red hair, initially in a worn flannel gown. Avoid exaggerating Jewish identity into a caricature of facial anatomy.",
+        "anchors": [
+          "matted red hair",
+          "greasy flannel gown"
+        ]
+      },
+      "Bill Sikes": {
+        "description": "Stoutly built, about thirty-five, wearing a black velveteen coat, soiled drab breeches and lace-up half boots.",
+        "anchors": [
+          "stoutly-built fellow of about five-and-thirty",
+          "black velveteen coat"
+        ]
+      }
+    },
+    "emma": {
+      "Harriet Smith": {
+        "description": "Short, plump and fair, with blue eyes and light hair. Distinct from Emma and the taller elegant Jane Fairfax.",
+        "anchors": [
+          "short, plump, and fair",
+          "blue eyes, light hair"
+        ]
+      },
+      "Jane Fairfax": {
+        "description": "Elegant and graceful, of medium build and a height usually considered tall but not very tall; initially somewhat delicate in health.",
+        "anchors": [
+          "Her height was pretty",
+          "a most becoming medium"
+        ]
+      }
+    },
+    "northanger-abbey": {
+      "Catherine Morland": {
+        "description": "Seventeen during the Bath journey. Childhood description has a thin awkward figure, sallow complexion and dark lank hair; by her teens her figure and complexion have improved. Do not freeze the childhood description over the adult scenes.",
+        "anchors": [
+          "dark lank hair",
+          "age of seventeen"
+        ]
+      }
+    },
+    "mansfield-park": {
+      "Mary Crawford": {
+        "description": "Lively dark eyes and a clear brown complexion; Austen contrasts her appearance with tall, fair, fuller figures without implying a different nationality.",
+        "anchors": [
+          "lively dark eye, clear brown complexion"
+        ]
+      }
+    },
+    "the-rape-of-the-lock": {
+      "Belinda": {
+        "description": "Two curling locks hanging behind her neck and a sparkling cross at her breast, in an elaborate early eighteenth-century gown. One lock is cut; do not depict her as losing all her hair.",
+        "anchors": [
+          "Nourished two locks",
+          "a sparkling Cross"
+        ]
+      }
+    },
+    "a-tale-of-two-cities": {
+      "Lucie Manette": {
+        "description": "Short, slight young woman with golden hair and blue eyes.",
+        "anchors": [
+          "short, slight, pretty figure",
+          "a quantity of golden hair, a pair of blue eyes"
+        ]
+      }
+    },
+    "the-mayor-of-casterbridge": {
+      "Elizabeth-Jane": {
+        "description": "Light-brown hair; the contrast with the expected black hair is part of Henchard’s uncertainty over her identity.",
+        "anchors": [
+          "brown—rather light than dark"
+        ]
+      }
+    },
+    "silas-marner": {
+      "Silas Marner": {
+        "description": "Large brown eyes, initially short-sighted, and increasingly bent shoulders; white hair in the later scenes after sixteen years have passed.",
+        "anchors": [
+          "large brown eyes",
+          "bent shoulders and white hair"
+        ]
+      },
+      "Eppie": {
+        "description": "Golden-haired child who grows into a young woman over the narrative; keep her recognisable while changing age appropriately.",
+        "anchors": [
+          "hair looked like the dash of gold"
+        ]
+      }
+    },
+    "the-time-machine": {
+      "The Eloi": {
+        "description": "Small, slight future humans, with one first seen about four feet high in a purple tunic and belt. They are not miniature fairies with wings.",
+        "anchors": [
+          "perhaps four feet high",
+          "purple tunic"
+        ]
+      },
+      "The Morlocks": {
+        "description": "Pale, chinless faces and large lidless pinkish-grey eyes; subterranean future humans, not pig-headed monsters.",
+        "anchors": [
+          "pale, chinless faces",
+          "pinkish-grey eyes"
+        ]
+      }
+    },
+    "the-rime-of-the-ancient-mariner": {
+      "The Mariner": {
+        "description": "Old sailor with a long grey beard and striking, glittering eyes when he stops the Wedding Guest.",
+        "anchors": [
+          "long grey beard and glittering eye"
+        ]
+      }
+    },
+    "the-gift-of-the-magi": {
+      "Della": {
+        "description": "Initially brown hair falling below her knees. After selling it, small close curls; this change must carry through the remaining cards.",
+        "anchors": [
+          "cascade of brown waters",
+          "below her knee",
+          "tiny, close-lying curls"
+        ]
+      }
+    },
+    "the-jungle-book": {
+      "Baloo": {
+        "description": "Large old brown bear, depicted as an animal with brown fur.",
+        "anchors": [
+          "Baloo, the sleepy brown bear"
+        ]
+      },
+      "Bagheera": {
+        "description": "Black panther, inky black with markings visible in some light; feline anatomy, not a person in a black costume.",
+        "anchors": [
+          "Bagheera the Black Panther, inky black all over"
+        ]
+      },
+      "Shere Khan": {
+        "description": "Tiger with a lame paw, natural feline anatomy and stripes.",
+        "anchors": [
+          "his lame paw"
+        ]
+      },
+      "Kaa": {
+        "description": "Rock python, about thirty feet long, blunt-nosed head and a newly shed patterned skin; not a green cartoon cobra.",
+        "anchors": [
+          "Kaa the Rock Python",
+          "thirty feet of his body"
+        ]
+      },
+      "Rikki-tikki-tavi": {
+        "description": "Small mongoose with a weasel-like head, fur and tail, pink eyes and a restless pink nose; not a cat.",
+        "anchors": [
+          "He was a mongoose",
+          "His eyes and the end of his restless nose were pink"
+        ]
+      },
+      "Kotick": {
+        "description": "The white seal, with seal anatomy; distinct from the brown bears and forest mammals of the separate Mowgli stories.",
+        "anchors": [
+          "Kotick, the White Seal"
+        ]
+      }
+    },
+    "the-war-of-the-worlds": {
+      "The Martians": {
+        "description": "Large rounded grey leathery bodies or heads roughly four feet across, dark eyes and tentacles. The walking tripod is their machine, not the shape of their body.",
+        "anchors": [
+          "heads—about four feet in diameter",
+          "greyish rounded bulk",
+          "tentacles"
+        ]
+      }
+    },
+    "the-necklace": {
+      "Mathilde": {
+        "description": "Initially a young woman dressed exquisitely for the ball. After ten years of labour, older-looking with disordered hair, worn skirts and reddened working hands; keep the same underlying face.",
+        "anchors": [
+          "frowsy hair, skirts askew and red hands"
+        ]
+      }
+    },
+    "richard-iii": {
+      "Richard": {
+        "description": "The play portrays a disabled king with an impaired gait and physical asymmetry. Portray disability respectfully; costume and actions communicate ambition without making disability itself a sign of evil.",
+        "anchors": [
+          "Deformed, unfinished",
+          "lamely and unfashionable"
+        ]
+      }
+    },
+    "la-belle-dame-sans-merci": {
+      "The fairy lady": {
+        "description": "Long hair, light-footed movement and wild eyes; hair and eye colours are not specified in these lines.",
+        "anchors": [
+          "Her hair was long, her foot was light",
+          "her eyes were wild"
+        ]
+      }
+    },
+    "doctor-faustus": {
+      "Mephistopheles": {
+        "description": "After the first summoning, returns disguised as an old Franciscan friar, as Faustus requests. Use an elderly human appearance and Franciscan habit through their conversations; the initial frightening form is not the continuing disguise.",
+        "anchors": [
+          "Go, and return an old Franciscan friar",
+          "Re-enter MEPHISTOPHILIS like a Franciscan friar"
+        ]
+      }
+    },
+    "the-faerie-queene": {
+      "Duessa": {
+        "description": "At her deceptive introduction, a richly dressed lady in scarlet red embroidered with gold, wearing a Persian-style crown. Her attractive disguise later gives way to revealed ugliness; retain the distinction from Una.",
+        "anchors": [
+          "A goodly lady clad in scarlet red"
+        ]
+      }
+    },
+    "vanity-fair": {
+      "Becky Sharp": {
+        "description": "Small, slight, pale, sandy-haired and green-eyed. Preserve sandy blonde hair rather than dark hair throughout her social rise.",
+        "anchors": [
+          "pale, sandy-haired",
+          "green eyes"
+        ]
+      },
+      "Amelia Sedley": {
+        "description": "Brown hair and large eyes; her face becomes white and thin during her grief after George dies. Her hair is not blonde.",
+        "anchors": [
+          "Her pretty brown hair",
+          "Her face was white and thin"
+        ]
+      },
+      "William Dobbin": {
+        "description": "Very tall and ungainly, large hands, feet and ears; closely cropped black hair at his early appearance, later greying.",
+        "anchors": [
+          "closely cropped head of black hair",
+          "very large hands and feet"
+        ]
+      },
+      "Rawdon Crawley": {
+        "description": "A very large young dandy, six feet tall, with a loud voice. Maintain his broad size and distinguish him from tall ungainly Dobbin.",
+        "anchors": [
+          "six feet high"
+        ]
+      }
+    },
+    "the-canterbury-tales": {
+      "The Knight": {
+        "description": "Plain coarse fustian tunic stained by mail; modest travelling clothes, rather than a bright white crusader tabard.",
+        "anchors": [
+          "Of fustian he"
+        ]
+      },
+      "The Miller": {
+        "description": "Broad, muscular and large-framed, broad red beard, white coat and blue hood.",
+        "anchors": [
+          "fox was reed",
+          "whit cote",
+          "blew hood"
+        ]
+      },
+      "The Wife of Bath": {
+        "description": "Broad hips, fair ruddy face, separated teeth, fine kerchiefs, scarlet stockings; broad hat over a wimple when riding.",
+        "anchors": [
+          "Gat-tothed was she",
+          "fyn scarlet reed",
+          "hipes large"
+        ]
+      },
+      "The Pardoner": {
+        "description": "Thin shoulder-length wax-yellow hair, smooth beardless face, glaring eyes; medieval cap with a Veronica badge, without an enveloping hood.",
+        "anchors": [
+          "yelow as wex"
+        ]
+      },
+      "Harry Bailly": {
+        "description": "Large man with prominent eyes; keep his welcoming innkeeper role distinct from the pilgrims.",
+        "anchors": [
+          "eyen stepe"
+        ]
+      }
+    },
+    "heart-of-darkness": {
+      "Marlow": {
+        "description": "Sunken cheeks, yellowish complexion, straight back and a thin ascetic appearance at the Thames framing scene; preserve a thoughtful storyteller rather than a robust action-hero build.",
+        "anchors": [
+          "sunken cheeks",
+          "an ascetic aspect"
+        ]
+      },
+      "Kurtz": {
+        "description": "Conspicuously bald, exceptionally tall-looking and severely wasted, with visible thin limbs during his final illness. His reported apparent seven-foot length is an impression, not an exact measured height.",
+        "anchors": [
+          "impressively bald",
+          "seven feet long",
+          "cage of his ribs"
+        ]
+      }
+    },
+    "robinson-crusoe": {
+      "Friday": {
+        "description": "Long straight black hair, a tawny or olive-brown complexion, round face and lively eyes. Do not replace the described straight hair with tightly curled hair or infer a modern racial identity from period comparisons.",
+        "anchors": [
+          "His hair was long and black",
+          "dun olive-colour",
+          "His face was round and plump"
+        ]
+      },
+      "Crusoe": {
+        "description": "Visibly age through the island years: his stay lasts more than twenty-eight years. In his later island appearance he keeps a short beard with conspicuously long moustaches; island clothing is improvised, including goat-skin garments.",
+        "anchors": [
+          "eight-and-twenty years",
+          "pair of Mahometan whiskers"
+        ]
+      }
+    },
+    "tom-jones": {
+      "Sophia Western": {
+        "description": "A young woman in her eighteenth year, somewhat tall, delicate and proportionate. Black hair, formerly reaching her waist, is cut and curled around her neck; full arched eyebrows.",
+        "anchors": [
+          "hair, which was black",
+          "rather inclining to tall",
+          "eighteenth year"
+        ]
+      }
+    },
+    "moll-flanders": {
+      "Moll": {
+        "description": "Her appearance must age through her life. At transportation she is in her sixty-first year, and by the final return to England she is nearly seventy; the late thief, prisoner and memoir narrator are not a twenty-year-old bride.",
+        "anchors": [
+          "sixty-first year of my age",
+          "almost seventy years of age"
+        ]
+      },
+      "The Lancashire husband": {
+        "description": "Aging partner: at their late return he is sixty-eight. Keep his recognizable earlier face while visibly aging him for the later prison, transportation and prosperity scenes.",
+        "anchors": [
+          "husband sixty-eight"
+        ]
+      }
+    },
+    "the-pilgrim-s-progress": {
+      "Apollyon": {
+        "description": "A composite allegorical monster with fish-like scales, dragon wings, bear-like feet, a lion-like mouth and fire and smoke from the belly. Do not substitute a generic human knight with horns.",
+        "anchors": [
+          "scales, like a fish",
+          "wings like a dragon",
+          "feet like a bear",
+          "mouth of a lion"
+        ]
+      }
+    },
+    "a-passage-to-india": {
+      "Cyril Fielding": {
+        "description": "Already over forty when he comes to India; portray a mature civilian schoolmaster, distinct from younger officials and Dr Aziz. Hair and eye colours are artistic choices.",
+        "anchors": [
+          "over forty when he entered"
+        ]
+      },
+      "Ronny Heaslop": {
+        "description": "A civilian city magistrate, not an army officer. Use period civilian official clothing; gold military medals and a military uniform are not supported by his role. Additional physical attributes are artistic choices.",
+        "anchors": [
+          "City Magistrate",
+          "name is Mr. Heaslop"
+        ]
+      }
+    }
+  },
+  "works": {
+    "antigone": {
+      "file": "assets/painted/antigone.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "antigone:base:0",
+        "antigone:extra:0",
+        "antigone:base:1",
+        "antigone:extra:1",
+        "antigone:base:2",
+        "antigone:extra:2",
+        "antigone:base:3",
+        "antigone:extra:3",
+        "antigone:base:4",
+        "antigone:base:5",
+        "antigone:extra:4",
+        "antigone:base:6"
+      ],
+      "source": "https://www.gutenberg.org/cache/epub/14484/pg14484-images.html",
+      "bytes": 380810
+    },
+    "beowulf": {
+      "file": "assets/painted/beowulf.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "beowulf:base:0",
+        "beowulf:extra:0",
+        "beowulf:base:1",
+        "beowulf:extra:1",
+        "beowulf:base:2",
+        "beowulf:extra:2",
+        "beowulf:base:3",
+        "beowulf:extra:3",
+        "beowulf:base:4",
+        "beowulf:base:5",
+        "beowulf:extra:4",
+        "beowulf:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/16328",
+      "bytes": 367144
+    },
+    "the-faerie-queene": {
+      "file": "assets/painted/the-faerie-queene.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-faerie-queene:base:0",
+        "the-faerie-queene:extra:0",
+        "the-faerie-queene:base:1",
+        "the-faerie-queene:extra:1",
+        "the-faerie-queene:base:2",
+        "the-faerie-queene:extra:2",
+        "the-faerie-queene:base:3",
+        "the-faerie-queene:extra:3",
+        "the-faerie-queene:base:4",
+        "the-faerie-queene:base:5",
+        "the-faerie-queene:extra:4",
+        "the-faerie-queene:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/6930",
+      "bytes": 382368
+    },
+    "doctor-faustus": {
+      "file": "assets/painted/doctor-faustus.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "doctor-faustus:base:0",
+        "doctor-faustus:extra:0",
+        "doctor-faustus:base:1",
+        "doctor-faustus:extra:1",
+        "doctor-faustus:base:2",
+        "doctor-faustus:extra:2",
+        "doctor-faustus:base:3",
+        "doctor-faustus:extra:3",
+        "doctor-faustus:base:4",
+        "doctor-faustus:base:5",
+        "doctor-faustus:extra:4",
+        "doctor-faustus:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/779",
+      "bytes": 313496
+    },
+    "othello": {
+      "file": "assets/painted/othello.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "othello:base:0",
+        "othello:extra:0",
+        "othello:base:1",
+        "othello:extra:1",
+        "othello:base:2",
+        "othello:extra:2",
+        "othello:base:3",
+        "othello:extra:3",
+        "othello:base:4",
+        "othello:base:5",
+        "othello:extra:4",
+        "othello:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/1531",
+      "bytes": 296458
+    },
+    "the-tempest": {
+      "file": "assets/painted/the-tempest.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-tempest:base:0",
+        "the-tempest:extra:0",
+        "the-tempest:extra:1",
+        "the-tempest:base:1",
+        "the-tempest:base:2",
+        "the-tempest:extra:2",
+        "the-tempest:base:3",
+        "the-tempest:extra:3",
+        "the-tempest:base:4",
+        "the-tempest:base:5",
+        "the-tempest:extra:4",
+        "the-tempest:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/23042",
+      "bytes": 493322
+    },
+    "paradise-lost": {
+      "file": "assets/painted/paradise-lost.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "paradise-lost:base:0",
+        "paradise-lost:extra:0",
+        "paradise-lost:base:1",
+        "paradise-lost:extra:1",
+        "paradise-lost:base:2",
+        "paradise-lost:extra:2",
+        "paradise-lost:base:3",
+        "paradise-lost:extra:3",
+        "paradise-lost:base:4",
+        "paradise-lost:base:5",
+        "paradise-lost:extra:4",
+        "paradise-lost:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/20",
+      "bytes": 474458
+    },
+    "to-his-coy-mistress": {
+      "file": "assets/painted/to-his-coy-mistress.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "to-his-coy-mistress:base:0",
+        "to-his-coy-mistress:extra:0",
+        "to-his-coy-mistress:base:1",
+        "to-his-coy-mistress:extra:1",
+        "to-his-coy-mistress:base:2",
+        "to-his-coy-mistress:extra:2",
+        "to-his-coy-mistress:base:3",
+        "to-his-coy-mistress:extra:3",
+        "to-his-coy-mistress:base:4",
+        "to-his-coy-mistress:extra:4",
+        "to-his-coy-mistress:base:5",
+        "to-his-coy-mistress:extra:5"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/44688/to-his-coy-mistress",
+      "bytes": 323478
+    },
+    "the-rape-of-the-lock": {
+      "file": "assets/painted/the-rape-of-the-lock.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-rape-of-the-lock:base:0",
+        "the-rape-of-the-lock:extra:0",
+        "the-rape-of-the-lock:base:1",
+        "the-rape-of-the-lock:extra:1",
+        "the-rape-of-the-lock:base:2",
+        "the-rape-of-the-lock:extra:2",
+        "the-rape-of-the-lock:base:3",
+        "the-rape-of-the-lock:extra:3",
+        "the-rape-of-the-lock:base:4",
+        "the-rape-of-the-lock:base:5",
+        "the-rape-of-the-lock:extra:4",
+        "the-rape-of-the-lock:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/9800",
+      "bytes": 398196
+    },
+    "the-excursion": {
+      "file": "assets/painted/the-excursion.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-excursion:base:0",
+        "the-excursion:extra:0",
+        "the-excursion:base:1",
+        "the-excursion:extra:1",
+        "the-excursion:base:2",
+        "the-excursion:extra:2",
+        "the-excursion:base:3",
+        "the-excursion:extra:3",
+        "the-excursion:base:4",
+        "the-excursion:base:5",
+        "the-excursion:extra:4",
+        "the-excursion:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/56361",
+      "bytes": 430014
+    },
+    "frankenstein": {
+      "file": "assets/painted/frankenstein.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "frankenstein:base:0",
+        "frankenstein:extra:0",
+        "frankenstein:base:1",
+        "frankenstein:extra:1",
+        "frankenstein:base:2",
+        "frankenstein:extra:3",
+        "frankenstein:base:3",
+        "frankenstein:extra:2",
+        "frankenstein:base:4",
+        "frankenstein:extra:4",
+        "frankenstein:base:5",
+        "frankenstein:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/41445",
+      "bytes": 382900
+    },
+    "in-memoriam-a-h-h": {
+      "file": "assets/painted/in-memoriam-a-h-h.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "in-memoriam-a-h-h:base:0",
+        "in-memoriam-a-h-h:extra:0",
+        "in-memoriam-a-h-h:base:1",
+        "in-memoriam-a-h-h:extra:1",
+        "in-memoriam-a-h-h:base:2",
+        "in-memoriam-a-h-h:extra:2",
+        "in-memoriam-a-h-h:base:3",
+        "in-memoriam-a-h-h:extra:3",
+        "in-memoriam-a-h-h:base:4",
+        "in-memoriam-a-h-h:base:5",
+        "in-memoriam-a-h-h:extra:4",
+        "in-memoriam-a-h-h:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/70950",
+      "bytes": 354428
+    },
+    "utopia": {
+      "file": "assets/painted/utopia.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "utopia:base:0",
+        "utopia:extra:0",
+        "utopia:base:1",
+        "utopia:extra:1",
+        "utopia:base:2",
+        "utopia:extra:2",
+        "utopia:base:3",
+        "utopia:extra:3",
+        "utopia:base:4",
+        "utopia:base:5",
+        "utopia:extra:4",
+        "utopia:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/2130",
+      "bytes": 435408
+    },
+    "death-be-not-proud": {
+      "file": "assets/painted/death-be-not-proud.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "death-be-not-proud:base:0",
+        "death-be-not-proud:extra:0",
+        "death-be-not-proud:base:1",
+        "death-be-not-proud:extra:1",
+        "death-be-not-proud:base:2",
+        "death-be-not-proud:extra:2",
+        "death-be-not-proud:base:3",
+        "death-be-not-proud:extra:3",
+        "death-be-not-proud:base:4",
+        "death-be-not-proud:base:5",
+        "death-be-not-proud:extra:4",
+        "death-be-not-proud:base:6"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/44107/holy-sonnets-death-be-not-proud",
+      "bytes": 371432
+    },
+    "tintern-abbey": {
+      "file": "assets/painted/tintern-abbey.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "tintern-abbey:base:0",
+        "tintern-abbey:extra:0",
+        "tintern-abbey:base:1",
+        "tintern-abbey:extra:1",
+        "tintern-abbey:base:2",
+        "tintern-abbey:extra:2",
+        "tintern-abbey:base:3",
+        "tintern-abbey:extra:3",
+        "tintern-abbey:base:4",
+        "tintern-abbey:base:5",
+        "tintern-abbey:extra:4",
+        "tintern-abbey:base:6"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/45527/lines-composed-a-few-miles-above-tintern-abbey-on-revisiting-the-banks-of-the-wye-during-a-tour-july-13-1798",
+      "bytes": 441432
+    },
+    "pride-and-prejudice": {
+      "file": "assets/painted/pride-and-prejudice.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "pride-and-prejudice:base:0",
+        "pride-and-prejudice:extra:0",
+        "pride-and-prejudice:base:1",
+        "pride-and-prejudice:extra:1",
+        "pride-and-prejudice:base:2",
+        "pride-and-prejudice:extra:2",
+        "pride-and-prejudice:base:3",
+        "pride-and-prejudice:extra:3",
+        "pride-and-prejudice:base:4",
+        "pride-and-prejudice:base:5",
+        "pride-and-prejudice:extra:4",
+        "pride-and-prejudice:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/1342",
+      "bytes": 369698
+    },
+    "jane-eyre": {
+      "file": "assets/painted/jane-eyre.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "jane-eyre:base:0",
+        "jane-eyre:extra:0",
+        "jane-eyre:base:1",
+        "jane-eyre:extra:1",
+        "jane-eyre:base:2",
+        "jane-eyre:extra:2",
+        "jane-eyre:base:3",
+        "jane-eyre:extra:3",
+        "jane-eyre:base:4",
+        "jane-eyre:base:5",
+        "jane-eyre:extra:4",
+        "jane-eyre:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/1260",
+      "bytes": 298518
+    },
+    "sultana-s-dream": {
+      "file": "assets/painted/sultana-s-dream.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "sultana-s-dream:base:0",
+        "sultana-s-dream:base:1",
+        "sultana-s-dream:base:2",
+        "sultana-s-dream:base:3",
+        "sultana-s-dream:base:4",
+        "sultana-s-dream:base:5",
+        "sultana-s-dream:base:6",
+        "sultana-s-dream:base:7",
+        "sultana-s-dream:base:8",
+        "sultana-s-dream:base:9",
+        "sultana-s-dream:base:10",
+        "sultana-s-dream:base:11"
+      ],
+      "source": "https://digital.library.upenn.edu/women/sultana/dream/dream.html",
+      "bytes": 560948
+    }
+  }
+};

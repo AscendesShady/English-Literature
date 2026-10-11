@@ -1,0 +1,641 @@
+{
+  "schemaVersion": 1,
+  "policy": "Traits are scoped to a work and person. Reviewed physical details are paraphrases of the linked primary edition. Remaining appearance, skin shades and costumes are artistic choices, not measurements or ethnic identities claimed by the author. Dramatic insults and metaphor do not establish biological facts.",
+  "traits": {
+    "frankenstein": {
+      "The creature": {
+        "description": "About eight feet tall, proportionately large; yellow skin, flowing lustrous black hair, watery eyes and black lips. No green skin, flat skull, neck bolts or forehead stitching.",
+        "anchors": [
+          "about eight feet",
+          "His yellow skin",
+          "lustrous black",
+          "straight black lips"
+        ]
+      }
+    },
+    "pride-and-prejudice": {
+      "Elizabeth Bennet": {
+        "description": "Expressive dark eyes and a light, pleasing figure. Hair colour and exact height are artistic choices.",
+        "anchors": [
+          "beautiful expression of her dark eyes",
+          "light and pleasing"
+        ]
+      },
+      "Mr. Darcy": {
+        "description": "Tall, handsome and dignified. No numeric height is supplied in this description.",
+        "anchors": [
+          "fine, tall person",
+          "handsome features"
+        ]
+      }
+    },
+    "jane-eyre": {
+      "Rochester": {
+        "description": "Broad dark eyebrows, black hair across a square forehead, strong features and an olive complexion; mature, rugged rather than a conventionally handsome young romantic lead. Later injury changes his sight and hand.",
+        "anchors": [
+          "broad and jetty eyebrows",
+          "black hair",
+          "olive face"
+        ]
+      },
+      "Jane Eyre": {
+        "description": "Small, plain young woman, not a statuesque glamour model; child in the school episodes and adult in the governess episodes. Dress is restrained and practical. Eye and hair colours here are artistic choices.",
+        "anchors": [
+          "quiet little figure"
+        ]
+      }
+    },
+    "the-picture-of-dorian-gray": {
+      "Dorian Gray": {
+        "description": "Handsome young man with crisp golden hair, blue eyes and scarlet lips. He stays youthful while the painted portrait deteriorates.",
+        "anchors": [
+          "crisp gold hair",
+          "frank blue eyes",
+          "scarlet lips"
+        ]
+      }
+    },
+    "dracula": {
+      "Count Dracula": {
+        "description": "At the castle introduction, a tall old man dressed all in black with a long white moustache, a strongly aquiline nose and heavy eyebrows. His appearance becomes younger later; do not hold the old moustache fixed through every scene.",
+        "anchors": [
+          "tall old man",
+          "long white moustache",
+          "aquiline"
+        ]
+      }
+    },
+    "treasure-island": {
+      "Long John Silver": {
+        "description": "Very tall and strong, broad pale smiling face. Left leg amputated near the hip; a crutch under his left shoulder. Do not replace this with a wooden peg leg.",
+        "anchors": [
+          "His left leg was cut off close by the hip",
+          "very tall and strong",
+          "plain and pale"
+        ]
+      }
+    },
+    "the-invisible-man": {
+      "Griffin": {
+        "description": "When concealed, white facial bandages, blue glasses, gloves and dark-brown velvet jacket. Before invisibility, about six feet tall and broad, nearly albino with a pink-and-white face and red eyes. When undressed after transformation, body genuinely invisible, not a translucent visible ghost.",
+        "anchors": [
+          "blue glasses",
+          "white bandage",
+          "six feet high",
+          "pink and white face and red eyes"
+        ]
+      }
+    },
+    "arms-and-the-man": {
+      "Bluntschli": {
+        "description": "A Swiss professional soldier aged thirty-four, with blue eyes and practical, energetic bearing. Clothes are dishevelled on his flight into Raina's room.",
+        "anchors": [
+          "I’m thirty-four",
+          "blue eyes"
+        ]
+      },
+      "Raina": {
+        "description": "Bulgarian woman aged twenty-three, rather than the seventeen-year-old Bluntschli assumes.",
+        "anchors": [
+          "woman of twenty-three"
+        ]
+      }
+    },
+    "pygmalion": {
+      "Eliza": {
+        "description": "Around eighteen to twenty, initially in a dusty black straw sailor hat with unwashed mousy hair and worn clothing; later clean, elegantly dressed, visibly the same person. Class changes her dress and manner, not her skin colour.",
+        "anchors": [
+          "perhaps eighteen, perhaps twenty",
+          "sailor hat of black straw",
+          "mousy"
+        ]
+      },
+      "Higgins": {
+        "description": "Robust, energetic man of about forty, in a professional black frock coat, white collar and black silk tie.",
+        "anchors": [
+          "man of forty or thereabouts",
+          "black frock-coat"
+        ]
+      }
+    },
+    "the-pickwick-papers": {
+      "Pickwick": {
+        "description": "Bald head and circular spectacles; keep these recognisable throughout his travels.",
+        "anchors": [
+          "bald head, and circular spectacles"
+        ]
+      }
+    },
+    "of-human-bondage": {
+      "Philip Carey": {
+        "description": "Begins as a nine-year-old orphan and grows into an adult. Has a club foot; portray disability naturally, without adding a missing leg or using deformity as a marker of villainy.",
+        "anchors": [
+          "nine years old",
+          "club-foot"
+        ]
+      }
+    },
+    "kim": {
+      "Kim": {
+        "description": "Child of Irish parents growing up in India, with deeply sun-darkened skin. Do not confuse ancestry with a fixed pale complexion or change his skin when he enters a British school.",
+        "anchors": [
+          "burned black",
+          "Kim was white"
+        ]
+      },
+      "The lama": {
+        "description": "An elderly Tibetan Buddhist lama and pilgrim. Tibetan, not a Hindu priest; keep Buddhist robes and pilgrimage materials coherent.",
+        "anchors": [
+          "Bhotiya [Tibetan]",
+          "a lama"
+        ]
+      }
+    },
+    "north-and-south": {
+      "Margaret Hale": {
+        "description": "Tall and finely made, with dark hair. Starts as a young woman of eighteen, often wearing restrained Victorian clothing.",
+        "anchors": [
+          "tall stately girl of eighteen",
+          "tall, finely made figure",
+          "dark hair"
+        ]
+      }
+    },
+    "the-mill-on-the-floss": {
+      "Maggie Tulliver": {
+        "description": "Long black hair, dark eyes and a brown complexion. Her English family contrasts her appearance with their fairer relatives; do not invent a different ethnicity from that contrast. Ages from a child into a young woman.",
+        "anchors": [
+          "long black hair",
+          "dark eyes",
+          "Maggie’s complexion",
+          "brown skin"
+        ]
+      }
+    },
+    "adam-bede": {
+      "Adam": {
+        "description": "Muscular, large-boned carpenter nearly six feet tall, straight jet-black hair and dark eyes; practical working clothes with sleeves rolled up.",
+        "anchors": [
+          "nearly six feet high",
+          "jet-black hair",
+          "dark eyes"
+        ]
+      }
+    },
+    "the-odyssey": {
+      "Athena": {
+        "description": "Grey-eyed goddess; disguises herself as a human adviser in some episodes. Divine identity does not require wings.",
+        "anchors": [
+          "grey-eyed Athene"
+        ]
+      },
+      "Odysseus": {
+        "description": "Athena gives him deep curling locks in scenes of restored splendour. Other scenes require a battered traveller or an aged beggar disguise, rather than permanent kingly armour.",
+        "anchors": [
+          "deep curling locks",
+          "hyacinth flower"
+        ]
+      }
+    },
+    "the-metamorphosis": {
+      "Gregor": {
+        "description": "After the opening transformation, a large brown, segmented vermin with armour-like back and many thin legs. Exact zoological species is unspecified; do not assert that Kafka defines him as a cockroach.",
+        "anchors": [
+          "armour-like back",
+          "brown belly",
+          "many legs, pitifully thin"
+        ]
+      }
+    },
+    "a-midsummer-night-s-dream": {
+      "Hermia": {
+        "description": "Noticeably shorter than Helena; their height contrast matters to their quarrel. Exact measurements are not given.",
+        "anchors": [
+          "dwarfish and so low"
+        ]
+      },
+      "Helena": {
+        "description": "Taller than Hermia, who calls her a maypole during their quarrel.",
+        "anchors": [
+          "painted maypole"
+        ]
+      }
+    },
+    "sultana-s-dream": {
+      "The Queen": {
+        "description": "About forty-three in the present dream: inherited the throne at thirteen thirty years earlier. A mature ruler supporting scientific education; complexion, hair, sari colour and royal costume are artistic interpretations.",
+        "anchors": [
+          "Thirty years ago",
+          "Queen was thirteen years old"
+        ]
+      }
+    },
+    "othello": {
+      "Othello": {
+        "description": "A Black Moor and experienced general serving Venice, older than his young wife. Specific modern ancestry and numerical height are not stated by the play. Dignified human depiction, not the animal caricatures used by his enemies.",
+        "anchors": [
+          "Haply, for I am black",
+          "a noble Moor"
+        ]
+      }
+    },
+    "wuthering-heights": {
+      "Heathcliff": {
+        "description": "Dark complexion; his childhood origins are uncertain. Lockwood compares his appearance using a racialised period label, which does not prove an ethnic identity. Child in the early recollection, powerful gentleman later.",
+        "anchors": [
+          "dark-skinned gipsy in aspect"
+        ]
+      },
+      "Cathy Linton": {
+        "description": "The younger Cathy has dark Earnshaw eyes, fair skin, small features and yellow curling hair; distinguish her from her mother Catherine Earnshaw.",
+        "anchors": [
+          "Earnshaws’ handsome dark eyes",
+          "yellow curling hair"
+        ]
+      }
+    },
+    "great-expectations": {
+      "Magwitch": {
+        "description": "In the opening marsh encounter, coarse grey clothing, an iron on his leg, broken shoes and a rag around his head. Later appearance and clothes change.",
+        "anchors": [
+          "fearful man, all in coarse grey",
+          "great iron on his leg"
+        ]
+      },
+      "Miss Havisham": {
+        "description": "White hair and an aged, faded bridal outfit with veil and bridal flowers. The dress has yellowed; it is not a pristine new wedding gown.",
+        "anchors": [
+          "her hair was white",
+          "bridal flowers"
+        ]
+      }
+    },
+    "oliver-twist": {
+      "Fagin": {
+        "description": "An older man with matted red hair, initially in a worn flannel gown. Avoid exaggerating Jewish identity into a caricature of facial anatomy.",
+        "anchors": [
+          "matted red hair",
+          "greasy flannel gown"
+        ]
+      },
+      "Bill Sikes": {
+        "description": "Stoutly built, about thirty-five, wearing a black velveteen coat, soiled drab breeches and lace-up half boots.",
+        "anchors": [
+          "stoutly-built fellow of about five-and-thirty",
+          "black velveteen coat"
+        ]
+      }
+    },
+    "emma": {
+      "Harriet Smith": {
+        "description": "Short, plump and fair, with blue eyes and light hair. Distinct from Emma and the taller elegant Jane Fairfax.",
+        "anchors": [
+          "short, plump, and fair",
+          "blue eyes, light hair"
+        ]
+      },
+      "Jane Fairfax": {
+        "description": "Elegant and graceful, of medium build and a height usually considered tall but not very tall; initially somewhat delicate in health.",
+        "anchors": [
+          "Her height was pretty",
+          "a most becoming medium"
+        ]
+      }
+    },
+    "northanger-abbey": {
+      "Catherine Morland": {
+        "description": "Seventeen during the Bath journey. Childhood description has a thin awkward figure, sallow complexion and dark lank hair; by her teens her figure and complexion have improved. Do not freeze the childhood description over the adult scenes.",
+        "anchors": [
+          "dark lank hair",
+          "age of seventeen"
+        ]
+      }
+    },
+    "mansfield-park": {
+      "Mary Crawford": {
+        "description": "Lively dark eyes and a clear brown complexion; Austen contrasts her appearance with tall, fair, fuller figures without implying a different nationality.",
+        "anchors": [
+          "lively dark eye, clear brown complexion"
+        ]
+      }
+    },
+    "the-rape-of-the-lock": {
+      "Belinda": {
+        "description": "Two curling locks hanging behind her neck and a sparkling cross at her breast, in an elaborate early eighteenth-century gown. One lock is cut; do not depict her as losing all her hair.",
+        "anchors": [
+          "Nourished two locks",
+          "a sparkling Cross"
+        ]
+      }
+    },
+    "a-tale-of-two-cities": {
+      "Lucie Manette": {
+        "description": "Short, slight young woman with golden hair and blue eyes.",
+        "anchors": [
+          "short, slight, pretty figure",
+          "a quantity of golden hair, a pair of blue eyes"
+        ]
+      }
+    },
+    "the-mayor-of-casterbridge": {
+      "Elizabeth-Jane": {
+        "description": "Light-brown hair; the contrast with the expected black hair is part of Henchard’s uncertainty over her identity.",
+        "anchors": [
+          "brown—rather light than dark"
+        ]
+      }
+    },
+    "silas-marner": {
+      "Silas Marner": {
+        "description": "Large brown eyes, initially short-sighted, and increasingly bent shoulders; white hair in the later scenes after sixteen years have passed.",
+        "anchors": [
+          "large brown eyes",
+          "bent shoulders and white hair"
+        ]
+      },
+      "Eppie": {
+        "description": "Golden-haired child who grows into a young woman over the narrative; keep her recognisable while changing age appropriately.",
+        "anchors": [
+          "hair looked like the dash of gold"
+        ]
+      }
+    },
+    "the-time-machine": {
+      "The Eloi": {
+        "description": "Small, slight future humans, with one first seen about four feet high in a purple tunic and belt. They are not miniature fairies with wings.",
+        "anchors": [
+          "perhaps four feet high",
+          "purple tunic"
+        ]
+      },
+      "The Morlocks": {
+        "description": "Pale, chinless faces and large lidless pinkish-grey eyes; subterranean future humans, not pig-headed monsters.",
+        "anchors": [
+          "pale, chinless faces",
+          "pinkish-grey eyes"
+        ]
+      }
+    },
+    "the-rime-of-the-ancient-mariner": {
+      "The Mariner": {
+        "description": "Old sailor with a long grey beard and striking, glittering eyes when he stops the Wedding Guest.",
+        "anchors": [
+          "long grey beard and glittering eye"
+        ]
+      }
+    },
+    "the-gift-of-the-magi": {
+      "Della": {
+        "description": "Initially brown hair falling below her knees. After selling it, small close curls; this change must carry through the remaining cards.",
+        "anchors": [
+          "cascade of brown waters",
+          "below her knee",
+          "tiny, close-lying curls"
+        ]
+      }
+    },
+    "the-jungle-book": {
+      "Baloo": {
+        "description": "Large old brown bear, depicted as an animal with brown fur.",
+        "anchors": [
+          "Baloo, the sleepy brown bear"
+        ]
+      },
+      "Bagheera": {
+        "description": "Black panther, inky black with markings visible in some light; feline anatomy, not a person in a black costume.",
+        "anchors": [
+          "Bagheera the Black Panther, inky black all over"
+        ]
+      },
+      "Shere Khan": {
+        "description": "Tiger with a lame paw, natural feline anatomy and stripes.",
+        "anchors": [
+          "his lame paw"
+        ]
+      },
+      "Kaa": {
+        "description": "Rock python, about thirty feet long, blunt-nosed head and a newly shed patterned skin; not a green cartoon cobra.",
+        "anchors": [
+          "Kaa the Rock Python",
+          "thirty feet of his body"
+        ]
+      },
+      "Rikki-tikki-tavi": {
+        "description": "Small mongoose with a weasel-like head, fur and tail, pink eyes and a restless pink nose; not a cat.",
+        "anchors": [
+          "He was a mongoose",
+          "His eyes and the end of his restless nose were pink"
+        ]
+      },
+      "Kotick": {
+        "description": "The white seal, with seal anatomy; distinct from the brown bears and forest mammals of the separate Mowgli stories.",
+        "anchors": [
+          "Kotick, the White Seal"
+        ]
+      }
+    },
+    "the-war-of-the-worlds": {
+      "The Martians": {
+        "description": "Large rounded grey leathery bodies or heads roughly four feet across, dark eyes and tentacles. The walking tripod is their machine, not the shape of their body.",
+        "anchors": [
+          "heads—about four feet in diameter",
+          "greyish rounded bulk",
+          "tentacles"
+        ]
+      }
+    },
+    "the-necklace": {
+      "Mathilde": {
+        "description": "Initially a young woman dressed exquisitely for the ball. After ten years of labour, older-looking with disordered hair, worn skirts and reddened working hands; keep the same underlying face.",
+        "anchors": [
+          "frowsy hair, skirts askew and red hands"
+        ]
+      }
+    },
+    "richard-iii": {
+      "Richard": {
+        "description": "The play portrays a disabled king with an impaired gait and physical asymmetry. Portray disability respectfully; costume and actions communicate ambition without making disability itself a sign of evil.",
+        "anchors": [
+          "Deformed, unfinished",
+          "lamely and unfashionable"
+        ]
+      }
+    },
+    "la-belle-dame-sans-merci": {
+      "The fairy lady": {
+        "description": "Long hair, light-footed movement and wild eyes; hair and eye colours are not specified in these lines.",
+        "anchors": [
+          "Her hair was long, her foot was light",
+          "her eyes were wild"
+        ]
+      }
+    },
+    "doctor-faustus": {
+      "Mephistopheles": {
+        "description": "After the first summoning, returns disguised as an old Franciscan friar, as Faustus requests. Use an elderly human appearance and Franciscan habit through their conversations; the initial frightening form is not the continuing disguise.",
+        "anchors": [
+          "Go, and return an old Franciscan friar",
+          "Re-enter MEPHISTOPHILIS like a Franciscan friar"
+        ]
+      }
+    },
+    "the-faerie-queene": {
+      "Duessa": {
+        "description": "At her deceptive introduction, a richly dressed lady in scarlet red embroidered with gold, wearing a Persian-style crown. Her attractive disguise later gives way to revealed ugliness; retain the distinction from Una.",
+        "anchors": [
+          "A goodly lady clad in scarlet red"
+        ]
+      }
+    },
+    "vanity-fair": {
+      "Becky Sharp": {
+        "description": "Small, slight, pale, sandy-haired and green-eyed. Preserve sandy blonde hair rather than dark hair throughout her social rise.",
+        "anchors": [
+          "pale, sandy-haired",
+          "green eyes"
+        ]
+      },
+      "Amelia Sedley": {
+        "description": "Brown hair and large eyes; her face becomes white and thin during her grief after George dies. Her hair is not blonde.",
+        "anchors": [
+          "Her pretty brown hair",
+          "Her face was white and thin"
+        ]
+      },
+      "William Dobbin": {
+        "description": "Very tall and ungainly, large hands, feet and ears; closely cropped black hair at his early appearance, later greying.",
+        "anchors": [
+          "closely cropped head of black hair",
+          "very large hands and feet"
+        ]
+      },
+      "Rawdon Crawley": {
+        "description": "A very large young dandy, six feet tall, with a loud voice. Maintain his broad size and distinguish him from tall ungainly Dobbin.",
+        "anchors": [
+          "six feet high"
+        ]
+      }
+    },
+    "the-canterbury-tales": {
+      "The Knight": {
+        "description": "Plain coarse fustian tunic stained by mail; modest travelling clothes, rather than a bright white crusader tabard.",
+        "anchors": [
+          "Of fustian he"
+        ]
+      },
+      "The Miller": {
+        "description": "Broad, muscular and large-framed, broad red beard, white coat and blue hood.",
+        "anchors": [
+          "fox was reed",
+          "whit cote",
+          "blew hood"
+        ]
+      },
+      "The Wife of Bath": {
+        "description": "Broad hips, fair ruddy face, separated teeth, fine kerchiefs, scarlet stockings; broad hat over a wimple when riding.",
+        "anchors": [
+          "Gat-tothed was she",
+          "fyn scarlet reed",
+          "hipes large"
+        ]
+      },
+      "The Pardoner": {
+        "description": "Thin shoulder-length wax-yellow hair, smooth beardless face, glaring eyes; medieval cap with a Veronica badge, without an enveloping hood.",
+        "anchors": [
+          "yelow as wex"
+        ]
+      },
+      "Harry Bailly": {
+        "description": "Large man with prominent eyes; keep his welcoming innkeeper role distinct from the pilgrims.",
+        "anchors": [
+          "eyen stepe"
+        ]
+      }
+    },
+    "heart-of-darkness": {
+      "Marlow": {
+        "description": "Sunken cheeks, yellowish complexion, straight back and a thin ascetic appearance at the Thames framing scene; preserve a thoughtful storyteller rather than a robust action-hero build.",
+        "anchors": [
+          "sunken cheeks",
+          "an ascetic aspect"
+        ]
+      },
+      "Kurtz": {
+        "description": "Conspicuously bald, exceptionally tall-looking and severely wasted, with visible thin limbs during his final illness. His reported apparent seven-foot length is an impression, not an exact measured height.",
+        "anchors": [
+          "impressively bald",
+          "seven feet long",
+          "cage of his ribs"
+        ]
+      }
+    },
+    "robinson-crusoe": {
+      "Friday": {
+        "description": "Long straight black hair, a tawny or olive-brown complexion, round face and lively eyes. Do not replace the described straight hair with tightly curled hair or infer a modern racial identity from period comparisons.",
+        "anchors": [
+          "His hair was long and black",
+          "dun olive-colour",
+          "His face was round and plump"
+        ]
+      },
+      "Crusoe": {
+        "description": "Visibly age through the island years: his stay lasts more than twenty-eight years. In his later island appearance he keeps a short beard with conspicuously long moustaches; island clothing is improvised, including goat-skin garments.",
+        "anchors": [
+          "eight-and-twenty years",
+          "pair of Mahometan whiskers"
+        ]
+      }
+    },
+    "tom-jones": {
+      "Sophia Western": {
+        "description": "A young woman in her eighteenth year, somewhat tall, delicate and proportionate. Black hair, formerly reaching her waist, is cut and curled around her neck; full arched eyebrows.",
+        "anchors": [
+          "hair, which was black",
+          "rather inclining to tall",
+          "eighteenth year"
+        ]
+      }
+    },
+    "moll-flanders": {
+      "Moll": {
+        "description": "Her appearance must age through her life. At transportation she is in her sixty-first year, and by the final return to England she is nearly seventy; the late thief, prisoner and memoir narrator are not a twenty-year-old bride.",
+        "anchors": [
+          "sixty-first year of my age",
+          "almost seventy years of age"
+        ]
+      },
+      "The Lancashire husband": {
+        "description": "Aging partner: at their late return he is sixty-eight. Keep his recognizable earlier face while visibly aging him for the later prison, transportation and prosperity scenes.",
+        "anchors": [
+          "husband sixty-eight"
+        ]
+      }
+    },
+    "the-pilgrim-s-progress": {
+      "Apollyon": {
+        "description": "A composite allegorical monster with fish-like scales, dragon wings, bear-like feet, a lion-like mouth and fire and smoke from the belly. Do not substitute a generic human knight with horns.",
+        "anchors": [
+          "scales, like a fish",
+          "wings like a dragon",
+          "feet like a bear",
+          "mouth of a lion"
+        ]
+      }
+    },
+    "a-passage-to-india": {
+      "Cyril Fielding": {
+        "description": "Already over forty when he comes to India; portray a mature civilian schoolmaster, distinct from younger officials and Dr Aziz. Hair and eye colours are artistic choices.",
+        "anchors": [
+          "over forty when he entered"
+        ]
+      },
+      "Ronny Heaslop": {
+        "description": "A civilian city magistrate, not an army officer. Use period civilian official clothing; gold military medals and a military uniform are not supported by his role. Additional physical attributes are artistic choices.",
+        "anchors": [
+          "City Magistrate",
+          "name is Mr. Heaslop"
+        ]
+      }
+    }
+  }
+}

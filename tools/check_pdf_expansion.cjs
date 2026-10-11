@@ -12,7 +12,7 @@ const root=path.resolve(__dirname,'..'),assert=(v,m)=>{if(!v)throw Error(m)};
    await page.locator(`[data-story="${s.id}"]`).click();assert(await page.locator('#scene-text').textContent()===s.scenes[0].text,'Opening narration '+s.id);
    for(const ref of s.pdfReferences){assert((await page.locator('#source-info').textContent()).includes(ref.document),'PDF provenance '+s.id);}
    await page.locator('#tab-cast').click();
-   for(const [name,kind] of Object.entries(creatures[s.id]||{})){assert(await page.locator(`#cast-grid [data-character="${name}"][data-creature="${kind}"]`).count()===1,'Creature portrait '+name);}
+   for(const [name,kind] of Object.entries(creatures[s.id]||{})){const painted=await page.evaluate(id=>!!PAINTED_ART.works[id],s.id);if(painted){assert((await page.locator('#cast-grid').textContent()).includes(name),'Named nonhuman cast '+name);}else{assert(await page.locator(`#cast-grid [data-character="${name}"][data-creature="${kind}"]`).count()===1,'Creature portrait '+name);}}
    await page.locator('#tab-story').click();await page.locator('[data-scene="11"]').click();assert(await page.locator('#scene-text').textContent()===s.scenes[11].text,'Final narration '+s.id);
    await page.locator('#close-reader').click();
   }

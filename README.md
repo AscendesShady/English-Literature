@@ -1,14 +1,18 @@
 # Once Upon a Timeline
 
-A static literature library and installable PWA built in HTML, CSS and JavaScript. Includes 158 works across eight eras, exactly 12 scenes per work (1896 total), expressive character artwork, lively storytelling, recall prompts, 158 annotated quotations, saved favourites and reading progress.
+A static literature library and installable PWA built in HTML, CSS and JavaScript. Includes 158 works across eight eras, exactly 12 scenes per work (1896 total), original painted scene illustrations, lively storytelling, recall prompts, 158 annotated quotations, saved favourites and reading progress.
+
+<!-- painted-coverage-start -->
+Painting preview release: 18 of 158 works, covering 216 of 1896 cards. The remaining cards retain their symbolic drawings while their paintings are generated or corrected. The complete art rollout and final storytelling engagement review remain unfinished.
+<!-- painted-coverage-end -->
 
 ## Open locally
 
-Open `index.html` in a browser. No installation, build, API key or backend is needed. Fonts load from Google Fonts when online, with Georgia and Arial as offline fallbacks. All illustrations are original inline SVG artwork. Content and functionality work offline.
+Open `index.html` in a browser. No installation, build, API key or backend is needed. Fonts load from Google Fonts when online, with Georgia and Arial as offline fallbacks. Paintings are compressed local WebP assets, displayed as individual scene panels through accessible SVG viewports. Content and illustrations work offline when opened locally; the hosted app caches them after installation.
 
 ## Publish on GitHub Pages
 
-1. Keep the website files in the repository root, including `manifest.json`, `sw.js`, `pwa.js`, `illustrations.js`, the complete `assets` folder and `literature by codex.docx`. The local `website-github-ready.zip` also contains these files in the correct arrangement.
+1. Keep the website files in the repository root, including `manifest.json`, `sw.js`, `pwa.js`, `painted-assets.js`, `illustrations.js`, the complete `assets` folder and `literature by codex.docx`. The local `website-github-ready.zip` also contains these files in the correct arrangement.
 2. In the repository, select **Settings → Pages → Deploy from a branch**.
 3. Select the branch containing these files and the **root** folder, then save.
 
@@ -26,7 +30,10 @@ All URLs are relative, so the site also works in a repository subdirectory. The 
 - `tools/build_document.py` generates the companion document with python-docx.
 - Era divisions are learning aids rather than strict literary-history boundaries. Ordering follows first publication, with approximate composition or performance dates where necessary. Beowulf uses its manuscript-era anchor. A date range is displayed when needed.
 - Storyboards use concise original paraphrases. They contain spoilers. Non-narrative poetry is presented through thematic landmarks. Editorial notes record ambiguities and corrections to the supplied notes.
-- The palette translates the supplied historical and environmental colors into court, spring, ocean, autumn, night, Gothic, industrial and Igbo-setting palettes. `illustrations.js` gives recurring characters consistent costumes, hair, keepsakes and roles; facial expressions and poses respond to each scene. Animals, birds, the Cyclops, spirits and personified natural forces have distinct forms. The new stories include original SVG bears, big cats, a python, mongoose, seal, Martians and a symbolic vermin form for Gregor; new female leads keep consistent portraits. Gentle blinking, gesturing, leaf movement and lighting respect reduced-motion preferences. These are symbolic storybook illustrations rather than historical portraits.
+- Each completed work has an original painted sheet containing twelve ordered scene illustrations. The reader selects the panel by its persistent scene key, so existing reading positions and saved favourites remain compatible. Covers load only as they approach the visible library area. Character cards link to related illustrated scenes; a scene thumbnail is not presented as a literal individual portrait.
+- `content/character-designs.json` records reviewed physical and costume descriptions with exact primary-edition anchors. These take precedence over familiar film designs: for example, Frankenstein's creature has yellow skin and flowing black hair, and Mephistopheles returns in an old Franciscan friar's shape. Details absent from the text are artistic interpretations. Stage insults and metaphor do not establish biological identities; height, ancestry and skin colour are never inferred from a character's name or social class.
+- `content/painted-briefs.json` contains the complete work-by-work commission prompts and twelve stable scene keys. `content/scene-art-directions.json` records indirect, non-graphic staging where a literal death scene would be unsuitable. The complete prose remains in the cards. `painted-assets.js` and `content/painted-assets.json` map the reviewed sheets to their exact panels. The website needs no image-generation service or credentials at runtime.
+- The local art pipeline is in `tools/build_art_dossiers.py`, `build_painted_briefs.py`, `import_painted_sheet.py` and `build_painted_assets.py`. Research candidates are checked before they become character profiles; nearby source passages are not automatically treated as descriptions of the named person. Source caches, original generated PNGs, commission history and visual-review records remain local QA material. The default asset builder and release packager require every work to have a reviewed painting. For an explicitly requested preview release, use `build_painted_assets.py --allow-incomplete`, `package_site.py --preview`, then `sync_site_package.py`; only approved paintings are packaged. The exact reviewed generation prompts and documented repairs are in `content/reviewed-painting-prompts.json`.
 
 ## Controls and storage
 
@@ -38,11 +45,11 @@ The heart saves a work to My shelf. Reading positions, saved works and remembere
 
 1. Publish with GitHub Pages and open the resulting **HTTPS** address on the phone. A `file://` preview cannot register a service worker or install this app.
 2. On desktop or Android Chrome, use **Install app** in the top navigation. It opens Chrome's native prompt when available; otherwise it opens installation guidance with the hosted-site link. The lower install button uses the same prompt. Buttons hide in the installed app. On iPhone, use Safari → Share → Add to Home Screen.
-3. Wait for **All 158 stories, illustrations and quotes are ready offline!** before leaving the connection. The manifest opens the installed app in standalone mode. The service worker precaches the HTML, scripts, styles, icons, full story catalogue and companion Word document; illustrations are local SVG code. Linked literary reference websites need a connection. Fonts have offline Georgia/Arial fallbacks.
+3. Wait for **All 158 stories, illustrations and quotes are ready offline!** before leaving the connection. The manifest opens the installed app in standalone mode. The service worker precaches the HTML, scripts, styles, icons, full story catalogue, companion Word document and every compressed painted sheet. The first offline preparation also downloads the complete art library; wait for the ready message. Linked literary reference websites need a connection. Fonts have offline Georgia/Arial fallbacks.
 
 `manifest.json` uses relative URLs and scope so repository subdirectories work. Icons include 192px, 512px, a separate safely padded maskable icon, and an Apple touch icon. `assets/app-icon.svg` is their source; `tools/build_icons.cjs` rasterises it with Sharp.
 
-When deploying future changes, change the `v6-20261010-pdf-literature` release identifier in `sw.js`. The next service worker installs a complete new cache, waits until the reader selects **Update and reopen**, then activates. Cache names include the registration scope, and cleanup leaves other apps' caches intact. Saved reading data lives separately in localStorage and survives updates. Browser site-data deletion removes offline files and saved progress.
+After editing runtime files or paintings, rebuild the reviewed manifest with `tools/build_painted_assets.py`. It generates a new service-worker release fingerprint from the app files and selected paintings. A complete art rollout requires all works to be reviewed; a clearly labelled preview can retain the existing drawings for pending works. The next service worker installs a complete new cache, waits until the reader selects **Update and reopen**, then activates. Cache names include the registration scope, and cleanup leaves other apps' caches intact. Saved reading data lives separately in localStorage and survives updates. Browser site-data deletion removes offline files and saved progress.
 
 ## Verification
 
@@ -53,3 +60,5 @@ When deploying future changes, change the `v6-20261010-pdf-literature` release i
 `tools/check_install.cjs` checks the top installer at desktop and mobile widths, keyboard focus, the guidance fallback, shared prompt handling, dismissal and failure recovery, and installed-app visibility. It uses synthetic install events in real Chrome; `check_pwa.cjs` separately checks Chrome's actual manifest installability. Neither test installs an app on the host.
 
 `tools/check_pdf_expansion.cjs` checks all 60 new works, their PDF provenance, nonhuman portraits, new author search and favourite persistence, and desktop/mobile reader layouts. The 267-page Word companion was rendered with Microsoft Word, checked for every card's text, and visually reviewed throughout.
+
+`tools/check_painted_art.cjs` verifies all work-specific images decode in Chrome, all twelve panels have distinct coordinates and unchanged scene keys, scene text alternatives remain available, cast links work, and the painted reader fits desktop and mobile widths. The PWA check also decodes every painting while the browser is offline. These structural checks complement the local visual review of each sheet; they do not establish exact resemblance to unspecified fictional features.

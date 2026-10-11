@@ -70,6 +70,7 @@ function keepsake(kind,p){
  const shapes={book:`<path d="M-28-20Q-12-27 0-15Q12-27 28-20V25Q12 18 0 28Q-12 18-28 25Z" fill="${l}" stroke="${k}" stroke-width="3"/><path d="M0-15V26" stroke="${k}"/>`,letter:`<rect x="-28" y="-20" width="56" height="40" fill="${l}" stroke="${k}" stroke-width="2"/><path d="M-28-20 0 4 28-20" stroke="${a}" fill="none"/>`,flower:`<path d="M0 4V42M0 22Q-27 8-11 35" stroke="${p.ground}" stroke-width="5" fill="none"/><g fill="${a}"><circle cy="-10" r="12"/><circle cx="-10" r="12"/><circle cx="10" r="12"/><circle cy="10" r="12"/></g><circle r="7" fill="${l}"/>`,sword:`<path d="M-5-45 5-45 5 20H-5Z" fill="${p.sky}" stroke="${k}"/><path d="M-19 21H19M0 23V43" stroke="${a}" stroke-width="7"/>`,staff:`<path d="M0-38Q-24-57-22-29M0-38V65" stroke="${a}" stroke-width="7" fill="none"/>`,brush:`<path d="M0-15V49" stroke="${a}" stroke-width="7"/><path d="M-9-16 0-36 9-16Z" fill="${k}"/>`,flask:`<path d="M-9-35H9V-10L30 28H-30L-9-10Z" fill="${p.sky}" stroke="${k}" stroke-width="3"/>`,candle:`<path d="M-8-5H8V42H-8Z" fill="${l}"/><path class="candle-glow" d="M0-7Q-22-24 0-43Q18-24 0-7" fill="${a}"/>`,rope:`<path d="M-23 13Q-40-24-7-22Q24-16 8 14Q-3 40-22 13Q-1-9 17 14L31 40" stroke="${a}" stroke-width="7" fill="none"/>`,coins:`<circle r="24" fill="${a}" stroke="${k}" stroke-width="2"/><path d="M0-13V14M-10-5H8M-8 6H10" stroke="${l}" stroke-width="3"/>`,cloth:`<path d="M-26-20 24-15 30 29-26 23Z" fill="${l}" stroke="${a}" stroke-width="3"/>`,bow:`<path d="M-12-40Q40 0-12 40V-40M-30 0H31" fill="none" stroke="${a}" stroke-width="4"/>`,star:`<path d="M0-30 8-8 31-8 12 7 20 30 0 17-20 30-12 7-31-8-8-8Z" fill="${l}"/>`};return shapes[kind]||shapes.book;
 }
 function livingIllustration(s,f,cover=false){
+ const painted=paintedIllustration(s,f,cover);if(painted)return painted;
  const p=storyPalette(s),e={...eraFor(s),bg:p.bg,ink:p.ink,accent:p.accent},people=f.cast.map(n=>s.characters.find(c=>c.name===n)).filter(Boolean).slice(0,3),positions=people.length===1?[350]:people.length===2?[240,465]:[180,350,535];
  const night=p.theme==='night'||p.theme==='gothic'||['ghost','grave','moon'].includes(f.motif),sky=night?p.ground:p.sky;
  const unique=`art-${s.id}-${f.chapter||0}-${cover?'cover':'scene'}`;
@@ -81,4 +82,32 @@ function livingIllustration(s,f,cover=false){
  const machine=s.id==='the-time-machine'?`<g transform="translate(80 100)"><circle r="48" fill="${p.bg}" stroke="${p.accent}" stroke-width="10"/><path d="M0-30V0L24 17" stroke="${p.ink}" stroke-width="5"/><path d="M-34 45-50 120M34 45 50 120M-53 122H54" stroke="${p.accent}" stroke-width="8"/></g>`:'';
  const foliage=['garden','forest','wind','sunrise'].includes(f.motif)?`<g class="foliage" fill="${p.light}" opacity=".9">${[0,1,2,3,4].map(i=>`<path d="M${55+i*130} ${90+(i%2)*35}q22-20 30 1q-24 20-30-1"/>`).join('')}</g>`:'';
  return `<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${escapeHTML(f.title+': '+people.map(c=>c.name).join(', ')+'. '+f.mood+' storybook scene.')}"><defs><linearGradient id="${unique}" x2="0" y2="1"><stop stop-color="${sky}"/><stop offset="1" stop-color="${p.bg}"/></linearGradient></defs><rect width="700" height="400" fill="url(#${unique})"/><circle class="candle-glow" cx="588" cy="60" r="35" fill="${p.light}" opacity=".8"/>${night?`<circle cx="602" cy="48" r="30" fill="${sky}"/>${[80,175,390,475].map((x,i)=>`<path d="M${x} ${35+i*14}v9m-4-4h9" stroke="${p.light}" stroke-width="2"/>`).join('')}`:''}<path d="M0 271Q160 220 340 268T700 252V400H0Z" fill="${p.ground}" opacity=".23"/>${scenery(f.motif,e)}${farm}${machine}${foliage}${special?(special.includes('<g transform=')||f.motif==='urn'||f.motif==='music'?special:`<g transform="translate(571 117) scale(.9)">${special}</g>`):''}${people.map((c,i)=>characterPortrait(s,c,s.characters.indexOf(c),positions[i],cover?159:154,cover?.83:.93,f.mood,i===0&&people.length>1?'speak':f.motif==='book'?'read':'listen')).join('')}<path d="M0 355Q160 331 360 350T700 352V400H0Z" fill="${p.bg}"/>${!cover?people.map((c,i)=>`<text x="${positions[i]}" y="379" text-anchor="middle" fill="${p.ink}" font-family="Georgia,serif" font-size="13">${escapeHTML(c.name.length>24?c.name.slice(0,22)+'…':c.name)}</text>`).join(''):''}<path d="M20 20H80M20 20V75M680 20H620M680 20V75" stroke="${p.light}" stroke-width="2" fill="none" opacity=".7"/></svg>`;
+}
+
+function paintedIllustration(s,f,cover=false){
+ const art=globalThis.PAINTED_ART?.works[s.id];if(!art)return '';
+ const index=art.sceneKeys.indexOf(f.key);if(index<0)return '';
+ const x=index%art.columns,y=Math.floor(index/art.columns);
+ return `<svg class="painted-scene" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${escapeHTML(f.title+'. '+f.text)}" data-artwork="painted" data-scene-key="${escapeHTML(f.key)}" overflow="hidden"><title>${escapeHTML(s.title+': '+f.title)}</title><desc>Original painted interpretation of this scene. ${escapeHTML(f.text)}</desc><image ${cover?'data-painting-src':'href'}="${escapeHTML(art.file)}" x="${-x*700}" y="${-y*400}" width="${art.columns*700}" height="${art.rows*400}" preserveAspectRatio="none"/></svg>`;
+}
+
+let paintedCoverObserver;
+function loadPaintedCovers(){
+ paintedCoverObserver?.disconnect();
+ const images=[...document.querySelectorAll('[data-painting-src]')];
+ if(!('IntersectionObserver' in globalThis)){for(const img of images)img.setAttribute('href',img.dataset.paintingSrc);return;}
+ paintedCoverObserver=new IntersectionObserver(entries=>{for(const entry of entries)if(entry.isIntersecting){const img=entry.target;img.setAttribute('href',img.dataset.paintingSrc);paintedCoverObserver.unobserve(img);}},{rootMargin:'350px'});
+ for(const img of images)paintedCoverObserver.observe(img);
+}
+
+function illustratedCastCard(s,c,index){
+ const profile=globalThis.PAINTED_ART?.characters[s.id]?.[c.name];
+ const note=profile?`<p class="cast-appearance">${escapeHTML(profile.description)}</p>`:'';
+ if(!globalThis.PAINTED_ART?.works[s.id])return `<article class="cast-card"><svg viewBox="-70 -40 140 240" role="img" aria-label="Symbolic portrait of ${escapeHTML(c.name)}">${characterPortrait(s,c,index,0,0,1)}</svg><h3>${escapeHTML(c.name)}</h3><p>${escapeHTML(c.role)}</p>${note}</article>`;
+ let sceneIndex=s.scenes.findIndex(f=>f.cast.includes(c.name));
+ const normalize=text=>text.toLowerCase().replace(/[^a-z0-9 ]/g,'');
+ if(sceneIndex<0){const names=[normalize(c.name),normalize(c.name.split(' ').at(-1))].filter(n=>n.length>3);sceneIndex=s.scenes.findIndex(f=>names.some(n=>normalize(f.text).includes(n)));}
+ if(sceneIndex<0)return `<article class="cast-card painted-cast-card"><h3>${escapeHTML(c.name)}</h3><p>${escapeHTML(c.role)}</p>${note}</article>`;
+ const frame=s.scenes[sceneIndex];
+ return `<article class="cast-card painted-cast-card"><button class="cast-scene" data-cast-scene="${sceneIndex}" aria-label="Read the scene related to ${escapeHTML(c.name)}: ${escapeHTML(frame.title)}">${paintedIllustration(s,frame)}<span>Read the related scene ↗</span></button><h3>${escapeHTML(c.name)}</h3><p>${escapeHTML(c.role)}</p>${note}</article>`;
 }
