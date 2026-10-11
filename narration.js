@@ -51,6 +51,8 @@
   const task=chain.catch(()=>{}).then(async()=>{
    if(!relevant())return null;
    const saved=await globalThis.NarrationStore.get(frame,v,pace).catch(()=>null);if(saved)return saved;
+   const current=bridge.getFrame();
+   if(state==='loading'&&current?.storyId===frame.storyId&&current?.key===frame.key&&voice.value===v&&Number(speed.value)===pace)update(ready?'Preparing this card’s narration…':'Preparing the neural voice… First use downloads about 115 MB.');
    await engine();const audio=await call('generate',{text:frame.text,voice:v,speed:pace});
    try{audio.storedBytes=await globalThis.NarrationStore.put(frame,v,pace,audio);}catch(error){if(strict)throw error;}
    return audio;
@@ -82,7 +84,7 @@
  async function listen(resume=false){
   const frame=bridge.getFrame();if(!frame)return;
   const t=++token;hush();if(!resume){offset=0;buffer=null;}
-  state='loading';update(ready?'Preparing this card’s narration…':'Preparing the neural voice… First use downloads about 115 MB.');
+  state='loading';update('Starting narration…');
   try{
    await unlock();
    if(!buffer){const audio=await pcm(frame,voice.value);if(t!==token||!audio)return;buffer=context.createBuffer(1,audio.samples.length,audio.sampleRate);buffer.copyToChannel(audio.samples,0);}

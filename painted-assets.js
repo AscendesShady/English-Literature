@@ -302,6 +302,12 @@ self.PAINTED_ART = {
           "Her height was pretty",
           "a most becoming medium"
         ]
+      },
+      "Mr. Knightley": {
+        "description": "About thirty-seven or thirty-eight, a mature family friend. Keep his face and age consistent and distinct from younger Frank Churchill. Hair colour is an artistic interpretation.",
+        "anchors": [
+          "about seven or eight-and-thirty"
+        ]
       }
     },
     "northanger-abbey": {
@@ -638,6 +644,53 @@ self.PAINTED_ART = {
           "name is Mr. Heaslop"
         ]
       }
+    },
+    "sense-and-sensibility": {
+      "Elinor Dashwood": {
+        "description": "Delicate complexion, regular features and a pleasing figure. Marianne is taller; hair colour and numerical heights are not supplied here.",
+        "anchors": [
+          "Miss Dashwood had a delicate complexion, regular features",
+          "advantage of height"
+        ]
+      },
+      "Marianne Dashwood": {
+        "description": "Taller than Elinor, with a brown, bright complexion and very dark expressive eyes. Preserve the author-described complexion without assigning a modern ethnic identity. Hair colour is an artistic choice.",
+        "anchors": [
+          "Her skin was very brown",
+          "eyes, which were very dark",
+          "advantage of height"
+        ]
+      },
+      "Edward Ferrars": {
+        "description": "Not conventionally handsome; shy, reserved manners. Use an unassuming face rather than a polished romantic celebrity design. Hair and eye colour are unspecified in this passage.",
+        "anchors": [
+          "He was not handsome",
+          "too diffident"
+        ]
+      },
+      "Colonel Brandon": {
+        "description": "Older than thirty-five, with a sensible rather than conventionally handsome face and gentlemanly bearing. Mature, not an elderly grandfather.",
+        "anchors": [
+          "wrong side of five and thirty",
+          "his countenance was sensible"
+        ]
+      }
+    },
+    "romeo-and-juliet": {
+      "Juliet": {
+        "description": "Nearly fourteen, explicitly not yet fourteen in the early scenes. Depict a young teenager in modest period clothes, with no adult glamour or sexualised styling. Hair colour and exact height are not specified here.",
+        "anchors": [
+          "She hath not seen the change of fourteen years"
+        ]
+      }
+    },
+    "king-lear": {
+      "Lear": {
+        "description": "Describes himself as eighty years old and upward; an elderly king whose physical frailty becomes visible during exposure. Hair colour is an artistic choice.",
+        "anchors": [
+          "Fourscore and upward"
+        ]
+      }
     }
   },
   "works": {
@@ -686,6 +739,52 @@ self.PAINTED_ART = {
       ],
       "source": "https://www.gutenberg.org/ebooks/16328",
       "bytes": 367144
+    },
+    "the-canterbury-tales": {
+      "file": "assets/painted/the-canterbury-tales.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-canterbury-tales:base:0",
+        "the-canterbury-tales:extra:0",
+        "the-canterbury-tales:base:1",
+        "the-canterbury-tales:extra:1",
+        "the-canterbury-tales:base:2",
+        "the-canterbury-tales:extra:2",
+        "the-canterbury-tales:base:3",
+        "the-canterbury-tales:extra:3",
+        "the-canterbury-tales:base:4",
+        "the-canterbury-tales:base:5",
+        "the-canterbury-tales:extra:4",
+        "the-canterbury-tales:base:6"
+      ],
+      "source": "https://chaucer.fas.harvard.edu/pages/general-prologue-0",
+      "bytes": 351942
+    },
+    "the-spanish-tragedy": {
+      "file": "assets/painted/the-spanish-tragedy.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-spanish-tragedy:base:0",
+        "the-spanish-tragedy:extra:0",
+        "the-spanish-tragedy:base:1",
+        "the-spanish-tragedy:extra:1",
+        "the-spanish-tragedy:base:2",
+        "the-spanish-tragedy:extra:2",
+        "the-spanish-tragedy:base:3",
+        "the-spanish-tragedy:extra:3",
+        "the-spanish-tragedy:base:4",
+        "the-spanish-tragedy:base:5",
+        "the-spanish-tragedy:extra:4",
+        "the-spanish-tragedy:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/6043",
+      "bytes": 329394
     },
     "the-faerie-queene": {
       "file": "assets/painted/the-faerie-queene.webp",
@@ -756,6 +855,29 @@ self.PAINTED_ART = {
       "source": "https://www.gutenberg.org/ebooks/1531",
       "bytes": 296458
     },
+    "macbeth": {
+      "file": "assets/painted/macbeth.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "macbeth:base:0",
+        "macbeth:extra:0",
+        "macbeth:base:1",
+        "macbeth:extra:1",
+        "macbeth:base:2",
+        "macbeth:extra:2",
+        "macbeth:extra:3",
+        "macbeth:base:3",
+        "macbeth:base:4",
+        "macbeth:base:5",
+        "macbeth:extra:4",
+        "macbeth:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/1533",
+      "bytes": 298212
+    },
     "the-tempest": {
       "file": "assets/painted/the-tempest.webp",
       "width": 1437,
@@ -825,6 +947,29 @@ self.PAINTED_ART = {
       "source": "https://www.poetryfoundation.org/poems/44688/to-his-coy-mistress",
       "bytes": 323478
     },
+    "the-way-of-the-world": {
+      "file": "assets/painted/the-way-of-the-world.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-way-of-the-world:base:0",
+        "the-way-of-the-world:extra:0",
+        "the-way-of-the-world:base:1",
+        "the-way-of-the-world:extra:1",
+        "the-way-of-the-world:base:2",
+        "the-way-of-the-world:extra:2",
+        "the-way-of-the-world:base:3",
+        "the-way-of-the-world:extra:3",
+        "the-way-of-the-world:base:4",
+        "the-way-of-the-world:base:5",
+        "the-way-of-the-world:extra:4",
+        "the-way-of-the-world:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/1292",
+      "bytes": 326780
+    },
     "the-rape-of-the-lock": {
       "file": "assets/painted/the-rape-of-the-lock.webp",
       "width": 1437,
@@ -847,6 +992,29 @@ self.PAINTED_ART = {
       ],
       "source": "https://www.gutenberg.org/ebooks/9800",
       "bytes": 398196
+    },
+    "lyrical-ballads": {
+      "file": "assets/painted/lyrical-ballads.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "lyrical-ballads:base:0",
+        "lyrical-ballads:extra:0",
+        "lyrical-ballads:base:1",
+        "lyrical-ballads:extra:1",
+        "lyrical-ballads:base:2",
+        "lyrical-ballads:extra:2",
+        "lyrical-ballads:base:3",
+        "lyrical-ballads:extra:3",
+        "lyrical-ballads:base:4",
+        "lyrical-ballads:base:5",
+        "lyrical-ballads:extra:4",
+        "lyrical-ballads:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/8905",
+      "bytes": 342438
     },
     "the-excursion": {
       "file": "assets/painted/the-excursion.webp",
@@ -894,6 +1062,29 @@ self.PAINTED_ART = {
       "source": "https://www.gutenberg.org/ebooks/41445",
       "bytes": 382900
     },
+    "vanity-fair": {
+      "file": "assets/painted/vanity-fair.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "vanity-fair:base:0",
+        "vanity-fair:extra:0",
+        "vanity-fair:base:1",
+        "vanity-fair:extra:1",
+        "vanity-fair:base:2",
+        "vanity-fair:extra:2",
+        "vanity-fair:base:3",
+        "vanity-fair:extra:3",
+        "vanity-fair:base:4",
+        "vanity-fair:base:5",
+        "vanity-fair:extra:4",
+        "vanity-fair:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/599",
+      "bytes": 373002
+    },
     "in-memoriam-a-h-h": {
       "file": "assets/painted/in-memoriam-a-h-h.webp",
       "width": 1437,
@@ -940,6 +1131,52 @@ self.PAINTED_ART = {
       "source": "https://www.gutenberg.org/ebooks/2130",
       "bytes": 435408
     },
+    "a-midsummer-night-s-dream": {
+      "file": "assets/painted/a-midsummer-night-s-dream.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "a-midsummer-night-s-dream:base:0",
+        "a-midsummer-night-s-dream:extra:0",
+        "a-midsummer-night-s-dream:base:1",
+        "a-midsummer-night-s-dream:extra:1",
+        "a-midsummer-night-s-dream:base:2",
+        "a-midsummer-night-s-dream:extra:2",
+        "a-midsummer-night-s-dream:base:3",
+        "a-midsummer-night-s-dream:extra:3",
+        "a-midsummer-night-s-dream:base:4",
+        "a-midsummer-night-s-dream:base:5",
+        "a-midsummer-night-s-dream:extra:4",
+        "a-midsummer-night-s-dream:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/1514",
+      "bytes": 362220
+    },
+    "hamlet": {
+      "file": "assets/painted/hamlet.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "hamlet:base:0",
+        "hamlet:extra:0",
+        "hamlet:base:1",
+        "hamlet:extra:1",
+        "hamlet:base:2",
+        "hamlet:extra:2",
+        "hamlet:base:3",
+        "hamlet:extra:3",
+        "hamlet:base:4",
+        "hamlet:extra:4",
+        "hamlet:base:5",
+        "hamlet:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/1524",
+      "bytes": 296710
+    },
     "death-be-not-proud": {
       "file": "assets/painted/death-be-not-proud.webp",
       "width": 1437,
@@ -962,6 +1199,144 @@ self.PAINTED_ART = {
       ],
       "source": "https://www.poetryfoundation.org/poems/44107/holy-sonnets-death-be-not-proud",
       "bytes": 371432
+    },
+    "the-pilgrim-s-progress": {
+      "file": "assets/painted/the-pilgrim-s-progress.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-pilgrim-s-progress:base:0",
+        "the-pilgrim-s-progress:extra:0",
+        "the-pilgrim-s-progress:base:1",
+        "the-pilgrim-s-progress:extra:1",
+        "the-pilgrim-s-progress:base:2",
+        "the-pilgrim-s-progress:extra:2",
+        "the-pilgrim-s-progress:base:3",
+        "the-pilgrim-s-progress:extra:3",
+        "the-pilgrim-s-progress:base:4",
+        "the-pilgrim-s-progress:base:5",
+        "the-pilgrim-s-progress:extra:4",
+        "the-pilgrim-s-progress:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/131",
+      "bytes": 434966
+    },
+    "robinson-crusoe": {
+      "file": "assets/painted/robinson-crusoe.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "robinson-crusoe:base:0",
+        "robinson-crusoe:extra:0",
+        "robinson-crusoe:base:1",
+        "robinson-crusoe:extra:1",
+        "robinson-crusoe:base:2",
+        "robinson-crusoe:extra:2",
+        "robinson-crusoe:base:3",
+        "robinson-crusoe:extra:3",
+        "robinson-crusoe:base:4",
+        "robinson-crusoe:base:5",
+        "robinson-crusoe:extra:4",
+        "robinson-crusoe:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/521",
+      "bytes": 387690
+    },
+    "moll-flanders": {
+      "file": "assets/painted/moll-flanders.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "moll-flanders:base:0",
+        "moll-flanders:extra:0",
+        "moll-flanders:base:1",
+        "moll-flanders:extra:1",
+        "moll-flanders:base:2",
+        "moll-flanders:extra:2",
+        "moll-flanders:base:3",
+        "moll-flanders:extra:3",
+        "moll-flanders:base:4",
+        "moll-flanders:base:5",
+        "moll-flanders:extra:4",
+        "moll-flanders:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/370",
+      "bytes": 352448
+    },
+    "gulliver-s-travels": {
+      "file": "assets/painted/gulliver-s-travels.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "gulliver-s-travels:base:0",
+        "gulliver-s-travels:extra:0",
+        "gulliver-s-travels:base:1",
+        "gulliver-s-travels:extra:1",
+        "gulliver-s-travels:base:2",
+        "gulliver-s-travels:extra:2",
+        "gulliver-s-travels:base:3",
+        "gulliver-s-travels:extra:3",
+        "gulliver-s-travels:base:4",
+        "gulliver-s-travels:base:5",
+        "gulliver-s-travels:extra:4",
+        "gulliver-s-travels:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/829",
+      "bytes": 437578
+    },
+    "tom-jones": {
+      "file": "assets/painted/tom-jones.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "tom-jones:base:0",
+        "tom-jones:extra:0",
+        "tom-jones:base:1",
+        "tom-jones:extra:1",
+        "tom-jones:base:2",
+        "tom-jones:extra:2",
+        "tom-jones:base:3",
+        "tom-jones:extra:3",
+        "tom-jones:base:4",
+        "tom-jones:base:5",
+        "tom-jones:extra:4",
+        "tom-jones:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/6593",
+      "bytes": 309824
+    },
+    "tristram-shandy": {
+      "file": "assets/painted/tristram-shandy.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "tristram-shandy:base:0",
+        "tristram-shandy:extra:0",
+        "tristram-shandy:base:1",
+        "tristram-shandy:extra:1",
+        "tristram-shandy:base:2",
+        "tristram-shandy:extra:2",
+        "tristram-shandy:base:3",
+        "tristram-shandy:extra:3",
+        "tristram-shandy:base:4",
+        "tristram-shandy:base:5",
+        "tristram-shandy:extra:4",
+        "tristram-shandy:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/1079",
+      "bytes": 389686
     },
     "tintern-abbey": {
       "file": "assets/painted/tintern-abbey.webp",
@@ -986,6 +1361,167 @@ self.PAINTED_ART = {
       "source": "https://www.poetryfoundation.org/poems/45527/lines-composed-a-few-miles-above-tintern-abbey-on-revisiting-the-banks-of-the-wye-during-a-tour-july-13-1798",
       "bytes": 441432
     },
+    "the-prelude": {
+      "file": "assets/painted/the-prelude.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-prelude:base:0",
+        "the-prelude:extra:0",
+        "the-prelude:base:1",
+        "the-prelude:extra:1",
+        "the-prelude:base:2",
+        "the-prelude:extra:2",
+        "the-prelude:base:3",
+        "the-prelude:extra:3",
+        "the-prelude:base:4",
+        "the-prelude:base:5",
+        "the-prelude:extra:4",
+        "the-prelude:base:6"
+      ],
+      "source": "https://viscomi.sites.oasis.unc.edu/viscomi/coursepack/wordsworth/Wordsworth-Prelude.pdf",
+      "bytes": 375526
+    },
+    "the-rime-of-the-ancient-mariner": {
+      "file": "assets/painted/the-rime-of-the-ancient-mariner.webp",
+      "width": 1436,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-rime-of-the-ancient-mariner:base:0",
+        "the-rime-of-the-ancient-mariner:extra:0",
+        "the-rime-of-the-ancient-mariner:base:1",
+        "the-rime-of-the-ancient-mariner:extra:1",
+        "the-rime-of-the-ancient-mariner:base:2",
+        "the-rime-of-the-ancient-mariner:extra:2",
+        "the-rime-of-the-ancient-mariner:base:3",
+        "the-rime-of-the-ancient-mariner:extra:3",
+        "the-rime-of-the-ancient-mariner:base:4",
+        "the-rime-of-the-ancient-mariner:extra:4",
+        "the-rime-of-the-ancient-mariner:base:5",
+        "the-rime-of-the-ancient-mariner:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/151",
+      "bytes": 344882
+    },
+    "kubla-khan": {
+      "file": "assets/painted/kubla-khan.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "kubla-khan:base:0",
+        "kubla-khan:extra:0",
+        "kubla-khan:base:1",
+        "kubla-khan:extra:1",
+        "kubla-khan:base:2",
+        "kubla-khan:extra:2",
+        "kubla-khan:base:3",
+        "kubla-khan:extra:3",
+        "kubla-khan:base:4",
+        "kubla-khan:base:5",
+        "kubla-khan:extra:4",
+        "kubla-khan:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/11101",
+      "bytes": 433174
+    },
+    "ozymandias": {
+      "file": "assets/painted/ozymandias.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "ozymandias:base:0",
+        "ozymandias:extra:0",
+        "ozymandias:base:1",
+        "ozymandias:extra:1",
+        "ozymandias:base:2",
+        "ozymandias:extra:2",
+        "ozymandias:base:3",
+        "ozymandias:extra:3",
+        "ozymandias:base:4",
+        "ozymandias:base:5",
+        "ozymandias:extra:4",
+        "ozymandias:base:6"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/46565/ozymandias",
+      "bytes": 397160
+    },
+    "ode-to-the-west-wind": {
+      "file": "assets/painted/ode-to-the-west-wind.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "ode-to-the-west-wind:base:0",
+        "ode-to-the-west-wind:extra:0",
+        "ode-to-the-west-wind:base:1",
+        "ode-to-the-west-wind:extra:1",
+        "ode-to-the-west-wind:base:2",
+        "ode-to-the-west-wind:extra:2",
+        "ode-to-the-west-wind:base:3",
+        "ode-to-the-west-wind:extra:3",
+        "ode-to-the-west-wind:base:4",
+        "ode-to-the-west-wind:base:5",
+        "ode-to-the-west-wind:extra:4",
+        "ode-to-the-west-wind:base:6"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/45134/ode-to-the-west-wind",
+      "bytes": 465976
+    },
+    "ode-to-a-nightingale": {
+      "file": "assets/painted/ode-to-a-nightingale.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "ode-to-a-nightingale:base:0",
+        "ode-to-a-nightingale:extra:0",
+        "ode-to-a-nightingale:base:1",
+        "ode-to-a-nightingale:extra:1",
+        "ode-to-a-nightingale:base:2",
+        "ode-to-a-nightingale:extra:2",
+        "ode-to-a-nightingale:base:3",
+        "ode-to-a-nightingale:extra:3",
+        "ode-to-a-nightingale:base:4",
+        "ode-to-a-nightingale:base:5",
+        "ode-to-a-nightingale:extra:4",
+        "ode-to-a-nightingale:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/23684",
+      "bytes": 421382
+    },
+    "to-autumn": {
+      "file": "assets/painted/to-autumn.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "to-autumn:base:0",
+        "to-autumn:extra:0",
+        "to-autumn:base:1",
+        "to-autumn:extra:1",
+        "to-autumn:base:2",
+        "to-autumn:extra:2",
+        "to-autumn:base:3",
+        "to-autumn:extra:3",
+        "to-autumn:base:4",
+        "to-autumn:base:5",
+        "to-autumn:extra:4",
+        "to-autumn:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/23684",
+      "bytes": 498288
+    },
     "pride-and-prejudice": {
       "file": "assets/painted/pride-and-prejudice.webp",
       "width": 1437,
@@ -1009,6 +1545,52 @@ self.PAINTED_ART = {
       "source": "https://www.gutenberg.org/ebooks/1342",
       "bytes": 369698
     },
+    "sense-and-sensibility": {
+      "file": "assets/painted/sense-and-sensibility.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "sense-and-sensibility:base:0",
+        "sense-and-sensibility:extra:0",
+        "sense-and-sensibility:base:1",
+        "sense-and-sensibility:extra:1",
+        "sense-and-sensibility:base:2",
+        "sense-and-sensibility:extra:2",
+        "sense-and-sensibility:base:3",
+        "sense-and-sensibility:extra:3",
+        "sense-and-sensibility:base:4",
+        "sense-and-sensibility:base:5",
+        "sense-and-sensibility:extra:4",
+        "sense-and-sensibility:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/161",
+      "bytes": 286286
+    },
+    "emma": {
+      "file": "assets/painted/emma.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "emma:base:0",
+        "emma:extra:0",
+        "emma:base:1",
+        "emma:extra:1",
+        "emma:base:2",
+        "emma:extra:2",
+        "emma:base:3",
+        "emma:extra:3",
+        "emma:base:4",
+        "emma:base:5",
+        "emma:extra:4",
+        "emma:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/158",
+      "bytes": 288444
+    },
     "jane-eyre": {
       "file": "assets/painted/jane-eyre.webp",
       "width": 1437,
@@ -1031,6 +1613,75 @@ self.PAINTED_ART = {
       ],
       "source": "https://www.gutenberg.org/ebooks/1260",
       "bytes": 298518
+    },
+    "wuthering-heights": {
+      "file": "assets/painted/wuthering-heights.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "wuthering-heights:base:0",
+        "wuthering-heights:extra:0",
+        "wuthering-heights:base:1",
+        "wuthering-heights:extra:1",
+        "wuthering-heights:base:2",
+        "wuthering-heights:extra:2",
+        "wuthering-heights:base:3",
+        "wuthering-heights:extra:3",
+        "wuthering-heights:base:4",
+        "wuthering-heights:base:5",
+        "wuthering-heights:extra:4",
+        "wuthering-heights:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/768",
+      "bytes": 257324
+    },
+    "great-expectations": {
+      "file": "assets/painted/great-expectations.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "great-expectations:base:0",
+        "great-expectations:extra:0",
+        "great-expectations:base:1",
+        "great-expectations:extra:1",
+        "great-expectations:base:2",
+        "great-expectations:extra:2",
+        "great-expectations:base:3",
+        "great-expectations:extra:3",
+        "great-expectations:base:4",
+        "great-expectations:base:5",
+        "great-expectations:extra:4",
+        "great-expectations:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/1400",
+      "bytes": 289200
+    },
+    "a-tale-of-two-cities": {
+      "file": "assets/painted/a-tale-of-two-cities.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "a-tale-of-two-cities:base:0",
+        "a-tale-of-two-cities:extra:0",
+        "a-tale-of-two-cities:base:1",
+        "a-tale-of-two-cities:extra:1",
+        "a-tale-of-two-cities:base:2",
+        "a-tale-of-two-cities:extra:2",
+        "a-tale-of-two-cities:base:3",
+        "a-tale-of-two-cities:extra:3",
+        "a-tale-of-two-cities:base:4",
+        "a-tale-of-two-cities:base:5",
+        "a-tale-of-two-cities:extra:4",
+        "a-tale-of-two-cities:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/98",
+      "bytes": 308048
     },
     "sultana-s-dream": {
       "file": "assets/painted/sultana-s-dream.webp",
