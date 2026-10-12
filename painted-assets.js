@@ -86,20 +86,62 @@ self.PAINTED_ART = {
           "six feet high",
           "pink and white face and red eyes"
         ]
+      },
+      "Dr Kemp": {
+        "description": "Tall and slender young adult with flaxen hair and almost-white moustache.",
+        "anchors": [
+          "tall and slender young man",
+          "flaxen hair and a moustache almost white"
+        ]
+      },
+      "Marvel": {
+        "description": "Short thick-set/stout man, short limbs, cylindrical nose, ample mouth, eccentric bristling beard and shabby furry silk hat.",
+        "anchors": [
+          "short, thick-set man",
+          "beard of bristling eccentricity"
+        ]
       }
     },
     "arms-and-the-man": {
       "Bluntschli": {
-        "description": "A Swiss professional soldier aged thirty-four, with blue eyes and practical, energetic bearing. Clothes are dishevelled on his flight into Raina's room.",
+        "description": "Thirty-four, middling stature, strong neck and shoulders, roundish head, short crisp bronze curls, clear quick blue eyes.",
         "anchors": [
-          "I’m thirty-four",
-          "blue eyes"
+          "short crisp bronze curls",
+          "clear quick blue eyes"
         ]
       },
       "Raina": {
         "description": "Bulgarian woman aged twenty-three, rather than the seventeen-year-old Bluntschli assumes.",
         "anchors": [
           "woman of twenty-three"
+        ]
+      },
+      "Catherine": {
+        "description": "Over forty, energetic, magnificent black hair and eyes. Fashionable tea gown or Bulgarian apron as scene changes.",
+        "anchors": [
+          "over forty",
+          "magnificent black hair"
+        ]
+      },
+      "Sergius": {
+        "description": "Tall romantically handsome cavalry officer, moustache, theatrical grace. Distinct from practical Bluntschli.",
+        "anchors": [
+          "tall, romantically handsome",
+          "twirl his moustache"
+        ]
+      },
+      "Louka": {
+        "description": "Proud young woman in Bulgarian peasant dress with double apron, distinct from Raina. Unspecified exact colouring artistic.",
+        "anchors": [
+          "pretty Bulgarian peasant dress",
+          "double apron"
+        ]
+      },
+      "Nicola": {
+        "description": "Middle-aged practical man-servant, distinct from the two soldiers. Unspecified exact colouring artistic.",
+        "anchors": [
+          "middle-aged man",
+          "cool temperament"
         ]
       }
     },
@@ -961,9 +1003,18 @@ self.PAINTED_ART = {
         ]
       },
       "Little Arthur": {
-        "description": "Appears about five in the opening main-time encounters; younger in diary memories of marriage/family beginnings. Clearly a child distinct from adult father Arthur Huntingdon.",
+        "description": "About five in opening encounters, younger in early memories. The infancy portrait has tiny features, large blue eyes and light-brown curls; retain a recognizable child distinct from adult Huntingdon.",
         "anchors": [
-          "apparently about five years old"
+          "tiny features and large blue eyes",
+          "light brown curls"
+        ]
+      },
+      "Arthur Huntingdon": {
+        "description": "Abundant wavy chestnut curls, reddish whiskers, bright blue eyes and warmly tinted cheeks in the hidden portrait of the youthful adult husband. Keep distinct from Gilbert and Frederick without an exaggerated villain caricature.",
+        "anchors": [
+          "bright blue eyes",
+          "reddish whiskers",
+          "bright chestnut hair"
         ]
       }
     },
@@ -995,9 +1046,10 @@ self.PAINTED_ART = {
     },
     "daisy-miller": {
       "Winterbourne": {
-        "description": "About twenty-seven at the Swiss meeting. A young adult observer, not a middle-aged guardian or relative; hair and eye colours remain artistic choices.",
+        "description": "About twenty-seven, with a mustache he repeatedly curls. Hair and eye colours are artistic choices.",
         "anchors": [
-          "some seven-and-twenty years of age"
+          "twenty-seven",
+          "curling his mustache"
         ]
       },
       "Mrs Costello": {
@@ -1005,6 +1057,20 @@ self.PAINTED_ART = {
         "anchors": [
           "a long, pale face, a high nose",
           "very striking white hair"
+        ]
+      },
+      "Giovanelli": {
+        "description": "Small handsome Italian gentleman with mustaches, poised hat, cane, and a monocle and buttonhole nosegay in the public encounter. Distinct from Winterbourne.",
+        "anchors": [
+          "a little man",
+          "curled his mustaches"
+        ]
+      },
+      "Mrs Miller": {
+        "description": "Small, spare mother with large forehead and thin frizzled hair; not the aunt with elaborate white hair.",
+        "anchors": [
+          "small, spare",
+          "thin, much frizzled hair"
         ]
       }
     },
@@ -1021,6 +1087,45 @@ self.PAINTED_ART = {
           "Two large, black eyes",
           "a round face",
           "flap of skin connecting them"
+        ]
+      }
+    },
+    "the-rocking-horse-winner": {
+      "Paul": {
+        "description": "Child with dark rather long curly hair and large blue eyes set rather close together. Green pyjamas in final riding/discovery scene.",
+        "anchors": [
+          "waving dark hair",
+          "big, hot, blue eyes"
+        ]
+      },
+      "Hester": {
+        "description": "Blonde mother; pale green and crystal evening dress at discovery, white fur cloak removed before going upstairs.",
+        "anchors": [
+          "blonde",
+          "pale green and crystal"
+        ]
+      },
+      "Bassett": {
+        "description": "Young shortish gardener, little brown moustache and sharp brown eyes; left foot wounded in the war, distinct from handsome Uncle Oscar.",
+        "anchors": [
+          "young gardener",
+          "little brown moustache"
+        ]
+      }
+    },
+    "the-importance-of-being-earnest": {
+      "Jack Worthing": {
+        "description": "Twenty-nine in interview, blue eyes commented on by Gwendolen; actually Algernon elder brother. Additional physical appearance artistic.",
+        "anchors": [
+          "blue eyes",
+          "Twenty-nine"
+        ]
+      },
+      "Cecily Cardew": {
+        "description": "Eighteen, modest simple dress and natural hair; distinct younger ward from Gwendolen.",
+        "anchors": [
+          "only just eighteen",
+          "dress is sadly simple"
         ]
       }
     }
@@ -8220,6 +8325,115 @@ self.PAINTED_ART = {
         }
       ]
     },
+    "the-importance-of-being-earnest": {
+      "file": "assets/painted/the-importance-of-being-earnest.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-importance-of-being-earnest:base:0",
+        "the-importance-of-being-earnest:extra:0",
+        "the-importance-of-being-earnest:base:1",
+        "the-importance-of-being-earnest:extra:1",
+        "the-importance-of-being-earnest:base:2",
+        "the-importance-of-being-earnest:extra:2",
+        "the-importance-of-being-earnest:base:3",
+        "the-importance-of-being-earnest:extra:3",
+        "the-importance-of-being-earnest:base:4",
+        "the-importance-of-being-earnest:base:5",
+        "the-importance-of-being-earnest:extra:4",
+        "the-importance-of-being-earnest:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/844",
+      "bytes": 273144,
+      "regions": [
+        {
+          "key": "the-importance-of-being-earnest:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 470,
+          "height": 261
+        },
+        {
+          "key": "the-importance-of-being-earnest:extra:0",
+          "x": 485,
+          "y": 3,
+          "width": 467,
+          "height": 261
+        },
+        {
+          "key": "the-importance-of-being-earnest:base:1",
+          "x": 965,
+          "y": 3,
+          "width": 469,
+          "height": 261
+        },
+        {
+          "key": "the-importance-of-being-earnest:extra:1",
+          "x": 3,
+          "y": 274,
+          "width": 470,
+          "height": 263
+        },
+        {
+          "key": "the-importance-of-being-earnest:base:2",
+          "x": 485,
+          "y": 274,
+          "width": 467,
+          "height": 263
+        },
+        {
+          "key": "the-importance-of-being-earnest:extra:2",
+          "x": 965,
+          "y": 274,
+          "width": 469,
+          "height": 263
+        },
+        {
+          "key": "the-importance-of-being-earnest:base:3",
+          "x": 3,
+          "y": 547,
+          "width": 470,
+          "height": 252
+        },
+        {
+          "key": "the-importance-of-being-earnest:extra:3",
+          "x": 485,
+          "y": 547,
+          "width": 467,
+          "height": 252
+        },
+        {
+          "key": "the-importance-of-being-earnest:base:4",
+          "x": 965,
+          "y": 547,
+          "width": 469,
+          "height": 252
+        },
+        {
+          "key": "the-importance-of-being-earnest:base:5",
+          "x": 3,
+          "y": 809,
+          "width": 470,
+          "height": 283
+        },
+        {
+          "key": "the-importance-of-being-earnest:extra:4",
+          "x": 485,
+          "y": 809,
+          "width": 467,
+          "height": 283
+        },
+        {
+          "key": "the-importance-of-being-earnest:base:6",
+          "x": 965,
+          "y": 809,
+          "width": 469,
+          "height": 283
+        }
+      ]
+    },
     "strange-case-of-dr-jekyll-and-mr-hyde": {
       "file": "assets/painted/strange-case-of-dr-jekyll-and-mr-hyde.webp",
       "width": 1437,
@@ -10727,6 +10941,115 @@ self.PAINTED_ART = {
         }
       ]
     },
+    "the-pickwick-papers": {
+      "file": "assets/painted/the-pickwick-papers.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-pickwick-papers:base:0",
+        "the-pickwick-papers:base:1",
+        "the-pickwick-papers:base:2",
+        "the-pickwick-papers:base:3",
+        "the-pickwick-papers:base:4",
+        "the-pickwick-papers:base:5",
+        "the-pickwick-papers:base:6",
+        "the-pickwick-papers:base:7",
+        "the-pickwick-papers:base:8",
+        "the-pickwick-papers:base:9",
+        "the-pickwick-papers:base:10",
+        "the-pickwick-papers:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/580",
+      "bytes": 236728,
+      "regions": [
+        {
+          "key": "the-pickwick-papers:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 470,
+          "height": 264
+        },
+        {
+          "key": "the-pickwick-papers:base:1",
+          "x": 483,
+          "y": 3,
+          "width": 471,
+          "height": 264
+        },
+        {
+          "key": "the-pickwick-papers:base:2",
+          "x": 964,
+          "y": 3,
+          "width": 470,
+          "height": 264
+        },
+        {
+          "key": "the-pickwick-papers:base:3",
+          "x": 3,
+          "y": 275,
+          "width": 470,
+          "height": 267
+        },
+        {
+          "key": "the-pickwick-papers:base:4",
+          "x": 483,
+          "y": 275,
+          "width": 471,
+          "height": 267
+        },
+        {
+          "key": "the-pickwick-papers:base:5",
+          "x": 964,
+          "y": 275,
+          "width": 470,
+          "height": 267
+        },
+        {
+          "key": "the-pickwick-papers:base:6",
+          "x": 3,
+          "y": 551,
+          "width": 470,
+          "height": 252
+        },
+        {
+          "key": "the-pickwick-papers:base:7",
+          "x": 483,
+          "y": 551,
+          "width": 471,
+          "height": 252
+        },
+        {
+          "key": "the-pickwick-papers:base:8",
+          "x": 964,
+          "y": 551,
+          "width": 470,
+          "height": 252
+        },
+        {
+          "key": "the-pickwick-papers:base:9",
+          "x": 3,
+          "y": 811,
+          "width": 470,
+          "height": 281
+        },
+        {
+          "key": "the-pickwick-papers:base:10",
+          "x": 483,
+          "y": 811,
+          "width": 471,
+          "height": 281
+        },
+        {
+          "key": "the-pickwick-papers:base:11",
+          "x": 964,
+          "y": 811,
+          "width": 470,
+          "height": 281
+        }
+      ]
+    },
     "cranford": {
       "file": "assets/painted/cranford.webp",
       "width": 1437,
@@ -10945,6 +11268,442 @@ self.PAINTED_ART = {
         }
       ]
     },
+    "adam-bede": {
+      "file": "assets/painted/adam-bede.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "adam-bede:base:0",
+        "adam-bede:base:1",
+        "adam-bede:base:2",
+        "adam-bede:base:3",
+        "adam-bede:base:4",
+        "adam-bede:base:5",
+        "adam-bede:base:6",
+        "adam-bede:base:7",
+        "adam-bede:base:8",
+        "adam-bede:base:9",
+        "adam-bede:base:10",
+        "adam-bede:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/507",
+      "bytes": 260182,
+      "regions": [
+        {
+          "key": "adam-bede:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 472,
+          "height": 268
+        },
+        {
+          "key": "adam-bede:base:1",
+          "x": 481,
+          "y": 3,
+          "width": 474,
+          "height": 268
+        },
+        {
+          "key": "adam-bede:base:2",
+          "x": 963,
+          "y": 3,
+          "width": 471,
+          "height": 268
+        },
+        {
+          "key": "adam-bede:base:3",
+          "x": 3,
+          "y": 277,
+          "width": 470,
+          "height": 266
+        },
+        {
+          "key": "adam-bede:base:4",
+          "x": 480,
+          "y": 277,
+          "width": 475,
+          "height": 266
+        },
+        {
+          "key": "adam-bede:base:5",
+          "x": 963,
+          "y": 277,
+          "width": 471,
+          "height": 266
+        },
+        {
+          "key": "adam-bede:base:6",
+          "x": 3,
+          "y": 550,
+          "width": 470,
+          "height": 252
+        },
+        {
+          "key": "adam-bede:base:7",
+          "x": 480,
+          "y": 550,
+          "width": 475,
+          "height": 252
+        },
+        {
+          "key": "adam-bede:base:8",
+          "x": 963,
+          "y": 550,
+          "width": 471,
+          "height": 252
+        },
+        {
+          "key": "adam-bede:base:9",
+          "x": 3,
+          "y": 809,
+          "width": 469,
+          "height": 283
+        },
+        {
+          "key": "adam-bede:base:10",
+          "x": 480,
+          "y": 809,
+          "width": 475,
+          "height": 283
+        },
+        {
+          "key": "adam-bede:base:11",
+          "x": 963,
+          "y": 809,
+          "width": 471,
+          "height": 283
+        }
+      ]
+    },
+    "romola": {
+      "file": "assets/painted/romola.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "romola:base:0",
+        "romola:base:1",
+        "romola:base:2",
+        "romola:base:3",
+        "romola:base:4",
+        "romola:base:5",
+        "romola:base:6",
+        "romola:base:7",
+        "romola:base:8",
+        "romola:base:9",
+        "romola:base:10",
+        "romola:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/24020",
+      "bytes": 228942,
+      "regions": [
+        {
+          "key": "romola:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 471,
+          "height": 264
+        },
+        {
+          "key": "romola:base:1",
+          "x": 480,
+          "y": 3,
+          "width": 476,
+          "height": 264
+        },
+        {
+          "key": "romola:base:2",
+          "x": 962,
+          "y": 3,
+          "width": 472,
+          "height": 264
+        },
+        {
+          "key": "romola:base:3",
+          "x": 3,
+          "y": 273,
+          "width": 471,
+          "height": 270
+        },
+        {
+          "key": "romola:base:4",
+          "x": 480,
+          "y": 273,
+          "width": 476,
+          "height": 270
+        },
+        {
+          "key": "romola:base:5",
+          "x": 962,
+          "y": 273,
+          "width": 472,
+          "height": 270
+        },
+        {
+          "key": "romola:base:6",
+          "x": 3,
+          "y": 549,
+          "width": 471,
+          "height": 255
+        },
+        {
+          "key": "romola:base:7",
+          "x": 480,
+          "y": 549,
+          "width": 476,
+          "height": 255
+        },
+        {
+          "key": "romola:base:8",
+          "x": 962,
+          "y": 549,
+          "width": 472,
+          "height": 255
+        },
+        {
+          "key": "romola:base:9",
+          "x": 3,
+          "y": 810,
+          "width": 471,
+          "height": 281
+        },
+        {
+          "key": "romola:base:10",
+          "x": 480,
+          "y": 810,
+          "width": 476,
+          "height": 281
+        },
+        {
+          "key": "romola:base:11",
+          "x": 962,
+          "y": 810,
+          "width": 472,
+          "height": 281
+        }
+      ]
+    },
+    "the-tenant-of-wildfell-hall": {
+      "file": "assets/painted/the-tenant-of-wildfell-hall.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-tenant-of-wildfell-hall:base:0",
+        "the-tenant-of-wildfell-hall:base:1",
+        "the-tenant-of-wildfell-hall:base:2",
+        "the-tenant-of-wildfell-hall:base:3",
+        "the-tenant-of-wildfell-hall:base:4",
+        "the-tenant-of-wildfell-hall:base:5",
+        "the-tenant-of-wildfell-hall:base:6",
+        "the-tenant-of-wildfell-hall:base:7",
+        "the-tenant-of-wildfell-hall:base:8",
+        "the-tenant-of-wildfell-hall:base:9",
+        "the-tenant-of-wildfell-hall:base:10",
+        "the-tenant-of-wildfell-hall:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/969",
+      "bytes": 191344,
+      "regions": [
+        {
+          "key": "the-tenant-of-wildfell-hall:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 472,
+          "height": 262
+        },
+        {
+          "key": "the-tenant-of-wildfell-hall:base:1",
+          "x": 482,
+          "y": 3,
+          "width": 473,
+          "height": 262
+        },
+        {
+          "key": "the-tenant-of-wildfell-hall:base:2",
+          "x": 962,
+          "y": 3,
+          "width": 472,
+          "height": 262
+        },
+        {
+          "key": "the-tenant-of-wildfell-hall:base:3",
+          "x": 3,
+          "y": 271,
+          "width": 472,
+          "height": 264
+        },
+        {
+          "key": "the-tenant-of-wildfell-hall:base:4",
+          "x": 482,
+          "y": 271,
+          "width": 473,
+          "height": 264
+        },
+        {
+          "key": "the-tenant-of-wildfell-hall:base:5",
+          "x": 962,
+          "y": 271,
+          "width": 472,
+          "height": 264
+        },
+        {
+          "key": "the-tenant-of-wildfell-hall:base:6",
+          "x": 3,
+          "y": 542,
+          "width": 472,
+          "height": 246
+        },
+        {
+          "key": "the-tenant-of-wildfell-hall:base:7",
+          "x": 482,
+          "y": 542,
+          "width": 472,
+          "height": 246
+        },
+        {
+          "key": "the-tenant-of-wildfell-hall:base:8",
+          "x": 961,
+          "y": 542,
+          "width": 473,
+          "height": 246
+        },
+        {
+          "key": "the-tenant-of-wildfell-hall:base:9",
+          "x": 3,
+          "y": 795,
+          "width": 473,
+          "height": 297
+        },
+        {
+          "key": "the-tenant-of-wildfell-hall:base:10",
+          "x": 482,
+          "y": 795,
+          "width": 471,
+          "height": 297
+        },
+        {
+          "key": "the-tenant-of-wildfell-hall:base:11",
+          "x": 960,
+          "y": 795,
+          "width": 474,
+          "height": 297
+        }
+      ]
+    },
+    "agnes-grey": {
+      "file": "assets/painted/agnes-grey.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "agnes-grey:base:0",
+        "agnes-grey:base:1",
+        "agnes-grey:base:2",
+        "agnes-grey:base:3",
+        "agnes-grey:base:4",
+        "agnes-grey:base:5",
+        "agnes-grey:base:6",
+        "agnes-grey:base:7",
+        "agnes-grey:base:8",
+        "agnes-grey:base:9",
+        "agnes-grey:base:10",
+        "agnes-grey:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/767",
+      "bytes": 254024,
+      "regions": [
+        {
+          "key": "agnes-grey:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 467,
+          "height": 261
+        },
+        {
+          "key": "agnes-grey:base:1",
+          "x": 484,
+          "y": 3,
+          "width": 469,
+          "height": 261
+        },
+        {
+          "key": "agnes-grey:base:2",
+          "x": 967,
+          "y": 3,
+          "width": 467,
+          "height": 261
+        },
+        {
+          "key": "agnes-grey:base:3",
+          "x": 3,
+          "y": 274,
+          "width": 467,
+          "height": 260
+        },
+        {
+          "key": "agnes-grey:base:4",
+          "x": 484,
+          "y": 274,
+          "width": 469,
+          "height": 260
+        },
+        {
+          "key": "agnes-grey:base:5",
+          "x": 967,
+          "y": 274,
+          "width": 467,
+          "height": 260
+        },
+        {
+          "key": "agnes-grey:base:6",
+          "x": 3,
+          "y": 543,
+          "width": 467,
+          "height": 244
+        },
+        {
+          "key": "agnes-grey:base:7",
+          "x": 484,
+          "y": 543,
+          "width": 469,
+          "height": 244
+        },
+        {
+          "key": "agnes-grey:base:8",
+          "x": 967,
+          "y": 543,
+          "width": 467,
+          "height": 244
+        },
+        {
+          "key": "agnes-grey:base:9",
+          "x": 3,
+          "y": 798,
+          "width": 467,
+          "height": 294
+        },
+        {
+          "key": "agnes-grey:base:10",
+          "x": 483,
+          "y": 798,
+          "width": 470,
+          "height": 294
+        },
+        {
+          "key": "agnes-grey:base:11",
+          "x": 967,
+          "y": 798,
+          "width": 467,
+          "height": 294
+        }
+      ]
+    },
     "treasure-island": {
       "file": "assets/painted/treasure-island.webp",
       "width": 1437,
@@ -11160,6 +11919,442 @@ self.PAINTED_ART = {
           "y": 806,
           "width": 473,
           "height": 285
+        }
+      ]
+    },
+    "the-professor": {
+      "file": "assets/painted/the-professor.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-professor:base:0",
+        "the-professor:base:1",
+        "the-professor:base:2",
+        "the-professor:base:3",
+        "the-professor:base:4",
+        "the-professor:base:5",
+        "the-professor:base:6",
+        "the-professor:base:7",
+        "the-professor:base:8",
+        "the-professor:base:9",
+        "the-professor:base:10",
+        "the-professor:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/1028",
+      "bytes": 226284,
+      "regions": [
+        {
+          "key": "the-professor:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 471,
+          "height": 262
+        },
+        {
+          "key": "the-professor:base:1",
+          "x": 482,
+          "y": 3,
+          "width": 473,
+          "height": 262
+        },
+        {
+          "key": "the-professor:base:2",
+          "x": 963,
+          "y": 3,
+          "width": 471,
+          "height": 262
+        },
+        {
+          "key": "the-professor:base:3",
+          "x": 3,
+          "y": 272,
+          "width": 470,
+          "height": 264
+        },
+        {
+          "key": "the-professor:base:4",
+          "x": 482,
+          "y": 272,
+          "width": 473,
+          "height": 264
+        },
+        {
+          "key": "the-professor:base:5",
+          "x": 964,
+          "y": 272,
+          "width": 470,
+          "height": 264
+        },
+        {
+          "key": "the-professor:base:6",
+          "x": 3,
+          "y": 543,
+          "width": 470,
+          "height": 233
+        },
+        {
+          "key": "the-professor:base:7",
+          "x": 482,
+          "y": 543,
+          "width": 473,
+          "height": 233
+        },
+        {
+          "key": "the-professor:base:8",
+          "x": 963,
+          "y": 543,
+          "width": 471,
+          "height": 233
+        },
+        {
+          "key": "the-professor:base:9",
+          "x": 3,
+          "y": 783,
+          "width": 470,
+          "height": 309
+        },
+        {
+          "key": "the-professor:base:10",
+          "x": 481,
+          "y": 783,
+          "width": 473,
+          "height": 309
+        },
+        {
+          "key": "the-professor:base:11",
+          "x": 963,
+          "y": 783,
+          "width": 471,
+          "height": 309
+        }
+      ]
+    },
+    "daisy-miller": {
+      "file": "assets/painted/daisy-miller.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "daisy-miller:base:0",
+        "daisy-miller:base:1",
+        "daisy-miller:base:2",
+        "daisy-miller:base:3",
+        "daisy-miller:base:4",
+        "daisy-miller:base:5",
+        "daisy-miller:base:6",
+        "daisy-miller:base:7",
+        "daisy-miller:base:8",
+        "daisy-miller:base:9",
+        "daisy-miller:base:10",
+        "daisy-miller:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/208",
+      "bytes": 195308,
+      "regions": [
+        {
+          "key": "daisy-miller:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 471,
+          "height": 260
+        },
+        {
+          "key": "daisy-miller:base:1",
+          "x": 482,
+          "y": 3,
+          "width": 471,
+          "height": 260
+        },
+        {
+          "key": "daisy-miller:base:2",
+          "x": 962,
+          "y": 3,
+          "width": 472,
+          "height": 260
+        },
+        {
+          "key": "daisy-miller:base:3",
+          "x": 3,
+          "y": 270,
+          "width": 471,
+          "height": 265
+        },
+        {
+          "key": "daisy-miller:base:4",
+          "x": 482,
+          "y": 270,
+          "width": 471,
+          "height": 265
+        },
+        {
+          "key": "daisy-miller:base:5",
+          "x": 962,
+          "y": 270,
+          "width": 472,
+          "height": 265
+        },
+        {
+          "key": "daisy-miller:base:6",
+          "x": 3,
+          "y": 541,
+          "width": 471,
+          "height": 249
+        },
+        {
+          "key": "daisy-miller:base:7",
+          "x": 482,
+          "y": 541,
+          "width": 472,
+          "height": 249
+        },
+        {
+          "key": "daisy-miller:base:8",
+          "x": 962,
+          "y": 541,
+          "width": 472,
+          "height": 249
+        },
+        {
+          "key": "daisy-miller:base:9",
+          "x": 3,
+          "y": 798,
+          "width": 471,
+          "height": 294
+        },
+        {
+          "key": "daisy-miller:base:10",
+          "x": 482,
+          "y": 798,
+          "width": 475,
+          "height": 294
+        },
+        {
+          "key": "daisy-miller:base:11",
+          "x": 963,
+          "y": 798,
+          "width": 471,
+          "height": 294
+        }
+      ]
+    },
+    "the-war-of-the-worlds": {
+      "file": "assets/painted/the-war-of-the-worlds.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-war-of-the-worlds:base:0",
+        "the-war-of-the-worlds:base:1",
+        "the-war-of-the-worlds:base:2",
+        "the-war-of-the-worlds:base:3",
+        "the-war-of-the-worlds:base:4",
+        "the-war-of-the-worlds:base:5",
+        "the-war-of-the-worlds:base:6",
+        "the-war-of-the-worlds:base:7",
+        "the-war-of-the-worlds:base:8",
+        "the-war-of-the-worlds:base:9",
+        "the-war-of-the-worlds:base:10",
+        "the-war-of-the-worlds:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/36",
+      "bytes": 251448,
+      "regions": [
+        {
+          "key": "the-war-of-the-worlds:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 471,
+          "height": 262
+        },
+        {
+          "key": "the-war-of-the-worlds:base:1",
+          "x": 484,
+          "y": 3,
+          "width": 469,
+          "height": 262
+        },
+        {
+          "key": "the-war-of-the-worlds:base:2",
+          "x": 963,
+          "y": 3,
+          "width": 471,
+          "height": 262
+        },
+        {
+          "key": "the-war-of-the-worlds:base:3",
+          "x": 3,
+          "y": 273,
+          "width": 471,
+          "height": 258
+        },
+        {
+          "key": "the-war-of-the-worlds:base:4",
+          "x": 484,
+          "y": 273,
+          "width": 469,
+          "height": 258
+        },
+        {
+          "key": "the-war-of-the-worlds:base:5",
+          "x": 963,
+          "y": 273,
+          "width": 471,
+          "height": 258
+        },
+        {
+          "key": "the-war-of-the-worlds:base:6",
+          "x": 3,
+          "y": 540,
+          "width": 471,
+          "height": 258
+        },
+        {
+          "key": "the-war-of-the-worlds:base:7",
+          "x": 484,
+          "y": 540,
+          "width": 469,
+          "height": 258
+        },
+        {
+          "key": "the-war-of-the-worlds:base:8",
+          "x": 963,
+          "y": 540,
+          "width": 471,
+          "height": 258
+        },
+        {
+          "key": "the-war-of-the-worlds:base:9",
+          "x": 3,
+          "y": 808,
+          "width": 470,
+          "height": 284
+        },
+        {
+          "key": "the-war-of-the-worlds:base:10",
+          "x": 484,
+          "y": 808,
+          "width": 469,
+          "height": 284
+        },
+        {
+          "key": "the-war-of-the-worlds:base:11",
+          "x": 963,
+          "y": 808,
+          "width": 471,
+          "height": 284
+        }
+      ]
+    },
+    "the-invisible-man": {
+      "file": "assets/painted/the-invisible-man.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-invisible-man:base:0",
+        "the-invisible-man:base:1",
+        "the-invisible-man:base:2",
+        "the-invisible-man:base:3",
+        "the-invisible-man:base:4",
+        "the-invisible-man:base:5",
+        "the-invisible-man:base:6",
+        "the-invisible-man:base:7",
+        "the-invisible-man:base:8",
+        "the-invisible-man:base:9",
+        "the-invisible-man:base:10",
+        "the-invisible-man:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/5230",
+      "bytes": 247738,
+      "regions": [
+        {
+          "key": "the-invisible-man:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 468,
+          "height": 261
+        },
+        {
+          "key": "the-invisible-man:base:1",
+          "x": 480,
+          "y": 3,
+          "width": 470,
+          "height": 261
+        },
+        {
+          "key": "the-invisible-man:base:2",
+          "x": 959,
+          "y": 3,
+          "width": 475,
+          "height": 261
+        },
+        {
+          "key": "the-invisible-man:base:3",
+          "x": 3,
+          "y": 272,
+          "width": 467,
+          "height": 259
+        },
+        {
+          "key": "the-invisible-man:base:4",
+          "x": 480,
+          "y": 272,
+          "width": 470,
+          "height": 259
+        },
+        {
+          "key": "the-invisible-man:base:5",
+          "x": 959,
+          "y": 272,
+          "width": 475,
+          "height": 259
+        },
+        {
+          "key": "the-invisible-man:base:6",
+          "x": 3,
+          "y": 539,
+          "width": 467,
+          "height": 251
+        },
+        {
+          "key": "the-invisible-man:base:7",
+          "x": 480,
+          "y": 539,
+          "width": 469,
+          "height": 251
+        },
+        {
+          "key": "the-invisible-man:base:8",
+          "x": 956,
+          "y": 539,
+          "width": 478,
+          "height": 251
+        },
+        {
+          "key": "the-invisible-man:base:9",
+          "x": 3,
+          "y": 798,
+          "width": 467,
+          "height": 294
+        },
+        {
+          "key": "the-invisible-man:base:10",
+          "x": 480,
+          "y": 798,
+          "width": 469,
+          "height": 294
+        },
+        {
+          "key": "the-invisible-man:base:11",
+          "x": 959,
+          "y": 798,
+          "width": 475,
+          "height": 294
         }
       ]
     },
@@ -11599,6 +12794,115 @@ self.PAINTED_ART = {
         }
       ]
     },
+    "the-rocking-horse-winner": {
+      "file": "assets/painted/the-rocking-horse-winner.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-rocking-horse-winner:base:0",
+        "the-rocking-horse-winner:base:1",
+        "the-rocking-horse-winner:base:2",
+        "the-rocking-horse-winner:base:3",
+        "the-rocking-horse-winner:base:4",
+        "the-rocking-horse-winner:base:5",
+        "the-rocking-horse-winner:base:6",
+        "the-rocking-horse-winner:base:7",
+        "the-rocking-horse-winner:base:8",
+        "the-rocking-horse-winner:base:9",
+        "the-rocking-horse-winner:base:10",
+        "the-rocking-horse-winner:base:11"
+      ],
+      "source": "https://gutenberg.net.au/ebooks04/0400301h.html",
+      "bytes": 259304,
+      "regions": [
+        {
+          "key": "the-rocking-horse-winner:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 471,
+          "height": 262
+        },
+        {
+          "key": "the-rocking-horse-winner:base:1",
+          "x": 484,
+          "y": 3,
+          "width": 469,
+          "height": 262
+        },
+        {
+          "key": "the-rocking-horse-winner:base:2",
+          "x": 963,
+          "y": 3,
+          "width": 471,
+          "height": 262
+        },
+        {
+          "key": "the-rocking-horse-winner:base:3",
+          "x": 3,
+          "y": 274,
+          "width": 471,
+          "height": 269
+        },
+        {
+          "key": "the-rocking-horse-winner:base:4",
+          "x": 484,
+          "y": 274,
+          "width": 469,
+          "height": 269
+        },
+        {
+          "key": "the-rocking-horse-winner:base:5",
+          "x": 962,
+          "y": 274,
+          "width": 472,
+          "height": 269
+        },
+        {
+          "key": "the-rocking-horse-winner:base:6",
+          "x": 3,
+          "y": 551,
+          "width": 470,
+          "height": 256
+        },
+        {
+          "key": "the-rocking-horse-winner:base:7",
+          "x": 484,
+          "y": 551,
+          "width": 468,
+          "height": 256
+        },
+        {
+          "key": "the-rocking-horse-winner:base:8",
+          "x": 961,
+          "y": 551,
+          "width": 473,
+          "height": 256
+        },
+        {
+          "key": "the-rocking-horse-winner:base:9",
+          "x": 3,
+          "y": 815,
+          "width": 470,
+          "height": 277
+        },
+        {
+          "key": "the-rocking-horse-winner:base:10",
+          "x": 483,
+          "y": 815,
+          "width": 468,
+          "height": 277
+        },
+        {
+          "key": "the-rocking-horse-winner:base:11",
+          "x": 961,
+          "y": 815,
+          "width": 473,
+          "height": 277
+        }
+      ]
+    },
     "the-necklace": {
       "file": "assets/painted/the-necklace.webp",
       "width": 1437,
@@ -11922,6 +13226,224 @@ self.PAINTED_ART = {
           "x": 962,
           "y": 811,
           "width": 472,
+          "height": 281
+        }
+      ]
+    },
+    "arms-and-the-man": {
+      "file": "assets/painted/arms-and-the-man.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "arms-and-the-man:base:0",
+        "arms-and-the-man:base:1",
+        "arms-and-the-man:base:2",
+        "arms-and-the-man:base:3",
+        "arms-and-the-man:base:4",
+        "arms-and-the-man:base:5",
+        "arms-and-the-man:base:6",
+        "arms-and-the-man:base:7",
+        "arms-and-the-man:base:8",
+        "arms-and-the-man:base:9",
+        "arms-and-the-man:base:10",
+        "arms-and-the-man:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/3618",
+      "bytes": 226904,
+      "regions": [
+        {
+          "key": "arms-and-the-man:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 469,
+          "height": 259
+        },
+        {
+          "key": "arms-and-the-man:base:1",
+          "x": 485,
+          "y": 3,
+          "width": 468,
+          "height": 259
+        },
+        {
+          "key": "arms-and-the-man:base:2",
+          "x": 966,
+          "y": 3,
+          "width": 468,
+          "height": 259
+        },
+        {
+          "key": "arms-and-the-man:base:3",
+          "x": 3,
+          "y": 273,
+          "width": 468,
+          "height": 264
+        },
+        {
+          "key": "arms-and-the-man:base:4",
+          "x": 485,
+          "y": 273,
+          "width": 467,
+          "height": 264
+        },
+        {
+          "key": "arms-and-the-man:base:5",
+          "x": 966,
+          "y": 273,
+          "width": 468,
+          "height": 264
+        },
+        {
+          "key": "arms-and-the-man:base:6",
+          "x": 3,
+          "y": 548,
+          "width": 468,
+          "height": 248
+        },
+        {
+          "key": "arms-and-the-man:base:7",
+          "x": 486,
+          "y": 548,
+          "width": 466,
+          "height": 248
+        },
+        {
+          "key": "arms-and-the-man:base:8",
+          "x": 967,
+          "y": 548,
+          "width": 467,
+          "height": 248
+        },
+        {
+          "key": "arms-and-the-man:base:9",
+          "x": 3,
+          "y": 805,
+          "width": 468,
+          "height": 286
+        },
+        {
+          "key": "arms-and-the-man:base:10",
+          "x": 485,
+          "y": 805,
+          "width": 467,
+          "height": 286
+        },
+        {
+          "key": "arms-and-the-man:base:11",
+          "x": 966,
+          "y": 805,
+          "width": 468,
+          "height": 286
+        }
+      ]
+    },
+    "pygmalion": {
+      "file": "assets/painted/pygmalion.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "pygmalion:base:0",
+        "pygmalion:base:1",
+        "pygmalion:base:2",
+        "pygmalion:base:3",
+        "pygmalion:base:4",
+        "pygmalion:base:5",
+        "pygmalion:base:6",
+        "pygmalion:base:7",
+        "pygmalion:base:8",
+        "pygmalion:base:9",
+        "pygmalion:base:10",
+        "pygmalion:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/3825",
+      "bytes": 248336,
+      "regions": [
+        {
+          "key": "pygmalion:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 472,
+          "height": 262
+        },
+        {
+          "key": "pygmalion:base:1",
+          "x": 481,
+          "y": 3,
+          "width": 474,
+          "height": 262
+        },
+        {
+          "key": "pygmalion:base:2",
+          "x": 961,
+          "y": 3,
+          "width": 473,
+          "height": 262
+        },
+        {
+          "key": "pygmalion:base:3",
+          "x": 3,
+          "y": 271,
+          "width": 473,
+          "height": 274
+        },
+        {
+          "key": "pygmalion:base:4",
+          "x": 482,
+          "y": 271,
+          "width": 475,
+          "height": 274
+        },
+        {
+          "key": "pygmalion:base:5",
+          "x": 963,
+          "y": 271,
+          "width": 471,
+          "height": 274
+        },
+        {
+          "key": "pygmalion:base:6",
+          "x": 3,
+          "y": 551,
+          "width": 472,
+          "height": 254
+        },
+        {
+          "key": "pygmalion:base:7",
+          "x": 481,
+          "y": 551,
+          "width": 476,
+          "height": 254
+        },
+        {
+          "key": "pygmalion:base:8",
+          "x": 963,
+          "y": 551,
+          "width": 471,
+          "height": 254
+        },
+        {
+          "key": "pygmalion:base:9",
+          "x": 3,
+          "y": 811,
+          "width": 473,
+          "height": 281
+        },
+        {
+          "key": "pygmalion:base:10",
+          "x": 482,
+          "y": 811,
+          "width": 473,
+          "height": 281
+        },
+        {
+          "key": "pygmalion:base:11",
+          "x": 961,
+          "y": 811,
+          "width": 473,
           "height": 281
         }
       ]
