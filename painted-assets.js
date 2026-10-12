@@ -151,6 +151,13 @@ self.PAINTED_ART = {
           "Bhotiya [Tibetan]",
           "a lama"
         ]
+      },
+      "Mahbub Ali": {
+        "description": "Big burly older Afghan horse trader, beard dyed reddish with lime to cover grey hair. Respectful human portrait, no exaggerated ethnic anatomy.",
+        "anchors": [
+          "big burly Afghan",
+          "his beard dyed scarlet with lime"
+        ]
       }
     },
     "north-and-south": {
@@ -171,6 +178,13 @@ self.PAINTED_ART = {
           "dark eyes",
           "Maggie’s complexion",
           "brown skin"
+        ]
+      },
+      "Philip Wakem": {
+        "description": "A spinal curvature/hump is explicit in the narration. Depict respectfully with a distinct thoughtful face, never a grotesque villain or an invented disease diagnosis. Child in school-era scenes, adult during later meetings with Maggie.",
+        "anchors": [
+          "the deformity of Philip’s spine",
+          "noticing the hump"
         ]
       }
     },
@@ -206,6 +220,20 @@ self.PAINTED_ART = {
           "armour-like back",
           "brown belly",
           "many legs, pitifully thin"
+        ]
+      },
+      "Grete": {
+        "description": "Seventeen during the household crisis and still youthful at the ending. Modestly dressed; no sudden multi-decade aging or portrayal as Gregor wife.",
+        "anchors": [
+          "She was still a child of seventeen"
+        ]
+      },
+      "The father": {
+        "description": "After returning to work he wears a blue bank-service uniform with gold buttons, a high stiff collar, double chin and bushy eyebrows. Do not make him a military officer or confuse him with the chief clerk.",
+        "anchors": [
+          "a smart blue uniform with gold buttons",
+          "his strong double-chin emerged",
+          "under the bushy eyebrows"
         ]
       }
     },
@@ -285,6 +313,20 @@ self.PAINTED_ART = {
         "anchors": [
           "stoutly-built fellow of about five-and-thirty",
           "black velveteen coat"
+        ]
+      },
+      "Oliver": {
+        "description": "At nine a pale, thin, small-statured child, with a resilient spirit. He remains a boy through the main story, not a teen/adult recast at adoption. Health and clothing can improve without a different identity.",
+        "anchors": [
+          "ninth birthday found him a pale thin child",
+          "somewhat diminutive in stature"
+        ]
+      },
+      "Mr. Brownlow": {
+        "description": "Older gentleman introduced with a powdered head and gold spectacles, bottle-green coat with black velvet collar and white trousers. Distinct from red-haired Fagin and stocky younger Sikes.",
+        "anchors": [
+          "powdered head and gold spectacles",
+          "bottle-green coat with a black velvet collar"
         ]
       }
     },
@@ -395,6 +437,13 @@ self.PAINTED_ART = {
           "pale, chinless faces",
           "pinkish-grey eyes"
         ]
+      },
+      "The Time Traveller": {
+        "description": "Grey eyes and usually pale face, flushed and animated during the opening dinner explanation. Victorian inventor rather than a copied actor; no unsupported numeric age or height.",
+        "anchors": [
+          "His grey eyes shone and twinkled",
+          "his usually pale face was flushed"
+        ]
       }
     },
     "the-rime-of-the-ancient-mariner": {
@@ -412,6 +461,13 @@ self.PAINTED_ART = {
           "cascade of brown waters",
           "below her knee",
           "tiny, close-lying curls"
+        ]
+      },
+      "Jim": {
+        "description": "Twenty-two, thin and serious, needing a new overcoat and without gloves. His age differs from the middle-aged literary husbands elsewhere; hair/eye design remains artistic.",
+        "anchors": [
+          "He looked thin and very serious",
+          "he was only twenty-two"
         ]
       }
     },
@@ -836,6 +892,135 @@ self.PAINTED_ART = {
         "anchors": [
           "Mr. Hyde was pale and dwarfish",
           "without any nameable malformation"
+        ]
+      }
+    },
+    "things-fall-apart": {
+      "Okonkwo": {
+        "description": "Tall and powerfully built, dense eyebrows and a broad nose. Depict a natural, individual Igbo man, with no caricature or invented numeric height. Source is a publisher excerpt, not a fresh full-novel audit.",
+        "anchors": [
+          "He was tall and huge",
+          "bushy eyebrows and wide nose"
+        ]
+      },
+      "Unoka": {
+        "description": "Tall but very thin, slightly stooped. He is deceased during the main action: appearance belongs only to an explicitly marked memory, never a living reunion.",
+        "anchors": [
+          "tall but very thin",
+          "slight stoop"
+        ]
+      }
+    },
+    "kidnapped": {
+      "David Balfour": {
+        "description": "Seventeen at the beginning; a youthful Scottish heir, modestly dressed, not a middle-aged adventurer. Hair/eye colours and numeric height are artistic choices.",
+        "anchors": [
+          "a lad of seventeen years of age"
+        ]
+      },
+      "Alan Breck": {
+        "description": "Smallish but well-built and nimble, face sun-darkened, freckled and pitted from smallpox; unusually light eyes without an asserted exact eye colour. Follow the narrator description rather than the foreword historical witness calling another appearance tall. In the novel he wears a blue French-style coat with silver buttons and silver lace, a red waistcoat and black plush breeches; a tartan kilt is not his stated outfit.",
+        "anchors": [
+          "He was smallish in stature",
+          "sunburnt very dark, and heavily freckled",
+          "his eyes were unusually light",
+          "a red waistcoat, breeches of black plush",
+          "a blue coat with silver buttons"
+        ]
+      },
+      "Mr Rankeillor": {
+        "description": "Kindly, shrewd and ruddy, with a well-powdered wig and spectacles. Keep him visually distinct from the miserly uncle Ebenezer.",
+        "anchors": [
+          "shrewd, ruddy, kindly, consequential man",
+          "well-powdered wig and spectacles"
+        ]
+      }
+    },
+    "romola": {
+      "Romola": {
+        "description": "Golden hair, distinguishable from Tessa. Florentine Renaissance scholar daughter, with remaining eye/skin details as artistic choices.",
+        "anchors": [
+          "her golden hair"
+        ]
+      },
+      "Tito": {
+        "description": "Long dark eyes and an attractive youthful face. Greek newcomer in Renaissance Florence; nationality does not by itself establish a modern race label or exact complexion.",
+        "anchors": [
+          "Tito, who had stood transfixed, with his long dark eyes"
+        ]
+      }
+    },
+    "the-tenant-of-wildfell-hall": {
+      "Helen": {
+        "description": "Tall, lady-like figure, raven-black hair in long glossy ringlets, clear pale complexion, long black lashes and large luminous dark eyes. Same face through earlier marriage and later guarded life, no ethnicity inferred.",
+        "anchors": [
+          "a tall, lady-like figure",
+          "Her hair was raven black",
+          "her complexion was clear and pale",
+          "her large, luminous dark eyes"
+        ]
+      },
+      "Little Arthur": {
+        "description": "Appears about five in the opening main-time encounters; younger in diary memories of marriage/family beginnings. Clearly a child distinct from adult father Arthur Huntingdon.",
+        "anchors": [
+          "apparently about five years old"
+        ]
+      }
+    },
+    "agnes-grey": {
+      "Agnes": {
+        "description": "Above eighteen when she argues for the first governess position. Remains a young adult, with face/hair/eye palette artistic rather than a claimed numeric portrait.",
+        "anchors": [
+          "I am above eighteen"
+        ]
+      },
+      "Rosalie Murray": {
+        "description": "About sixteen when Agnes first arrives, grows toward eighteen at coming out and later marriage. Keep same youthful face; modest period dress throughout.",
+        "anchors": [
+          "Rosalie, was about sixteen when I came",
+          "At eighteen, Miss Murray"
+        ]
+      }
+    },
+    "the-professor": {
+      "Frances Henri": {
+        "description": "Brown eyes, fair fine skin and delicate form, directly connected to Frances in the narrator description. About nineteen in teaching/English-learning scenes; no unsupported hair colour or exact height.",
+        "anchors": [
+          "Frances’ mental points",
+          "the clearness of her brown eyes",
+          "the fairness of her fine skin",
+          "en un mois j’aurai dix-neuf ans"
+        ]
+      }
+    },
+    "daisy-miller": {
+      "Winterbourne": {
+        "description": "About twenty-seven at the Swiss meeting. A young adult observer, not a middle-aged guardian or relative; hair and eye colours remain artistic choices.",
+        "anchors": [
+          "some seven-and-twenty years of age"
+        ]
+      },
+      "Mrs Costello": {
+        "description": "Older aunt with long pale face, high nose and striking white hair in puffs and rouleaux over her head. Distinct from Daisy mother and other expatriate women.",
+        "anchors": [
+          "a long, pale face, a high nose",
+          "very striking white hair"
+        ]
+      }
+    },
+    "the-trial": {
+      "Josef K": {
+        "description": "Thirty at the opening arrest and approaching his next birthday at the ending. A mature young bank official with the same identity throughout; hair colour and exact height are artistic choices.",
+        "anchors": [
+          "on his thirtieth birthday"
+        ]
+      },
+      "Leni": {
+        "description": "Large black eyes and a round face with pale rounded cheeks. A small flap of skin connects the middle and ring fingers of her right hand; depict subtly and respectfully if visible, without inventing a diagnosis or monster anatomy.",
+        "anchors": [
+          "Two large, black eyes",
+          "a round face",
+          "flap of skin connecting them"
         ]
       }
     }
@@ -3457,6 +3642,115 @@ self.PAINTED_ART = {
         }
       ]
     },
+    "a-passage-to-india": {
+      "file": "assets/painted/a-passage-to-india.webp",
+      "width": 1438,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "a-passage-to-india:base:0",
+        "a-passage-to-india:extra:0",
+        "a-passage-to-india:base:1",
+        "a-passage-to-india:extra:1",
+        "a-passage-to-india:base:2",
+        "a-passage-to-india:extra:2",
+        "a-passage-to-india:base:3",
+        "a-passage-to-india:extra:3",
+        "a-passage-to-india:base:4",
+        "a-passage-to-india:base:5",
+        "a-passage-to-india:extra:4",
+        "a-passage-to-india:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/61221",
+      "bytes": 215792,
+      "regions": [
+        {
+          "key": "a-passage-to-india:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 470,
+          "height": 261
+        },
+        {
+          "key": "a-passage-to-india:extra:0",
+          "x": 481,
+          "y": 3,
+          "width": 474,
+          "height": 261
+        },
+        {
+          "key": "a-passage-to-india:base:1",
+          "x": 965,
+          "y": 3,
+          "width": 470,
+          "height": 261
+        },
+        {
+          "key": "a-passage-to-india:extra:1",
+          "x": 3,
+          "y": 273,
+          "width": 470,
+          "height": 257
+        },
+        {
+          "key": "a-passage-to-india:base:2",
+          "x": 481,
+          "y": 273,
+          "width": 475,
+          "height": 257
+        },
+        {
+          "key": "a-passage-to-india:extra:2",
+          "x": 965,
+          "y": 273,
+          "width": 470,
+          "height": 257
+        },
+        {
+          "key": "a-passage-to-india:base:3",
+          "x": 3,
+          "y": 539,
+          "width": 470,
+          "height": 245
+        },
+        {
+          "key": "a-passage-to-india:extra:3",
+          "x": 481,
+          "y": 539,
+          "width": 474,
+          "height": 245
+        },
+        {
+          "key": "a-passage-to-india:base:4",
+          "x": 965,
+          "y": 539,
+          "width": 470,
+          "height": 245
+        },
+        {
+          "key": "a-passage-to-india:base:5",
+          "x": 3,
+          "y": 793,
+          "width": 470,
+          "height": 298
+        },
+        {
+          "key": "a-passage-to-india:extra:4",
+          "x": 481,
+          "y": 793,
+          "width": 474,
+          "height": 298
+        },
+        {
+          "key": "a-passage-to-india:base:6",
+          "x": 965,
+          "y": 793,
+          "width": 470,
+          "height": 298
+        }
+      ]
+    },
     "the-old-man-and-the-sea": {
       "file": "assets/painted/the-old-man-and-the-sea.webp",
       "width": 1437,
@@ -3672,6 +3966,115 @@ self.PAINTED_ART = {
           "y": 805,
           "width": 468,
           "height": 287
+        }
+      ]
+    },
+    "things-fall-apart": {
+      "file": "assets/painted/things-fall-apart.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "things-fall-apart:base:0",
+        "things-fall-apart:extra:0",
+        "things-fall-apart:base:1",
+        "things-fall-apart:extra:1",
+        "things-fall-apart:extra:2",
+        "things-fall-apart:base:2",
+        "things-fall-apart:base:3",
+        "things-fall-apart:extra:3",
+        "things-fall-apart:base:4",
+        "things-fall-apart:base:5",
+        "things-fall-apart:extra:4",
+        "things-fall-apart:base:6"
+      ],
+      "source": "https://penguinrandomhousesecondaryeducation.com/book/?isbn=9780307743855",
+      "bytes": 278736,
+      "regions": [
+        {
+          "key": "things-fall-apart:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 472,
+          "height": 259
+        },
+        {
+          "key": "things-fall-apart:extra:0",
+          "x": 481,
+          "y": 3,
+          "width": 474,
+          "height": 259
+        },
+        {
+          "key": "things-fall-apart:base:1",
+          "x": 961,
+          "y": 3,
+          "width": 473,
+          "height": 259
+        },
+        {
+          "key": "things-fall-apart:extra:1",
+          "x": 3,
+          "y": 268,
+          "width": 472,
+          "height": 251
+        },
+        {
+          "key": "things-fall-apart:extra:2",
+          "x": 481,
+          "y": 268,
+          "width": 474,
+          "height": 251
+        },
+        {
+          "key": "things-fall-apart:base:2",
+          "x": 961,
+          "y": 268,
+          "width": 473,
+          "height": 251
+        },
+        {
+          "key": "things-fall-apart:base:3",
+          "x": 3,
+          "y": 525,
+          "width": 473,
+          "height": 254
+        },
+        {
+          "key": "things-fall-apart:extra:3",
+          "x": 482,
+          "y": 525,
+          "width": 473,
+          "height": 254
+        },
+        {
+          "key": "things-fall-apart:base:4",
+          "x": 961,
+          "y": 525,
+          "width": 473,
+          "height": 254
+        },
+        {
+          "key": "things-fall-apart:base:5",
+          "x": 3,
+          "y": 785,
+          "width": 473,
+          "height": 307
+        },
+        {
+          "key": "things-fall-apart:extra:4",
+          "x": 482,
+          "y": 785,
+          "width": 473,
+          "height": 307
+        },
+        {
+          "key": "things-fall-apart:base:6",
+          "x": 961,
+          "y": 785,
+          "width": 473,
+          "height": 307
         }
       ]
     },
@@ -7163,6 +7566,115 @@ self.PAINTED_ART = {
         }
       ]
     },
+    "oliver-twist": {
+      "file": "assets/painted/oliver-twist.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "oliver-twist:base:0",
+        "oliver-twist:extra:0",
+        "oliver-twist:base:1",
+        "oliver-twist:extra:1",
+        "oliver-twist:base:2",
+        "oliver-twist:extra:2",
+        "oliver-twist:base:3",
+        "oliver-twist:extra:3",
+        "oliver-twist:base:4",
+        "oliver-twist:base:5",
+        "oliver-twist:extra:4",
+        "oliver-twist:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/730",
+      "bytes": 218104,
+      "regions": [
+        {
+          "key": "oliver-twist:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 469,
+          "height": 259
+        },
+        {
+          "key": "oliver-twist:extra:0",
+          "x": 482,
+          "y": 3,
+          "width": 472,
+          "height": 259
+        },
+        {
+          "key": "oliver-twist:base:1",
+          "x": 966,
+          "y": 3,
+          "width": 468,
+          "height": 259
+        },
+        {
+          "key": "oliver-twist:extra:1",
+          "x": 3,
+          "y": 271,
+          "width": 468,
+          "height": 259
+        },
+        {
+          "key": "oliver-twist:base:2",
+          "x": 482,
+          "y": 271,
+          "width": 472,
+          "height": 259
+        },
+        {
+          "key": "oliver-twist:extra:2",
+          "x": 966,
+          "y": 271,
+          "width": 468,
+          "height": 259
+        },
+        {
+          "key": "oliver-twist:base:3",
+          "x": 3,
+          "y": 540,
+          "width": 468,
+          "height": 258
+        },
+        {
+          "key": "oliver-twist:extra:3",
+          "x": 482,
+          "y": 540,
+          "width": 472,
+          "height": 258
+        },
+        {
+          "key": "oliver-twist:base:4",
+          "x": 966,
+          "y": 540,
+          "width": 468,
+          "height": 258
+        },
+        {
+          "key": "oliver-twist:base:5",
+          "x": 3,
+          "y": 808,
+          "width": 471,
+          "height": 284
+        },
+        {
+          "key": "oliver-twist:extra:4",
+          "x": 481,
+          "y": 808,
+          "width": 473,
+          "height": 284
+        },
+        {
+          "key": "oliver-twist:base:6",
+          "x": 966,
+          "y": 808,
+          "width": 468,
+          "height": 284
+        }
+      ]
+    },
     "bleak-house": {
       "file": "assets/painted/bleak-house.webp",
       "width": 1437,
@@ -7378,6 +7890,115 @@ self.PAINTED_ART = {
           "y": 797,
           "width": 475,
           "height": 295
+        }
+      ]
+    },
+    "the-mill-on-the-floss": {
+      "file": "assets/painted/the-mill-on-the-floss.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-mill-on-the-floss:base:0",
+        "the-mill-on-the-floss:extra:0",
+        "the-mill-on-the-floss:base:1",
+        "the-mill-on-the-floss:extra:1",
+        "the-mill-on-the-floss:base:2",
+        "the-mill-on-the-floss:extra:2",
+        "the-mill-on-the-floss:base:3",
+        "the-mill-on-the-floss:extra:3",
+        "the-mill-on-the-floss:base:4",
+        "the-mill-on-the-floss:base:5",
+        "the-mill-on-the-floss:extra:4",
+        "the-mill-on-the-floss:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/6688",
+      "bytes": 207386,
+      "regions": [
+        {
+          "key": "the-mill-on-the-floss:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 473,
+          "height": 265
+        },
+        {
+          "key": "the-mill-on-the-floss:extra:0",
+          "x": 484,
+          "y": 3,
+          "width": 470,
+          "height": 265
+        },
+        {
+          "key": "the-mill-on-the-floss:base:1",
+          "x": 964,
+          "y": 3,
+          "width": 470,
+          "height": 265
+        },
+        {
+          "key": "the-mill-on-the-floss:extra:1",
+          "x": 3,
+          "y": 275,
+          "width": 473,
+          "height": 258
+        },
+        {
+          "key": "the-mill-on-the-floss:base:2",
+          "x": 484,
+          "y": 275,
+          "width": 470,
+          "height": 258
+        },
+        {
+          "key": "the-mill-on-the-floss:extra:2",
+          "x": 964,
+          "y": 275,
+          "width": 470,
+          "height": 258
+        },
+        {
+          "key": "the-mill-on-the-floss:base:3",
+          "x": 3,
+          "y": 541,
+          "width": 473,
+          "height": 256
+        },
+        {
+          "key": "the-mill-on-the-floss:extra:3",
+          "x": 484,
+          "y": 541,
+          "width": 470,
+          "height": 256
+        },
+        {
+          "key": "the-mill-on-the-floss:base:4",
+          "x": 964,
+          "y": 541,
+          "width": 470,
+          "height": 256
+        },
+        {
+          "key": "the-mill-on-the-floss:base:5",
+          "x": 3,
+          "y": 805,
+          "width": 473,
+          "height": 287
+        },
+        {
+          "key": "the-mill-on-the-floss:extra:4",
+          "x": 485,
+          "y": 805,
+          "width": 469,
+          "height": 287
+        },
+        {
+          "key": "the-mill-on-the-floss:base:6",
+          "x": 964,
+          "y": 805,
+          "width": 470,
+          "height": 287
         }
       ]
     },
@@ -7599,6 +8220,660 @@ self.PAINTED_ART = {
         }
       ]
     },
+    "strange-case-of-dr-jekyll-and-mr-hyde": {
+      "file": "assets/painted/strange-case-of-dr-jekyll-and-mr-hyde.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "strange-case-of-dr-jekyll-and-mr-hyde:base:0",
+        "strange-case-of-dr-jekyll-and-mr-hyde:extra:0",
+        "strange-case-of-dr-jekyll-and-mr-hyde:base:1",
+        "strange-case-of-dr-jekyll-and-mr-hyde:extra:1",
+        "strange-case-of-dr-jekyll-and-mr-hyde:base:2",
+        "strange-case-of-dr-jekyll-and-mr-hyde:extra:2",
+        "strange-case-of-dr-jekyll-and-mr-hyde:base:3",
+        "strange-case-of-dr-jekyll-and-mr-hyde:extra:3",
+        "strange-case-of-dr-jekyll-and-mr-hyde:base:4",
+        "strange-case-of-dr-jekyll-and-mr-hyde:base:5",
+        "strange-case-of-dr-jekyll-and-mr-hyde:extra:4",
+        "strange-case-of-dr-jekyll-and-mr-hyde:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/43",
+      "bytes": 193020,
+      "regions": [
+        {
+          "key": "strange-case-of-dr-jekyll-and-mr-hyde:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 470,
+          "height": 261
+        },
+        {
+          "key": "strange-case-of-dr-jekyll-and-mr-hyde:extra:0",
+          "x": 483,
+          "y": 3,
+          "width": 471,
+          "height": 261
+        },
+        {
+          "key": "strange-case-of-dr-jekyll-and-mr-hyde:base:1",
+          "x": 964,
+          "y": 3,
+          "width": 470,
+          "height": 261
+        },
+        {
+          "key": "strange-case-of-dr-jekyll-and-mr-hyde:extra:1",
+          "x": 3,
+          "y": 271,
+          "width": 469,
+          "height": 262
+        },
+        {
+          "key": "strange-case-of-dr-jekyll-and-mr-hyde:base:2",
+          "x": 483,
+          "y": 271,
+          "width": 471,
+          "height": 262
+        },
+        {
+          "key": "strange-case-of-dr-jekyll-and-mr-hyde:extra:2",
+          "x": 965,
+          "y": 271,
+          "width": 469,
+          "height": 262
+        },
+        {
+          "key": "strange-case-of-dr-jekyll-and-mr-hyde:base:3",
+          "x": 3,
+          "y": 542,
+          "width": 469,
+          "height": 255
+        },
+        {
+          "key": "strange-case-of-dr-jekyll-and-mr-hyde:extra:3",
+          "x": 483,
+          "y": 542,
+          "width": 470,
+          "height": 255
+        },
+        {
+          "key": "strange-case-of-dr-jekyll-and-mr-hyde:base:4",
+          "x": 965,
+          "y": 542,
+          "width": 469,
+          "height": 255
+        },
+        {
+          "key": "strange-case-of-dr-jekyll-and-mr-hyde:base:5",
+          "x": 3,
+          "y": 806,
+          "width": 468,
+          "height": 286
+        },
+        {
+          "key": "strange-case-of-dr-jekyll-and-mr-hyde:extra:4",
+          "x": 482,
+          "y": 806,
+          "width": 471,
+          "height": 286
+        },
+        {
+          "key": "strange-case-of-dr-jekyll-and-mr-hyde:base:6",
+          "x": 965,
+          "y": 806,
+          "width": 469,
+          "height": 286
+        }
+      ]
+    },
+    "dracula": {
+      "file": "assets/painted/dracula.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "dracula:base:0",
+        "dracula:extra:0",
+        "dracula:base:1",
+        "dracula:extra:1",
+        "dracula:base:2",
+        "dracula:extra:2",
+        "dracula:base:3",
+        "dracula:extra:3",
+        "dracula:base:4",
+        "dracula:base:5",
+        "dracula:extra:4",
+        "dracula:base:6"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/345",
+      "bytes": 186210,
+      "regions": [
+        {
+          "key": "dracula:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 470,
+          "height": 260
+        },
+        {
+          "key": "dracula:extra:0",
+          "x": 482,
+          "y": 3,
+          "width": 472,
+          "height": 260
+        },
+        {
+          "key": "dracula:base:1",
+          "x": 965,
+          "y": 3,
+          "width": 469,
+          "height": 260
+        },
+        {
+          "key": "dracula:extra:1",
+          "x": 3,
+          "y": 273,
+          "width": 469,
+          "height": 260
+        },
+        {
+          "key": "dracula:base:2",
+          "x": 482,
+          "y": 273,
+          "width": 472,
+          "height": 260
+        },
+        {
+          "key": "dracula:extra:2",
+          "x": 965,
+          "y": 273,
+          "width": 469,
+          "height": 260
+        },
+        {
+          "key": "dracula:base:3",
+          "x": 3,
+          "y": 543,
+          "width": 469,
+          "height": 258
+        },
+        {
+          "key": "dracula:extra:3",
+          "x": 482,
+          "y": 543,
+          "width": 472,
+          "height": 258
+        },
+        {
+          "key": "dracula:base:4",
+          "x": 965,
+          "y": 543,
+          "width": 469,
+          "height": 258
+        },
+        {
+          "key": "dracula:base:5",
+          "x": 3,
+          "y": 810,
+          "width": 469,
+          "height": 281
+        },
+        {
+          "key": "dracula:extra:4",
+          "x": 482,
+          "y": 810,
+          "width": 472,
+          "height": 281
+        },
+        {
+          "key": "dracula:base:6",
+          "x": 965,
+          "y": 810,
+          "width": 469,
+          "height": 281
+        }
+      ]
+    },
+    "the-second-coming": {
+      "file": "assets/painted/the-second-coming.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-second-coming:base:0",
+        "the-second-coming:extra:0",
+        "the-second-coming:base:1",
+        "the-second-coming:extra:1",
+        "the-second-coming:base:2",
+        "the-second-coming:extra:2",
+        "the-second-coming:base:3",
+        "the-second-coming:extra:3",
+        "the-second-coming:base:4",
+        "the-second-coming:base:5",
+        "the-second-coming:extra:4",
+        "the-second-coming:base:6"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/43290/the-second-coming",
+      "bytes": 250632,
+      "regions": [
+        {
+          "key": "the-second-coming:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 470,
+          "height": 264
+        },
+        {
+          "key": "the-second-coming:extra:0",
+          "x": 482,
+          "y": 3,
+          "width": 472,
+          "height": 264
+        },
+        {
+          "key": "the-second-coming:base:1",
+          "x": 962,
+          "y": 3,
+          "width": 472,
+          "height": 264
+        },
+        {
+          "key": "the-second-coming:extra:1",
+          "x": 3,
+          "y": 273,
+          "width": 470,
+          "height": 270
+        },
+        {
+          "key": "the-second-coming:base:2",
+          "x": 482,
+          "y": 273,
+          "width": 472,
+          "height": 270
+        },
+        {
+          "key": "the-second-coming:extra:2",
+          "x": 962,
+          "y": 273,
+          "width": 472,
+          "height": 270
+        },
+        {
+          "key": "the-second-coming:base:3",
+          "x": 3,
+          "y": 551,
+          "width": 470,
+          "height": 250
+        },
+        {
+          "key": "the-second-coming:extra:3",
+          "x": 482,
+          "y": 551,
+          "width": 472,
+          "height": 250
+        },
+        {
+          "key": "the-second-coming:base:4",
+          "x": 962,
+          "y": 551,
+          "width": 472,
+          "height": 250
+        },
+        {
+          "key": "the-second-coming:base:5",
+          "x": 3,
+          "y": 809,
+          "width": 470,
+          "height": 283
+        },
+        {
+          "key": "the-second-coming:extra:4",
+          "x": 481,
+          "y": 809,
+          "width": 472,
+          "height": 283
+        },
+        {
+          "key": "the-second-coming:base:6",
+          "x": 961,
+          "y": 809,
+          "width": 473,
+          "height": 283
+        }
+      ]
+    },
+    "persuasion": {
+      "file": "assets/painted/persuasion.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "persuasion:base:0",
+        "persuasion:base:1",
+        "persuasion:base:2",
+        "persuasion:base:3",
+        "persuasion:base:4",
+        "persuasion:base:5",
+        "persuasion:base:6",
+        "persuasion:base:7",
+        "persuasion:base:8",
+        "persuasion:base:9",
+        "persuasion:base:10",
+        "persuasion:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/105",
+      "bytes": 248914,
+      "regions": [
+        {
+          "key": "persuasion:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 470,
+          "height": 263
+        },
+        {
+          "key": "persuasion:base:1",
+          "x": 484,
+          "y": 3,
+          "width": 468,
+          "height": 263
+        },
+        {
+          "key": "persuasion:base:2",
+          "x": 963,
+          "y": 3,
+          "width": 471,
+          "height": 263
+        },
+        {
+          "key": "persuasion:base:3",
+          "x": 3,
+          "y": 276,
+          "width": 470,
+          "height": 266
+        },
+        {
+          "key": "persuasion:base:4",
+          "x": 484,
+          "y": 276,
+          "width": 468,
+          "height": 266
+        },
+        {
+          "key": "persuasion:base:5",
+          "x": 964,
+          "y": 276,
+          "width": 470,
+          "height": 266
+        },
+        {
+          "key": "persuasion:base:6",
+          "x": 3,
+          "y": 552,
+          "width": 470,
+          "height": 249
+        },
+        {
+          "key": "persuasion:base:7",
+          "x": 484,
+          "y": 552,
+          "width": 468,
+          "height": 249
+        },
+        {
+          "key": "persuasion:base:8",
+          "x": 964,
+          "y": 552,
+          "width": 470,
+          "height": 249
+        },
+        {
+          "key": "persuasion:base:9",
+          "x": 3,
+          "y": 810,
+          "width": 469,
+          "height": 282
+        },
+        {
+          "key": "persuasion:base:10",
+          "x": 484,
+          "y": 810,
+          "width": 468,
+          "height": 282
+        },
+        {
+          "key": "persuasion:base:11",
+          "x": 963,
+          "y": 810,
+          "width": 471,
+          "height": 282
+        }
+      ]
+    },
+    "a-christmas-carol": {
+      "file": "assets/painted/a-christmas-carol.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "a-christmas-carol:base:0",
+        "a-christmas-carol:base:1",
+        "a-christmas-carol:base:2",
+        "a-christmas-carol:base:3",
+        "a-christmas-carol:base:4",
+        "a-christmas-carol:base:5",
+        "a-christmas-carol:base:6",
+        "a-christmas-carol:base:7",
+        "a-christmas-carol:base:8",
+        "a-christmas-carol:base:9",
+        "a-christmas-carol:base:10",
+        "a-christmas-carol:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/46",
+      "bytes": 288410,
+      "regions": [
+        {
+          "key": "a-christmas-carol:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 472,
+          "height": 260
+        },
+        {
+          "key": "a-christmas-carol:base:1",
+          "x": 481,
+          "y": 3,
+          "width": 476,
+          "height": 260
+        },
+        {
+          "key": "a-christmas-carol:base:2",
+          "x": 963,
+          "y": 3,
+          "width": 471,
+          "height": 260
+        },
+        {
+          "key": "a-christmas-carol:base:3",
+          "x": 3,
+          "y": 269,
+          "width": 472,
+          "height": 266
+        },
+        {
+          "key": "a-christmas-carol:base:4",
+          "x": 481,
+          "y": 269,
+          "width": 476,
+          "height": 266
+        },
+        {
+          "key": "a-christmas-carol:base:5",
+          "x": 963,
+          "y": 269,
+          "width": 471,
+          "height": 266
+        },
+        {
+          "key": "a-christmas-carol:base:6",
+          "x": 3,
+          "y": 541,
+          "width": 472,
+          "height": 258
+        },
+        {
+          "key": "a-christmas-carol:base:7",
+          "x": 481,
+          "y": 541,
+          "width": 476,
+          "height": 258
+        },
+        {
+          "key": "a-christmas-carol:base:8",
+          "x": 963,
+          "y": 541,
+          "width": 471,
+          "height": 258
+        },
+        {
+          "key": "a-christmas-carol:base:9",
+          "x": 3,
+          "y": 805,
+          "width": 472,
+          "height": 287
+        },
+        {
+          "key": "a-christmas-carol:base:10",
+          "x": 481,
+          "y": 805,
+          "width": 476,
+          "height": 287
+        },
+        {
+          "key": "a-christmas-carol:base:11",
+          "x": 963,
+          "y": 805,
+          "width": 471,
+          "height": 287
+        }
+      ]
+    },
+    "the-mayor-of-casterbridge": {
+      "file": "assets/painted/the-mayor-of-casterbridge.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-mayor-of-casterbridge:base:0",
+        "the-mayor-of-casterbridge:base:1",
+        "the-mayor-of-casterbridge:base:2",
+        "the-mayor-of-casterbridge:base:3",
+        "the-mayor-of-casterbridge:base:4",
+        "the-mayor-of-casterbridge:base:5",
+        "the-mayor-of-casterbridge:base:6",
+        "the-mayor-of-casterbridge:base:7",
+        "the-mayor-of-casterbridge:base:8",
+        "the-mayor-of-casterbridge:base:9",
+        "the-mayor-of-casterbridge:base:10",
+        "the-mayor-of-casterbridge:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/143",
+      "bytes": 196810,
+      "regions": [
+        {
+          "key": "the-mayor-of-casterbridge:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 471,
+          "height": 246
+        },
+        {
+          "key": "the-mayor-of-casterbridge:base:1",
+          "x": 482,
+          "y": 3,
+          "width": 472,
+          "height": 246
+        },
+        {
+          "key": "the-mayor-of-casterbridge:base:2",
+          "x": 963,
+          "y": 3,
+          "width": 471,
+          "height": 246
+        },
+        {
+          "key": "the-mayor-of-casterbridge:base:3",
+          "x": 3,
+          "y": 257,
+          "width": 471,
+          "height": 247
+        },
+        {
+          "key": "the-mayor-of-casterbridge:base:4",
+          "x": 482,
+          "y": 257,
+          "width": 472,
+          "height": 247
+        },
+        {
+          "key": "the-mayor-of-casterbridge:base:5",
+          "x": 963,
+          "y": 257,
+          "width": 471,
+          "height": 247
+        },
+        {
+          "key": "the-mayor-of-casterbridge:base:6",
+          "x": 3,
+          "y": 512,
+          "width": 471,
+          "height": 260
+        },
+        {
+          "key": "the-mayor-of-casterbridge:base:7",
+          "x": 482,
+          "y": 512,
+          "width": 472,
+          "height": 260
+        },
+        {
+          "key": "the-mayor-of-casterbridge:base:8",
+          "x": 963,
+          "y": 512,
+          "width": 471,
+          "height": 260
+        },
+        {
+          "key": "the-mayor-of-casterbridge:base:9",
+          "x": 3,
+          "y": 780,
+          "width": 470,
+          "height": 312
+        },
+        {
+          "key": "the-mayor-of-casterbridge:base:10",
+          "x": 482,
+          "y": 780,
+          "width": 471,
+          "height": 312
+        },
+        {
+          "key": "the-mayor-of-casterbridge:base:11",
+          "x": 959,
+          "y": 780,
+          "width": 475,
+          "height": 312
+        }
+      ]
+    },
     "jude-the-obscure": {
       "file": "assets/painted/jude-the-obscure.webp",
       "width": 1437,
@@ -7704,6 +8979,115 @@ self.PAINTED_ART = {
           "x": 963,
           "y": 811,
           "width": 471,
+          "height": 281
+        }
+      ]
+    },
+    "the-time-machine": {
+      "file": "assets/painted/the-time-machine.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-time-machine:base:0",
+        "the-time-machine:base:1",
+        "the-time-machine:base:2",
+        "the-time-machine:base:3",
+        "the-time-machine:base:4",
+        "the-time-machine:base:5",
+        "the-time-machine:base:6",
+        "the-time-machine:base:7",
+        "the-time-machine:base:8",
+        "the-time-machine:base:9",
+        "the-time-machine:base:10",
+        "the-time-machine:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/35",
+      "bytes": 243646,
+      "regions": [
+        {
+          "key": "the-time-machine:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 469,
+          "height": 259
+        },
+        {
+          "key": "the-time-machine:base:1",
+          "x": 483,
+          "y": 3,
+          "width": 469,
+          "height": 259
+        },
+        {
+          "key": "the-time-machine:base:2",
+          "x": 965,
+          "y": 3,
+          "width": 469,
+          "height": 259
+        },
+        {
+          "key": "the-time-machine:base:3",
+          "x": 3,
+          "y": 273,
+          "width": 468,
+          "height": 269
+        },
+        {
+          "key": "the-time-machine:base:4",
+          "x": 483,
+          "y": 273,
+          "width": 469,
+          "height": 269
+        },
+        {
+          "key": "the-time-machine:base:5",
+          "x": 964,
+          "y": 273,
+          "width": 470,
+          "height": 269
+        },
+        {
+          "key": "the-time-machine:base:6",
+          "x": 3,
+          "y": 552,
+          "width": 468,
+          "height": 252
+        },
+        {
+          "key": "the-time-machine:base:7",
+          "x": 483,
+          "y": 552,
+          "width": 468,
+          "height": 252
+        },
+        {
+          "key": "the-time-machine:base:8",
+          "x": 964,
+          "y": 552,
+          "width": 470,
+          "height": 252
+        },
+        {
+          "key": "the-time-machine:base:9",
+          "x": 3,
+          "y": 811,
+          "width": 468,
+          "height": 281
+        },
+        {
+          "key": "the-time-machine:base:10",
+          "x": 481,
+          "y": 811,
+          "width": 470,
+          "height": 281
+        },
+        {
+          "key": "the-time-machine:base:11",
+          "x": 964,
+          "y": 811,
+          "width": 470,
           "height": 281
         }
       ]
@@ -8362,6 +9746,442 @@ self.PAINTED_ART = {
         }
       ]
     },
+    "ulysses": {
+      "file": "assets/painted/ulysses.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "ulysses:base:0",
+        "ulysses:base:1",
+        "ulysses:base:2",
+        "ulysses:base:3",
+        "ulysses:base:4",
+        "ulysses:base:5",
+        "ulysses:base:6",
+        "ulysses:base:7",
+        "ulysses:base:8",
+        "ulysses:base:9",
+        "ulysses:base:10",
+        "ulysses:base:11"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/45392/ulysses",
+      "bytes": 208436,
+      "regions": [
+        {
+          "key": "ulysses:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 467,
+          "height": 260
+        },
+        {
+          "key": "ulysses:base:1",
+          "x": 483,
+          "y": 3,
+          "width": 471,
+          "height": 260
+        },
+        {
+          "key": "ulysses:base:2",
+          "x": 967,
+          "y": 3,
+          "width": 467,
+          "height": 260
+        },
+        {
+          "key": "ulysses:base:3",
+          "x": 3,
+          "y": 275,
+          "width": 466,
+          "height": 263
+        },
+        {
+          "key": "ulysses:base:4",
+          "x": 483,
+          "y": 275,
+          "width": 471,
+          "height": 263
+        },
+        {
+          "key": "ulysses:base:5",
+          "x": 967,
+          "y": 275,
+          "width": 467,
+          "height": 263
+        },
+        {
+          "key": "ulysses:base:6",
+          "x": 3,
+          "y": 550,
+          "width": 466,
+          "height": 262
+        },
+        {
+          "key": "ulysses:base:7",
+          "x": 483,
+          "y": 550,
+          "width": 471,
+          "height": 262
+        },
+        {
+          "key": "ulysses:base:8",
+          "x": 967,
+          "y": 550,
+          "width": 467,
+          "height": 262
+        },
+        {
+          "key": "ulysses:base:9",
+          "x": 3,
+          "y": 824,
+          "width": 467,
+          "height": 267
+        },
+        {
+          "key": "ulysses:base:10",
+          "x": 483,
+          "y": 824,
+          "width": 471,
+          "height": 267
+        },
+        {
+          "key": "ulysses:base:11",
+          "x": 967,
+          "y": 824,
+          "width": 467,
+          "height": 267
+        }
+      ]
+    },
+    "my-last-duchess": {
+      "file": "assets/painted/my-last-duchess.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "my-last-duchess:base:0",
+        "my-last-duchess:base:1",
+        "my-last-duchess:base:2",
+        "my-last-duchess:base:3",
+        "my-last-duchess:base:4",
+        "my-last-duchess:base:5",
+        "my-last-duchess:base:6",
+        "my-last-duchess:base:7",
+        "my-last-duchess:base:8",
+        "my-last-duchess:base:9",
+        "my-last-duchess:base:10",
+        "my-last-duchess:base:11"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/43768/my-last-duchess",
+      "bytes": 194966,
+      "regions": [
+        {
+          "key": "my-last-duchess:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 470,
+          "height": 263
+        },
+        {
+          "key": "my-last-duchess:base:1",
+          "x": 482,
+          "y": 3,
+          "width": 473,
+          "height": 263
+        },
+        {
+          "key": "my-last-duchess:base:2",
+          "x": 964,
+          "y": 3,
+          "width": 470,
+          "height": 263
+        },
+        {
+          "key": "my-last-duchess:base:3",
+          "x": 3,
+          "y": 273,
+          "width": 470,
+          "height": 261
+        },
+        {
+          "key": "my-last-duchess:base:4",
+          "x": 482,
+          "y": 273,
+          "width": 473,
+          "height": 261
+        },
+        {
+          "key": "my-last-duchess:base:5",
+          "x": 964,
+          "y": 273,
+          "width": 470,
+          "height": 261
+        },
+        {
+          "key": "my-last-duchess:base:6",
+          "x": 3,
+          "y": 542,
+          "width": 469,
+          "height": 247
+        },
+        {
+          "key": "my-last-duchess:base:7",
+          "x": 481,
+          "y": 542,
+          "width": 474,
+          "height": 247
+        },
+        {
+          "key": "my-last-duchess:base:8",
+          "x": 964,
+          "y": 542,
+          "width": 470,
+          "height": 247
+        },
+        {
+          "key": "my-last-duchess:base:9",
+          "x": 3,
+          "y": 798,
+          "width": 468,
+          "height": 294
+        },
+        {
+          "key": "my-last-duchess:base:10",
+          "x": 481,
+          "y": 798,
+          "width": 474,
+          "height": 294
+        },
+        {
+          "key": "my-last-duchess:base:11",
+          "x": 964,
+          "y": 798,
+          "width": 470,
+          "height": 294
+        }
+      ]
+    },
+    "dover-beach": {
+      "file": "assets/painted/dover-beach.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "dover-beach:base:0",
+        "dover-beach:base:1",
+        "dover-beach:base:2",
+        "dover-beach:base:3",
+        "dover-beach:base:4",
+        "dover-beach:base:5",
+        "dover-beach:base:6",
+        "dover-beach:base:7",
+        "dover-beach:base:8",
+        "dover-beach:base:9",
+        "dover-beach:base:10",
+        "dover-beach:base:11"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/43588/dover-beach",
+      "bytes": 204042,
+      "regions": [
+        {
+          "key": "dover-beach:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 472,
+          "height": 257
+        },
+        {
+          "key": "dover-beach:base:1",
+          "x": 482,
+          "y": 3,
+          "width": 472,
+          "height": 257
+        },
+        {
+          "key": "dover-beach:base:2",
+          "x": 967,
+          "y": 3,
+          "width": 467,
+          "height": 257
+        },
+        {
+          "key": "dover-beach:base:3",
+          "x": 3,
+          "y": 272,
+          "width": 465,
+          "height": 261
+        },
+        {
+          "key": "dover-beach:base:4",
+          "x": 482,
+          "y": 272,
+          "width": 472,
+          "height": 261
+        },
+        {
+          "key": "dover-beach:base:5",
+          "x": 967,
+          "y": 272,
+          "width": 467,
+          "height": 261
+        },
+        {
+          "key": "dover-beach:base:6",
+          "x": 3,
+          "y": 544,
+          "width": 465,
+          "height": 257
+        },
+        {
+          "key": "dover-beach:base:7",
+          "x": 482,
+          "y": 544,
+          "width": 472,
+          "height": 257
+        },
+        {
+          "key": "dover-beach:base:8",
+          "x": 967,
+          "y": 544,
+          "width": 467,
+          "height": 257
+        },
+        {
+          "key": "dover-beach:base:9",
+          "x": 3,
+          "y": 813,
+          "width": 465,
+          "height": 279
+        },
+        {
+          "key": "dover-beach:base:10",
+          "x": 482,
+          "y": 813,
+          "width": 472,
+          "height": 279
+        },
+        {
+          "key": "dover-beach:base:11",
+          "x": 967,
+          "y": 813,
+          "width": 467,
+          "height": 279
+        }
+      ]
+    },
+    "the-windhover": {
+      "file": "assets/painted/the-windhover.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-windhover:base:0",
+        "the-windhover:base:1",
+        "the-windhover:base:2",
+        "the-windhover:base:3",
+        "the-windhover:base:4",
+        "the-windhover:base:5",
+        "the-windhover:base:6",
+        "the-windhover:base:7",
+        "the-windhover:base:8",
+        "the-windhover:base:9",
+        "the-windhover:base:10",
+        "the-windhover:base:11"
+      ],
+      "source": "https://www.poetryfoundation.org/poems/44402/the-windhover",
+      "bytes": 284978,
+      "regions": [
+        {
+          "key": "the-windhover:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 471,
+          "height": 259
+        },
+        {
+          "key": "the-windhover:base:1",
+          "x": 484,
+          "y": 3,
+          "width": 470,
+          "height": 259
+        },
+        {
+          "key": "the-windhover:base:2",
+          "x": 963,
+          "y": 3,
+          "width": 471,
+          "height": 259
+        },
+        {
+          "key": "the-windhover:base:3",
+          "x": 3,
+          "y": 271,
+          "width": 471,
+          "height": 261
+        },
+        {
+          "key": "the-windhover:base:4",
+          "x": 483,
+          "y": 271,
+          "width": 470,
+          "height": 261
+        },
+        {
+          "key": "the-windhover:base:5",
+          "x": 963,
+          "y": 271,
+          "width": 471,
+          "height": 261
+        },
+        {
+          "key": "the-windhover:base:6",
+          "x": 3,
+          "y": 541,
+          "width": 470,
+          "height": 258
+        },
+        {
+          "key": "the-windhover:base:7",
+          "x": 482,
+          "y": 541,
+          "width": 471,
+          "height": 258
+        },
+        {
+          "key": "the-windhover:base:8",
+          "x": 963,
+          "y": 541,
+          "width": 471,
+          "height": 258
+        },
+        {
+          "key": "the-windhover:base:9",
+          "x": 3,
+          "y": 807,
+          "width": 471,
+          "height": 285
+        },
+        {
+          "key": "the-windhover:base:10",
+          "x": 481,
+          "y": 807,
+          "width": 471,
+          "height": 285
+        },
+        {
+          "key": "the-windhover:base:11",
+          "x": 962,
+          "y": 807,
+          "width": 472,
+          "height": 285
+        }
+      ]
+    },
     "the-solitary-reaper": {
       "file": "assets/painted/the-solitary-reaper.webp",
       "width": 1437,
@@ -8468,6 +10288,333 @@ self.PAINTED_ART = {
           "y": 811,
           "width": 470,
           "height": 281
+        }
+      ]
+    },
+    "mansfield-park": {
+      "file": "assets/painted/mansfield-park.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "mansfield-park:base:0",
+        "mansfield-park:base:1",
+        "mansfield-park:base:2",
+        "mansfield-park:base:3",
+        "mansfield-park:base:4",
+        "mansfield-park:base:5",
+        "mansfield-park:base:6",
+        "mansfield-park:base:7",
+        "mansfield-park:base:8",
+        "mansfield-park:base:9",
+        "mansfield-park:base:10",
+        "mansfield-park:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/141",
+      "bytes": 193618,
+      "regions": [
+        {
+          "key": "mansfield-park:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 472,
+          "height": 249
+        },
+        {
+          "key": "mansfield-park:base:1",
+          "x": 482,
+          "y": 3,
+          "width": 472,
+          "height": 249
+        },
+        {
+          "key": "mansfield-park:base:2",
+          "x": 962,
+          "y": 3,
+          "width": 472,
+          "height": 249
+        },
+        {
+          "key": "mansfield-park:base:3",
+          "x": 3,
+          "y": 259,
+          "width": 472,
+          "height": 260
+        },
+        {
+          "key": "mansfield-park:base:4",
+          "x": 482,
+          "y": 259,
+          "width": 472,
+          "height": 260
+        },
+        {
+          "key": "mansfield-park:base:5",
+          "x": 962,
+          "y": 259,
+          "width": 472,
+          "height": 260
+        },
+        {
+          "key": "mansfield-park:base:6",
+          "x": 3,
+          "y": 526,
+          "width": 472,
+          "height": 265
+        },
+        {
+          "key": "mansfield-park:base:7",
+          "x": 482,
+          "y": 526,
+          "width": 472,
+          "height": 265
+        },
+        {
+          "key": "mansfield-park:base:8",
+          "x": 962,
+          "y": 526,
+          "width": 472,
+          "height": 265
+        },
+        {
+          "key": "mansfield-park:base:9",
+          "x": 3,
+          "y": 798,
+          "width": 471,
+          "height": 294
+        },
+        {
+          "key": "mansfield-park:base:10",
+          "x": 482,
+          "y": 798,
+          "width": 472,
+          "height": 294
+        },
+        {
+          "key": "mansfield-park:base:11",
+          "x": 962,
+          "y": 798,
+          "width": 472,
+          "height": 294
+        }
+      ]
+    },
+    "northanger-abbey": {
+      "file": "assets/painted/northanger-abbey.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "northanger-abbey:base:0",
+        "northanger-abbey:base:1",
+        "northanger-abbey:base:2",
+        "northanger-abbey:base:3",
+        "northanger-abbey:base:4",
+        "northanger-abbey:base:5",
+        "northanger-abbey:base:6",
+        "northanger-abbey:base:7",
+        "northanger-abbey:base:8",
+        "northanger-abbey:base:9",
+        "northanger-abbey:base:10",
+        "northanger-abbey:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/121",
+      "bytes": 259132,
+      "regions": [
+        {
+          "key": "northanger-abbey:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 469,
+          "height": 258
+        },
+        {
+          "key": "northanger-abbey:base:1",
+          "x": 482,
+          "y": 3,
+          "width": 472,
+          "height": 258
+        },
+        {
+          "key": "northanger-abbey:base:2",
+          "x": 964,
+          "y": 3,
+          "width": 470,
+          "height": 258
+        },
+        {
+          "key": "northanger-abbey:base:3",
+          "x": 3,
+          "y": 271,
+          "width": 468,
+          "height": 248
+        },
+        {
+          "key": "northanger-abbey:base:4",
+          "x": 482,
+          "y": 271,
+          "width": 472,
+          "height": 248
+        },
+        {
+          "key": "northanger-abbey:base:5",
+          "x": 965,
+          "y": 271,
+          "width": 469,
+          "height": 248
+        },
+        {
+          "key": "northanger-abbey:base:6",
+          "x": 3,
+          "y": 527,
+          "width": 469,
+          "height": 247
+        },
+        {
+          "key": "northanger-abbey:base:7",
+          "x": 481,
+          "y": 527,
+          "width": 473,
+          "height": 247
+        },
+        {
+          "key": "northanger-abbey:base:8",
+          "x": 965,
+          "y": 527,
+          "width": 469,
+          "height": 247
+        },
+        {
+          "key": "northanger-abbey:base:9",
+          "x": 3,
+          "y": 784,
+          "width": 468,
+          "height": 308
+        },
+        {
+          "key": "northanger-abbey:base:10",
+          "x": 482,
+          "y": 784,
+          "width": 472,
+          "height": 308
+        },
+        {
+          "key": "northanger-abbey:base:11",
+          "x": 965,
+          "y": 784,
+          "width": 469,
+          "height": 308
+        }
+      ]
+    },
+    "hard-times": {
+      "file": "assets/painted/hard-times.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "hard-times:base:0",
+        "hard-times:base:1",
+        "hard-times:base:2",
+        "hard-times:base:3",
+        "hard-times:base:4",
+        "hard-times:base:5",
+        "hard-times:base:6",
+        "hard-times:base:7",
+        "hard-times:base:8",
+        "hard-times:base:9",
+        "hard-times:base:10",
+        "hard-times:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/786",
+      "bytes": 155366,
+      "regions": [
+        {
+          "key": "hard-times:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 473,
+          "height": 268
+        },
+        {
+          "key": "hard-times:base:1",
+          "x": 482,
+          "y": 3,
+          "width": 473,
+          "height": 268
+        },
+        {
+          "key": "hard-times:base:2",
+          "x": 961,
+          "y": 3,
+          "width": 473,
+          "height": 268
+        },
+        {
+          "key": "hard-times:base:3",
+          "x": 3,
+          "y": 277,
+          "width": 473,
+          "height": 268
+        },
+        {
+          "key": "hard-times:base:4",
+          "x": 482,
+          "y": 277,
+          "width": 474,
+          "height": 268
+        },
+        {
+          "key": "hard-times:base:5",
+          "x": 962,
+          "y": 277,
+          "width": 472,
+          "height": 268
+        },
+        {
+          "key": "hard-times:base:6",
+          "x": 3,
+          "y": 551,
+          "width": 473,
+          "height": 252
+        },
+        {
+          "key": "hard-times:base:7",
+          "x": 482,
+          "y": 551,
+          "width": 473,
+          "height": 252
+        },
+        {
+          "key": "hard-times:base:8",
+          "x": 961,
+          "y": 551,
+          "width": 473,
+          "height": 252
+        },
+        {
+          "key": "hard-times:base:9",
+          "x": 3,
+          "y": 809,
+          "width": 473,
+          "height": 283
+        },
+        {
+          "key": "hard-times:base:10",
+          "x": 482,
+          "y": 809,
+          "width": 473,
+          "height": 283
+        },
+        {
+          "key": "hard-times:base:11",
+          "x": 961,
+          "y": 809,
+          "width": 473,
+          "height": 283
         }
       ]
     },
@@ -8798,6 +10945,442 @@ self.PAINTED_ART = {
         }
       ]
     },
+    "treasure-island": {
+      "file": "assets/painted/treasure-island.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "treasure-island:base:0",
+        "treasure-island:base:1",
+        "treasure-island:base:2",
+        "treasure-island:base:3",
+        "treasure-island:base:4",
+        "treasure-island:base:5",
+        "treasure-island:base:6",
+        "treasure-island:base:7",
+        "treasure-island:base:8",
+        "treasure-island:base:9",
+        "treasure-island:base:10",
+        "treasure-island:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/120",
+      "bytes": 252810,
+      "regions": [
+        {
+          "key": "treasure-island:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 470,
+          "height": 259
+        },
+        {
+          "key": "treasure-island:base:1",
+          "x": 484,
+          "y": 3,
+          "width": 468,
+          "height": 259
+        },
+        {
+          "key": "treasure-island:base:2",
+          "x": 964,
+          "y": 3,
+          "width": 470,
+          "height": 259
+        },
+        {
+          "key": "treasure-island:base:3",
+          "x": 3,
+          "y": 273,
+          "width": 469,
+          "height": 262
+        },
+        {
+          "key": "treasure-island:base:4",
+          "x": 484,
+          "y": 273,
+          "width": 468,
+          "height": 262
+        },
+        {
+          "key": "treasure-island:base:5",
+          "x": 964,
+          "y": 273,
+          "width": 470,
+          "height": 262
+        },
+        {
+          "key": "treasure-island:base:6",
+          "x": 3,
+          "y": 545,
+          "width": 470,
+          "height": 244
+        },
+        {
+          "key": "treasure-island:base:7",
+          "x": 484,
+          "y": 545,
+          "width": 468,
+          "height": 244
+        },
+        {
+          "key": "treasure-island:base:8",
+          "x": 964,
+          "y": 545,
+          "width": 470,
+          "height": 244
+        },
+        {
+          "key": "treasure-island:base:9",
+          "x": 3,
+          "y": 799,
+          "width": 469,
+          "height": 293
+        },
+        {
+          "key": "treasure-island:base:10",
+          "x": 483,
+          "y": 799,
+          "width": 469,
+          "height": 293
+        },
+        {
+          "key": "treasure-island:base:11",
+          "x": 964,
+          "y": 799,
+          "width": 470,
+          "height": 293
+        }
+      ]
+    },
+    "kidnapped": {
+      "file": "assets/painted/kidnapped.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "kidnapped:base:0",
+        "kidnapped:base:1",
+        "kidnapped:base:2",
+        "kidnapped:base:3",
+        "kidnapped:base:4",
+        "kidnapped:base:5",
+        "kidnapped:base:6",
+        "kidnapped:base:7",
+        "kidnapped:base:8",
+        "kidnapped:base:9",
+        "kidnapped:base:10",
+        "kidnapped:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/421",
+      "bytes": 204986,
+      "regions": [
+        {
+          "key": "kidnapped:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 472,
+          "height": 263
+        },
+        {
+          "key": "kidnapped:base:1",
+          "x": 481,
+          "y": 3,
+          "width": 475,
+          "height": 263
+        },
+        {
+          "key": "kidnapped:base:2",
+          "x": 962,
+          "y": 3,
+          "width": 472,
+          "height": 263
+        },
+        {
+          "key": "kidnapped:base:3",
+          "x": 3,
+          "y": 272,
+          "width": 472,
+          "height": 261
+        },
+        {
+          "key": "kidnapped:base:4",
+          "x": 481,
+          "y": 272,
+          "width": 474,
+          "height": 261
+        },
+        {
+          "key": "kidnapped:base:5",
+          "x": 961,
+          "y": 272,
+          "width": 473,
+          "height": 261
+        },
+        {
+          "key": "kidnapped:base:6",
+          "x": 3,
+          "y": 539,
+          "width": 472,
+          "height": 261
+        },
+        {
+          "key": "kidnapped:base:7",
+          "x": 481,
+          "y": 539,
+          "width": 474,
+          "height": 261
+        },
+        {
+          "key": "kidnapped:base:8",
+          "x": 961,
+          "y": 539,
+          "width": 473,
+          "height": 261
+        },
+        {
+          "key": "kidnapped:base:9",
+          "x": 3,
+          "y": 806,
+          "width": 472,
+          "height": 285
+        },
+        {
+          "key": "kidnapped:base:10",
+          "x": 481,
+          "y": 806,
+          "width": 474,
+          "height": 285
+        },
+        {
+          "key": "kidnapped:base:11",
+          "x": 961,
+          "y": 806,
+          "width": 473,
+          "height": 285
+        }
+      ]
+    },
+    "the-jungle-book": {
+      "file": "assets/painted/the-jungle-book.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-jungle-book:base:0",
+        "the-jungle-book:base:1",
+        "the-jungle-book:base:2",
+        "the-jungle-book:base:3",
+        "the-jungle-book:base:4",
+        "the-jungle-book:base:5",
+        "the-jungle-book:base:6",
+        "the-jungle-book:base:7",
+        "the-jungle-book:base:8",
+        "the-jungle-book:base:9",
+        "the-jungle-book:base:10",
+        "the-jungle-book:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/236",
+      "bytes": 348466,
+      "regions": [
+        {
+          "key": "the-jungle-book:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 472,
+          "height": 265
+        },
+        {
+          "key": "the-jungle-book:base:1",
+          "x": 483,
+          "y": 3,
+          "width": 471,
+          "height": 265
+        },
+        {
+          "key": "the-jungle-book:base:2",
+          "x": 961,
+          "y": 3,
+          "width": 473,
+          "height": 265
+        },
+        {
+          "key": "the-jungle-book:base:3",
+          "x": 3,
+          "y": 275,
+          "width": 472,
+          "height": 268
+        },
+        {
+          "key": "the-jungle-book:base:4",
+          "x": 483,
+          "y": 275,
+          "width": 471,
+          "height": 268
+        },
+        {
+          "key": "the-jungle-book:base:5",
+          "x": 961,
+          "y": 275,
+          "width": 473,
+          "height": 268
+        },
+        {
+          "key": "the-jungle-book:base:6",
+          "x": 3,
+          "y": 550,
+          "width": 472,
+          "height": 253
+        },
+        {
+          "key": "the-jungle-book:base:7",
+          "x": 483,
+          "y": 550,
+          "width": 471,
+          "height": 253
+        },
+        {
+          "key": "the-jungle-book:base:8",
+          "x": 961,
+          "y": 550,
+          "width": 473,
+          "height": 253
+        },
+        {
+          "key": "the-jungle-book:base:9",
+          "x": 3,
+          "y": 811,
+          "width": 472,
+          "height": 281
+        },
+        {
+          "key": "the-jungle-book:base:10",
+          "x": 483,
+          "y": 811,
+          "width": 471,
+          "height": 281
+        },
+        {
+          "key": "the-jungle-book:base:11",
+          "x": 961,
+          "y": 811,
+          "width": 473,
+          "height": 281
+        }
+      ]
+    },
+    "kim": {
+      "file": "assets/painted/kim.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "kim:base:0",
+        "kim:base:1",
+        "kim:base:2",
+        "kim:base:3",
+        "kim:base:4",
+        "kim:base:5",
+        "kim:base:6",
+        "kim:base:7",
+        "kim:base:8",
+        "kim:base:9",
+        "kim:base:10",
+        "kim:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/2226",
+      "bytes": 308412,
+      "regions": [
+        {
+          "key": "kim:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 472,
+          "height": 265
+        },
+        {
+          "key": "kim:base:1",
+          "x": 484,
+          "y": 3,
+          "width": 469,
+          "height": 265
+        },
+        {
+          "key": "kim:base:2",
+          "x": 963,
+          "y": 3,
+          "width": 471,
+          "height": 265
+        },
+        {
+          "key": "kim:base:3",
+          "x": 3,
+          "y": 276,
+          "width": 471,
+          "height": 267
+        },
+        {
+          "key": "kim:base:4",
+          "x": 484,
+          "y": 276,
+          "width": 469,
+          "height": 267
+        },
+        {
+          "key": "kim:base:5",
+          "x": 963,
+          "y": 276,
+          "width": 471,
+          "height": 267
+        },
+        {
+          "key": "kim:base:6",
+          "x": 3,
+          "y": 551,
+          "width": 471,
+          "height": 251
+        },
+        {
+          "key": "kim:base:7",
+          "x": 484,
+          "y": 551,
+          "width": 469,
+          "height": 251
+        },
+        {
+          "key": "kim:base:8",
+          "x": 963,
+          "y": 551,
+          "width": 471,
+          "height": 251
+        },
+        {
+          "key": "kim:base:9",
+          "x": 3,
+          "y": 810,
+          "width": 470,
+          "height": 282
+        },
+        {
+          "key": "kim:base:10",
+          "x": 484,
+          "y": 810,
+          "width": 469,
+          "height": 282
+        },
+        {
+          "key": "kim:base:11",
+          "x": 963,
+          "y": 810,
+          "width": 471,
+          "height": 282
+        }
+      ]
+    },
     "sultana-s-dream": {
       "file": "assets/painted/sultana-s-dream.webp",
       "width": 1437,
@@ -8904,6 +11487,442 @@ self.PAINTED_ART = {
           "y": 809,
           "width": 472,
           "height": 283
+        }
+      ]
+    },
+    "the-gift-of-the-magi": {
+      "file": "assets/painted/the-gift-of-the-magi.webp",
+      "width": 1437,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-gift-of-the-magi:base:0",
+        "the-gift-of-the-magi:base:1",
+        "the-gift-of-the-magi:base:2",
+        "the-gift-of-the-magi:base:3",
+        "the-gift-of-the-magi:base:4",
+        "the-gift-of-the-magi:base:5",
+        "the-gift-of-the-magi:base:6",
+        "the-gift-of-the-magi:base:7",
+        "the-gift-of-the-magi:base:8",
+        "the-gift-of-the-magi:base:9",
+        "the-gift-of-the-magi:base:10",
+        "the-gift-of-the-magi:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/2776",
+      "bytes": 175122,
+      "regions": [
+        {
+          "key": "the-gift-of-the-magi:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 470,
+          "height": 261
+        },
+        {
+          "key": "the-gift-of-the-magi:base:1",
+          "x": 481,
+          "y": 3,
+          "width": 474,
+          "height": 261
+        },
+        {
+          "key": "the-gift-of-the-magi:base:2",
+          "x": 963,
+          "y": 3,
+          "width": 471,
+          "height": 261
+        },
+        {
+          "key": "the-gift-of-the-magi:base:3",
+          "x": 3,
+          "y": 272,
+          "width": 470,
+          "height": 263
+        },
+        {
+          "key": "the-gift-of-the-magi:base:4",
+          "x": 481,
+          "y": 272,
+          "width": 474,
+          "height": 263
+        },
+        {
+          "key": "the-gift-of-the-magi:base:5",
+          "x": 963,
+          "y": 272,
+          "width": 471,
+          "height": 263
+        },
+        {
+          "key": "the-gift-of-the-magi:base:6",
+          "x": 3,
+          "y": 542,
+          "width": 470,
+          "height": 249
+        },
+        {
+          "key": "the-gift-of-the-magi:base:7",
+          "x": 481,
+          "y": 542,
+          "width": 477,
+          "height": 249
+        },
+        {
+          "key": "the-gift-of-the-magi:base:8",
+          "x": 964,
+          "y": 542,
+          "width": 470,
+          "height": 249
+        },
+        {
+          "key": "the-gift-of-the-magi:base:9",
+          "x": 3,
+          "y": 798,
+          "width": 469,
+          "height": 293
+        },
+        {
+          "key": "the-gift-of-the-magi:base:10",
+          "x": 478,
+          "y": 798,
+          "width": 477,
+          "height": 293
+        },
+        {
+          "key": "the-gift-of-the-magi:base:11",
+          "x": 963,
+          "y": 798,
+          "width": 471,
+          "height": 293
+        }
+      ]
+    },
+    "the-necklace": {
+      "file": "assets/painted/the-necklace.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-necklace:base:0",
+        "the-necklace:base:1",
+        "the-necklace:base:2",
+        "the-necklace:base:3",
+        "the-necklace:base:4",
+        "the-necklace:base:5",
+        "the-necklace:base:6",
+        "the-necklace:base:7",
+        "the-necklace:base:8",
+        "the-necklace:base:9",
+        "the-necklace:base:10",
+        "the-necklace:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/3090",
+      "bytes": 230730,
+      "regions": [
+        {
+          "key": "the-necklace:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 474,
+          "height": 261
+        },
+        {
+          "key": "the-necklace:base:1",
+          "x": 487,
+          "y": 3,
+          "width": 464,
+          "height": 261
+        },
+        {
+          "key": "the-necklace:base:2",
+          "x": 960,
+          "y": 3,
+          "width": 474,
+          "height": 261
+        },
+        {
+          "key": "the-necklace:base:3",
+          "x": 3,
+          "y": 272,
+          "width": 475,
+          "height": 261
+        },
+        {
+          "key": "the-necklace:base:4",
+          "x": 487,
+          "y": 272,
+          "width": 463,
+          "height": 261
+        },
+        {
+          "key": "the-necklace:base:5",
+          "x": 959,
+          "y": 272,
+          "width": 475,
+          "height": 261
+        },
+        {
+          "key": "the-necklace:base:6",
+          "x": 3,
+          "y": 542,
+          "width": 474,
+          "height": 246
+        },
+        {
+          "key": "the-necklace:base:7",
+          "x": 487,
+          "y": 542,
+          "width": 462,
+          "height": 246
+        },
+        {
+          "key": "the-necklace:base:8",
+          "x": 959,
+          "y": 542,
+          "width": 475,
+          "height": 246
+        },
+        {
+          "key": "the-necklace:base:9",
+          "x": 3,
+          "y": 797,
+          "width": 474,
+          "height": 295
+        },
+        {
+          "key": "the-necklace:base:10",
+          "x": 487,
+          "y": 797,
+          "width": 462,
+          "height": 295
+        },
+        {
+          "key": "the-necklace:base:11",
+          "x": 959,
+          "y": 797,
+          "width": 475,
+          "height": 295
+        }
+      ]
+    },
+    "the-metamorphosis": {
+      "file": "assets/painted/the-metamorphosis.webp",
+      "width": 1438,
+      "height": 1094,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-metamorphosis:base:0",
+        "the-metamorphosis:base:1",
+        "the-metamorphosis:base:2",
+        "the-metamorphosis:base:3",
+        "the-metamorphosis:base:4",
+        "the-metamorphosis:base:5",
+        "the-metamorphosis:base:6",
+        "the-metamorphosis:base:7",
+        "the-metamorphosis:base:8",
+        "the-metamorphosis:base:9",
+        "the-metamorphosis:base:10",
+        "the-metamorphosis:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/5200",
+      "bytes": 184396,
+      "regions": [
+        {
+          "key": "the-metamorphosis:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 468,
+          "height": 261
+        },
+        {
+          "key": "the-metamorphosis:base:1",
+          "x": 485,
+          "y": 3,
+          "width": 468,
+          "height": 261
+        },
+        {
+          "key": "the-metamorphosis:base:2",
+          "x": 967,
+          "y": 3,
+          "width": 468,
+          "height": 261
+        },
+        {
+          "key": "the-metamorphosis:base:3",
+          "x": 3,
+          "y": 275,
+          "width": 468,
+          "height": 267
+        },
+        {
+          "key": "the-metamorphosis:base:4",
+          "x": 485,
+          "y": 275,
+          "width": 468,
+          "height": 267
+        },
+        {
+          "key": "the-metamorphosis:base:5",
+          "x": 967,
+          "y": 275,
+          "width": 468,
+          "height": 267
+        },
+        {
+          "key": "the-metamorphosis:base:6",
+          "x": 3,
+          "y": 552,
+          "width": 467,
+          "height": 248
+        },
+        {
+          "key": "the-metamorphosis:base:7",
+          "x": 485,
+          "y": 552,
+          "width": 467,
+          "height": 248
+        },
+        {
+          "key": "the-metamorphosis:base:8",
+          "x": 967,
+          "y": 552,
+          "width": 468,
+          "height": 248
+        },
+        {
+          "key": "the-metamorphosis:base:9",
+          "x": 3,
+          "y": 810,
+          "width": 467,
+          "height": 281
+        },
+        {
+          "key": "the-metamorphosis:base:10",
+          "x": 485,
+          "y": 810,
+          "width": 468,
+          "height": 281
+        },
+        {
+          "key": "the-metamorphosis:base:11",
+          "x": 967,
+          "y": 810,
+          "width": 468,
+          "height": 281
+        }
+      ]
+    },
+    "the-trial": {
+      "file": "assets/painted/the-trial.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-trial:base:0",
+        "the-trial:base:1",
+        "the-trial:base:2",
+        "the-trial:base:3",
+        "the-trial:base:4",
+        "the-trial:base:5",
+        "the-trial:base:6",
+        "the-trial:base:7",
+        "the-trial:base:8",
+        "the-trial:base:9",
+        "the-trial:base:10",
+        "the-trial:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/7849",
+      "bytes": 196774,
+      "regions": [
+        {
+          "key": "the-trial:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 470,
+          "height": 259
+        },
+        {
+          "key": "the-trial:base:1",
+          "x": 482,
+          "y": 3,
+          "width": 472,
+          "height": 259
+        },
+        {
+          "key": "the-trial:base:2",
+          "x": 962,
+          "y": 3,
+          "width": 472,
+          "height": 259
+        },
+        {
+          "key": "the-trial:base:3",
+          "x": 3,
+          "y": 270,
+          "width": 470,
+          "height": 263
+        },
+        {
+          "key": "the-trial:base:4",
+          "x": 482,
+          "y": 270,
+          "width": 472,
+          "height": 263
+        },
+        {
+          "key": "the-trial:base:5",
+          "x": 962,
+          "y": 270,
+          "width": 472,
+          "height": 263
+        },
+        {
+          "key": "the-trial:base:6",
+          "x": 3,
+          "y": 541,
+          "width": 469,
+          "height": 261
+        },
+        {
+          "key": "the-trial:base:7",
+          "x": 481,
+          "y": 541,
+          "width": 472,
+          "height": 261
+        },
+        {
+          "key": "the-trial:base:8",
+          "x": 959,
+          "y": 541,
+          "width": 475,
+          "height": 261
+        },
+        {
+          "key": "the-trial:base:9",
+          "x": 3,
+          "y": 811,
+          "width": 469,
+          "height": 281
+        },
+        {
+          "key": "the-trial:base:10",
+          "x": 481,
+          "y": 811,
+          "width": 472,
+          "height": 281
+        },
+        {
+          "key": "the-trial:base:11",
+          "x": 962,
+          "y": 811,
+          "width": 472,
+          "height": 281
         }
       ]
     }
