@@ -5,6 +5,7 @@
  const play=$('narration-play'),stopButton=$('narration-stop'),replay=$('narration-replay'),voice=$('narration-voice'),speed=$('narration-speed'),auto=$('narration-auto'),status=$('narration-status');
  let state='idle',token=0,timer=null,worker=null,serial=0,loading=null,ready=false,context=null,gain=null,source=null,buffer=null,offset=0,startedAt=0,chain=Promise.resolve();
  const pending=new Map(),audioCache=new Map();
+ let generationEpoch=0;
  try{const prefs=JSON.parse(localStorage.getItem('once-upon-narration-v1'));if(prefs){if(['af_heart','bm_fable'].includes(prefs.voice))voice.value=prefs.voice;if(['0.85','0.92','1','1.1'].includes(String(prefs.speed)))speed.value=prefs.speed;if(typeof prefs.auto==='boolean')auto.checked=prefs.auto;}}catch{}
  function save(){try{localStorage.setItem('once-upon-narration-v1',JSON.stringify({voice:voice.value,speed:speed.value,auto:auto.checked}));}catch{}}
  function update(message){
@@ -30,8 +31,11 @@
   if(ready)return;
   if(!loading)loading=(async()=>{
    if(location.protocol==='file:')throw new Error('hosted');
+   if(globalThis.OfflineLibrary?.disabled())throw new Error('downloads-cleared');
    worker=new Worker('./narration-worker.js',{type:'module'});
+   const activeWorker=worker;
    worker.addEventListener('message',event=>{
+    if(worker!==activeWorker)return;
     const data=event.data;
     if(data.type==='progress')globalThis.dispatchEvent(new CustomEvent('narration-model-progress',{detail:data}));
     if(data.type==='progress'&&state==='loading')update(data.file?.endsWith('.onnx')?`Downloading the neural voice… ${Math.round(data.progress||0)}%. This happens once.`:'Preparing the neural voice…');
@@ -39,21 +43,24 @@
     const job=pending.get(data.id);if(!job)return;pending.delete(data.id);
     if(data.type==='error')job.reject(new Error(data.message));else job.resolve(data);
    });
-   worker.addEventListener('error',()=>{for(const job of pending.values())job.reject(new Error('runtime'));pending.clear();ready=false;loading=null;worker.terminate();worker=null;});
+   worker.addEventListener('error',()=>{if(worker!==activeWorker)return;for(const job of pending.values())job.reject(new Error('runtime'));pending.clear();ready=false;loading=null;activeWorker.terminate();worker=null;});
    await call('prepare');
   })().catch(error=>{loading=null;if(worker&&!ready){worker.terminate();worker=null;}throw error;});
   return loading;
  }
  const key=(frame,v,pace)=>`${frame.storyId}:${frame.key}:${v}:${pace}`;
  async function requestAudio(frame,v,pace,relevant=()=>true,strict=false){
+  const epoch=generationEpoch;
   const stored=await globalThis.NarrationStore.get(frame,v,pace).catch(()=>null);
+  if(epoch!==generationEpoch)return null;
   if(stored)return stored;
   const task=chain.catch(()=>{}).then(async()=>{
-   if(!relevant())return null;
-   const saved=await globalThis.NarrationStore.get(frame,v,pace).catch(()=>null);if(saved)return saved;
+   if(epoch!==generationEpoch||!relevant())return null;
+   const saved=await globalThis.NarrationStore.get(frame,v,pace).catch(()=>null);if(epoch!==generationEpoch)return null;if(saved)return saved;
    const current=bridge.getFrame();
    if(state==='loading'&&current?.storyId===frame.storyId&&current?.key===frame.key&&voice.value===v&&Number(speed.value)===pace)update(ready?'Preparing this card’s narration…':'Preparing the neural voice… First use downloads about 115 MB.');
-   await engine();const audio=await call('generate',{text:frame.text,voice:v,speed:pace});
+   await engine();if(epoch!==generationEpoch)return null;const audio=await call('generate',{text:frame.text,voice:v,speed:pace});
+   if(epoch!==generationEpoch)return null;
    try{audio.storedBytes=await globalThis.NarrationStore.put(frame,v,pace,audio);}catch(error){if(strict)throw error;}
    return audio;
   });
@@ -89,7 +96,7 @@
    await unlock();
    if(!buffer){const audio=await pcm(frame,voice.value);if(t!==token||!audio)return;buffer=context.createBuffer(1,audio.samples.length,audio.sampleRate);buffer.copyToChannel(audio.samples,0);}
    if(t!==token)return;sound(t);
-  }catch(error){if(t!==token)return;state='idle';offset=0;buffer=null;update(error.message==='hosted'?'Open the hosted library to use local neural narration.':'The voice could not be prepared. Reconnect and try Listen again.');$('narration-hosted').hidden=error.message!=='hosted';$('narration-hosted').href=`https://ascendesshady.github.io/English-Literature/#story/${frame.storyId}/${frame.index+1}`;}
+  }catch(error){if(t!==token)return;state='idle';offset=0;buffer=null;update(error.message==='hosted'?'Open the hosted library to use local neural narration.':error.message==='downloads-cleared'?'Offline downloads were cleared. Use Download audio at the top to save narration again.':'The voice could not be prepared. Reconnect and try Listen again.');$('narration-hosted').hidden=error.message!=='hosted';$('narration-hosted').href=`https://ascendesshady.github.io/English-Literature/#story/${frame.storyId}/${frame.index+1}`;}
  }
  play.addEventListener('click',()=>{if(['loading','playing','gap'].includes(state)){pause();return;}bridge.showStory();listen(state==='paused');});
  stopButton.addEventListener('click',()=>stop());replay.addEventListener('click',()=>{bridge.showStory();listen(false);});
@@ -98,7 +105,14 @@
  auto.addEventListener('change',()=>{save();if(!auto.checked&&state==='gap'){hush();state='ended';update('Auto turn is off. Swipe to choose your next card.');}});
  document.addEventListener('visibilitychange',()=>{if(document.hidden&&['playing','loading','gap'].includes(state))pause('Paused while the library is in the background.');});
  window.addEventListener('pagehide',()=>stop());
- globalThis.StoryNarrator={stop,prepare:(frame,v,pace,relevant)=>requestAudio(frame,v,pace,relevant,true),settings:()=>({voice:voice.value,pace:Number(speed.value)}),useSettings(v,p){if(voice.value!==v||Number(speed.value)!==p){voice.value=v;speed.value=String(p);save();audioCache.clear();stop('Voice and pace match your download. Listen uses the prepared cards.');}},changed(){const keepGoing=['playing','loading','gap'].includes(state);token++;hush();offset=0;buffer=null;if(keepGoing)listen();else{state='idle';update('Listen from this card, or swipe to choose a starting point.');}},tabChanged(tab){if(tab!=='story'&&['playing','loading','gap'].includes(state))pause('Paused while you explore this section.');}};
+ async function releaseDownloads(){
+  generationEpoch++;stop('Offline downloads cleared. Download audio again when you want to listen.');
+  const previousWorker=worker;worker=null;ready=false;previousWorker?.terminate();
+  for(const job of pending.values())job.reject(new Error('cancelled'));pending.clear();
+  await chain.catch(()=>{});chain=Promise.resolve();loading=null;audioCache.clear();
+  if(context)await context.close().catch(()=>{});context=null;gain=null;
+ }
+ globalThis.StoryNarrator={stop,releaseDownloads,prepare:(frame,v,pace,relevant)=>requestAudio(frame,v,pace,relevant,true),settings:()=>({voice:voice.value,pace:Number(speed.value)}),useSettings(v,p){if(voice.value!==v||Number(speed.value)!==p){voice.value=v;speed.value=String(p);save();audioCache.clear();stop('Voice and pace match your download. Listen uses the prepared cards.');}},changed(){const keepGoing=['playing','loading','gap'].includes(state);token++;hush();offset=0;buffer=null;if(keepGoing)listen();else{state='idle';update('Listen from this card, or swipe to choose your next card.');}},tabChanged(tab){if(tab!=='story'&&['playing','loading','gap'].includes(state))pause('Paused while you explore this section.');}};
  $('narration-hosted').href='https://ascendesshady.github.io/English-Literature/'+location.hash;
  if(!globalThis.Worker||!(globalThis.AudioContext||globalThis.webkitAudioContext)){play.disabled=true;replay.disabled=true;status.textContent='Neural narration is unavailable in this browser. Open the library in Chrome.';}else update('A gentle voice, one card at a time.');
 })();

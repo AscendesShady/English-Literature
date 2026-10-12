@@ -1,14 +1,17 @@
 'use strict';
 importScripts('./painted-assets.js','./authors.js','./narration-assets.js');
 const PREFIX='once-upon-timeline:'+self.registration.scope+':';
-const VERSION=PREFIX+'v7-painted-c8f4048d3b71';
+const VERSION=PREFIX+'v7-painted-97afe79187db';
 const SHELL=['./','./index.html','./styles.css','./stories.js','./authors.js','./painted-assets.js','./illustrations.js','./app.js','./pwa.js','./manifest.json','./assets/favicon.svg','./assets/icons/icon-192.png','./assets/icons/icon-512.png','./assets/icons/icon-maskable-512.png','./assets/icons/apple-touch-icon.png',...Object.values(self.PAINTED_ART.works).map(art=>'./'+art.file),...Object.values(self.AUTHOR_LIBRARY.profiles).filter(author=>author.portrait).map(author=>'./'+author.portrait)];
 const urls=SHELL.map(path=>new URL(path,self.registration.scope).href);
 urls.push(...['narration.js','narration-assets.js','narration-store.js','narration-downloads.js'].map(file=>new URL(file,self.registration.scope).href));
 const neuralUrls=self.NARRATION_ASSETS.files.map(path=>new URL(path,self.registration.scope).href);
 const neuralPrefix='once-upon-narration:'+self.registration.scope+':assets-';
 const neuralCache=neuralPrefix+self.NARRATION_ASSETS.version;
+const disabledCache='once-upon-offline-disabled:'+self.registration.scope;
+let downloadsDisabled=false;
 self.addEventListener('install',event=>event.waitUntil((async()=>{
+ if(await caches.has(disabledCache)){downloadsDisabled=true;return;}
  await (await caches.open(VERSION)).addAll(urls);
  // Readers who already prepared narration retain it across app updates.
  const prior=(await caches.keys()).filter(name=>name.startsWith(neuralPrefix)&&name!==neuralCache);
@@ -31,9 +34,13 @@ self.addEventListener('activate',event=>event.waitUntil((async()=>{
  if(names.includes(neuralCache))await Promise.all(names.filter(n=>n.startsWith(neuralPrefix)&&n!==neuralCache).map(n=>caches.delete(n)));
  await self.clients.claim();
 })()));
-self.addEventListener('message',event=>{if(event.data?.type==='SKIP_WAITING')self.skipWaiting();});
+self.addEventListener('message',event=>{
+ if(event.data?.type==='SKIP_WAITING')self.skipWaiting();
+ if(event.data?.type==='DISABLE_DOWNLOADS'){downloadsDisabled=true;event.ports[0]?.postMessage({disabled:true});}
+});
 self.addEventListener('fetch',event=>{
  const request=event.request,url=new URL(request.url);
+ if(downloadsDisabled)return;
  if(request.method!=='GET'||url.origin!==self.location.origin||!url.href.startsWith(self.registration.scope))return;
  // Cache only this app's declared resources. Source websites are left to the network.
  const canonical=new URL(url.href);canonical.search='';canonical.hash='';
@@ -41,11 +48,13 @@ self.addEventListener('fetch',event=>{
  const optional=neuralUrls.includes(canonical.href);
  if(!navigation&&!urls.includes(canonical.href)&&!optional)return;
  event.respondWith((async()=>{
+  if(downloadsDisabled||await caches.has(disabledCache))return fetch(request);
   const cache=await caches.open(optional?neuralCache:VERSION);
+  if(downloadsDisabled||await caches.has(disabledCache))return fetch(request);
   if(navigation){const shell=await cache.match(new URL('./index.html',self.registration.scope).href);return shell||fetch(request);}
   const cached=await cache.match(canonical.href);if(cached)return cached;
   const response=await fetch(request);
-  if(optional&&response.ok)try{await cache.put(canonical.href,response.clone());}catch{}
+  if(optional&&response.ok&&!downloadsDisabled&&!await caches.has(disabledCache))try{await cache.put(canonical.href,response.clone());}catch{}
   return response;
  })());
 });

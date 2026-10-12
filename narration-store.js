@@ -11,6 +11,7 @@
  }
  async function get(frame,voice,pace){
   if(!enabled)return null;
+  if(!await caches.has(name))return null;
   const response=await (await cache()).match(await url(frame,voice,pace));if(!response)return null;
   const bytes=await response.arrayBuffer(),view=new DataView(bytes);
   if(bytes.byteLength<44||view.getUint32(0)!==0x52494646||view.getUint16(22,true)!==1||view.getUint16(34,true)!==16)return null;
@@ -28,7 +29,7 @@
   return bytes.byteLength;
  }
  async function inventory(frames,voice,pace){
-  if(!enabled)return {ready:[],missing:frames,bytes:0};
+  if(!enabled||!await caches.has(name))return {ready:[],missing:frames,bytes:0};
   const saved=await cache(),keys=new Set((await saved.keys()).map(request=>request.url));
   const paths=await Promise.all(frames.map(frame=>url(frame,voice,pace))),ready=[],missing=[];
   let bytes=0;
