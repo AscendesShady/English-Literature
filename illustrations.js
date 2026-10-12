@@ -84,11 +84,17 @@ function livingIllustration(s,f,cover=false){
  return `<svg viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${escapeHTML(f.title+': '+people.map(c=>c.name).join(', ')+'. '+f.mood+' storybook scene.')}"><defs><linearGradient id="${unique}" x2="0" y2="1"><stop stop-color="${sky}"/><stop offset="1" stop-color="${p.bg}"/></linearGradient></defs><rect width="700" height="400" fill="url(#${unique})"/><circle class="candle-glow" cx="588" cy="60" r="35" fill="${p.light}" opacity=".8"/>${night?`<circle cx="602" cy="48" r="30" fill="${sky}"/>${[80,175,390,475].map((x,i)=>`<path d="M${x} ${35+i*14}v9m-4-4h9" stroke="${p.light}" stroke-width="2"/>`).join('')}`:''}<path d="M0 271Q160 220 340 268T700 252V400H0Z" fill="${p.ground}" opacity=".23"/>${scenery(f.motif,e)}${farm}${machine}${foliage}${special?(special.includes('<g transform=')||f.motif==='urn'||f.motif==='music'?special:`<g transform="translate(571 117) scale(.9)">${special}</g>`):''}${people.map((c,i)=>characterPortrait(s,c,s.characters.indexOf(c),positions[i],cover?159:154,cover?.83:.93,f.mood,i===0&&people.length>1?'speak':f.motif==='book'?'read':'listen')).join('')}<path d="M0 355Q160 331 360 350T700 352V400H0Z" fill="${p.bg}"/>${!cover?people.map((c,i)=>`<text x="${positions[i]}" y="379" text-anchor="middle" fill="${p.ink}" font-family="Georgia,serif" font-size="13">${escapeHTML(c.name.length>24?c.name.slice(0,22)+'…':c.name)}</text>`).join(''):''}<path d="M20 20H80M20 20V75M680 20H620M680 20V75" stroke="${p.light}" stroke-width="2" fill="none" opacity=".7"/></svg>`;
 }
 
+let paintedRegionId=0;
 function paintedIllustration(s,f,cover=false){
  const art=globalThis.PAINTED_ART?.works[s.id];if(!art)return '';
  const index=art.sceneKeys.indexOf(f.key);if(index<0)return '';
- const x=index%art.columns,y=Math.floor(index/art.columns);
- return `<svg class="painted-scene" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${escapeHTML(f.title+'. '+f.text)}" data-artwork="painted" data-scene-key="${escapeHTML(f.key)}" overflow="hidden"><title>${escapeHTML(s.title+': '+f.title)}</title><desc>Original painted interpretation of this scene. ${escapeHTML(f.text)}</desc><image ${cover?'data-painting-src':'href'}="${escapeHTML(art.file)}" x="${-x*700}" y="${-y*400}" width="${art.columns*700}" height="${art.rows*400}" preserveAspectRatio="none"/></svg>`;
+ const column=index%art.columns,row=Math.floor(index/art.columns),inset=3;
+ const measured=art.regions?.[index];
+ const region=measured?.key===f.key?measured:{x:Math.round(column*art.width/art.columns)+inset,y:Math.round(row*art.height/art.rows)+inset,width:Math.round((column+1)*art.width/art.columns)-Math.round(column*art.width/art.columns)-2*inset,height:Math.round((row+1)*art.height/art.rows)-Math.round(row*art.height/art.rows)-2*inset};
+ const clip='painted-region-'+(++paintedRegionId);
+ // A viewBox alone does not clip the letterboxed area of a differently sized
+ // viewport. The explicit rectangle prevents neighbouring panels from leaking.
+ return `<svg class="painted-scene" viewBox="0 0 ${region.width} ${region.height}" width="${region.width}" height="${region.height}" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${escapeHTML(f.title+'. '+f.text)}" data-artwork="painted" data-scene-key="${escapeHTML(f.key)}" data-panel-region="${region.x},${region.y},${region.width},${region.height}" overflow="hidden"><title>${escapeHTML(s.title+': '+f.title)}</title><desc>Original painted interpretation of this scene. ${escapeHTML(f.text)}</desc><defs><clipPath id="${clip}"><rect width="${region.width}" height="${region.height}"/></clipPath></defs><image ${cover?'data-painting-src':'href'}="${escapeHTML(art.file)}" x="${-region.x}" y="${-region.y}" width="${art.width}" height="${art.height}" preserveAspectRatio="none" clip-path="url(#${clip})"/></svg>`;
 }
 
 let paintedCoverObserver;

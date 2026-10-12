@@ -10,7 +10,7 @@ Read each story through twelve narrated cards, explore the cast and quotations, 
 
 This repository contains only the website, story-card data, paintings and app icons. Source documents, Python build tools, research files and image-generation prompts are retained in the author's local workspace. Paintings are WebP; app icons are PNG/SVG. No account, build step, API key or backend is required.
 
-Paintings use compressed WebP at their original dimensions, with one sheet serving all twelve cards of a book. Packaging enforces a 100 MB website budget and excludes voice models and finished audio recordings. The speech runtime is downloaded only when narration is requested; ordinary reading does not fetch it.
+Paintings use compressed WebP at their original dimensions, with one sheet serving all twelve cards of a book. Each panel has measured source bounds and an explicit clip to prevent neighbouring scenes from appearing; readers and cast cards preserve the panel's natural proportions. Packaging enforces a 100 MB website budget and excludes voice models and finished audio recordings. The speech runtime is downloaded only when narration is requested; ordinary reading does not fetch it.
 
 Open `index.html` locally to read. Installation and service-worker caching require the HTTPS site. GitHub Pages can serve these files directly from the repository root.
 
