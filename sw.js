@@ -1,7 +1,7 @@
 'use strict';
 importScripts('./painted-assets.js','./authors.js','./narration-assets.js');
 const PREFIX='once-upon-timeline:'+self.registration.scope+':';
-const VERSION=PREFIX+'v7-painted-e8efe02c123e';
+const VERSION=PREFIX+'v7-painted-ae76f52562c4';
 const SHELL=['./','./index.html','./styles.css','./stories.js','./authors.js','./painted-assets.js','./illustrations.js','./app.js','./pwa.js','./manifest.json','./assets/favicon.svg','./assets/icons/icon-192.png','./assets/icons/icon-512.png','./assets/icons/icon-maskable-512.png','./assets/icons/apple-touch-icon.png',...Object.values(self.PAINTED_ART.works).map(art=>'./'+art.file),...Object.values(self.AUTHOR_LIBRARY.profiles).filter(author=>author.portrait).map(author=>'./'+author.portrait)];
 const urls=SHELL.map(path=>new URL(path,self.registration.scope).href);
 urls.push(...['narration.js','narration-assets.js','narration-store.js','narration-downloads.js'].map(file=>new URL(file,self.registration.scope).href));

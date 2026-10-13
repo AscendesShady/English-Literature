@@ -11058,6 +11058,333 @@ self.PAINTED_ART = {
         }
       ]
     },
+    "the-alchemist": {
+      "file": "assets/painted/the-alchemist.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-alchemist:base:0",
+        "the-alchemist:base:1",
+        "the-alchemist:base:2",
+        "the-alchemist:base:3",
+        "the-alchemist:base:4",
+        "the-alchemist:base:5",
+        "the-alchemist:base:6",
+        "the-alchemist:base:7",
+        "the-alchemist:base:8",
+        "the-alchemist:base:9",
+        "the-alchemist:base:10",
+        "the-alchemist:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/4081",
+      "bytes": 257514,
+      "regions": [
+        {
+          "key": "the-alchemist:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 468,
+          "height": 258
+        },
+        {
+          "key": "the-alchemist:base:1",
+          "x": 483,
+          "y": 3,
+          "width": 470,
+          "height": 258
+        },
+        {
+          "key": "the-alchemist:base:2",
+          "x": 966,
+          "y": 3,
+          "width": 468,
+          "height": 258
+        },
+        {
+          "key": "the-alchemist:base:3",
+          "x": 3,
+          "y": 273,
+          "width": 468,
+          "height": 256
+        },
+        {
+          "key": "the-alchemist:base:4",
+          "x": 483,
+          "y": 273,
+          "width": 470,
+          "height": 256
+        },
+        {
+          "key": "the-alchemist:base:5",
+          "x": 966,
+          "y": 273,
+          "width": 468,
+          "height": 256
+        },
+        {
+          "key": "the-alchemist:base:6",
+          "x": 3,
+          "y": 541,
+          "width": 467,
+          "height": 246
+        },
+        {
+          "key": "the-alchemist:base:7",
+          "x": 483,
+          "y": 541,
+          "width": 470,
+          "height": 246
+        },
+        {
+          "key": "the-alchemist:base:8",
+          "x": 966,
+          "y": 541,
+          "width": 468,
+          "height": 246
+        },
+        {
+          "key": "the-alchemist:base:9",
+          "x": 3,
+          "y": 798,
+          "width": 467,
+          "height": 294
+        },
+        {
+          "key": "the-alchemist:base:10",
+          "x": 483,
+          "y": 798,
+          "width": 470,
+          "height": 294
+        },
+        {
+          "key": "the-alchemist:base:11",
+          "x": 966,
+          "y": 798,
+          "width": 468,
+          "height": 294
+        }
+      ]
+    },
+    "the-jew-of-malta": {
+      "file": "assets/painted/the-jew-of-malta.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-jew-of-malta:base:0",
+        "the-jew-of-malta:base:1",
+        "the-jew-of-malta:base:2",
+        "the-jew-of-malta:base:3",
+        "the-jew-of-malta:base:4",
+        "the-jew-of-malta:base:5",
+        "the-jew-of-malta:base:6",
+        "the-jew-of-malta:base:7",
+        "the-jew-of-malta:base:8",
+        "the-jew-of-malta:base:9",
+        "the-jew-of-malta:base:10",
+        "the-jew-of-malta:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/901",
+      "bytes": 263838,
+      "regions": [
+        {
+          "key": "the-jew-of-malta:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 471,
+          "height": 255
+        },
+        {
+          "key": "the-jew-of-malta:base:1",
+          "x": 483,
+          "y": 3,
+          "width": 470,
+          "height": 255
+        },
+        {
+          "key": "the-jew-of-malta:base:2",
+          "x": 963,
+          "y": 3,
+          "width": 471,
+          "height": 255
+        },
+        {
+          "key": "the-jew-of-malta:base:3",
+          "x": 3,
+          "y": 268,
+          "width": 470,
+          "height": 264
+        },
+        {
+          "key": "the-jew-of-malta:base:4",
+          "x": 483,
+          "y": 268,
+          "width": 470,
+          "height": 264
+        },
+        {
+          "key": "the-jew-of-malta:base:5",
+          "x": 963,
+          "y": 268,
+          "width": 471,
+          "height": 264
+        },
+        {
+          "key": "the-jew-of-malta:base:6",
+          "x": 3,
+          "y": 542,
+          "width": 470,
+          "height": 244
+        },
+        {
+          "key": "the-jew-of-malta:base:7",
+          "x": 483,
+          "y": 542,
+          "width": 470,
+          "height": 244
+        },
+        {
+          "key": "the-jew-of-malta:base:8",
+          "x": 963,
+          "y": 542,
+          "width": 471,
+          "height": 244
+        },
+        {
+          "key": "the-jew-of-malta:base:9",
+          "x": 3,
+          "y": 796,
+          "width": 470,
+          "height": 296
+        },
+        {
+          "key": "the-jew-of-malta:base:10",
+          "x": 483,
+          "y": 796,
+          "width": 470,
+          "height": 296
+        },
+        {
+          "key": "the-jew-of-malta:base:11",
+          "x": 963,
+          "y": 796,
+          "width": 471,
+          "height": 296
+        }
+      ]
+    },
+    "edward-ii": {
+      "file": "assets/painted/edward-ii.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "edward-ii:base:0",
+        "edward-ii:base:1",
+        "edward-ii:base:2",
+        "edward-ii:base:3",
+        "edward-ii:base:4",
+        "edward-ii:base:5",
+        "edward-ii:base:6",
+        "edward-ii:base:7",
+        "edward-ii:base:8",
+        "edward-ii:base:9",
+        "edward-ii:base:10",
+        "edward-ii:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/20288",
+      "bytes": 269464,
+      "regions": [
+        {
+          "key": "edward-ii:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 473,
+          "height": 257
+        },
+        {
+          "key": "edward-ii:base:1",
+          "x": 482,
+          "y": 3,
+          "width": 474,
+          "height": 257
+        },
+        {
+          "key": "edward-ii:base:2",
+          "x": 962,
+          "y": 3,
+          "width": 472,
+          "height": 257
+        },
+        {
+          "key": "edward-ii:base:3",
+          "x": 3,
+          "y": 266,
+          "width": 473,
+          "height": 262
+        },
+        {
+          "key": "edward-ii:base:4",
+          "x": 482,
+          "y": 266,
+          "width": 474,
+          "height": 262
+        },
+        {
+          "key": "edward-ii:base:5",
+          "x": 962,
+          "y": 266,
+          "width": 472,
+          "height": 262
+        },
+        {
+          "key": "edward-ii:base:6",
+          "x": 3,
+          "y": 534,
+          "width": 473,
+          "height": 255
+        },
+        {
+          "key": "edward-ii:base:7",
+          "x": 482,
+          "y": 534,
+          "width": 474,
+          "height": 255
+        },
+        {
+          "key": "edward-ii:base:8",
+          "x": 962,
+          "y": 534,
+          "width": 472,
+          "height": 255
+        },
+        {
+          "key": "edward-ii:base:9",
+          "x": 3,
+          "y": 795,
+          "width": 472,
+          "height": 297
+        },
+        {
+          "key": "edward-ii:base:10",
+          "x": 481,
+          "y": 795,
+          "width": 475,
+          "height": 297
+        },
+        {
+          "key": "edward-ii:base:11",
+          "x": 962,
+          "y": 795,
+          "width": 472,
+          "height": 297
+        }
+      ]
+    },
     "measure-for-measure": {
       "file": "assets/painted/measure-for-measure.webp",
       "width": 1437,
@@ -11600,6 +11927,115 @@ self.PAINTED_ART = {
           "y": 812,
           "width": 473,
           "height": 280
+        }
+      ]
+    },
+    "the-taming-of-the-shrew": {
+      "file": "assets/painted/the-taming-of-the-shrew.webp",
+      "width": 1437,
+      "height": 1095,
+      "columns": 3,
+      "rows": 4,
+      "sceneKeys": [
+        "the-taming-of-the-shrew:base:0",
+        "the-taming-of-the-shrew:base:1",
+        "the-taming-of-the-shrew:base:2",
+        "the-taming-of-the-shrew:base:3",
+        "the-taming-of-the-shrew:base:4",
+        "the-taming-of-the-shrew:base:5",
+        "the-taming-of-the-shrew:base:6",
+        "the-taming-of-the-shrew:base:7",
+        "the-taming-of-the-shrew:base:8",
+        "the-taming-of-the-shrew:base:9",
+        "the-taming-of-the-shrew:base:10",
+        "the-taming-of-the-shrew:base:11"
+      ],
+      "source": "https://www.gutenberg.org/ebooks/100",
+      "bytes": 229278,
+      "regions": [
+        {
+          "key": "the-taming-of-the-shrew:base:0",
+          "x": 3,
+          "y": 3,
+          "width": 474,
+          "height": 269
+        },
+        {
+          "key": "the-taming-of-the-shrew:base:1",
+          "x": 483,
+          "y": 3,
+          "width": 470,
+          "height": 269
+        },
+        {
+          "key": "the-taming-of-the-shrew:base:2",
+          "x": 959,
+          "y": 3,
+          "width": 475,
+          "height": 269
+        },
+        {
+          "key": "the-taming-of-the-shrew:base:3",
+          "x": 3,
+          "y": 278,
+          "width": 474,
+          "height": 267
+        },
+        {
+          "key": "the-taming-of-the-shrew:base:4",
+          "x": 483,
+          "y": 278,
+          "width": 475,
+          "height": 267
+        },
+        {
+          "key": "the-taming-of-the-shrew:base:5",
+          "x": 964,
+          "y": 278,
+          "width": 470,
+          "height": 267
+        },
+        {
+          "key": "the-taming-of-the-shrew:base:6",
+          "x": 3,
+          "y": 551,
+          "width": 470,
+          "height": 252
+        },
+        {
+          "key": "the-taming-of-the-shrew:base:7",
+          "x": 479,
+          "y": 551,
+          "width": 478,
+          "height": 252
+        },
+        {
+          "key": "the-taming-of-the-shrew:base:8",
+          "x": 963,
+          "y": 551,
+          "width": 471,
+          "height": 252
+        },
+        {
+          "key": "the-taming-of-the-shrew:base:9",
+          "x": 3,
+          "y": 809,
+          "width": 470,
+          "height": 283
+        },
+        {
+          "key": "the-taming-of-the-shrew:base:10",
+          "x": 479,
+          "y": 809,
+          "width": 474,
+          "height": 283
+        },
+        {
+          "key": "the-taming-of-the-shrew:base:11",
+          "x": 959,
+          "y": 809,
+          "width": 475,
+          "height": 283
         }
       ]
     },
