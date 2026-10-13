@@ -1507,7 +1507,7 @@ window.STORIES = [
       },
       {
         "title": "Beyond the familiar guide",
-        "text": "Beatrice takes her place among the blessed. Saint Bernard, his final guide, directs Dante's final contemplation and prayer, preparing the traveller to look toward the highest mystery.",
+        "text": "Beatrice takes her place among the blessed. The monk Saint Bernard, his final guide, directs Dante's final contemplation and prayer, preparing the traveller to look toward the highest mystery.",
         "cast": [
           "Dante",
           "St Bernard"
@@ -1618,7 +1618,7 @@ window.STORIES = [
       },
       {
         "title": "Holy Church explains",
-        "text": "Holy Church tells Will about Truth and the need for love. Knowing the right words is only the beginning of learning to live them.",
+        "text": "A woman representing Holy Church tells Will about Truth and the need for love. Knowing the right words is only the beginning of learning to live them.",
         "cast": [
           "Will",
           "Holy Church"
@@ -1659,7 +1659,7 @@ window.STORIES = [
       },
       {
         "title": "The ploughman knows",
-        "text": "Piers offers guidance. Before travelling, however, he asks the company to help cultivate his land: honest labour belongs inside the search for salvation.",
+        "text": "Piers, a humble ploughman, offers guidance. Before travelling, however, he asks the company to help cultivate his land: honest labour belongs inside the search for salvation.",
         "cast": [
           "Piers",
           "Will"
@@ -1820,7 +1820,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "Love inside a siege",
-        "text": "Once upon a time in besieged Troy, Prince Troilus mocks lovers. Then he sees Criseyde, and his own certainty begins to tremble.",
+        "text": "Once upon a time in besieged Troy, Prince Troilus mocks lovers. Then he sees Criseyde, a widow living in Troy, and his own certainty begins to tremble.",
         "cast": [
           "Troilus",
           "Criseyde"
@@ -2336,7 +2336,7 @@ window.STORIES = [
       },
       {
         "title": "A different kind of strength",
-        "text": "The knight Galahad arrives, and the quest for the Holy Grail begins. The knights face a test that skill with weapons alone cannot let them pass.",
+        "text": "The knight Lancelot's son Galahad arrives, and the quest for the Holy Grail begins. The knights face a test that skill with weapons alone cannot let them pass.",
         "cast": [
           "Galahad",
           "Lancelot"
@@ -2405,7 +2405,7 @@ window.STORIES = [
       },
       {
         "title": "Mordred takes his chance",
-        "text": "While Arthur campaigns against Lancelot, Arthur’s son Mordred seizes power in Britain. Arthur returns to fight a rebellion born within his own household.",
+        "text": "While Arthur campaigns against Lancelot, Arthur’s son Arthur's son Mordred seizes power in Britain. Arthur returns to fight a rebellion born within his own household.",
         "cast": [
           "Arthur",
           "Mordred"
@@ -2433,7 +2433,7 @@ window.STORIES = [
       },
       {
         "title": "Excalibur leaves the world",
-        "text": "Arthur’s loyal knight Bedivere finally returns Excalibur to the water. Arthur is carried away, while the surviving lovers turn toward penitence rather than a restored romance.",
+        "text": "Arthur’s loyal knight The loyal knight Bedivere finally returns Excalibur to the water. Arthur is carried away, while the surviving lovers choose separate lives of penitence rather than a restored romance.",
         "cast": [
           "Arthur",
           "Bedivere",
@@ -2974,7 +2974,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "Truth and its knight",
-        "text": "Once upon a time, a knight bearing a red cross rode beside Una, a woman representing Truth. Her parents needed rescue from a dragon. Before that battle, he would face other dangers.",
+        "text": "Once upon a time, a knight named Redcrosse, bearing a red cross, rode beside Una, a woman representing Truth. Her parents needed rescue from a dragon. Before that battle, he would face other dangers.",
         "cast": [
           "Redcrosse",
           "Una"
@@ -3684,7 +3684,7 @@ window.STORIES = [
       },
       {
         "title": "The queen stands outside",
-        "text": "Isabella feels excluded from her husband's affection and rule. Her distress adds a family conflict to the growing struggle between the king and his barons.",
+        "text": "Queen Isabella, Edward's wife, feels excluded from her husband's affection and rule. Her distress adds a family conflict to the growing struggle between the king and his barons.",
         "cast": [
           "Isabella",
           "Edward"
@@ -3756,7 +3756,7 @@ window.STORIES = [
       },
       {
         "title": "Isabella joins Mortimer",
-        "text": "The queen and Mortimer organise resistance from abroad. Their alliance turns the royal marriage into a contest over who will control the kingdom and its heir.",
+        "text": "The queen and the rebel nobleman Mortimer organise resistance from abroad. Their alliance turns the royal marriage into a contest over who will control the kingdom and its heir.",
         "cast": [
           "Isabella",
           "Mortimer"
@@ -4710,7 +4710,7 @@ window.STORIES = [
       },
       {
         "title": "The duel changes everything",
-        "text": "Tybalt kills Mercutio, and Romeo kills Tybalt in revenge. Romeo is banished. A few violent minutes change the secret marriage into a crisis of separation.",
+        "text": "Juliet's cousin Tybalt kills Romeo's friend Mercutio, and Romeo kills Tybalt in revenge. Romeo is banished. A few violent minutes change the secret marriage into a crisis of separation.",
         "cast": [
           "Romeo",
           "Mercutio",
@@ -5075,7 +5075,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "A friend needs money",
-        "text": "In Venice, Bassanio needs money to court Portia. His friend Antonio's wealth is tied up in trading ships. To help him, Antonio borrows from Shylock, a Jewish moneylender he has mistreated.",
+        "text": "In Venice, Bassanio needs money to court the wealthy heiress Portia. His friend Antonio's wealth is tied up in trading ships. To help him, Antonio borrows from Shylock, a Jewish moneylender he has mistreated.",
         "cast": [
           "Antonio",
           "Bassanio"
@@ -6984,7 +6984,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "The prophecy",
-        "text": "On a wild Scottish heath, the Scottish warriors Macbeth and Banquo met three witches after battle. They predicted that Macbeth would become king. Then part of their greeting unexpectedly came true.",
+        "text": "On a wild Scottish heath, two warriors, Macbeth and Banquo, met three witches after battle. They predicted that Macbeth would become king. Then part of their greeting unexpectedly came true.",
         "cast": [
           "Macbeth",
           "Banquo"
@@ -7104,7 +7104,7 @@ window.STORIES = [
       },
       {
         "title": "The crown brings no rest",
-        "text": "Macbeth ordered further violence, including the killing of Macduff's family. Every attempt to secure the crown produced more enemies. Far from resting, he kept defending what murder had gained.",
+        "text": "Macbeth ordered further violence, including the killing of the family of Macduff, a Scottish nobleman. Every attempt to secure the crown produced more enemies. Far from resting, he kept defending what murder had gained.",
         "cast": [
           "Macbeth"
         ],
@@ -7229,7 +7229,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "The love test",
-        "text": "Old King Lear plans to divide his kingdom among three daughters. He demands declarations of love first. Goneril and Regan flatter him; Cordelia refuses to turn affection into a performance.",
+        "text": "Old King Lear plans to divide his kingdom among three daughters. He demands declarations of love first. His elder daughters, Goneril and Regan, flatter him; the youngest, Cordelia, refuses to turn affection into a performance.",
         "cast": [
           "Lear",
           "Cordelia",
@@ -7289,7 +7289,7 @@ window.STORIES = [
       },
       {
         "title": "Another father deceived",
-        "text": "Meanwhile, Gloucester, another nobleman, trusts his illegitimate son Edmund's lies against Edgar. Another father mistakes false evidence for loyalty. Another honest child must flee a parent's anger.",
+        "text": "Meanwhile, Gloucester, another nobleman, trusts his illegitimate son Edmund's lies against his other son, Edgar. Another father mistakes false evidence for loyalty. Another honest child must flee a parent's anger.",
         "cast": [
           "Gloucester",
           "Edmund",
@@ -9465,7 +9465,7 @@ window.STORIES = [
       },
       {
         "title": "Leaving with hope",
-        "text": "They left Eden together. Michael's revelations gave Adam a future containing suffering and the hope of redemption. Paradise was lost, but the human story still had a road ahead.",
+        "text": "They left Eden together. The angel Michael's revelations gave Adam a future containing suffering and the hope of redemption. Paradise was lost, but the human story still had a road ahead.",
         "cast": [
           "Adam",
           "Eve",
@@ -9794,7 +9794,7 @@ window.STORIES = [
       },
       {
         "title": "His own choices return",
-        "text": "Samson remembers revealing the secret of his strength to Dalila. Betrayal wounded him, but he also struggles with his own part in the disaster.",
+        "text": "Samson remembers revealing the secret of his strength to his wife Dalila. Betrayal wounded him, but he also struggles with his own part in the disaster.",
         "cast": [
           "Samson",
           "Dalila"
@@ -10030,7 +10030,7 @@ window.STORIES = [
       },
       {
         "title": "Ventidius brings an army",
-        "text": "Ventidius, Antony’s loyal soldier, offers soldiers and a path back toward honour. Antony responds to his old companion's loyalty, sensing how much remains possible if he can separate himself from Cleopatra.",
+        "text": "Ventidius, Antony’s loyal soldier, offers soldiers and a path back toward honour. Antony responds to his old companion's loyalty, sensing how much remains possible if he can separate himself from Cleopatra, Egypt's queen and his beloved.",
         "cast": [
           "Antony",
           "Ventidius"
@@ -10072,7 +10072,7 @@ window.STORIES = [
       },
       {
         "title": "Octavia offers another future",
-        "text": "Antony's wife arrives with their children. Her presence offers family reconciliation and an alliance with Caesar, giving duty an immediate human shape rather than only a political one.",
+        "text": "Antony's wife Octavia arrives with their children. Her presence offers family reconciliation and an alliance with Caesar, giving duty an immediate human shape rather than only a political one.",
         "cast": [
           "Antony",
           "Octavia"
@@ -11233,7 +11233,7 @@ window.STORIES = [
       },
       {
         "title": "The scissors strike",
-        "text": "Clarissa lends him scissors. While Belinda is distracted, he cuts off a curl. The tool is tiny; the outrage that follows will be described on a much grander scale.",
+        "text": "Clarissa, another woman at the party, lends the Baron scissors. While Belinda is distracted, he cuts off a curl. The tool is tiny; the outrage that follows will be described on a much grander scale.",
         "cast": [
           "Belinda",
           "The Baron",
@@ -12267,7 +12267,7 @@ window.STORIES = [
       },
       {
         "title": "Dismissed onto the road",
-        "text": "Joseph loses his place and starts toward the countryside, where Fanny lives. The journey begins with a clear affection and very little protection.",
+        "text": "Joseph loses his place and starts toward the countryside, where his beloved Fanny lives. The journey begins with a clear affection and very little protection.",
         "cast": [
           "Joseph",
           "Fanny"
@@ -13145,7 +13145,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "The household seems secure",
-        "text": "Dr Primrose describes a happy family and firm principles. Their comfortable order encourages him to believe that prudence and goodness can keep the future manageable.",
+        "text": "The country vicar Dr Primrose describes a happy family and firm principles. Their comfortable order encourages him to believe that prudence and goodness can keep the future manageable.",
         "cast": [
           "Dr Primrose",
           "Deborah"
@@ -13173,7 +13173,7 @@ window.STORIES = [
       },
       {
         "title": "The landlord visits",
-        "text": "Young Thornhill enters their circle with easy charm. His rank impresses the household, making attention feel like a promise before anyone has tested its intentions.",
+        "text": "Their young landlord, Squire Thornhill, enters their circle with easy charm. His rank impresses the household, making attention feel like a promise before anyone has tested its intentions.",
         "cast": [
           "Thornhill",
           "Deborah",
@@ -13217,7 +13217,7 @@ window.STORIES = [
       },
       {
         "title": "Olivia disappears",
-        "text": "Olivia leaves with Thornhill, believing in their relationship. The vicar's anxious search begins turning the promised romance into evidence of how power can exploit trust.",
+        "text": "The vicar's daughter Olivia leaves with Thornhill, believing in their relationship. The vicar's anxious search begins turning the promised romance into evidence of how power can exploit trust.",
         "cast": [
           "Olivia",
           "Thornhill",
@@ -13274,7 +13274,7 @@ window.STORIES = [
       },
       {
         "title": "More grief enters the prison",
-        "text": "Reports of Olivia's death and Sophia's abduction arrive, while another son faces danger. The vicar attempts to sustain his principles at the point where comfort has almost vanished.",
+        "text": "Reports of Olivia's death and the abduction of his other daughter, Sophia, arrive, while another son faces danger. The vicar attempts to sustain his principles at the point where comfort has almost vanished.",
         "cast": [
           "Dr Primrose",
           "Olivia",
@@ -13381,7 +13381,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "An old house expects visitors",
-        "text": "Hardcastle prepares to welcome Marlow, a possible husband for Kate. The household thinks it knows how the visit should proceed, until a joke changes the visitors' first impression.",
+        "text": "Kate's father, Mr Hardcastle, prepares to welcome Marlow, a possible husband for Kate. The household thinks it knows how the visit should proceed, until a joke changes the visitors' first impression.",
         "cast": [
           "Hardcastle",
           "Kate",
@@ -13396,7 +13396,7 @@ window.STORIES = [
       },
       {
         "title": "Tony supplies the wrong directions",
-        "text": "At a tavern, Tony tells Marlow and Marlow’s friend Hastings that Hardcastle's house is an inn. His prank gives them a false identity for everything they are about to meet.",
+        "text": "At a tavern, Hardcastle's mischievous stepson Tony tells Marlow and Marlow’s friend Hastings that Hardcastle's house is an inn. His prank gives them a false identity for everything they are about to meet.",
         "cast": [
           "Tony",
           "Marlow",
@@ -13467,7 +13467,7 @@ window.STORIES = [
       },
       {
         "title": "Constance wants freedom too",
-        "text": "Constance hopes to marry Hastings and recover her jewels. Mrs Hardcastle's plans stand in the way, making the household's second romance another contest over money and marriage.",
+        "text": "Mrs Hardcastle's ward Constance hopes to marry Hastings and recover her jewels. Mrs Hardcastle's plans stand in the way, making the household's second romance another contest over money and marriage.",
         "cast": [
           "Constance",
           "Hastings",
@@ -15873,7 +15873,7 @@ window.STORIES = [
       },
       {
         "title": "A successful match gives Emma too much confidence",
-        "text": "One apparent success makes her trust her talent too much. Mr Knightley questions her interference, but she feels sure of what she sees. Harriet Smith becomes her next project.",
+        "text": "One apparent success makes her trust her talent too much. Her old friend Mr Knightley questions her interference, but she feels sure of what she sees. The young woman Harriet Smith becomes her new friend and next matchmaking project.",
         "cast": [
           "Emma Woodhouse",
           "Harriet Smith"
@@ -17461,7 +17461,7 @@ window.STORIES = [
       },
       {
         "title": "Beneath the sea",
-        "text": "The journey leads into a marine world, where Endymion meets Glaucus. This new figure carries his own history of love, punishment and a long captivity.",
+        "text": "The journey leads into a marine world, where Endymion meets Glaucus, an old seaman under an enchantment. This new figure carries his own history of love, punishment and a long captivity.",
         "cast": [
           "Endymion",
           "Glaucus"
@@ -18164,7 +18164,7 @@ window.STORIES = [
       },
       {
         "title": "Lambro returns",
-        "text": "Lambro returns, separates the lovers, and sends Juan into slavery. Haidée dies after their separation. The idyllic interval ends through power entering the scene it had temporarily left.",
+        "text": "Haidée's father Lambro returns, separates the lovers, and sends Juan into slavery. Haidée dies after their separation. The idyllic interval ends through power entering the scene it had temporarily left.",
         "cast": [
           "Juan",
           "Haidée",
@@ -19534,7 +19534,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "A god searches the woods",
-        "text": "Hermes wants to find a hidden nymph. A brilliant serpent offers help, asking in return for release into the human form she longs to inhabit.",
+        "text": "The god Hermes wants to find a hidden nymph. A brilliant serpent offers help, asking in return for release into the human form she longs to inhabit.",
         "cast": [
           "Hermes",
           "Lamia"
@@ -19804,7 +19804,7 @@ window.STORIES = [
       },
       {
         "title": "Escape into another system",
-        "text": "After further mistreatment, Oliver runs to London. The young pickpocket known as the Artful Dodger offers welcome and takes him to Fagin. The city provides company, but the new household has another purpose.",
+        "text": "After further mistreatment, Oliver runs to London. The young pickpocket known as the Artful Dodger offers welcome and takes him to Fagin, who trains children to steal. The city provides company, but the new household has another purpose.",
         "cast": [
           "Oliver",
           "Fagin"
@@ -19876,7 +19876,7 @@ window.STORIES = [
       },
       {
         "title": "A forced crime turns the victim into apparent evidence",
-        "text": "Bill Sikes forces him into a burglary, during which Oliver is wounded. The victim is made to look like the offender. The household he was forced to enter later protects him.",
+        "text": "The violent criminal Bill Sikes forces him into a burglary, during which Oliver is wounded. The victim is made to look like the offender. The household he was forced to enter later protects him.",
         "cast": [
           "Oliver"
         ],
@@ -20069,7 +20069,7 @@ window.STORIES = [
       },
       {
         "title": "A conversation goes badly wrong",
-        "text": "Pickwick speaks to Mrs Bardell about employing a servant. She believes he is proposing marriage, turning an everyday domestic arrangement into a misunderstanding with lasting consequences.",
+        "text": "Pickwick speaks to his landlady, Mrs Bardell, about employing a servant. She believes he is proposing marriage, turning an everyday domestic arrangement into a misunderstanding with lasting consequences.",
         "cast": [
           "Pickwick",
           "Mrs Bardell"
@@ -20983,7 +20983,7 @@ window.STORIES = [
       },
       {
         "title": "A widow keeps an ideal image",
-        "text": "She continues loving an ideal George. Dobbin, who has long cared for her, waits nearby. His patient devotion cannot reach her while that remembered husband fills the future.",
+        "text": "She continues loving an ideal George. George's friend Dobbin, who has long cared for her, waits nearby. His patient devotion cannot reach her while that remembered husband fills the future.",
         "cast": [
           "Amelia Sedley",
           "William Dobbin",
@@ -21783,7 +21783,7 @@ window.STORIES = [
       },
       {
         "title": "Gilbert wants to know her",
-        "text": "Gilbert Markham becomes interested in Helen. Her caution frustrates him, while gossip offers an easier account than the trust needed to hear her own history.",
+        "text": "Her neighbour Gilbert Markham becomes interested in Helen. Her caution frustrates him, while gossip offers an easier account than the trust needed to hear her own history.",
         "cast": [
           "Gilbert",
           "Helen"
@@ -22490,7 +22490,7 @@ window.STORIES = [
       },
       {
         "title": "He walks toward his aunt",
-        "text": "David escapes and travels to Betsey Trotwood. Her decision to protect him creates a new beginning, proving that an adult's practical intervention can alter the course of a vulnerable life.",
+        "text": "David escapes and travels to his great-aunt, Betsey Trotwood. Her decision to protect him creates a new beginning, proving that an adult's practical intervention can alter the course of a vulnerable life.",
         "cast": [
           "David",
           "Betsey Trotwood"
@@ -22716,7 +22716,7 @@ window.STORIES = [
       },
       {
         "title": "Esther finds a household",
-        "text": "Esther Summerson finds a home with John Jarndyce, alongside Richard and Ada. His kindness offers shelter from the case. The household seems capable of a different kind of care.",
+        "text": "Esther Summerson finds a home with her guardian, John Jarndyce, alongside his other wards, Richard and Ada. His kindness offers shelter from the case. The household seems capable of a different kind of care.",
         "cast": [
           "Esther Summerson",
           "Ada Clare",
@@ -23069,7 +23069,7 @@ window.STORIES = [
       },
       {
         "title": "An absent brother returns",
-        "text": "Mary's efforts bring Peter back, easing Matty's loneliness and insecurity. Cranford's strongest inheritance proves to be the network of affection sustained beneath its comic customs.",
+        "text": "Mary's efforts bring Matty's brother Peter back, easing Matty's loneliness and insecurity. Cranford's strongest inheritance proves to be the network of affection sustained beneath its comic customs.",
         "cast": [
           "Miss Matty",
           "Peter",
@@ -23408,7 +23408,7 @@ window.STORIES = [
       },
       {
         "title": "The workers become neighbours",
-        "text": "Margaret befriends Nicholas Higgins and his daughter Bessy. Their household lets her see factory conditions through the lives of those who endure them rather than only the owner's explanations.",
+        "text": "Margaret befriends the mill worker Nicholas Higgins and his daughter Bessy. Their household lets her see factory conditions through the lives of those who endure them rather than only the owner's explanations.",
         "cast": [
           "Margaret Hale",
           "Nicholas Higgins",
@@ -23622,7 +23622,7 @@ window.STORIES = [
       },
       {
         "title": "Hunsden challenges his endurance",
-        "text": "Hunsden's blunt conversation pushes William to question the situation. Leaving offers no guaranteed comfort, but staying means accepting the limits another person has set around his life.",
+        "text": "His acquaintance Hunsden's blunt conversation pushes William to question the situation. Leaving offers no guaranteed comfort, but staying means accepting the limits another person has set around his life.",
         "cast": [
           "William Crimsworth",
           "Hunsden"
@@ -24087,7 +24087,7 @@ window.STORIES = [
       },
       {
         "title": "The young heir pays attention",
-        "text": "Arthur Donnithorne becomes attracted to Hetty. His position makes flirtation feel to her like an opening into a life he has much less reason to imagine marrying into.",
+        "text": "Arthur Donnithorne, the heir to the local estate, becomes attracted to Hetty. His position makes flirtation feel to her like an opening into a life he has much less reason to imagine marrying into.",
         "cast": [
           "Arthur",
           "Hetty"
@@ -24324,7 +24324,7 @@ window.STORIES = [
       },
       {
         "title": "Satis House creates shame",
-        "text": "At the decaying mansion of Miss Havisham, a wealthy recluse, Pip meets Estella. She treats him with contempt for being common. The splendid, stopped world of Satis House teaches him to feel ashamed of home.",
+        "text": "At the decaying mansion of Miss Havisham, a wealthy recluse, Pip meets Estella, the girl Miss Havisham has raised. She treats him with contempt for being common. The splendid, stopped world of Satis House teaches him to feel ashamed of home.",
         "cast": [
           "Pip",
           "Estella",
@@ -25216,7 +25216,7 @@ window.STORIES = [
       },
       {
         "title": "Another household begins quietly",
-        "text": "Tito also forms a connection with Tessa, whose simpler expectations offer him a different life. He allows the relationship to grow without giving her an honest account of his commitments.",
+        "text": "Tito also forms a connection with a young woman named Tessa, whose simpler expectations offer him a different life. He allows the relationship to grow without giving her an honest account of his commitments.",
         "cast": [
           "Tito",
           "Tessa"
@@ -26121,7 +26121,7 @@ window.STORIES = [
       },
       {
         "title": "The aunt refuses an introduction",
-        "text": "Mrs Costello disapproves of Daisy's family and manners. Her refusal makes social belonging depend on rules Daisy has not agreed to follow and may not fully understand.",
+        "text": "Winterbourne's aunt, Mrs Costello, disapproves of Daisy's family and manners. Her refusal makes social belonging depend on rules Daisy has not agreed to follow and may not fully understand.",
         "cast": [
           "Mrs Costello",
           "Daisy",
@@ -26136,7 +26136,7 @@ window.STORIES = [
       },
       {
         "title": "Rome brings another encounter",
-        "text": "Winterbourne later finds Daisy in Rome. She spends time with Giovanelli, and her willingness to appear with him makes gossip more determined than any explanation she offers.",
+        "text": "Winterbourne later finds Daisy in Rome. She spends time with Giovanelli, a Roman gentleman, and her willingness to appear with him makes gossip more determined than any explanation she offers.",
         "cast": [
           "Daisy",
           "Winterbourne",
@@ -26540,7 +26540,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "A stranger arrives at the inn",
-        "text": "At the Admiral Benbow, Jim Hawkins meets an old sailor carrying a sea chest. Visitors from the man's violent past begin turning the quiet inn into a place of fear.",
+        "text": "At the Admiral Benbow, a boy named Jim Hawkins meets an old sailor carrying a sea chest. Visitors from the man's violent past begin turning the quiet inn into a place of fear.",
         "cast": [
           "Jim Hawkins"
         ],
@@ -26580,7 +26580,7 @@ window.STORIES = [
       },
       {
         "title": "The cook wins Jim's affection",
-        "text": "Long John Silver seems capable, friendly and practical. Jim likes him, making the later revelation dangerous not only to the expedition but also to the boy's first judgement of character.",
+        "text": "The ship's cook, Long John Silver, seems capable, friendly and practical. Jim likes him, making the later revelation dangerous not only to the expedition but also to the boy's first judgement of character.",
         "cast": [
           "Jim Hawkins",
           "Long John Silver"
@@ -26791,7 +26791,7 @@ window.STORIES = [
       },
       {
         "title": "Savings buy the dress",
-        "text": "Monsieur Loisel gives up money set aside for himself so Mathilde can buy suitable clothes. The shared sacrifice solves one problem, only for the missing jewels to become the next.",
+        "text": "Mathilde's husband, Monsieur Loisel, gives up money set aside for himself so Mathilde can buy suitable clothes. The shared sacrifice solves one problem, only for the missing jewels to become the next.",
         "cast": [
           "Monsieur Loisel",
           "Mathilde"
@@ -27445,7 +27445,7 @@ window.STORIES = [
       },
       {
         "title": "The house hides an inheritance",
-        "text": "Ebenezer treats David grudgingly and conceals his claim to the property. The decaying house offers shelter without welcome, making the young visitor suspect that poverty is being performed.",
+        "text": "David's uncle Ebenezer treats him grudgingly and conceals his claim to the property. The decaying house offers shelter without welcome, making the young visitor suspect that poverty is being performed.",
         "cast": [
           "David Balfour",
           "Ebenezer"
@@ -27667,7 +27667,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "The portrait is admired",
-        "text": "Basil Hallward paints the beautiful Dorian Gray. Lord Henry's talk makes Dorian fear ageing and crave pleasure. Looking at the portrait, he wishes the picture could grow old instead of him.",
+        "text": "The artist Basil Hallward paints the beautiful Dorian Gray. Lord Henry's talk makes Dorian fear ageing and crave pleasure. Looking at the portrait, he wishes the picture could grow old instead of him.",
         "cast": [
           "Dorian Gray",
           "Basil Hallward",
@@ -28123,7 +28123,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "A child enters the wolf den",
-        "text": "A human baby reaches a wolf family in the forest. Shere Khan wants the child, but the wolves' decision opens a different childhood within the jungle's social world.",
+        "text": "A human baby, Mowgli, reaches a wolf family in the forest. The tiger Shere Khan wants the child, but the wolves' decision opens a different childhood within the jungle's social world.",
         "cast": [
           "Mowgli",
           "Shere Khan"
@@ -28137,7 +28137,7 @@ window.STORIES = [
       },
       {
         "title": "The pack accepts Mowgli",
-        "text": "Baloo speaks for the child, and Bagheera helps secure his place. Mowgli's belonging begins as a community decision, supported by creatures who will teach and protect him.",
+        "text": "Baloo the bear speaks for the child, and Bagheera the panther helps secure his place. Mowgli's belonging begins as a community decision, supported by creatures who will teach and protect him.",
         "cast": [
           "Mowgli",
           "Baloo",
@@ -28179,7 +28179,7 @@ window.STORIES = [
       },
       {
         "title": "The abandoned city becomes a trap",
-        "text": "At the ruined Cold Lairs, Mowgli cannot free himself. Baloo, Bagheera and Kaa arrive, turning the rescue into a test of cooperation across different kinds of strength.",
+        "text": "At the ruined Cold Lairs, Mowgli cannot free himself. Baloo, Bagheera and the python Kaa arrive, turning the rescue into a test of cooperation across different kinds of strength.",
         "cast": [
           "Mowgli",
           "Baloo",
@@ -28253,7 +28253,7 @@ window.STORIES = [
       },
       {
         "title": "A white seal seeks safer ground",
-        "text": "In a separate tale, Kotick searches for a refuge from seal hunters. His unusual journey turns refusal to accept the existing danger into a possible future for his community.",
+        "text": "In a separate tale, Kotick, a white seal, searches for a refuge from seal hunters. His unusual journey turns refusal to accept the existing danger into a possible future for his community.",
         "cast": [
           "Kotick"
         ],
@@ -28266,7 +28266,7 @@ window.STORIES = [
       },
       {
         "title": "A mongoose guards a family",
-        "text": "Another independent story follows Rikki-tikki-tavi against cobras near a human home. Courage depends on alertness and repeated action, rather than a single promise that danger has passed.",
+        "text": "Another independent story follows the mongoose Rikki-tikki-tavi against cobras near a human home. Courage depends on alertness and repeated action, rather than a single promise that danger has passed.",
         "cast": [
           "Rikki-tikki-tavi"
         ],
@@ -28398,7 +28398,7 @@ window.STORIES = [
       },
       {
         "title": "The pockets hold chocolate",
-        "text": "Bluntschli explains that soldiers need food and prefer survival to splendid appearances. His chocolates upset Raina's expectations, making the apparently unheroic visitor strangely difficult to dismiss.",
+        "text": "The fugitive, a Swiss soldier named Bluntschli, explains that soldiers need food and prefer survival to splendid appearances. His chocolates upset Raina's expectations, making the apparently unheroic visitor strangely difficult to dismiss.",
         "cast": [
           "Bluntschli",
           "Raina"
@@ -28412,7 +28412,7 @@ window.STORIES = [
       },
       {
         "title": "Raina decides to protect him",
-        "text": "She and Catherine hide the fugitive from pursuit. Her act of care crosses the war's public divisions, allowing personal judgement to resist the identity assigned to an enemy.",
+        "text": "Raina and her mother, Catherine, hide the fugitive from pursuit. Her act of care crosses the war's public divisions, allowing personal judgement to resist the identity assigned to an enemy.",
         "cast": [
           "Raina",
           "Catherine",
@@ -29288,7 +29288,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "The solicitor enters the castle",
-        "text": "Jonathan Harker travels to Transylvania to help Count Dracula buy property in England. The castle's host welcomes him courteously. Soon Jonathan realises that the welcome does not include permission to leave.",
+        "text": "The young solicitor Jonathan Harker travels to Transylvania to help Count Dracula buy property in England. The castle's host welcomes him courteously. Soon Jonathan realises that the welcome does not include permission to leave.",
         "cast": [
           "Jonathan Harker",
           "Count Dracula"
@@ -29346,7 +29346,7 @@ window.STORIES = [
       },
       {
         "title": "Medicine meets the unexplained",
-        "text": "Lucy Westenra becomes dangerously ill, losing blood without a familiar cause. Doctors attempt to help her. The doctor Van Helsing suspects that ordinary medical explanations cannot account for the pattern.",
+        "text": "Jonathan's fiancée Mina has a friend, Lucy Westenra, who becomes dangerously ill, losing blood without a familiar cause. Doctors attempt to help her. The doctor Van Helsing suspects that ordinary medical explanations cannot account for the pattern.",
         "cast": [
           "Lucy Westenra",
           "Van Helsing",
@@ -29406,7 +29406,7 @@ window.STORIES = [
       },
       {
         "title": "Mina assembles the evidence",
-        "text": "Mina gathers journals, letters, and records into a connected account. Scattered observations become usable evidence. The group can begin tracking a threat no single witness understood alone.",
+        "text": "Mina, now Jonathan's wife, gathers journals, letters, and records into a connected account. Scattered observations become usable evidence. The group can begin tracking a threat no single witness understood alone.",
         "cast": [
           "Mina Harker",
           "Jonathan Harker",
@@ -29451,7 +29451,7 @@ window.STORIES = [
       },
       {
         "title": "The chase closes the circle",
-        "text": "They chase Dracula back toward Transylvania and destroy him before sunset, freeing Mina. Quincey Morris dies helping them. The victory belongs to shared evidence, cooperation, and a costly final pursuit.",
+        "text": "They chase Dracula back toward Transylvania and destroy him before sunset, freeing Mina. Their companion Quincey Morris dies helping them. The victory belongs to shared evidence, cooperation, and a costly final pursuit.",
         "cast": [
           "Mina Harker",
           "Jonathan Harker",
@@ -29969,7 +29969,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "A story on the Thames",
-        "text": "At dusk on the Thames, Marlow, a sailor telling his story, tells fellow sailors about another river journey. He once travelled into central Africa for a European trading company. The peaceful setting holds an unsettling account.",
+        "text": "At dusk on the Thames, the sailor Marlow tells his companions about another river journey. He once travelled into central Africa for a European trading company. The peaceful setting holds an unsettling account.",
         "cast": [
           "Marlow"
         ],
@@ -30646,7 +30646,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "The savings are not enough",
-        "text": "On Christmas Eve, Della counts one dollar and eighty-seven cents. She wants a beautiful gift for Jim, but the coins on the table cannot match the affection behind the wish.",
+        "text": "On Christmas Eve, Della counts one dollar and eighty-seven cents. She wants a beautiful gift for her husband Jim, but the coins on the table cannot match the affection behind the wish.",
         "cast": [
           "Della",
           "Jim"
@@ -31001,7 +31001,7 @@ window.STORIES = [
       },
       {
         "title": "Clara offers another connection",
-        "text": "With Clara, Paul discovers a more physical connection. It offers something different, but not a complete solution. His inability to settle into love follows him into another relationship.",
+        "text": "With Clara Dawes, a married woman living apart from her husband, Paul discovers a more physical connection. It offers something different, but not a complete solution. His inability to settle into love follows him into another relationship.",
         "cast": [
           "Paul Morel",
           "Clara Dawes"
@@ -31112,7 +31112,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "Rain gathers strangers together",
-        "text": "Outside a London theatre, Eliza sells flowers while Higgins records voices. His ability to identify speech patterns exposes how quickly accent can place a person within a class judgement.",
+        "text": "Outside a London theatre, Eliza sells flowers while the speech expert Henry Higgins records voices. His ability to identify speech patterns exposes how quickly accent can place a person within a class judgement.",
         "cast": [
           "Eliza",
           "Higgins",
@@ -31127,7 +31127,7 @@ window.STORIES = [
       },
       {
         "title": "An experiment is proposed",
-        "text": "Higgins boasts that he can train the flower seller to pass as a duchess. Pickering turns the claim into a wager, making Eliza's possible future the subject of two men's confidence.",
+        "text": "Higgins boasts that he can train the flower seller to pass as a duchess. Colonel Pickering, another student of speech, turns the claim into a wager, making Eliza's possible future the subject of two men's confidence.",
         "cast": [
           "Eliza",
           "Higgins",
@@ -31170,7 +31170,7 @@ window.STORIES = [
       },
       {
         "title": "Her father negotiates his part",
-        "text": "Alfred Doolittle visits with a shrewd appeal for money. His performance challenges respectable moral claims, though it also shows how easily others bargain over a young woman's position.",
+        "text": "Eliza's father, Alfred Doolittle, visits with a shrewd appeal for money. His performance challenges respectable moral claims, though it also shows how easily others bargain over a young woman's position.",
         "cast": [
           "Alfred Doolittle",
           "Higgins",
@@ -31856,7 +31856,7 @@ window.STORIES = [
       },
       {
         "title": "The room's meaning changes",
-        "text": "Grete and her mother consider removing furniture so Gregor can move. He resists losing the objects that connect him to his earlier human life, making assistance and erasure hard to distinguish.",
+        "text": "Gregor's sister Grete and their mother consider removing furniture so Gregor can move. He resists losing the objects that connect him to his earlier human life, making assistance and erasure hard to distinguish.",
         "cast": [
           "Gregor",
           "Grete",
@@ -32081,7 +32081,7 @@ window.STORIES = [
       },
       {
         "title": "Mildred occupies his imagination",
-        "text": "Philip falls for a waitress whose indifference does not weaken his desire. Rejection intensifies the pursuit, making love feel like an obligation to obtain the response she keeps withholding.",
+        "text": "Philip falls for a waitress named Mildred, whose indifference does not weaken his desire. Rejection intensifies the pursuit, making love feel like an obligation to obtain the response she keeps withholding.",
         "cast": [
           "Philip Carey",
           "Mildred"
@@ -32136,7 +32136,7 @@ window.STORIES = [
       },
       {
         "title": "Athelny's household offers warmth",
-        "text": "Athelny and his family welcome Philip. Their affection and ordinary routines provide a form of belonging neither intellectual debate nor his pursuit of Mildred had been able to sustain.",
+        "text": "His friend Athelny and his family welcome Philip. Their affection and ordinary routines provide a form of belonging neither intellectual debate nor his pursuit of Mildred had been able to sustain.",
         "cast": [
           "Philip Carey",
           "Athelny",
@@ -32151,7 +32151,7 @@ window.STORIES = [
       },
       {
         "title": "Experience changes his measure",
-        "text": "Philip resumes his career and grows close to Sally. He begins to accept that life need not justify itself through a single magnificent design, opening room for pleasures he once considered too modest.",
+        "text": "Philip resumes his career and grows close to Athelny's daughter Sally. He begins to accept that life need not justify itself through a single magnificent design, opening room for pleasures he once considered too modest.",
         "cast": [
           "Philip Carey",
           "Sally"
@@ -33100,7 +33100,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "A meeting in the mosque",
-        "text": "In colonial India, Dr Aziz meets Mrs Moore in a mosque. Their conversation begins with courtesy rather than official suspicion. For a moment, two people meet beyond the habits of British rule.",
+        "text": "In colonial India, Dr Aziz, an Indian physician, meets Mrs Moore, an English visitor, in a mosque. Their conversation begins with courtesy rather than official suspicion. For a moment, two people meet beyond the habits of British rule.",
         "cast": [
           "Dr. Aziz",
           "Mrs. Moore"
@@ -33158,7 +33158,7 @@ window.STORIES = [
       },
       {
         "title": "The invitation",
-        "text": "Aziz arranges an excursion to the Marabar Caves for Mrs Moore and Adela Quested. He hopes to be a generous host. The outing becomes the test of that fragile possibility.",
+        "text": "Aziz arranges an excursion to the Marabar Caves for Mrs Moore and Adela Quested, another English visitor. He hopes to be a generous host. The outing becomes the test of that fragile possibility.",
         "cast": [
           "Dr. Aziz",
           "Cyril Fielding",
@@ -33787,7 +33787,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "The house looks comfortable",
-        "text": "Paul lives in a household that appears prosperous but feels dissatisfied. Behind its respectable objects, a repeated pressure seems to whisper that there must be more money.",
+        "text": "A boy named Paul lives in a household that appears prosperous but feels dissatisfied. Behind its respectable objects, a repeated pressure seems to whisper that there must be more money.",
         "cast": [
           "Paul",
           "Hester"
@@ -33801,7 +33801,7 @@ window.STORIES = [
       },
       {
         "title": "The mother's affection feels distant",
-        "text": "Hester worries about status and income. Paul senses a coldness beneath the appearance of family care, making material insecurity difficult to separate from his hunger to be loved.",
+        "text": "His mother, Hester, worries about status and income. Paul senses a coldness beneath the appearance of family care, making material insecurity difficult to separate from his hunger to be loved.",
         "cast": [
           "Paul",
           "Hester"
@@ -34013,7 +34013,7 @@ window.STORIES = [
     "scenes": [
       {
         "title": "The promised trip is denied",
-        "text": "At the Ramsays' summer house, young James wants to visit the lighthouse. Mrs Ramsay offers hope; his father predicts bad weather. A small plan immediately exposes different kinds of authority.",
+        "text": "At the Ramsays' summer house, young James wants to visit the lighthouse. His mother, Mrs Ramsay, offers hope; his father predicts bad weather. A small plan immediately exposes different kinds of authority.",
         "cast": [
           "James Ramsay",
           "Mrs. Ramsay",
@@ -34044,7 +34044,7 @@ window.STORIES = [
       },
       {
         "title": "Lily tries to paint",
-        "text": "Nearby, Lily Briscoe tries to paint. Other people's judgements disturb her confidence. The canvas presents a problem of seeing that cannot be solved by following their expectations.",
+        "text": "Nearby, their guest Lily Briscoe works on a painting. Other people's judgements disturb her confidence. The canvas presents a problem of seeing that cannot be solved by following their expectations.",
         "cast": [
           "Lily Briscoe",
           "Mrs. Ramsay"
@@ -34145,7 +34145,7 @@ window.STORIES = [
       },
       {
         "title": "The journey reaches its mark",
-        "text": "Mr Ramsay sails to the lighthouse with James and Cam. The children struggle with resentment and connection. Reaching the destination becomes an altered encounter with their father.",
+        "text": "Mr Ramsay sails to the lighthouse with James and his sister Cam. The children struggle with resentment and connection. Reaching the destination becomes an altered encounter with their father.",
         "cast": [
           "James Ramsay",
           "Cam Ramsay",
@@ -34666,7 +34666,7 @@ window.STORIES = [
       },
       {
         "title": "The farmer is driven out",
-        "text": "After neglect and hunger, they drive out Mr Jones. The victory turns an idea into a new order. Now they must decide how to govern the place they have won.",
+        "text": "After neglect and hunger, they drive out their farmer, Mr Jones. The victory turns an idea into a new order. Now they must decide how to govern the place they have won.",
         "cast": [
           "Boxer",
           "Napoleon",
@@ -34723,7 +34723,7 @@ window.STORIES = [
       },
       {
         "title": "The windmill divides the leaders",
-        "text": "Snowball proposes a windmill, and Napoleon opposes him. Then Napoleon's dogs drive Snowball away. Debate ends not through agreement, but through organised violence.",
+        "text": "Two leading pigs disagree: Snowball proposes a windmill, and Napoleon opposes him. Then Napoleon's dogs drive Snowball away. Debate ends not through agreement, but through organised violence.",
         "cast": [
           "Napoleon",
           "Snowball"
@@ -34779,7 +34779,7 @@ window.STORIES = [
       },
       {
         "title": "The strongest worker collapses",
-        "text": "Boxer works until he collapses, trusting the leaders. They sell him to a slaughterer and tell the animals he died receiving medical care. His loyalty is rewarded with a lie.",
+        "text": "Boxer, the hardworking horse, works until he collapses, trusting the leaders. They sell him to a slaughterer and tell the animals he died receiving medical care. His loyalty is rewarded with a lie.",
         "cast": [
           "Boxer",
           "Benjamin",
@@ -34912,7 +34912,7 @@ window.STORIES = [
       },
       {
         "title": "Julia sends a message",
-        "text": "A note from Julia declares love. What Winston first perceived as possible surveillance becomes an invitation to meet, opening a secret space where affection can contradict the public order.",
+        "text": "A note from Julia, a fellow Party worker, declares love. What Winston first perceived as possible surveillance becomes an invitation to meet, opening a secret space where affection can contradict the public order.",
         "cast": [
           "Winston",
           "Julia"
@@ -34940,7 +34940,7 @@ window.STORIES = [
       },
       {
         "title": "The rented room feels like shelter",
-        "text": "They use a room above Charrington's shop, surrounded by objects from the past. Its apparent privacy lets them imagine a shared life, while the safety depends on a judgement they cannot verify.",
+        "text": "They use a room above the shop of Mr Charrington, an apparently kindly shopkeeper, surrounded by objects from the past. Its apparent privacy lets them imagine a shared life, while the safety depends on a judgement they cannot verify.",
         "cast": [
           "Winston",
           "Julia",
