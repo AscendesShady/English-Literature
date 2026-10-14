@@ -3,11 +3,13 @@
  const status=document.getElementById('offline-status'),install=document.getElementById('install-app'),topInstall=document.getElementById('install-top'),update=document.getElementById('update-app'),guide=document.getElementById('install-guide');
  const installButtons=[topInstall,install];
  const appScope=new URL('./',location.href).href,disabledKey='once-upon-offline-disabled:'+appScope;
+ const nativeAndroid=location.hostname==='appassets.androidplatform.net';
+ if(nativeAndroid)document.documentElement.dataset.androidApp='true';
  let offlineDisabled=false;
  try{offlineDisabled=localStorage.getItem(disabledKey)==='1';}catch{}
  let prompt=null,registration=null,readyOffline=false,reloading=false,installing=false,installedHere=false;
  const standalone=()=>matchMedia('(display-mode: standalone)').matches||navigator.standalone===true;
- function showStatus(){if(offlineDisabled){status.textContent='Offline downloads cleared. Use Download audio → Save website offline to save this library again.';return;}status.textContent=!navigator.onLine?(readyOffline?'You’re offline. Your whole library is ready to read!':'You’re offline. Open the hosted library online once to save it.') :readyOffline?`All ${window.STORIES.length} stories, illustrations and quotes are ready offline!`:'Saving your library for days without a signal…';}
+ function showStatus(){if(nativeAndroid){status.textContent=offlineDisabled?'Downloaded audio and voices cleared. Your installed stories are still available offline.':`All ${window.STORIES.length} stories, illustrations and quotes are included in your Android app and ready offline!`;return;}if(offlineDisabled){status.textContent='Offline downloads cleared. Use Download audio → Save website offline to save this library again.';return;}status.textContent=!navigator.onLine?(readyOffline?'You’re offline. Your whole library is ready to read!':'You’re offline. Open the hosted library online once to save it.') :readyOffline?`All ${window.STORIES.length} stories, illustrations and quotes are ready offline!`:'Saving your library for days without a signal…';}
  function changed(){window.dispatchEvent(new Event('offline-downloads-changed'));}
  function setDisabled(value){offlineDisabled=value;try{if(value)localStorage.setItem(disabledKey,'1');else localStorage.removeItem(disabledKey);}catch{}showStatus();changed();}
  async function disableWorker(worker){
@@ -29,15 +31,16 @@
   await Promise.all(owned.map(name=>caches.delete(name)));showStatus();changed();
  }
  async function enableOffline(){
+  if(nativeAndroid){setDisabled(false);return;}
   if(location.protocol==='file:'||!('serviceWorker' in navigator)||!isSecureContext)throw new Error('hosted');
   await caches.delete(disabledKey);
   setDisabled(false);await registerLibrary();
   if(navigator.serviceWorker.controller!==registration.active)await new Promise((resolve,reject)=>{const timer=setTimeout(()=>{navigator.serviceWorker.removeEventListener('controllerchange',check);reject(new Error('offline-setup'));},15000);function check(){if(navigator.serviceWorker.controller!==registration.active)return;clearTimeout(timer);navigator.serviceWorker.removeEventListener('controllerchange',check);resolve();}navigator.serviceWorker.addEventListener('controllerchange',check);check();});
  }
- globalThis.OfflineLibrary={clearDeviceCache,enable:enableOffline,disabled:()=>offlineDisabled};
+ globalThis.OfflineLibrary={clearDeviceCache,enable:enableOffline,disabled:()=>nativeAndroid?false:offlineDisabled};
  window.addEventListener('storage',event=>{if(event.key===disabledKey){offlineDisabled=event.newValue==='1';if(offlineDisabled){readyOffline=false;update.hidden=true;globalThis.StoryNarrator?.releaseDownloads?.().catch(()=>{});}showStatus();changed();}});
  document.getElementById('install-help').addEventListener('click',()=>guide.showModal());document.getElementById('close-install-guide').addEventListener('click',()=>guide.close());
- function syncInstallButtons(){const installed=installedHere||standalone();topInstall.hidden=installed;install.hidden=installed||!prompt;for(const button of installButtons)button.disabled=installing;}
+ function syncInstallButtons(){const installed=nativeAndroid||installedHere||standalone();topInstall.hidden=installed;install.hidden=installed||!prompt;for(const button of installButtons)button.disabled=installing;}
  window.addEventListener('beforeinstallprompt',event=>{event.preventDefault();if(installedHere||standalone())return;prompt=event;syncInstallButtons();});
  async function requestInstall(){
   if(installing)return;
@@ -50,6 +53,7 @@
  for(const button of installButtons)button.addEventListener('click',requestInstall);
  window.addEventListener('appinstalled',()=>{installedHere=true;prompt=null;syncInstallButtons();status.textContent='Installed! Your library now has its own home.';});
  syncInstallButtons();
+ if(nativeAndroid){document.getElementById('install-help').hidden=true;readyOffline=true;showStatus();return;}
  update.addEventListener('click',()=>{update.disabled=true;registration?.waiting?.postMessage({type:'SKIP_WAITING'});});
  if(location.protocol==='file:'){status.textContent='Local preview. Use the hosted site to install and save the offline app.';return;}
  if(!('serviceWorker' in navigator)||!window.isSecureContext){status.textContent='Read online here. Installation and offline saving need the HTTPS site address.';return;}

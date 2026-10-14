@@ -36,3 +36,37 @@ dialog{border:0;padding:0;border-radius:15px;background:var(--paper);color:var(-
 @media(max-width:480px){.author-card{grid-template-columns:minmax(0,1fr)}.author-portrait{width:180px;max-width:100%;justify-self:center}.author-copy h3{font-size:27px}.author-footnote{font-size:10px}}
 .scene-art:has(.painted-scene){aspect-ratio:auto}.painted-scene{display:block;width:100%;height:100%}.scene-art>.painted-scene{height:auto}.scene-art:hover .painted-scene{filter:none}.painted-cast-card .cast-scene{display:block;width:100%;padding:0;background:transparent;border-radius:6px;overflow:hidden;margin-bottom:12px}.painted-cast-card .cast-scene svg{display:block;width:100%;height:auto;aspect-ratio:auto}.cast-scene span{display:block;font-size:10px;padding:5px;color:var(--muted)}.cast-card .cast-appearance{font-size:10px;line-height:1.65;color:var(--muted);text-align:left;border-top:1px solid var(--line);padding-top:9px}
 @media(max-width:700px){.topbar{flex-wrap:wrap;gap:12px}.topbar nav{width:100%;justify-content:flex-end;gap:15px}.topbar .nav-install{padding:9px 14px}}
+/* Touch targets for Android phones and large tablets. Keep the painted panel aspect intact. */
+@media (pointer:coarse){
+ button:not([data-scene]),.primary,.secondary{min-height:44px}
+ .round-button,.card-save{width:44px;height:44px}
+ .reader-tabs button{min-height:44px;padding-top:12px;padding-bottom:12px}
+ .narration-options label{min-height:44px;display:inline-flex;align-items:center;gap:6px}
+ .narration-options select{min-height:44px}
+ .scene-copy>p{font-size:16px;line-height:1.75}
+ .scene-dots{gap:0;max-width:none}
+ .scene-dots button,.scene-dots button[aria-current=true]{width:44px;height:44px;background:transparent;position:relative;border-radius:0;flex-shrink:0}
+ .scene-dots button:before{content:'';position:absolute;width:9px;height:9px;inset:auto;left:17px;top:17px;border-radius:50%;background:#bec8b4}
+ .scene-dots button[aria-current=true]:before{width:13px;height:13px;inset:auto;left:15px;top:15px;background:var(--ink)}
+}
+@media (pointer:coarse) and (max-width:600px){
+ .reader-controls{flex-wrap:wrap}
+ .reader-controls .scene-dots{order:3;flex-basis:100%;display:grid;grid-template-columns:repeat(6,44px);justify-content:center;gap:0}
+ .reader-controls #next{margin-left:auto}
+}
+/* Keep the APK usable with touch or a tablet pen in every orientation. */
+html[data-android-app] button:not([data-scene]),html[data-android-app] .primary,html[data-android-app] .secondary{min-height:44px}
+html[data-android-app] .round-button,html[data-android-app] .card-save{width:44px;height:44px}
+html[data-android-app] .reader-tabs button{min-height:44px;padding-top:12px;padding-bottom:12px}
+html[data-android-app] .narration-options label{min-height:44px;display:inline-flex;align-items:center;gap:6px}
+html[data-android-app] .narration-options select{min-height:44px}
+html[data-android-app] .scene-copy>p{font-size:16px;line-height:1.75}
+html[data-android-app] .scene-dots{gap:0;max-width:none}
+html[data-android-app] .scene-dots button,html[data-android-app] .scene-dots button[aria-current=true]{width:44px;height:44px;background:transparent;position:relative;border-radius:0;flex-shrink:0}
+html[data-android-app] .scene-dots button:before{content:'';position:absolute;width:9px;height:9px;inset:auto;left:17px;top:17px;border-radius:50%;background:#bec8b4}
+html[data-android-app] .scene-dots button[aria-current=true]:before{width:13px;height:13px;inset:auto;left:15px;top:15px;background:var(--ink)}
+@media(max-width:600px){
+ html[data-android-app] .reader-controls{flex-wrap:wrap}
+ html[data-android-app] .reader-controls .scene-dots{order:3;flex-basis:100%;display:grid;grid-template-columns:repeat(6,44px);justify-content:center;gap:0}
+ html[data-android-app] .reader-controls #next{margin-left:auto}
+}
