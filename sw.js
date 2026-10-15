@@ -1,7 +1,7 @@
 'use strict';
 importScripts('./painted-assets.js','./authors.js','./narration-assets.js');
 const PREFIX='once-upon-timeline:'+self.registration.scope+':';
-const VERSION=PREFIX+'v7-painted-cfd068972ab2';
+const VERSION=PREFIX+'v7-painted-801e2b8c2461';
 const SHELL=['./','./index.html','./styles.css','./stories.js','./authors.js','./painted-assets.js','./illustrations.js','./app.js','./pwa.js','./manifest.json','./assets/favicon.svg','./assets/icons/icon-192.png','./assets/icons/icon-512.png','./assets/icons/icon-maskable-512.png','./assets/icons/apple-touch-icon.png',...Object.values(self.PAINTED_ART.works).map(art=>'./'+art.file),...Object.values(self.AUTHOR_LIBRARY.profiles).filter(author=>author.portrait).map(author=>'./'+author.portrait)];
 const urls=SHELL.map(path=>new URL(path,self.registration.scope).href);
 urls.push(...['narration.js','narration-assets.js','narration-store.js','narration-downloads.js'].map(file=>new URL(file,self.registration.scope).href));
@@ -12,7 +12,8 @@ const disabledCache='once-upon-offline-disabled:'+self.registration.scope;
 let downloadsDisabled=false;
 self.addEventListener('install',event=>event.waitUntil((async()=>{
  if(await caches.has(disabledCache)){downloadsDisabled=true;return;}
- await (await caches.open(VERSION)).addAll(urls);
+ // A new release must bypass still-fresh HTTP-cache entries from the prior page.
+ await (await caches.open(VERSION)).addAll(urls.map(url=>new Request(url,{cache:'reload'})));
  // Readers who already prepared narration retain it across app updates.
  const prior=(await caches.keys()).filter(name=>name.startsWith(neuralPrefix)&&name!==neuralCache);
  if(!prior.length)return;
