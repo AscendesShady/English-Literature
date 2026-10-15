@@ -124,7 +124,8 @@ function renderScene(){
 }
 function step(n){if(n>0&&sceneIndex===current.scenes.length-1){selectTab('recall');return;}const i=sceneIndex+n;if(i<0||i>=current.scenes.length)return;sceneIndex=i;renderScene();}
 function closeReader(){globalThis.StoryNarrator?.stop();$('reader').close();}
-globalThis.readerNarration={getFrame:()=>current&&$('reader').open?{storyId:current.id,key:current.scenes[sceneIndex].key,index:sceneIndex,total:current.scenes.length,text:current.scenes[sceneIndex].text}:null,nextFrame:()=>current&&sceneIndex+1<current.scenes.length?{storyId:current.id,key:current.scenes[sceneIndex+1].key,index:sceneIndex+1,total:current.scenes.length,text:current.scenes[sceneIndex+1].text}:null,advance:()=>step(1),showStory:()=>selectTab('story')};
+globalThis.narrationTextFor=(story,index)=>(index===0?`${story.title}, by ${story.author}. `:'')+story.scenes[index].text;
+globalThis.readerNarration={getFrame:()=>current&&$('reader').open?{storyId:current.id,key:current.scenes[sceneIndex].key,index:sceneIndex,total:current.scenes.length,text:narrationTextFor(current,sceneIndex)}:null,nextFrame:()=>current&&sceneIndex+1<current.scenes.length?{storyId:current.id,key:current.scenes[sceneIndex+1].key,index:sceneIndex+1,total:current.scenes.length,text:narrationTextFor(current,sceneIndex+1)}:null,advance:()=>step(1),showStory:()=>selectTab('story')};
 $('reader').addEventListener('close',()=>globalThis.StoryNarrator?.stop());
 $('reader').addEventListener('close',()=>{const returnId=current?.id;current=null;renderLibrary();try{history.replaceState(null,'','#library');}catch{}const card=document.querySelector(`[data-story="${returnId}"]`);if(returnFocus?.isConnected)returnFocus.focus();else if(card)card.focus();else $('library-title').focus();});
 $('eras').addEventListener('click',ev=>{const b=ev.target.closest('[data-era]');if(!b)return;era=b.dataset.era;renderEras();renderLibrary();document.querySelector(`[data-era="${era}"]`).focus();});

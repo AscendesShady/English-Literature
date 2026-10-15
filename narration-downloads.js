@@ -6,7 +6,7 @@
  const voices=['af_heart','bm_fable'],paces=[0.85,0.92,1,1.1];
  let running=false,pausing=false,clearing=false,refreshId=0,selectedStory=null,lastSettings=null;
  const bytes=n=>n>=1e9?(n/1e9).toFixed(1)+' GB':(n/1e6).toFixed(1)+' MB';
- const frames=()=>STORIES.filter(story=>scope.value==='all'||story.id===selectedStory).flatMap(story=>story.scenes.map((frame,index)=>({storyId:story.id,title:story.title,key:frame.key,text:frame.text,index,total:story.scenes.length})));
+ const frames=()=>STORIES.filter(story=>scope.value==='all'||story.id===selectedStory).flatMap(story=>story.scenes.map((frame,index)=>({storyId:story.id,title:story.title,key:frame.key,text:narrationTextFor(story,index),index,total:story.scenes.length})));
  const combinations=()=>{
   if(versions.value==='selected')return [{voice:voice.value,pace:Number(pace.value)}];
   const chosenVoices=versions.value==='custom'?voiceChoices.filter(el=>el.checked).map(el=>el.value):voices;
