@@ -70,6 +70,7 @@ function renderEras(){ $('eras').innerHTML=ERAS.map(e=>`<button class="era" data
 function renderLibrary(){
  const query=$('search').value.trim().toLocaleLowerCase(),selected=ERAS.find(e=>e.id===era);
  const matches=STORIES.filter(s=>(era==='all'||s.era===era)&&(!shelfOnly||progress.saved.includes(s.id))&&[s.title,s.author,s.hook,s.genre,s.setting,...s.characters.map(c=>c.name+' '+c.role)].join(' ').toLocaleLowerCase().includes(query));
+ if(era!=='all'&&!shelfOnly)matches.sort((a,b)=>a.author.localeCompare(b.author,'en'));
  $('era-title').textContent=shelfOnly?'My saved shelf':era==='all'?'The whole story':selected.name;
  $('era-description').textContent=shelfOnly?'The stories you want to return to.':selected.description;
  $('result-count').textContent=`${matches.length} ${matches.length===1?'story':'stories'} to discover${shelfOnly?' · saved on this device':''}`;
