@@ -70,3 +70,25 @@ html[data-android-app] .scene-dots button[aria-current=true]:before{width:13px;h
  html[data-android-app] .reader-controls .scene-dots{order:3;flex-basis:100%;display:grid;grid-template-columns:repeat(6,44px);justify-content:center;gap:0}
  html[data-android-app] .reader-controls #next{margin-left:auto}
 }
+
+/* Portrait reader: one full card per screen, scroll down to read, swipe sideways for the next story. Landscape keeps the layout above. */
+#scene-feed,#feed-top{display:none}
+@media(orientation:portrait){
+#reader[open]{width:100vw;max-width:none;height:100dvh;max-height:none;border-radius:0}
+.reader-shell{display:flex;flex-direction:column;height:100%;padding:12px 14px;overflow:hidden}
+.reader-shell>section[role=tabpanel]:not([hidden]){flex:1;min-height:0;overflow-y:auto}
+#panel-story:not([hidden]){display:flex;flex-direction:column;overflow:hidden}
+.reader-heading,.story-spread,.reader-controls,.keyboard-hint,.narration-options,.narration-help{display:none}
+.narration-bar{padding:8px 10px;margin-bottom:8px}
+.reader-tabs{margin-bottom:8px;overflow-x:auto}
+#scene-feed{display:block;flex:1;min-height:0;overflow-y:auto;scroll-snap-type:y mandatory;overscroll-behavior:contain;scrollbar-width:none}
+#scene-feed::-webkit-scrollbar{display:none}
+.feed-card{height:100%;max-width:560px;margin:auto;scroll-snap-align:start;scroll-snap-stop:always;display:flex;flex-direction:column;justify-content:flex-end;gap:10px;padding:4px 2px 12px;overflow:hidden}
+.feed-card .scene-art{flex:1 1 0;min-height:110px;max-height:46%;aspect-ratio:auto;background:none;box-shadow:none}
+.feed-card .scene-art svg{width:100%;height:100%}
+.feed-card h3{font-size:clamp(21px,3.4dvh,27px);line-height:1.2;margin:0}
+.feed-card>p:not(.eyebrow){font-size:clamp(13px,2.1dvh,16px);line-height:1.65}
+.feed-card .memory-cue{margin:4px 0 0}
+#feed-top{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:3;background:var(--ink);color:var(--paper);border-radius:20px;padding:9px 15px;font-size:12px;box-shadow:0 4px 14px #0004}
+#reader[open]:has(#panel-story:not([hidden])) #feed-top:not([hidden]){display:block}
+}

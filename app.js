@@ -13,7 +13,7 @@ const ERAS = [
 const $ = id => document.getElementById(id);
 const escapeHTML = text => String(text).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const eraFor = s => ERAS.find(e=>e.id===s.era);
-let era='all',shelfOnly=false,current=null,sceneIndex=0,activeTab='story',returnFocus=null;
+let order=[],feedSync=false,era='all',shelfOnly=false,current=null,sceneIndex=0,activeTab='story',returnFocus=null;
 let progress={version:3,saved:[],remembered:[],positions:{},sceneKeys:{}};
 try{
  const p=JSON.parse(localStorage.getItem('once-upon-timeline-v1'));
@@ -74,6 +74,7 @@ function renderLibrary(){
  $('era-title').textContent=shelfOnly?'My saved shelf':era==='all'?'The whole story':selected.name;
  $('era-description').textContent=shelfOnly?'The stories you want to return to.':selected.description;
  $('result-count').textContent=`${matches.length} ${matches.length===1?'story':'stories'} to discover${shelfOnly?' · saved on this device':''}`;
+ order=matches.map(s=>s.id);
  $('empty').hidden=matches.length>0; $('clear-filter').hidden=era==='all'&&!shelfOnly&&!query;
  $('saved-button').setAttribute('aria-pressed',String(shelfOnly));
  $('story-grid').innerHTML=matches.map(s=>{const e=eraFor(s),saved=progress.saved.includes(s.id),done=progress.remembered.includes(s.id);return `<article class="story-card" style="--era-bg:${storyPalette(s).bg}"><button class="card-save" data-save="${s.id}" aria-label="${saved?'Unsave':'Save'} ${escapeHTML(s.title)}" aria-pressed="${saved}">${saved?'♥':'♡'}</button><button class="card-open" data-story="${s.id}" aria-label="Open ${escapeHTML(s.title)} storyboard"><div class="card-art">${illustration(s,s.scenes[0],true)}<span class="card-era">${e.name.toUpperCase()}</span></div><div class="card-content"><p class="card-meta">${escapeHTML(s.date)} · ${escapeHTML(s.genre)}</p><h3>${escapeHTML(s.title)}</h3><p class="card-author">${escapeHTML(s.author)}</p><p class="card-hook">${escapeHTML(s.hook)}</p></div><div class="card-footer"><span>${done?'✓ Remembered':Object.hasOwn(progress.positions,s.id)?'Continue reading':s.scenes.length+' illustrated scenes'}${typeof s.source==='string'?' · Added by Codex':''}</span><span aria-hidden="true">↗</span></div></button></article>`;}).join('');
@@ -97,7 +98,7 @@ function renderAuthors(story){
 }
 function openStory(id,forcedIndex){
  globalThis.StoryNarrator?.stop('A new story is ready to listen to.');
- const story=STORIES.find(s=>s.id===id);if(!story)return;current=story;returnFocus=document.activeElement;
+ const story=STORIES.find(s=>s.id===id);if(!story)return;current=story;returnFocus=$('reader').open?returnFocus:document.activeElement;
  const stored=progress.positions[id];sceneIndex=Number.isInteger(forcedIndex)?forcedIndex:Number.isInteger(stored)?Math.max(0,Math.min(stored,story.scenes.length-1)):0;
  sceneIndex=Math.max(0,Math.min(sceneIndex,story.scenes.length-1));setPalette($('reader'),{...eraFor(story),...storyPalette(story)});
  $('reader-era').textContent=eraFor(story).name;$('reader-meta').textContent=`${story.author} · ${story.date}`;$('reader-title').textContent=story.title;$('reader-hook').textContent=story.hook;
@@ -113,6 +114,7 @@ function openStory(id,forcedIndex){
  $('quote-list').innerHTML=story.quotes.map(q=>`<article class="quote-card"><p class="eyebrow">WORDS WORTH KEEPING</p><blockquote>${escapeHTML(q.text)}</blockquote><p class="quote-context">${escapeHTML(q.context)}</p><div class="quote-meaning"><span>THE MEMORY CONNECTION</span><p>${escapeHTML(q.meaning)}</p></div><a href="${escapeHTML(q.source)}" target="_blank" rel="noopener noreferrer">Read the reference · ${escapeHTML(sourceLabel(q.source))} ↗</a></article>`).join('');
  $('editorial-note').textContent=`Setting: ${story.setting}. ${story.note}`;
  updateRemembered();updateBookmark();selectTab('story');renderScene();if(!$('reader').open)$('reader').showModal();$('reader').scrollTop=0;globalThis.StoryNarrator?.changed();
+ if(portrait.matches)buildFeed();
 }
 function updateRemembered(){$('mark-read').textContent=progress.remembered.includes(current.id)?'✓ Remembered · undo':'Mark as remembered ✓';}
 function renderScene(){
@@ -122,6 +124,8 @@ function renderScene(){
  $('scene-dots').innerHTML=current.scenes.map((_,i)=>`<button data-scene="${i}" aria-label="Scene ${i+1}: ${escapeHTML(current.scenes[i].title)}" ${i===sceneIndex?'aria-current="true"':''}></button>`).join('');$('previous').disabled=sceneIndex===0;$('next').textContent=sceneIndex===current.scenes.length-1?'Try recall ↗':'Next scene →';
  const hash=`#story/${current.id}/${sceneIndex+1}`;try{history.replaceState(null,'',hash);}catch{}
  globalThis.StoryNarrator?.changed();
+ if(portrait.matches&&!feedSync)goFeed(sceneIndex);
+ $('feed-top').hidden=sceneIndex===0;
 }
 function step(n){if(n>0&&sceneIndex===current.scenes.length-1){selectTab('recall');return;}const i=sceneIndex+n;if(i<0||i>=current.scenes.length)return;sceneIndex=i;renderScene();}
 function closeReader(){globalThis.StoryNarrator?.stop();$('reader').close();}
@@ -149,4 +153,23 @@ $('reset-progress').addEventListener('click',()=>{if($('reset-progress').dataset
 document.addEventListener('keydown',ev=>{if(ev.target.matches('input,textarea,select')||ev.target.closest('#audio-downloads'))return;if($('reader').open&&activeTab==='story'&&!ev.target.closest('.reader-tabs')){if(ev.key==='ArrowRight'){ev.preventDefault();step(1);}if(ev.key==='ArrowLeft'){ev.preventDefault();step(-1);}}else if(ev.key==='/'&&!$('about').open){ev.preventDefault();$('search').focus();}});
 let touch=null;$('scene-art').addEventListener('touchstart',ev=>{touch={x:ev.changedTouches[0].clientX,y:ev.changedTouches[0].clientY};},{passive:true});$('scene-art').addEventListener('touchend',ev=>{if(!touch)return;const dx=ev.changedTouches[0].clientX-touch.x,dy=ev.changedTouches[0].clientY-touch.y;if(Math.abs(dx)>55&&Math.abs(dx)>Math.abs(dy)*1.5)step(dx<0?1:-1);touch=null;},{passive:true});
 function fromHash(){const parts=location.hash.split('/');if(parts[0]==='#story'&&parts[1])openStory(parts[1],Math.max(0,(Number(parts[2])||1)-1));}window.addEventListener('hashchange',fromHash);
-$('hero-art').innerHTML=heroIllustration();persist();renderEras();renderLibrary();fromHash();
+$('hero-art').innerHTML=heroIllustration();persist();renderEras();renderLibrary();
+
+// Portrait: scenes become a vertical, snap-to-card feed (resumes at the saved scene); swipe sideways for the next or previous story.
+const portrait=matchMedia('(orientation:portrait)');
+const feed=document.createElement('div');feed.id='scene-feed';document.querySelector('.story-spread').before(feed);
+const feedTop=document.createElement('button');feedTop.id='feed-top';feedTop.hidden=true;feedTop.textContent='↑ Start';feedTop.setAttribute('aria-label','Back to the first card');document.querySelector('.reader-shell').append(feedTop);
+const goFeed=(i,smooth=true)=>feed.scrollTo({top:i*feed.clientHeight,behavior:smooth?'smooth':'auto'});
+function buildFeed(){
+ feed.innerHTML=current.scenes.map((f,i)=>`<section class="feed-card"><div class="scene-art">${illustration(current,f)}</div><p class="eyebrow">SCENE ${String(i+1).padStart(2,'0')} / ${String(current.scenes.length).padStart(2,'0')}</p><h3>${escapeHTML(f.title)}</h3><p>${escapeHTML(f.text)}</p><div class="memory-cue"><span>KEEP THIS IN MIND</span><strong>${escapeHTML(f.cue)}</strong></div></section>`).join('');
+ loadPaintedCovers();goFeed(sceneIndex,false);
+}
+let feedTimer;
+feed.addEventListener('scroll',()=>{clearTimeout(feedTimer);feedTimer=setTimeout(()=>{const i=Math.round(feed.scrollTop/(feed.clientHeight||1));if(current&&i!==sceneIndex&&i>=0&&i<current.scenes.length){feedSync=true;sceneIndex=i;renderScene();feedSync=false;}},120);},{passive:true});
+feedTop.addEventListener('click',()=>goFeed(0));
+portrait.addEventListener('change',()=>{if(portrait.matches&&current&&$('reader').open)buildFeed();});
+let swipe;
+$('reader').addEventListener('touchstart',ev=>{swipe=ev.touches.length===1&&portrait.matches&&activeTab==='story'?[ev.touches[0].clientX,ev.touches[0].clientY]:null;},{passive:true});
+$('reader').addEventListener('touchend',ev=>{if(!swipe)return;const dx=ev.changedTouches[0].clientX-swipe[0],dy=ev.changedTouches[0].clientY-swipe[1];swipe=null;if(Math.abs(dx)<70||Math.abs(dx)<1.6*Math.abs(dy))return;const id=order[order.indexOf(current.id)+(dx<0?1:-1)];if(id)openStory(id);},{passive:true});
+
+fromHash();
